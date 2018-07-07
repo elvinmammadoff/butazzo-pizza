@@ -6,12 +6,12 @@
 <head>
 
     <!-- Meta tags -->
-    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
     <meta name="description" content="">
     <meta name="author" content="">
-    <title>Title</title>    
+    <title>Butazzo Pizza - Restaurant, Cafe, Fast Food business HTML5 Responsive, CSS3 One Page Template</title>
 
     <!-- Stylesheets -->
     <link href="src/assets/css/bootstrap.min.css" type="text/css" rel="stylesheet" media="all" />
@@ -94,7 +94,45 @@
                         <div class="item active">
                             <div class="carousel-caption">
                                 <div class="fadeUp item_img">
-                                    <img src="src/assets/img/photos/pizza.png" alt="sample" />
+                                    <img src="src/assets/img/photos/pizza.png" alt="sample" /> 
+                                    <div class="item_badge">
+                                        <span class="badge_btext">20%</span>
+                                        <span class="badge_stext">OFF</span>
+                                    </div>
+                                </div>
+                                <div class="fadeUp fade-slow item_details">
+                                    <h4 class="item_name">Delicious Food</h4>
+                                    <p class="item_info">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                                    <div class="item_link_box">
+                                        <a href="#reservation" class="item_link page-scroll">Make Reservation</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="item">
+                            <div class="carousel-caption">
+                                <div class="fadeUp item_img">
+                                    <img src="src/assets/img/photos/tortilla.png" alt="sample" />
+                                    <div class="item_badge">
+                                        <span class="badge_btext">20%</span>
+                                        <span class="badge_stext">OFF</span>
+                                    </div>
+                                </div>
+                                <div class="fadeUp fade-slow item_details">
+                                    <h4 class="item_name">Delicious Food</h4>
+                                    <p class="item_info">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                                    <div class="item_link_box">
+                                        <a href="#reservation" class="item_link page-scroll">Make Reservation</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="item">
+                            <div class="carousel-caption">
+                                <div class="fadeUp item_img">
+                                    <img src="src/assets/img/photos/burger.png" alt="sample" />
                                     <div class="item_badge">
                                         <span class="badge_btext">20%</span>
                                         <span class="badge_stext">OFF</span>
@@ -132,45 +170,7 @@
                         <div class="item">
                             <div class="carousel-caption">
                                 <div class="fadeUp item_img">
-                                    <img src="src/assets/img/photos/pizza.png" alt="sample" />
-                                    <div class="item_badge">
-                                        <span class="badge_btext">20%</span>
-                                        <span class="badge_stext">OFF</span>
-                                    </div>
-                                </div>
-                                <div class="fadeUp fade-slow item_details">
-                                    <h4 class="item_name">Delicious Food</h4>
-                                    <p class="item_info">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-                                    <div class="item_link_box">
-                                        <a href="#reservation" class="item_link page-scroll">Make Reservation</a>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-
-                        <div class="item">
-                            <div class="carousel-caption">
-                                <div class="fadeUp item_img">
-                                    <img src="src/assets/img/photos/pizza.png" alt="sample" />
-                                    <div class="item_badge">
-                                        <span class="badge_btext">20%</span>
-                                        <span class="badge_stext">OFF</span>
-                                    </div>
-                                </div>
-                                <div class="fadeUp fade-slow item_details">
-                                    <h4 class="item_name">Delicious Food</h4>
-                                    <p class="item_info">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-                                    <div class="item_link_box">
-                                        <a href="#reservation" class="item_link page-scroll">Make Reservation</a>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-
-                        <div class="item">
-                            <div class="carousel-caption">
-                                <div class="fadeUp item_img">
-                                    <img src="src/assets/img/photos/pizza.png" alt="sample" />
+                                    <img src="src/assets/img/photos/burger.png" alt="sample" />
                                     <div class="item_badge">
                                         <span class="badge_btext">20%</span>
                                         <span class="badge_stext">OFF</span>
@@ -316,7 +316,7 @@
                                     </div>
                                     <div class="info">
                                         <div class="name">Margherita</div>
-                                        <div class="short">Classic marinara sauce, authentic pepperoni,</div>
+                                        <div class="short">Classic marinara sauce, authentic pepperoni</div>
                                         <span class="filter_item_price">$10.00</span>
                                     </div>
                                 </div>
@@ -330,9 +330,9 @@
                                         <img src="src/assets/img/photos/food-2.jpg" alt="sample" />
                                     </div>
                                     <div class="info">
-                                        <div class="name">Demo Project Name</div>
-                                        <div class="short">Graphic Design category</div>
-                                        <span class="filter_item_price">$10.00</span>
+                                        <div class="name">Greece</div>
+                                        <div class="short">Classic marinara sauce, authentic pepperoni</div>
+                                        <span class="filter_item_price">$7.00</span>
                                     </div>
                                 </div>
                             </a>
@@ -345,9 +345,9 @@
                                         <img src="src/assets/img/photos/food-3.jpg" alt="sample" />
                                     </div>
                                     <div class="info">
-                                        <div class="name">Demo Project Name</div>
-                                        <div class="short">Graphic Design category</div>
-                                        <span class="filter_item_price">$10.00</span>
+                                        <div class="name">Pepperoni</div>
+                                        <div class="short">Classic marinara sauce, authentic pepperoni</div>
+                                        <span class="filter_item_price">$8.50</span>
                                     </div>
                                 </div>
                             </a>
@@ -360,9 +360,9 @@
                                         <img src="src/assets/img/photos/food-4.jpg" alt="sample" />
                                     </div>
                                     <div class="info">
-                                        <div class="name">Demo Project Name</div>
-                                        <div class="short">Graphic Design category</div>
-                                        <span class="filter_item_price">$10.00</span>
+                                        <div class="name">Chicken lovers</div>
+                                        <div class="short">Classic marinara sauce, authentic pepperoni</div>
+                                        <span class="filter_item_price">$8.00</span>
                                     </div>
                                 </div>
                             </a>
@@ -375,9 +375,9 @@
                                         <img src="src/assets/img/photos/food-5.jpg" alt="sample" />
                                     </div>
                                     <div class="info">
-                                        <div class="name">Demo Project Name</div>
-                                        <div class="short">Graphic Design category</div>
-                                        <span class="filter_item_price">$10.00</span>
+                                        <div class="name">Italiano</div>
+                                        <div class="short">Classic marinara sauce, authentic pepperoni</div>
+                                        <span class="filter_item_price">$11.00</span>
                                     </div>
                                 </div>
                             </a>
@@ -390,9 +390,9 @@
                                         <img src="src/assets/img/photos/food-6.jpg" alt="sample" />
                                     </div>
                                     <div class="info">
-                                        <div class="name">Demo Project Name</div>
-                                        <div class="short">Graphic Design category</div>
-                                        <span class="filter_item_price">$10.00</span>
+                                        <div class="name">Pepper beef</div>
+                                        <div class="short">Classic marinara sauce, authentic pepperoni</div>
+                                        <span class="filter_item_price">$9.00</span>
                                     </div>
                                 </div>
                             </a>
@@ -405,9 +405,9 @@
                                         <img src="src/assets/img/photos/food-7.jpg" alt="sample" />
                                     </div>
                                     <div class="info">
-                                        <div class="name">Demo Project Name</div>
-                                        <div class="short">Graphic Design category</div>
-                                        <span class="filter_item_price">$10.00</span>
+                                        <div class="name">Hawai</div>
+                                        <div class="short">Classic marinara sauce, authentic pepperoni</div>
+                                        <span class="filter_item_price">$11.00</span>
                                     </div>
                                 </div>
                             </a>
@@ -420,9 +420,9 @@
                                         <img src="src/assets/img/photos/food-8.jpg" alt="sample" />
                                     </div>
                                     <div class="info">
-                                        <div class="name">Demo Project Name</div>
-                                        <div class="short">Graphic Design category</div>
-                                        <span class="filter_item_price">$10.00</span>
+                                        <div class="name">Caesar</div>
+                                        <div class="short">Classic marinara sauce, authentic pepperoni</div>
+                                        <span class="filter_item_price">$9.00</span>
                                     </div>
                                 </div>
                             </a>
@@ -440,7 +440,7 @@
                                     </div>
                                     <div class="info">
                                         <div class="name">Margherita</div>
-                                        <div class="short">Classic marinara sauce, authentic pepperoni,</div>
+                                        <div class="short">Classic marinara sauce, authentic pepperoni</div>
                                         <span class="filter_item_price">$10.00</span>
                                     </div>
                                 </div>
@@ -454,9 +454,9 @@
                                         <img src="src/assets/img/photos/food-2.jpg" alt="sample" />
                                     </div>
                                     <div class="info">
-                                        <div class="name">Demo Project Name</div>
-                                        <div class="short">Graphic Design category</div>
-                                        <span class="filter_item_price">$10.00</span>
+                                        <div class="name">Greece</div>
+                                        <div class="short">Classic marinara sauce, authentic pepperoni</div>
+                                        <span class="filter_item_price">$7.00</span>
                                     </div>
                                 </div>
                             </a>
@@ -469,9 +469,9 @@
                                         <img src="src/assets/img/photos/food-3.jpg" alt="sample" />
                                     </div>
                                     <div class="info">
-                                        <div class="name">Demo Project Name</div>
-                                        <div class="short">Graphic Design category</div>
-                                        <span class="filter_item_price">$10.00</span>
+                                        <div class="name">Pepperoni</div>
+                                        <div class="short">Classic marinara sauce, authentic pepperoni</div>
+                                        <span class="filter_item_price">$8.50</span>
                                     </div>
                                 </div>
                             </a>
@@ -484,9 +484,9 @@
                                         <img src="src/assets/img/photos/food-4.jpg" alt="sample" />
                                     </div>
                                     <div class="info">
-                                        <div class="name">Demo Project Name</div>
-                                        <div class="short">Graphic Design category</div>
-                                        <span class="filter_item_price">$10.00</span>
+                                        <div class="name">Chicken lovers</div>
+                                        <div class="short">Classic marinara sauce, authentic pepperoni</div>
+                                        <span class="filter_item_price">$8.00</span>
                                     </div>
                                 </div>
                             </a>
@@ -504,7 +504,7 @@
                                     </div>
                                     <div class="info">
                                         <div class="name">Margherita</div>
-                                        <div class="short">Classic marinara sauce, authentic pepperoni,</div>
+                                        <div class="short">Classic marinara sauce, authentic pepperoni</div>
                                         <span class="filter_item_price">$10.00</span>
                                     </div>
                                 </div>
@@ -518,9 +518,9 @@
                                         <img src="src/assets/img/photos/food-2.jpg" alt="sample" />
                                     </div>
                                     <div class="info">
-                                        <div class="name">Demo Project Name</div>
-                                        <div class="short">Graphic Design category</div>
-                                        <span class="filter_item_price">$10.00</span>
+                                        <div class="name">Greece</div>
+                                        <div class="short">Classic marinara sauce, authentic pepperoni</div>
+                                        <span class="filter_item_price">$7.00</span>
                                     </div>
                                 </div>
                             </a>
@@ -533,9 +533,9 @@
                                         <img src="src/assets/img/photos/food-3.jpg" alt="sample" />
                                     </div>
                                     <div class="info">
-                                        <div class="name">Demo Project Name</div>
-                                        <div class="short">Graphic Design category</div>
-                                        <span class="filter_item_price">$10.00</span>
+                                        <div class="name">Pepperoni</div>
+                                        <div class="short">Classic marinara sauce, authentic pepperoni</div>
+                                        <span class="filter_item_price">$8.50</span>
                                     </div>
                                 </div>
                             </a>
@@ -548,9 +548,9 @@
                                         <img src="src/assets/img/photos/food-4.jpg" alt="sample" />
                                     </div>
                                     <div class="info">
-                                        <div class="name">Demo Project Name</div>
-                                        <div class="short">Graphic Design category</div>
-                                        <span class="filter_item_price">$10.00</span>
+                                        <div class="name">Chicken lovers</div>
+                                        <div class="short">Classic marinara sauce, authentic pepperoni</div>
+                                        <span class="filter_item_price">$8.00</span>
                                     </div>
                                 </div>
                             </a>
@@ -568,7 +568,7 @@
                                     </div>
                                     <div class="info">
                                         <div class="name">Margherita</div>
-                                        <div class="short">Classic marinara sauce, authentic pepperoni,</div>
+                                        <div class="short">Classic marinara sauce, authentic pepperoni</div>
                                         <span class="filter_item_price">$10.00</span>
                                     </div>
                                 </div>
@@ -582,9 +582,9 @@
                                         <img src="src/assets/img/photos/food-2.jpg" alt="sample" />
                                     </div>
                                     <div class="info">
-                                        <div class="name">Demo Project Name</div>
-                                        <div class="short">Graphic Design category</div>
-                                        <span class="filter_item_price">$10.00</span>
+                                        <div class="name">Greece</div>
+                                        <div class="short">Classic marinara sauce, authentic pepperoni</div>
+                                        <span class="filter_item_price">$7.00</span>
                                     </div>
                                 </div>
                             </a>
@@ -597,9 +597,9 @@
                                         <img src="src/assets/img/photos/food-3.jpg" alt="sample" />
                                     </div>
                                     <div class="info">
-                                        <div class="name">Demo Project Name</div>
-                                        <div class="short">Graphic Design category</div>
-                                        <span class="filter_item_price">$10.00</span>
+                                        <div class="name">Pepperoni</div>
+                                        <div class="short">Classic marinara sauce, authentic pepperoni</div>
+                                        <span class="filter_item_price">$8.50</span>
                                     </div>
                                 </div>
                             </a>
@@ -612,9 +612,9 @@
                                         <img src="src/assets/img/photos/food-4.jpg" alt="sample" />
                                     </div>
                                     <div class="info">
-                                        <div class="name">Demo Project Name</div>
-                                        <div class="short">Graphic Design category</div>
-                                        <span class="filter_item_price">$10.00</span>
+                                        <div class="name">Chicken lovers</div>
+                                        <div class="short">Classic marinara sauce, authentic pepperoni</div>
+                                        <span class="filter_item_price">$8.00</span>
                                     </div>
                                 </div>
                             </a>
@@ -632,7 +632,7 @@
                                     </div>
                                     <div class="info">
                                         <div class="name">Margherita</div>
-                                        <div class="short">Classic marinara sauce, authentic pepperoni,</div>
+                                        <div class="short">Classic marinara sauce, authentic pepperoni</div>
                                         <span class="filter_item_price">$10.00</span>
                                     </div>
                                 </div>
@@ -646,9 +646,9 @@
                                         <img src="src/assets/img/photos/food-2.jpg" alt="sample" />
                                     </div>
                                     <div class="info">
-                                        <div class="name">Demo Project Name</div>
-                                        <div class="short">Graphic Design category</div>
-                                        <span class="filter_item_price">$10.00</span>
+                                        <div class="name">Greece</div>
+                                        <div class="short">Classic marinara sauce, authentic pepperoni</div>
+                                        <span class="filter_item_price">$7.00</span>
                                     </div>
                                 </div>
                             </a>
@@ -661,9 +661,9 @@
                                         <img src="src/assets/img/photos/food-3.jpg" alt="sample" />
                                     </div>
                                     <div class="info">
-                                        <div class="name">Demo Project Name</div>
-                                        <div class="short">Graphic Design category</div>
-                                        <span class="filter_item_price">$10.00</span>
+                                        <div class="name">Pepperoni</div>
+                                        <div class="short">Classic marinara sauce, authentic pepperoni</div>
+                                        <span class="filter_item_price">$8.50</span>
                                     </div>
                                 </div>
                             </a>
@@ -676,9 +676,9 @@
                                         <img src="src/assets/img/photos/food-4.jpg" alt="sample" />
                                     </div>
                                     <div class="info">
-                                        <div class="name">Demo Project Name</div>
-                                        <div class="short">Graphic Design category</div>
-                                        <span class="filter_item_price">$10.00</span>
+                                        <div class="name">Chicken lovers</div>
+                                        <div class="short">Classic marinara sauce, authentic pepperoni</div>
+                                        <span class="filter_item_price">$8.00</span>
                                     </div>
                                 </div>
                             </a>
@@ -761,9 +761,9 @@
             <div class="title-block">
                 <h1 class="section-title">Gallery</h1>
             </div>
-            <div id="photo_gallery">
-                <div class="row">
-                    <div class="col-sm-3">
+            <div id="photo_gallery" class="list1">
+                <div class="row loadMore">
+                    <div class="col-md-3 item">
                         <a href="src/assets/img/photos/gallery-1.jpg" class="block fancybox" data-fancybox-group="fancybox">
                             <div class="content">
                                 <img src="src/assets/img/photos/gallery-1.jpg" alt="sample" />
@@ -773,7 +773,7 @@
                             </div>
                         </a>
                     </div>
-                    <div class="col-sm-3">
+                    <div class="col-md-3 item">
                         <a href="src/assets/img/photos/gallery-2.jpg" class="block fancybox" data-fancybox-group="fancybox">
                             <div class="content">
                                 <img src="src/assets/img/photos/gallery-2.jpg" alt="sample" />
@@ -783,7 +783,7 @@
                             </div>
                         </a>
                     </div>
-                    <div class="col-sm-3">
+                    <div class="col-md-3 item">
                         <a href="src/assets/img/photos/gallery-3.jpg" class="block fancybox" data-fancybox-group="fancybox">
                             <div class="content">
                                 <img src="src/assets/img/photos/gallery-3.jpg" alt="sample" />
@@ -793,7 +793,7 @@
                             </div>
                         </a>
                     </div>
-                    <div class="col-sm-3">
+                    <div class="col-md-3 item">
                         <a href="src/assets/img/photos/gallery-4.jpg" class="block fancybox" data-fancybox-group="fancybox">
                             <div class="content">
                                 <img src="src/assets/img/photos/gallery-4.jpg" alt="sample" />
@@ -803,7 +803,7 @@
                             </div>
                         </a>
                     </div>
-                    <div class="col-sm-3">
+                    <div class="col-md-3 item">
                         <a href="src/assets/img/photos/gallery-5.jpg" class="block fancybox" data-fancybox-group="fancybox">
                             <div class="content">
                                 <img src="src/assets/img/photos/gallery-5.jpg" alt="sample" />
@@ -813,7 +813,7 @@
                             </div>
                         </a>
                     </div>
-                    <div class="col-sm-3">
+                    <div class="col-md-3 item">
                         <a href="src/assets/img/photos/gallery-6.jpg" class="block fancybox" data-fancybox-group="fancybox">
                             <div class="content">
                                 <img src="src/assets/img/photos/gallery-6.jpg" alt="sample" />
@@ -823,7 +823,7 @@
                             </div>
                         </a>
                     </div>
-                    <div class="col-sm-3">
+                    <div class="col-md-3 item">
                         <a href="src/assets/img/photos/gallery-7.jpg" class="block fancybox" data-fancybox-group="fancybox">
                             <div class="content">
                                 <img src="src/assets/img/photos/gallery-7.jpg" alt="sample" />
@@ -833,7 +833,7 @@
                             </div>
                         </a>
                     </div>
-                    <div class="col-sm-3">
+                    <div class="col-md-3 item">
                         <a href="src/assets/img/photos/gallery-8.jpg" class="block fancybox" data-fancybox-group="fancybox">
                             <div class="content">
                                 <img src="src/assets/img/photos/gallery-8.jpg" alt="sample" />
@@ -843,13 +843,47 @@
                             </div>
                         </a>
                     </div>
-                </div>
-                <div class="text-center">
-                    <a href="" title="" class="more_btn">
-                        <i class="fa fa-refresh"></i>
-                        <span>more images</span>
-                    </a>
-                </div>
+                    <div class="col-md-3 item">
+                        <a href="src/assets/img/photos/gallery-1.jpg" class="block fancybox" data-fancybox-group="fancybox">
+                            <div class="content">
+                                <img src="src/assets/img/photos/gallery-1.jpg" alt="sample" />
+                                <div class="zoom">
+                                    <span class="zoom_icon"><i class="fa fa-search-plus"></i></span>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="col-md-3 item">
+                        <a href="src/assets/img/photos/gallery-2.jpg" class="block fancybox" data-fancybox-group="fancybox">
+                            <div class="content">
+                                <img src="src/assets/img/photos/gallery-2.jpg" alt="sample" />
+                                <div class="zoom">
+                                    <span class="zoom_icon"><i class="fa fa-search-plus"></i></span>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="col-md-3 item">
+                        <a href="src/assets/img/photos/gallery-3.jpg" class="block fancybox" data-fancybox-group="fancybox">
+                            <div class="content">
+                                <img src="src/assets/img/photos/gallery-3.jpg" alt="sample" />
+                                <div class="zoom">
+                                    <span class="zoom_icon"><i class="fa fa-search-plus"></i></span>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="col-md-3 item">
+                        <a href="src/assets/img/photos/gallery-4.jpg" class="block fancybox" data-fancybox-group="fancybox"> 
+                            <div class="content">
+                                <img src="src/assets/img/photos/gallery-4.jpg" alt="sample" />
+                                <div class="zoom">
+                                    <span class="zoom_icon"><i class="fa fa-search-plus"></i></span>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                </div> 
             </div>
         </div>
 
@@ -1029,6 +1063,7 @@
 
     <div class="cd-overlay"></div>
     <!-- /.cd-overlay -->
+         
 
     <!-- END mobile right burger menu -->
 
@@ -1045,8 +1080,9 @@
     <script src="src/assets/js/bootstrap-datepicker.js"></script>
     <script src="src/assets/js/bootstrap-datetimepicker.js"></script>
     <script src="src/assets/js/jquery.fancybox.js"></script>
+    <script src="src/assets/js/loadMoreResults.js"></script>
     <script src="src/assets/js/main.js"></script>
-    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBcg5Y2D1fpGI12T8wcbtPIsyGdw-_NV1Y&callback=myMap"></script>  
+    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBcg5Y2D1fpGI12T8wcbtPIsyGdw-_NV1Y&callback=myMap"></script>
 
 </body>
 
