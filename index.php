@@ -896,7 +896,7 @@
 
             <!--    Google map, Social links    -->
             <div class="section" id="contact">
-                <div id="googleMap"></div> 
+                <!-- <div id="googleMap"></div>  -->
                 <div class="footer_pos">
                     <div class="container">
                         <div class="footer_content">
@@ -1082,7 +1082,7 @@
     <script src="src/assets/js/jquery.fancybox.js"></script>
     <script src="src/assets/js/loadMoreResults.js"></script>
     <script src="src/assets/js/main.js"></script>
-    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBcg5Y2D1fpGI12T8wcbtPIsyGdw-_NV1Y&callback=myMap"></script>
+    <!-- <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBcg5Y2D1fpGI12T8wcbtPIsyGdw-_NV1Y&callback=myMap"></script> -->
 
 </body>
 
