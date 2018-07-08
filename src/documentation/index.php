@@ -266,6 +266,7 @@
     |-- jquery.touchSwipe.min.js
     |-- slick.min.js
     |-- scrolling-nav.js
+    |-- loadMoreResults.js
   </code>
 </pre> 
                          
@@ -282,7 +283,8 @@
                           <code>Slick</code> is a responsive carousel jQuery plugin that supports multiple breakpoints, CSS3 transitions, touch events/swiping & much more<br />
                           <code>Scrolling Nav</code> is a basic Bootstrap framework for creating smooth scrolling, one page websites <br />   
                           <code>FancyBox</code> is a tool for displaying images, html content and multi-media in a Mac-style "lightbox" that floats overtop of web page <br />
-                          <code>Touch side swipe</code> widget-library for mobile navbar (vanilla js and little bit pure css) 
+                          <code>Touch side swipe</code> widget-library for mobile navbar (vanilla js and little bit pure css) <br />
+                          <code>loadMoreResults</code> is a small jQuery plugin for adding a 'Load More' pagination button to your long web content that allows you to dynamically load more items according to your needs.
                         </p>
 
                     </section>
@@ -366,6 +368,7 @@
                             <li><a href="https://github.com/mattbryson/TouchSwipe-Jquery-Plugin" target="_blank">Touch Swipe</a></li>
                             <li><a href="http://kenwheeler.github.io/slick/" target="_blank">Slick Slider</a></li>
                             <li><a href="https://startbootstrap.com/template-overviews/scrolling-nav/" target="_blank">Scrolling Nav</a></li>
+                            <li><a href="https://www.jqueryscript.net/loading/Load-More-Pagination-jQuery-loadMoreResults.html" target="_blank">loadMoreResults</a></li>
                             <li> <strong>Fonts used</strong>
                               <ul>
                                 <li><a href="https://www.fontsquirrel.com/fonts/chunkfive" target="_blank">ChunkFive Ex</a></li>
