@@ -416,6 +416,7 @@
 <pre>     
   V1.1
   - added: loadMoreResults plugin for gallery photos
+  - fixed: slider responsive view to medium devices
   - added: extra images for slider, menu and gallery sections
   - changed: content of menu section  
   - updated: documentation file
