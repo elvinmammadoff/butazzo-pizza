@@ -403,6 +403,28 @@
 
                     </section>
 
+                    <a name="updates"></a>
+                    <section id="updates" class="section" data-magellan-destination="updates">
+                          
+                          <h1>9. Regular Updates</h1>
+
+                          <br>
+
+                          <p>We’re always improving our skills and knowledge so we’re making changes regularly. From bug fixes to new awesome features, updates generally come at least twice a month.<p>
+
+                          <pre>     
+                            V1.1
+                            - added: loadMoreResults plugin for gallery photos
+                            - added: extra images for slider, menu and gallery sections
+                            - changed: content of menu section  
+                            - updated: documentation file
+                            
+                            V1.0
+                            - fixed: font smoothing in webkit and firefox  
+                          </pre>                            
+
+                    </section>
+
                     <footer>
                       <p>© Butazzo Pizza Cafe and Restaurant HTML Template</p>
                     </footer>
