@@ -32,12 +32,12 @@
                   </div>
 
                   <ul class="meta">
-                      <li><strong>Author:</strong> <a href="https://themeforest.net/user/rafiqfarzali">Rafiq Farzali</a></li>
+                      <li><strong>Author:</strong> <a href="https://themeforest.net/user/alissio">Alissio</a></li>
                       <li><strong>Live Preview:</strong> <a href="https://butazzo-pizza.herokuapp.com/">View Demo</a></li>
-                      <li><strong>Support:</strong> <a href="mailto:designer.rafiq@gmail.com">Ask a Question</a></li> 
+                      <li><strong>Support:</strong> <a href="http://support.4ris.info">Ask a Question</a></li> 
                   </ul>
 
-                  <p>Thank you for purchasing my theme. <br /> If you have any questions that are beyond the scope of this help file, <br /> please feel free to email via my user page contact form <a href="https://themeforest.net/user/rafiqfarzali">here</a>.<br /> Thanks so much!</p>
+                  <p>Thank you for purchasing my theme. <br /> If you have any questions that are beyond the scope of this help file, <br /> please feel free to email <a href="mailto:designer.rafiq@gmail.com">here</a>.<br /> Thanks so much!</p>
 
               </div>
 
