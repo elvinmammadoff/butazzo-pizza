@@ -67,6 +67,7 @@
                           <li data-magellan-arrival="files-resources"><a href="#files-resources">Files & Resources</a></li>
                           <li data-magellan-arrival="files-resources"><a href="#php-file">PHP Code Explanation</a></li>
                           <li data-magellan-arrival="files-resources"><a href="#google-map">Google Map Api</a></li>
+                          <li data-magellan-arrival="files-resources"><a href="#updates">Regular Updates</a></li>
                       </ol>
 
                     </div>
@@ -412,16 +413,16 @@
 
                           <p>We’re always improving our skills and knowledge so we’re making changes regularly. From bug fixes to new awesome features, updates generally come at least twice a month.<p>
 
-                          <pre>     
-                            V1.1
-                            - added: loadMoreResults plugin for gallery photos
-                            - added: extra images for slider, menu and gallery sections
-                            - changed: content of menu section  
-                            - updated: documentation file
-                            
-                            V1.0
-                            - fixed: font smoothing in webkit and firefox  
-                          </pre>                            
+<pre>     
+  V1.1
+  - added: loadMoreResults plugin for gallery photos
+  - added: extra images for slider, menu and gallery sections
+  - changed: content of menu section  
+  - updated: documentation file
+  
+  V1.0
+  - fixed: font smoothing in webkit and firefox  
+</pre>                            
 
                     </section>
 
