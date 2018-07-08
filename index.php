@@ -284,10 +284,10 @@
             <!--    Menus filter    -->
             <div class="menu_filter text-center">
                 <ul class="list-unstyled list-inline d-inline-block">
-                    <li class="item">
+                    <li class="item active">
                         <a href="javascript:;" class="filter-button" data-filter="burger">Burger</a>
                     </li>
-                    <li class="item active">
+                    <li class="item">
                         <a href="javascript:;" class="filter-button" data-filter="pizza">Pizza</a>
                     </li>
                     <li class="item">
@@ -305,7 +305,7 @@
             <!--    Menus items     -->
             <div id="menu_items">
 
-                <div class="filtr-item image filter burger">
+                <div class="filtr-item image filter burger active">
                     <div class="row">
                         <div class="col-sm-6">
                             <a href="src/assets/img/photos/food-1.jpg" class="block fancybox" data-fancybox-group="fancybox">
@@ -429,128 +429,64 @@
                         </div>
                     </div>
                 </div>
-                <div class="filtr-item image filter pizza active">
+                <div class="filtr-item image filter pizza">
                     <div class="row">
                         <div class="col-sm-6">
-                            <a href="src/assets/img/photos/food-1.jpg" class="block fancybox" data-fancybox-group="fancybox">
+                            <a href="src/assets/img/photos/food-6.jpg" class="block fancybox" data-fancybox-group="fancybox">
                                 <div class="content">
                                     <div class="filter_item_img">
                                         <i class="fa fa-search-plus"></i>
-                                        <img src="src/assets/img/photos/food-1.jpg" alt="sample" />
+                                        <img src="src/assets/img/photos/food-6.jpg" alt="sample" />
                                     </div>
                                     <div class="info">
-                                        <div class="name">Margherita</div>
+                                        <div class="name">Pepper beef</div>
                                         <div class="short">Classic marinara sauce, authentic pepperoni</div>
-                                        <span class="filter_item_price">$10.00</span>
+                                        <span class="filter_item_price">$9.00</span>
                                     </div>
                                 </div>
                             </a>
                         </div>
                         <div class="col-sm-6">
-                            <a href="src/assets/img/photos/food-2.jpg" class="block fancybox" data-fancybox-group="fancybox">
+                            <a href="src/assets/img/photos/food-8.jpg" class="block fancybox" data-fancybox-group="fancybox">
                                 <div class="content">
                                     <div class="filter_item_img">
                                         <i class="fa fa-search-plus"></i>
-                                        <img src="src/assets/img/photos/food-2.jpg" alt="sample" />
+                                        <img src="src/assets/img/photos/food-8.jpg" alt="sample" />
                                     </div>
                                     <div class="info">
-                                        <div class="name">Greece</div>
+                                        <div class="name">Caesar</div>
                                         <div class="short">Classic marinara sauce, authentic pepperoni</div>
-                                        <span class="filter_item_price">$7.00</span>
+                                        <span class="filter_item_price">$9.00</span>
                                     </div>
                                 </div>
                             </a>
                         </div>
                         <div class="col-sm-6">
-                            <a href="src/assets/img/photos/food-3.jpg" class="block fancybox" data-fancybox-group="fancybox">
+                            <a href="src/assets/img/photos/food-7.jpg" class="block fancybox" data-fancybox-group="fancybox">
                                 <div class="content">
                                     <div class="filter_item_img">
                                         <i class="fa fa-search-plus"></i>
-                                        <img src="src/assets/img/photos/food-3.jpg" alt="sample" />
+                                        <img src="src/assets/img/photos/food-7.jpg" alt="sample" />
                                     </div>
                                     <div class="info">
-                                        <div class="name">Pepperoni</div>
+                                        <div class="name">Hawai</div>
                                         <div class="short">Classic marinara sauce, authentic pepperoni</div>
-                                        <span class="filter_item_price">$8.50</span>
+                                        <span class="filter_item_price">$11.00</span>
                                     </div>
                                 </div>
                             </a>
                         </div>
                         <div class="col-sm-6">
-                            <a href="src/assets/img/photos/food-4.jpg" class="block fancybox" data-fancybox-group="fancybox">
+                            <a href="src/assets/img/photos/food-5.jpg" class="block fancybox" data-fancybox-group="fancybox">
                                 <div class="content">
                                     <div class="filter_item_img">
                                         <i class="fa fa-search-plus"></i>
-                                        <img src="src/assets/img/photos/food-4.jpg" alt="sample" />
+                                        <img src="src/assets/img/photos/food-5.jpg" alt="sample" />
                                     </div>
                                     <div class="info">
-                                        <div class="name">Chicken lovers</div>
+                                        <div class="name">Italiano</div>
                                         <div class="short">Classic marinara sauce, authentic pepperoni</div>
-                                        <span class="filter_item_price">$8.00</span>
-                                    </div>
-                                </div>
-                            </a>
-                        </div>
-                    </div>
-                </div>
-                <div class="filtr-item image filter frices">
-                    <div class="row">
-                        <div class="col-sm-6">
-                            <a href="src/assets/img/photos/food-1.jpg" class="block fancybox" data-fancybox-group="fancybox">
-                                <div class="content">
-                                    <div class="filter_item_img">
-                                        <i class="fa fa-search-plus"></i>
-                                        <img src="src/assets/img/photos/food-1.jpg" alt="sample" />
-                                    </div>
-                                    <div class="info">
-                                        <div class="name">Margherita</div>
-                                        <div class="short">Classic marinara sauce, authentic pepperoni</div>
-                                        <span class="filter_item_price">$10.00</span>
-                                    </div>
-                                </div>
-                            </a>
-                        </div>
-                        <div class="col-sm-6">
-                            <a href="src/assets/img/photos/food-2.jpg" class="block fancybox" data-fancybox-group="fancybox">
-                                <div class="content">
-                                    <div class="filter_item_img">
-                                        <i class="fa fa-search-plus"></i>
-                                        <img src="src/assets/img/photos/food-2.jpg" alt="sample" />
-                                    </div>
-                                    <div class="info">
-                                        <div class="name">Greece</div>
-                                        <div class="short">Classic marinara sauce, authentic pepperoni</div>
-                                        <span class="filter_item_price">$7.00</span>
-                                    </div>
-                                </div>
-                            </a>
-                        </div>
-                        <div class="col-sm-6">
-                            <a href="src/assets/img/photos/food-3.jpg" class="block fancybox" data-fancybox-group="fancybox">
-                                <div class="content">
-                                    <div class="filter_item_img">
-                                        <i class="fa fa-search-plus"></i>
-                                        <img src="src/assets/img/photos/food-3.jpg" alt="sample" />
-                                    </div>
-                                    <div class="info">
-                                        <div class="name">Pepperoni</div>
-                                        <div class="short">Classic marinara sauce, authentic pepperoni</div>
-                                        <span class="filter_item_price">$8.50</span>
-                                    </div>
-                                </div>
-                            </a>
-                        </div>
-                        <div class="col-sm-6">
-                            <a href="src/assets/img/photos/food-4.jpg" class="block fancybox" data-fancybox-group="fancybox">
-                                <div class="content">
-                                    <div class="filter_item_img">
-                                        <i class="fa fa-search-plus"></i>
-                                        <img src="src/assets/img/photos/food-4.jpg" alt="sample" />
-                                    </div>
-                                    <div class="info">
-                                        <div class="name">Chicken lovers</div>
-                                        <div class="short">Classic marinara sauce, authentic pepperoni</div>
-                                        <span class="filter_item_price">$8.00</span>
+                                        <span class="filter_item_price">$11.00</span>
                                     </div>
                                 </div>
                             </a>
@@ -560,16 +496,16 @@
                 <div class="filtr-item image filter salad">
                     <div class="row">
                         <div class="col-sm-6">
-                            <a href="src/assets/img/photos/food-1.jpg" class="block fancybox" data-fancybox-group="fancybox">
+                            <a href="src/assets/img/photos/food-3.jpg" class="block fancybox" data-fancybox-group="fancybox">
                                 <div class="content">
                                     <div class="filter_item_img">
                                         <i class="fa fa-search-plus"></i>
-                                        <img src="src/assets/img/photos/food-1.jpg" alt="sample" />
+                                        <img src="src/assets/img/photos/food-3.jpg" alt="sample" />
                                     </div>
                                     <div class="info">
-                                        <div class="name">Margherita</div>
+                                        <div class="name">Pepperoni</div>
                                         <div class="short">Classic marinara sauce, authentic pepperoni</div>
-                                        <span class="filter_item_price">$10.00</span>
+                                        <span class="filter_item_price">$8.50</span>
                                     </div>
                                 </div>
                             </a>
@@ -590,21 +526,6 @@
                             </a>
                         </div>
                         <div class="col-sm-6">
-                            <a href="src/assets/img/photos/food-3.jpg" class="block fancybox" data-fancybox-group="fancybox">
-                                <div class="content">
-                                    <div class="filter_item_img">
-                                        <i class="fa fa-search-plus"></i>
-                                        <img src="src/assets/img/photos/food-3.jpg" alt="sample" />
-                                    </div>
-                                    <div class="info">
-                                        <div class="name">Pepperoni</div>
-                                        <div class="short">Classic marinara sauce, authentic pepperoni</div>
-                                        <span class="filter_item_price">$8.50</span>
-                                    </div>
-                                </div>
-                            </a>
-                        </div>
-                        <div class="col-sm-6">
                             <a href="src/assets/img/photos/food-4.jpg" class="block fancybox" data-fancybox-group="fancybox">
                                 <div class="content">
                                     <div class="filter_item_img">
@@ -615,6 +536,85 @@
                                         <div class="name">Chicken lovers</div>
                                         <div class="short">Classic marinara sauce, authentic pepperoni</div>
                                         <span class="filter_item_price">$8.00</span>
+                                    </div>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="col-sm-6">
+                            <a href="src/assets/img/photos/food-1.jpg" class="block fancybox" data-fancybox-group="fancybox">
+                                <div class="content">
+                                    <div class="filter_item_img">
+                                        <i class="fa fa-search-plus"></i>
+                                        <img src="src/assets/img/photos/food-1.jpg" alt="sample" />
+                                    </div>
+                                    <div class="info">
+                                        <div class="name">Margherita</div>
+                                        <div class="short">Classic marinara sauce, authentic pepperoni</div>
+                                        <span class="filter_item_price">$10.00</span>
+                                    </div>
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="filtr-item image filter frices">
+                    <div class="row">
+                        <div class="col-sm-6">
+                            <a href="src/assets/img/photos/food-8.jpg" class="block fancybox" data-fancybox-group="fancybox">
+                                <div class="content">
+                                    <div class="filter_item_img">
+                                        <i class="fa fa-search-plus"></i>
+                                        <img src="src/assets/img/photos/food-8.jpg" alt="sample" />
+                                    </div>
+                                    <div class="info">
+                                        <div class="name">Caesar</div>
+                                        <div class="short">Classic marinara sauce, authentic pepperoni</div>
+                                        <span class="filter_item_price">$9.00</span>
+                                    </div>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="col-sm-6">
+                            <a href="src/assets/img/photos/food-7.jpg" class="block fancybox" data-fancybox-group="fancybox">
+                                <div class="content">
+                                    <div class="filter_item_img">
+                                        <i class="fa fa-search-plus"></i>
+                                        <img src="src/assets/img/photos/food-7.jpg" alt="sample" />
+                                    </div>
+                                    <div class="info">
+                                        <div class="name">Hawai</div>
+                                        <div class="short">Classic marinara sauce, authentic pepperoni</div>
+                                        <span class="filter_item_price">$11.00</span>
+                                    </div>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="col-sm-6">
+                            <a href="src/assets/img/photos/food-6.jpg" class="block fancybox" data-fancybox-group="fancybox">
+                                <div class="content">
+                                    <div class="filter_item_img">
+                                        <i class="fa fa-search-plus"></i>
+                                        <img src="src/assets/img/photos/food-6.jpg" alt="sample" />
+                                    </div>
+                                    <div class="info">
+                                        <div class="name">Pepper beef</div>
+                                        <div class="short">Classic marinara sauce, authentic pepperoni</div>
+                                        <span class="filter_item_price">$9.00</span>
+                                    </div>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="col-sm-6">
+                            <a href="src/assets/img/photos/food-2.jpg" class="block fancybox" data-fancybox-group="fancybox">
+                                <div class="content">
+                                    <div class="filter_item_img">
+                                        <i class="fa fa-search-plus"></i>
+                                        <img src="src/assets/img/photos/food-2.jpg" alt="sample" />
+                                    </div>
+                                    <div class="info">
+                                        <div class="name">Greece</div>
+                                        <div class="short">Classic marinara sauce, authentic pepperoni</div>
+                                        <span class="filter_item_price">$7.00</span>
                                     </div>
                                 </div>
                             </a>
@@ -639,16 +639,16 @@
                             </a>
                         </div>
                         <div class="col-sm-6">
-                            <a href="src/assets/img/photos/food-2.jpg" class="block fancybox" data-fancybox-group="fancybox">
+                            <a href="src/assets/img/photos/food-5.jpg" class="block fancybox" data-fancybox-group="fancybox">
                                 <div class="content">
                                     <div class="filter_item_img">
                                         <i class="fa fa-search-plus"></i>
-                                        <img src="src/assets/img/photos/food-2.jpg" alt="sample" />
+                                        <img src="src/assets/img/photos/food-5.jpg" alt="sample" />
                                     </div>
                                     <div class="info">
-                                        <div class="name">Greece</div>
+                                        <div class="name">Italiano</div>
                                         <div class="short">Classic marinara sauce, authentic pepperoni</div>
-                                        <span class="filter_item_price">$7.00</span>
+                                        <span class="filter_item_price">$11.00</span>
                                     </div>
                                 </div>
                             </a>
