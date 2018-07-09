@@ -491,7 +491,7 @@ a:focus {
 
 .item_img img {
     width: 500px;
-    max-height: 310px;
+    max-height: 310px; 
     max-width: 100%;
 }
 
