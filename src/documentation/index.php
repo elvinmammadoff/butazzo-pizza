@@ -414,6 +414,11 @@
                           <p>We’re always improving our skills and knowledge so we’re making changes regularly. From bug fixes to new awesome features, updates generally come at least twice a month.<p>
 
 <pre>     
+  V1.2
+  - fixed: burger menu view on tablet devices
+  - fixed: navbar fixed view 
+  - updated: documentation file
+
   V1.1
   - added: loadMoreResults plugin for gallery photos
   - fixed: slider responsive view to medium devices

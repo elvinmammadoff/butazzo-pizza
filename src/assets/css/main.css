@@ -269,6 +269,12 @@ a:focus {
     margin-top: 15px;
 }
 
+.navbar-collapse.collapse {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
 .navbar-container.affix .navbar {
     border-bottom: none;
     min-height: 70px;
@@ -296,7 +302,8 @@ a:focus {
 .nav>li+li:after {
     content: "\f111";
     position: absolute;
-    top: 68%;
+    top: 50%;
+    transform: translateY(-50%);
     left: 0;
     color: #fff;
     font-size: 10px;
@@ -355,6 +362,12 @@ a:focus {
 
 .search-block #search {
     cursor: pointer;
+}
+
+#navbar_content {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;    
 }
 
 #navbar_search {
