@@ -46,7 +46,7 @@
 	#footer .footer_content { padding: 0 20px; }
     .carousel .container { padding-bottom: 50px!important; }
 	.carousel-caption { padding-top: 40px!important; right: 0; left: 0; }
-    .navbar-brand { height: auto; margin-top: 0; }
+    .navbar-brand { height: auto; margin-top: 0!important; }
     .navbar { padding: 0; border: none; margin: 10px 0 0; }
     #photo_gallery>div>div { width: 50%; float: left; }
     #photo_gallery>div>div:nth-child(2n+1) { clear: both; }
