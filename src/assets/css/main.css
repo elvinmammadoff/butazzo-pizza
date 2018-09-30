@@ -262,10 +262,18 @@ a:focus {
     border-top: 1px solid rgba(255, 255, 255, .2);
 }
 
+.navbar_content {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 15px;
+}
+
 .navbar-container.affix .navbar {
     border-bottom: none;
     min-height: 70px;
-    padding: 18px 0 0px;
+    padding: 0;
+    margin-bottom: 10px;
 }
 
 .navbar-container {
@@ -282,7 +290,7 @@ a:focus {
 }
 
 .navbar-brand {
-    padding: 15px 0 0;
+    padding: 0;
 }
 
 .nav>li+li:after {
@@ -306,7 +314,7 @@ a:focus {
     line-height: 22px;
     color: #fff;
     text-transform: uppercase;
-    padding: 29px 0 6px;
+    padding: 6px 0;
     margin: 0 15px;
     position: relative;
 }
