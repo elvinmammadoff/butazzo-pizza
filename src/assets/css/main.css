@@ -295,6 +295,12 @@ a:focus {
     z-index: 999;
 }
 
+.affix .navbar {
+    margin: 0!important;
+    display: flex;
+    align-items: center;
+}
+
 .navbar-brand {
     padding: 0;
 }
@@ -368,6 +374,7 @@ a:focus {
     display: flex;
     align-items: center;
     justify-content: space-between;    
+    width: 100%;
 }
 
 #navbar_search {
