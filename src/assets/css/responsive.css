@@ -36,6 +36,7 @@
 }
 
 @media only screen and (max-width: 767px) {
+    .right_menu_icon {margin-top: 0;}
     .navbar-collapse.collapse {display: none!important;}
 	.item_badge { width: 90px!important; height: 90px!important; } 
 	.badge_btext { font-size: 28px; }
