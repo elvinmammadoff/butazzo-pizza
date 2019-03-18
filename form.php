@@ -118,13 +118,15 @@ else
     $subject = "Simple test for mail function";
     $message = "This is a test to check if php mail function sends out the email";
     $headers = "From:" . $from;
+    ini_set('sendmail_from', $from); 
+
  
     /*
      * Test php mail function to see if it returns "true" or "false"
      * Remember that if mail returns true does not guarantee
      * that you will also receive the email
      */
-    if(mail($to,$subject,$message, $headers))
+    if(mail($to_mail, $subject, $message, $headers))
     {
         echo "Test email send.";
     } 
