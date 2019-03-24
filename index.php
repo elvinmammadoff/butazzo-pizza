@@ -701,13 +701,48 @@
         </div>
 
         <!--    Reservation    -->
-
+		<?php 
+				
+			$error_message = '';
+			if(isset($_POST["send"])){
+				
+				$name = htmlspecialchars($_POST["name"]);
+				$email = htmlspecialchars($_POST["email"]);
+				$phone = htmlspecialchars($_POST["phone"]);
+				$date = htmlspecialchars($_POST["date"]);
+				$time = htmlspecialchars($_POST["time"]);
+				$message = htmlspecialchars($_POST["message"]);
+				
+				if (!filter_var($email, FILTER_VALIDATE_EMAIL)) {
+				   $error_message = "Invalid email format"; 
+				}
+				
+				if(strtotime($date.$time)<=time()){
+					$error_message = "You can not book your old date"; 
+				}
+							
+				
+				if($error_message!=""){
+					$error_message = '<p class="short">'.$error_message.'</p>';
+					
+				}else{
+					$to      = $email;
+					$subject = 'Your Reservation Confirmation for Butazzo Pizza';
+					$message = 'Butazzo Pizza '."\r\n"."Table for 2 on ".$date." ".$time."Name: Elvin Mammadov \r\n".$message;
+					$headers = 'From: webmaster@example.com' . "\r\n" .
+						'Reply-To: webmaster@example.com' . "\r\n" .
+						'X-Mailer: PHP/' . phpversion();
+					mail($to, $subject, $message, $headers);					
+				}
+			}
+		?>	
         <div class="fixed_layer section" id="reservation">
             <div class="fixed_layer_padd container">
                 <div class="row">
                     <div class="col-md-offset-6 col-md-6" data-aos="fade-down">
                         <div class="reserv_box">
                             <h1 class="section-title title_sty1">online reservation</h1>
+							<?= $error_message?>
                             <p class="short">Lorem Ipsum is simply dummy text of the printing and typesetting industry. </p>
                             <form id="reserv_form" method="post">
                                 <div class="row">
