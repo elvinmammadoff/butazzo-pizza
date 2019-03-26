@@ -715,6 +715,27 @@
 				$date = htmlspecialchars($_POST["date"]);
 				$time = htmlspecialchars($_POST["time"]);
                 $message = htmlspecialchars($_POST["message"]);
+
+                # Instantiate the client.
+                $mgClient = new Mailgun('036bcbf18d89fc6bec6237815877c1ca-e51d0a44-89eb75f0');   
+                $ip = '104.130.122.30';  
+                
+                # Issue the call to the client.
+                $result = $mgClient->get("ips/$ip");   
+                
+                {
+                    "total_count": 1,
+                    "items": [
+                        {
+                        "smtp_login": "postmaster@sandbox70e67361a1ec4a3daa70d81c37eae905.mailgun.org",
+                        "name": "smtp.mailgun.org",
+                        "smtp_password": "fc11801a21d69627a3a3d593e6f7f788-e51d0a44-c8d5ff23",
+                        "wildcard": true,
+                        "spam_action": "disabled",
+                        "state": "active"
+                        }
+                    ]
+                }                
                 
                 // First, instantiate the SDK with your API credentials
                 $mg = Mailgun::create('036bcbf18d89fc6bec6237815877c1ca-e51d0a44-89eb75f0'); // For US servers
@@ -723,7 +744,7 @@
                 // Now, compose and send your message.
                 // $mg->messages()->send($domain, $params);
                 $mg->messages()->send('sandbox70e67361a1ec4a3daa70d81c37eae905.mailgun.org', [
-                'from'    => $email,
+                'from'    => 'postmaster@sandbox70e67361a1ec4a3daa70d81c37eae905.mailgun.org',
                 'to'      => 'elvinmammadoff@gmail.com',
                 'subject' => 'The PHP SDK is awesome!',
                 'text'    => 'It is so simple to send a message.'
