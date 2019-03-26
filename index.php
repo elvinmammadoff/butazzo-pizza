@@ -717,8 +717,8 @@
                 $message = htmlspecialchars($_POST["message"]);
                 
                 // First, instantiate the SDK with your API credentials
-                $mg = Mailgun::create('sandbox70e67361a1ec4a3daa70d81c37eae905.mailgun.org'); // For US servers
-                $mg = Mailgun::create('sandbox70e67361a1ec4a3daa70d81c37eae905.mailgun.org', 'https://api.eu.mailgun.net'); // For EU servers
+                $mg = Mailgun::create('036bcbf18d89fc6bec6237815877c1ca-e51d0a44-89eb75f0'); // For US servers
+                $mg = Mailgun::create('036bcbf18d89fc6bec6237815877c1ca-e51d0a44-89eb75f0', 'https://api.eu.mailgun.net'); // For EU servers
 
                 // Now, compose and send your message.
                 // $mg->messages()->send($domain, $params);
