@@ -722,7 +722,7 @@
 
                 // Now, compose and send your message.
                 // $mg->messages()->send($domain, $params);
-                $mg->messages()->send('https://butazzo-pizza.herokuapp.com', [
+                $mg->messages()->send('sandbox70e67361a1ec4a3daa70d81c37eae905.mailgun.org', [
                 'from'    => $email,
                 'to'      => 'elvinmammadoff@gmail.com',
                 'subject' => 'The PHP SDK is awesome!',
