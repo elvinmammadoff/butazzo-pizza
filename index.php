@@ -701,6 +701,59 @@
         </div>
 
         <!--    Reservation    -->
+        <?php 
+        
+            require 'vendor/autoload.php';
+            use Mailgun\Mailgun;        
+				
+			$error_message = '';
+			if(isset($_POST["send"])){
+				
+				$name = htmlspecialchars($_POST["name"]);
+				$email = htmlspecialchars($_POST["email"]);
+				$phone = htmlspecialchars($_POST["phone"]);
+				$date = htmlspecialchars($_POST["date"]);
+				$time = htmlspecialchars($_POST["time"]);
+                $message = htmlspecialchars($_POST["message"]);
+                
+
+                // First, instantiate the SDK with your API credentials
+                $mg = Mailgun::create('sandbox70e67361a1ec4a3daa70d81c37eae905.mailgun.org'); // For US servers
+                $mg = Mailgun::create('sandbox70e67361a1ec4a3daa70d81c37eae905.mailgun.org', 'https://api.eu.mailgun.net'); // For EU servers
+
+                // Now, compose and send your message.
+                // $mg->messages()->send($domain, $params);
+                $mg->messages()->send('https://butazzo-pizza.herokuapp.com/', [
+                'from'    => $email,
+                'to'      => 'elvinmammadoff@gmail.com',
+                'subject' => 'The PHP SDK is awesome!',
+                'text'    => 'It is so simple to send a message.'
+                ]);                
+				
+				if (!filter_var($email, FILTER_VALIDATE_EMAIL)) {
+				   $error_message = "Invalid email format"; 
+				}
+				
+				if(strtotime($date.$time)<=time()){
+					$error_message = "You can not book your old date"; 
+				}
+							
+				
+				if($error_message!=""){
+					$error_message = '<p class="short">'.$error_message.'</p>';
+					
+				}else{
+					$to      = $email;
+					$subject = 'Your Reservation Confirmation for Butazzo Pizza';
+					$message = 'Butazzo Pizza '."\r\n"."Table for 2 on ".$date." ".$time."Name: Elvin Mammadov \r\n".$message;
+					$headers = 'From: webmaster@example.com' . "\r\n" .
+						'Reply-To: webmaster@example.com' . "\r\n" .
+						'X-Mailer: PHP/' . phpversion();
+                    mail($to, $subject, $message, $headers);	
+                    console.log('email gonderildi');			
+				}
+			}
+		?>        
 
         <div class="fixed_layer section" id="reservation">
             <div class="fixed_layer_padd container">
