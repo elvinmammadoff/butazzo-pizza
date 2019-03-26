@@ -734,8 +734,7 @@
                 'text'    => 'It is so simple to send a message.'
                 ]);     
 
-                # Issue the call to the client.
-                $result = $mgClient->get("ips/$ip");   
+                # Issue the call to the client.  
                 $result = $mgClient->post("domains", array(
                     "total_count" => 1,
                     "smtp_login" => "postmaster@sandbox70e67361a1ec4a3daa70d81c37eae905.mailgun.org",
