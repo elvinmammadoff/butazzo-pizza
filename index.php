@@ -701,11 +701,11 @@
         </div>
 
         <!--    Reservation    -->
-        <?php 
-        
+		<?php 
+                
             require 'vendor/autoload.php';
-            use Mailgun\Mailgun;        
-				
+            use Mailgun\Mailgun;                
+
 			$error_message = '';
 			if(isset($_POST["send"])){
 				
@@ -716,14 +716,13 @@
 				$time = htmlspecialchars($_POST["time"]);
                 $message = htmlspecialchars($_POST["message"]);
                 
-
                 // First, instantiate the SDK with your API credentials
                 $mg = Mailgun::create('sandbox70e67361a1ec4a3daa70d81c37eae905.mailgun.org'); // For US servers
                 $mg = Mailgun::create('sandbox70e67361a1ec4a3daa70d81c37eae905.mailgun.org', 'https://api.eu.mailgun.net'); // For EU servers
 
                 // Now, compose and send your message.
                 // $mg->messages()->send($domain, $params);
-                $mg->messages()->send('https://butazzo-pizza.herokuapp.com/', [
+                $mg->messages()->send('https://butazzo-pizza.herokuapp.com', [
                 'from'    => $email,
                 'to'      => 'elvinmammadoff@gmail.com',
                 'subject' => 'The PHP SDK is awesome!',
@@ -753,14 +752,14 @@
                     console.log('email gonderildi');			
 				}
 			}
-		?>        
-
+		?>	
         <div class="fixed_layer section" id="reservation">
             <div class="fixed_layer_padd container">
                 <div class="row">
                     <div class="col-md-offset-6 col-md-6" data-aos="fade-down">
                         <div class="reserv_box">
                             <h1 class="section-title title_sty1">online reservation</h1>
+							<?= $error_message?>
                             <p class="short">Lorem Ipsum is simply dummy text of the printing and typesetting industry. </p>
                             <form id="reserv_form" method="post">
                                 <div class="row">
