@@ -26,7 +26,7 @@ if(isset($_POST["send"])){
     // $mg->messages()->send($domain, $params);
     $result = $mg->sendMessage('sandbox63a4e019e8bb4d7cb2666133ae923151.mailgun.org', [
         'from'    => $email,
-        'to'      => 'metinzakirov@gmail.com',
+        'to'      => 'elvinmammadoff@gmail.com',
         'subject' => $message,
         'text'    => 'It is so simple to send a message.'
     ]);
