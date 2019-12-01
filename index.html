@@ -208,9 +208,15 @@
                                 </div>
                             </div>
                             <div id="navbar_search">
+<<<<<<< HEAD
+                                <form method="post">
+                                    <input type="text" name="q" autocomplete="off" class="form-control pull-left" value="" placeholder="Search anything">
+                                    <button type="button" class="pull-right close" id="search_close"><i class="fa fa-close"></i></button>
+=======
                                 <form method="post" action="form.php">
                                     <input type="text" name="q" class="form-control pull-left" value="" placeholder="Search anything">
                                     <button type="submit" class="pull-right close" id="search_close"><i class="fa fa-close"></i></button>
+>>>>>>> 6c83fd552ed406b886374d3ff835f246edd71929
                                 </form>
                             </div>
                         </div>
@@ -713,13 +719,13 @@
                                 <div class="row">
                                     <div class="col-sm-6">
                                         <div class="form-group form_pos">
-                                            <input type="text" name="name" required="" placeholder="Your name" class="form-control" onfocus="this.placeholder = ''" onblur="this.placeholder = 'Your name'" />
+                                            <input type="text" name="name" autocomplete="off" required="" placeholder="Your name" class="form-control" onfocus="this.placeholder = ''" onblur="this.placeholder = 'Your name'" />
                                             <span class="form_icon"></span>
                                         </div>
                                     </div>
                                     <div class="col-sm-6">
                                         <div class="form-group form_pos">
-                                            <input type="email" name="email" required="" placeholder="Your email" class="form-control" onfocus="this.placeholder = ''" onblur="this.placeholder = 'Your email'" />
+                                            <input type="email" name="email" autocomplete="off" required="" placeholder="Your email" class="form-control" onfocus="this.placeholder = ''" onblur="this.placeholder = 'Your email'" />
                                             <span class="form_icon"></span>
                                         </div>
                                     </div>
@@ -727,19 +733,19 @@
                                 <div class="row">
                                     <div class="col-sm-4">
                                         <div class="form-group form_pos">
-                                            <input type="text" name="phone" required="" placeholder="Phone" class="form-control" onfocus="this.placeholder = ''" onblur="this.placeholder = 'Phone'" />
+                                            <input type="text" name="phone" autocomplete="off" required="" placeholder="Phone" class="form-control" onfocus="this.placeholder = ''" onblur="this.placeholder = 'Phone'" />
                                             <span class="form_icon"></span>
                                         </div>
                                     </div>
                                     <div class="col-sm-4">
                                         <div class="form-group form_pos">
-                                            <input type="text" name="date" required="" placeholder="Date" class="form-control" id="reserv_date" onfocus="this.placeholder = ''" onblur="this.placeholder = 'Date'" />
+                                            <input type="text" name="date" autocomplete="off" required="" placeholder="Date" class="form-control" id="reserv_date" onfocus="this.placeholder = ''" onblur="this.placeholder = 'Date'" />
                                             <span class="form_icon"></span>
                                         </div>
                                     </div>
                                     <div class="col-sm-4">
                                         <div class="form-group form_pos">
-                                            <input type="text" name="time" required="" placeholder="Time" class="form-control" id="reserv_time" onfocus="this.placeholder = ''" onblur="this.placeholder = 'Time'" />
+                                            <input type="text" name="time" autocomplete="off" required="" placeholder="Time" class="form-control" id="reserv_time" onfocus="this.placeholder = ''" onblur="this.placeholder = 'Time'" />
                                             <span class="form_icon"></span>
                                         </div>
                                     </div>
@@ -889,6 +895,13 @@
 
         <!-- End Sections -->
 
+        <!-- Start .scroll-up -->
+        <div class="scroll-up">
+            <div class="scroll-up__icon">
+                <i class="fa fa-arrow-up"></i>
+            </div>
+        </div><!-- End /.scroll-up -->        
+
         <!--  Begin Footer  -->
         <footer id="footer">
 
@@ -997,22 +1010,22 @@
                                     <div class="social-links">
                                         <ul class="list-inline">
                                             <li class="list-inline-item">
-                                                <a href="javascript:;" title="">
+                                                <a href="javascript:;" title="" target="_blank">
                                                     <i class="fa fa-facebook" aria-hidden="true"></i>
                                                 </a>
                                             </li>
                                             <li class="list-inline-item">
-                                                <a href="javascript:;" title="">
+                                                <a href="javascript:;" title="" target="_blank">
                                                     <i class="fa fa-instagram" aria-hidden="true"></i>
                                                 </a>
                                             </li>
                                             <li class="list-inline-item">
-                                                <a href="javascript:;" title="">
+                                                <a href="javascript:;" title="" target="_blank">
                                                     <i class="fa fa-pinterest-p" aria-hidden="true"></i>
                                                 </a>
                                             </li>
                                             <li class="list-inline-item">
-                                                <a href="javascript:;" title="">
+                                                <a href="javascript:;" title="" target="_blank">
                                                     <i class="fa fa-linkedin" aria-hidden="true"></i>
                                                 </a>
                                             </li>
@@ -1042,7 +1055,7 @@
         </div>
         <div class="right_menu_search">
             <form method="post">
-                <input type="text" name="q" class="form-control search_input" value="" placeholder="Search anything">
+                <input type="text" name="q" autocomplete="off" class="form-control search_input" value="" placeholder="Search anything">
                 <button type="submit" class="search_icon"><i class="fa fa-search"></i></button>
             </form>
         </div>
