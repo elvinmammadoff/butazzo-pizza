@@ -232,3 +232,27 @@ jQuery(document).ready(function($) {
 });   
 
 //======= END Fancybox ========
+
+
+
+
+    /* ==========================
+       ScrollUp
+    =============================*/
+	$(document).on( 'scroll', function(){
+		if ($(window).scrollTop() > 400) {
+			$('.scroll-up').addClass('show');
+		} else {
+			$('.scroll-up').removeClass('show');
+		}
+	});
+
+	$('.scroll-up').on('click', scrollToTop);
+	 
+	function scrollToTop() {
+		var verticalOffset = typeof(verticalOffset) != 'undefined' ? verticalOffset : 0,
+		element = $('body'),
+		offset = element.offset(),
+		offsetTop = offset.top;
+		$('html, body').animate({scrollTop: offsetTop}, 500, 'linear');
+    }
