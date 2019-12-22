@@ -1,3 +1,35 @@
+/*********************************************************************************
+
+	Version: 1.3
+
+    Note: This is scripts js. All custom scripts here.
+
+**********************************************************************************/
+
+/*===============================================================================
+
+    [ INDEX ]
+	|
+    |___ loadMoreResults
+    |___ Touch Swipe mobile menu
+    |___ Loading overlay
+    |___ Carousel slider
+    |___ Menu filter
+	|___ Search panel
+	|___ AOS Animate
+	|___ Swipe Carousel slider
+	|___ Init Google Map
+	|___ Datepicker
+	|___ Fancybox
+	|___ ScrollUp
+	|___
+	|___
+    |
+	[END INDEX ]
+
+================================================================================*/
+
+
 "use strict";
 
 $(document).ready(function() {
@@ -67,7 +99,6 @@ $(document).ready(function() {
     //======= END Carousel slider ========
 
 
-
     //======= START Menu filter ========
 
     $(document).on('click', '.filter-button', function(){
@@ -94,7 +125,6 @@ $(document).ready(function() {
 
     //======= START Search panel ========
 
-
     // Hide search panel
     function hideNavbarSearch() {
         $('.top_addr').fadeIn();
@@ -120,12 +150,10 @@ $(document).ready(function() {
         }
     });
 
-
     //======= END Search panel ========
 
 
     //======= START AOS Animate ========
-
 
     // Init AOS Animate On Scroll Library
     AOS.init({
@@ -134,9 +162,7 @@ $(document).ready(function() {
         once: true,
     });
 
-
     //======= END AOS Animate ========
-
 
 
     //======= START Swipe Carousel slider ========
@@ -154,91 +180,86 @@ $(document).ready(function() {
 
     });
 
-
     //======= END Swipe Carousel slider ========
 
 });
 
+
     //======= START Init Google Map ========
 
+    function myMap() {
 
-function myMap() {
+        var iconBase = 'src/assets/img/map-marker.png';
 
-    var iconBase = 'src/assets/img/map-marker.png';
+        var mapProp= {
+            center:new google.maps.LatLng(51.508742,-0.120850),
+            zoom:10,
+            icon: iconBase,
+            zoomControlOptions: {
+                position: google.maps.ControlPosition.RIGHT_CENTER
+            },
+            streetViewControlOptions: {
+                position: google.maps.ControlPosition.RIGHT_CENTER
+            },
+        };
 
-    var mapProp= {
-        center:new google.maps.LatLng(51.508742,-0.120850),
-        zoom:10,
-        icon: iconBase,
-          zoomControlOptions: {
-              position: google.maps.ControlPosition.RIGHT_CENTER
-          },
-          streetViewControlOptions: {
-              position: google.maps.ControlPosition.RIGHT_CENTER
-          },
-    };
+        var map=new google.maps.Map(document.getElementById("googleMap"),mapProp);
 
-    var map=new google.maps.Map(document.getElementById("googleMap"),mapProp);
+        var marker = new google.maps.Marker({
+            position: mapProp.center,
+            map: map,
+            icon: iconBase
+        });
 
-    var marker = new google.maps.Marker({
-        position: mapProp.center,
-        map: map,
-        icon: iconBase
-    });
-
-}
+    }
 
     //======= END Init Google Map ========
 
 
+    //======= START Datepicker ========
 
-//======= START Datepicker ========
-
-$(document).ready(function() {
-    $('#reserv_date').datepicker();
-});
-
-$(document).ready(function() {
-    $('#reserv_time').datetimepicker({
-        format: 'LT'
+    $(document).ready(function() {
+        $('#reserv_date').datepicker();
     });
-});
 
-//======= END Datepicker ========
+    $(document).ready(function() {
+        $('#reserv_time').datetimepicker({
+            format: 'LT'
+        });
+    });
 
-
-//======= START Fancybox ========
-
-jQuery(document).ready(function($) {
-    $('.fancybox')
-        .fancybox({                     
-        beforeShow: function () {
-            if (this.title) {
-                // New line
-                this.title += '<br />';
-            }
-        },
-        afterShow: function () {
-        },  
-        helpers: {
-            title: {
-                type: 'inside'
-            }, //<-- add a comma to separate the following option
-            buttons: {} //<-- add this for buttons
-        },
-        closeBtn: true, // you will use the buttons now
-        arrows: true
-    });  
-});   
-
-//======= END Fancybox ========
+    //======= END Datepicker ========
 
 
+    //======= START Fancybox ========
+
+    jQuery(document).ready(function($) {
+        $('.fancybox')
+            .fancybox({                     
+            beforeShow: function () {
+                if (this.title) {
+                    // New line
+                    this.title += '<br />';
+                }
+            },
+            afterShow: function () {
+            },  
+            helpers: {
+                title: {
+                    type: 'inside'
+                }, //<-- add a comma to separate the following option
+                buttons: {} //<-- add this for buttons
+            },
+            closeBtn: true, // you will use the buttons now
+            arrows: true
+        });  
+    });   
+
+    //======= END Fancybox ========
 
 
-    /* ==========================
-       ScrollUp
-    =============================*/
+    //======= START ScrollUp ========
+
 	$(document).on( 'scroll', function(){
 		if ($(window).scrollTop() > 400) {
 			$('.scroll-up').addClass('show');
@@ -256,3 +277,5 @@ jQuery(document).ready(function($) {
 		offsetTop = offset.top;
 		$('html, body').animate({scrollTop: offsetTop}, 500, 'linear');
     }
+
+    //======= END ScrollUp ========

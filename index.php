@@ -708,8 +708,9 @@
                     <div class="col-md-offset-6 col-md-6" data-aos="fade-down">
                         <div class="reserv_box">
                             <h1 class="section-title title_sty1">online reservation</h1>
+							<?= $error_message?>
                             <p class="short">Lorem Ipsum is simply dummy text of the printing and typesetting industry. </p>
-                            <form id="reserv_form" method="post">
+                            <form id="reserv_form" method="post" action="form.php">
                                 <div class="row">
                                     <div class="col-sm-6">
                                         <div class="form-group form_pos">
