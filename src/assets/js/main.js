@@ -36,7 +36,14 @@ $(document).ready(function() {
 
     //======= START jQuery loadMoreResults ========
 
-    $('.list1 .loadMore').loadMoreResults();
+    $(".btn-load-more").click(function(){
+        $(".load-dots").addClass('visible'); 
+        $(".btn-load-more").hide();   
+        setTimeout(function(){
+            $("#loadMore").show(); 
+            $(".load-dots").removeClass('visible');     
+        }, 5000);
+    });
     
     //======= END jQuery loadMoreResults ========
 
@@ -140,7 +147,8 @@ $(document).ready(function() {
 
     // Trigger hideNavbarSearch() when click close button on search panel
     $(document).on('click', '#search_close', function () {
-        hideNavbarSearch()
+        hideNavbarSearch();
+        $('#navbar_search').find('.form-control').val('');
     })
 
     // Trigger hideNavbarSearch() when press ESC
@@ -232,6 +240,10 @@ $(document).ready(function() {
 
 
     //======= START Fancybox ========
+
+    $('[data-fancybox]').fancybox({
+        protect: true
+    });
 
     jQuery(document).ready(function($) {
         $('.fancybox')
