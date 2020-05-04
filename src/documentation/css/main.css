@@ -3,11 +3,9 @@
    ========================================================================== */
 
 
-body {
-    border: 25px solid #222;
+   body {
     font-family: 'Muli', sans-serif;
     font-size: 16px;
-    background:#222;
 }
 h1, h2, h3, h4, h5, h6 {
     font-family: 'Raleway', sans-serif;
@@ -28,15 +26,16 @@ a {
     color: #000;
     background-color: rgba(255,255,255,.2);
     text-decoration: none;
-    border-bottom: 2px solid #ffd630;
+    border-bottom: 2px solid #e6b776;
 }
 a:hover {
     color: #fff;
     background-color: #000;
 }
 a:focus {
-    color: inherit;
     outline: 0;
+    color: #000;
+    background-color: rgba(255,255,255,.2);
 }
 p {
     margin-bottom: 30px;
@@ -60,44 +59,47 @@ pre code {
    DOCS HEADER
    ========================================================================== */
 
+.fixed {
+    position: fixed!important;
+}
+
 .row {
     max-width: 100%;
 }
 
 #site-header {
     position: relative;
-    height: 600px;
-    background-color: #990100;
-    color: #fff;
+    height: 500px;
+    background-color: #fafafc;
+    color: #0d0d0f;
     text-align: center;
-    padding-top: 105px;
+    padding-top: 50px;
 }
 #site-header .name {
 }
 #site-header .name h3 {
-    font-size: 60px; 
+    font-size: 60px;
     font-weight: 700;
     letter-spacing: 0;
-    color: #fff;
+    color: #0d0d0f;
     text-transform: uppercase;
-    margin: 0 0 5px 0;
+    margin: 0 0 20px 0;
     padding: 0 15px;
 }
 #site-header .name p {
     display: inline-block;
-    background: #f6a525;
-    color: #520100; 
+    background: #e6b776;
+    color: #fff;
     font-size: 18px;
     padding: 5px 10px;
+    margin-bottom: 0;
 }
 
 #site-header ul.meta {
     list-style: none;
     margin-left: 0;
-    margin: 50px 0;
+    margin: 30px 0;
     display: inline-block;
-    border-top: 1px solid rgba(255, 255, 255, 0.8);
-    border-bottom: 1px solid rgba(255, 255, 255, 0.8);
     padding: 10px 35px;
 }
 #site-header ul.meta li {
@@ -112,6 +114,7 @@ pre code {
 }
 #site-header ul.meta li a {
     font-weight: 300;
+    padding: 0 4px;
 } 
 
 
@@ -123,16 +126,14 @@ pre code {
 #site-body {
     position: relative;
     background: #fff;
-    padding: 115px 0 60px 0;
 }
 #site-body #main-content {
-    padding-left: 108px;
-    padding-right: 50px;
+    padding: 40px;
 }
 
 
 #site-body .section {
-    border-bottom: 1px solid #000;
+    border-bottom: 2px solid #e4e4e4;
     margin-bottom: 75px;
     padding-bottom: 45px;
 }
@@ -153,9 +154,9 @@ pre code {
     top: 0;
     left: auto;
     padding-right: 0;
-}
-#sidebar.fixed {
-    right: 25px;
+    height: 100%;
+    box-shadow: 0px 3px 5px rgba(0,0,0,0.015);
+    border-left: 1px solid #f1f2f3;
 }
 
 #sidebar h3 {
@@ -169,13 +170,8 @@ pre code {
 }
 
 #sidebar .sticky {
-    padding-left: 65px;
-    padding-bottom: 40px;
-    padding-top: 65px;
-    border-left: 1px solid #000;
-    border-bottom: 1px solid #000;
+    padding: 40px;
     background: #fff;
-    margin-left: 35px;
 }
 #sidebar ol {
     font-family: 'Muli', sans-serif;
@@ -203,7 +199,7 @@ pre code {
 
 
 [data-magellan-expedition], [data-magellan-expedition-clone] {
-    width: 33%;
+    width: 25%;
     min-width: 0;
     padding: 0;
 }

@@ -27,17 +27,17 @@
               <div class="large-10 large-centered columns">
 
                   <div class="name">
-                      <h3>Butazzo Pizza</h3>
+                      <h3>Levien - Casino Resort & Hotel</h3>
                       <p>Premium HTML Template Documentation</p>
                   </div>
 
                   <ul class="meta">
-                      <li><strong>Author:</strong> <a href="https://themeforest.net/user/alissio">Alissio</a></li>
-                      <li><strong>Live Preview:</strong> <a href="https://butazzo-pizza.herokuapp.com/">View Demo</a></li>
-                      <li><strong>Support:</strong> <a href="http://support.4ris.info">Ask a Question</a></li> 
+                      <li><strong>Author:</strong> <a href="https://themeforest.net/user/alissio" target="_blank">Alissio</a></li>
+                      <li><strong>Live Preview:</strong> <a href="https://levien-casino.herokuapp.com/" target="_blank">View Demo</a></li>
+                      <li><strong>Support:</strong> <a href="mailto:elvinmammadoff@gmail.com">Ask a Question</a></li> 
                   </ul>
 
-                  <p>Thank you for purchasing my theme. <br /> If you have any questions that are beyond the scope of this help file, <br /> please feel free to email <a href="mailto:designer.rafiq@gmail.com">here</a>.<br /> Thanks so much!</p>
+                  <p>Thank you for purchasing my theme. <br> If you have any questions that are beyond the scope of this help file, <br> please feel free to email <a href="mailto:designer.rafiq@gmail.com">here</a><br> Thanks so much!</p>
 
               </div>
 
@@ -50,7 +50,7 @@
 
             <div id="container" class="row">
 
-                <div id="sidebar" class="large-4 large-push-8 columns" data-magellan-expedition="fixed">
+                <div id="sidebar" class="large-3 large-push-9 columns" data-magellan-expedition="fixed">
 
                     <div class="sticky">
 
@@ -74,19 +74,17 @@
 
                 </div>
 
-                <div id="main-content" class="large-8 large-pull-4 columns">
+                <m id="main-content" class="large-9 large-pull-3 columns">
 
-                    <a name="introduction"></a>
                     <section id="introduction" class="section" data-magellan-destination="introduction">
                           
                           <h1>Howdy!</h1>
-                          <p class="lead">You are a shining owner of a regular license based on Butazzo Pizza Theme</p>
+                          <p class="lead">You are a shining owner of a regular license based on Levien - Casino Resort & Hotel Theme</p>
                           <p>First of all, Thank you so much for purchasing this template and for being my loyal customer. You are entitled to get free updates to this product + exceptional support (as per market policy) from the author directly.</p>
-                          <p>This documentation is to help you undesrstand the template's structure. Please go through the documentation carefully to understand how this template is made and how to edit this properly. Basic HTML and CSS knowledge is required to customize this template.</p>
+                          <p>This documentation is to help you understand the template's structure. Please go through the documentation carefully to understand how this template is made and how to edit this properly. Basic HTML and CSS knowledge is required to customize this template.</p>
 
                     </section>
 
-                    <a name="getting-started"></a>
                     <section id="getting-started" class="section" data-magellan-destination="getting-started">
                           
                           <h1>1. Getting Started</h1>
@@ -95,12 +93,12 @@
 
                           <p>When you are ready to use this template, you must first upload the template files to a local or remote server. In this regard,  unzip the template package you have downloaded from themeforest. In extracted folder you can see following folders:<p>
 
-                          <h3>Package contents</h3>
+                          <h3>Package contents:</h3>
 
                           <ul>
-                            <li><strong>Template</strong> — Contains all the original template files comprises of HTML, CSS, JS etc. This is the folder which you'll upload on your server after necessary modifications.</li>
+                            <li><strong>template</strong> — Contains all the original template files comprises of HTML, CSS, JS etc. This is the folder which you'll upload on your server after necessary modifications.</li>
 
-                            <li><strong>Documentation</strong> — Inside this folder you will find this same documentation updated with the last changes.</li>
+                            <li><strong>documentation</strong> — Inside this folder, you will find the same documentation updated with the latest changes.</li>
                             
                           </ul>
 
@@ -108,196 +106,163 @@
 
                     </section>
 
-                    <a name="html-structure"></a>
                     <section id="html-structure" class="section"  data-magellan-destination="html-structure">
                           
                       <h1>2. HTML Structure</h1>
 
                       <br>
 
-                      <p>This theme is a responsive layout with landing page. All of the information within the main content area is nested within a div with an class of "sections". The general <code>template</code> structure is the same throughout the template. Here is the general structure. Note that for brevity, I'm not including content that isn’t relevant to the technique.</p>
+                      <p>Levien – Casino Resort & Hotel HTML Template Included 4 HTML files are well-organized and named accordingly, so it’s very easy to change any and all of the design. 
+                        Our Template files are built with Bootstrap 4. You can customize it very easily to fit your casino needs.<br/>
+                        The general <code>template</code> structure is the same throughout the template. Here is the general structure. Note that for brevity, I'm not including content that isn’t relevant to the technique.
+                      </p>
 
 <pre data-language="HTML Skeleton">
 <code class="language-markup">
 
-  <!-- BEGIN  Loading Section -->  
-  <div class="loading-overlay">
-      <div class="spinner">
-          <span></span>
-          <span></span>
-          <span></span>
-          <span></span>
-          <span></span>
+  <!-- BEGIN  Loading Section -->
+  <div id="loading">
+    <div class="loading__center">
+      <div class="loading__position">
+        <div id="object"></div>
       </div>
+    </div>
   </div>
   <!-- END Loading Section -->
 
-  <!-- BEGIN body wrapper -->
-    <div class="body-wrapper">
+  <!-- BEGIN Header -->
+  <header class="Navbar sticky-header"></header>
+  <!-- END Header-->
 
-      <!-- Begin header-->
-      <header id="header"></header>
-      <!-- End header-->
+  <!-- BEGIN Main -->
+  <div class="Main sticky">
 
-      <!-- Begin Sections-->
+      <!-- Banner -->
+      <section class="Banner section"></section>
 
-      <!--    About Us    -->
-      <div class="container section" id="about_us"></div>
+      <!-- Hotels -->
+      <section class="Hotels section"></section>
 
-      <!--    Menus   -->
-      <div class="container section" id="menu"></div>
+      <!-- Review -->
+      <section class="Review section"></section>
 
-      <!--    Reservation    -->
-      <div class="fixed_layer section" id="reservation"></div>
+  </div>
+  <!-- END Main -->
 
-      <!--    Gallery    -->
-      <div class="container section" id="gallery"></div>
+  <!-- BEGIN Mobile burger navigation -->
+  <nav class="cd-nav-container burger-menu burger-menu--right" id="cd-nav"></nav>
+  <!-- END Mobile burger navigation -->
 
-      <!-- End Sections -->
+  <!-- BEGIN Overlay mask -->
+  <div class="cd-overlay"></div>
+  <!-- END Overlay mask -->
 
-      <!--  Begin Footer  -->
-      <footer></footer> 
-      <!-- End Footer -->
+  <!-- BEGIN Go to top button -->
+  <div class="scroll-up">
+      <div class="scroll-up__icon"></div>
+  </div>
+  <!-- END Go to top button -->
 
-    </div>
-  <!-- END body-wrapper -->
-  
-  <!-- START mobile right burger menu -->
-  <nav class="cd-nav-container right_menu" id="cd-nav"></nav>
-
-  <div class="cd-overlay"></div><!-- /.cd-overlay -->
+  <!-- BEGIN Footer -->
+  <footer class="Navbar clearfix"></footer>
+  <!-- END Footer -->
 
 </code>
 </pre>
                           
 
                     </section>
-                          <a name="skeleton-details"></a>
-                          <section id="skeleton-details" class="sub-section"  data-magellan-destination="skeleton-details">
+                          <section id="skeleton-details" class="section"  data-magellan-destination="skeleton-details">
                                 
                                 <h2>2.1. Skeleton Details</h2>
 
                                 <br>
 
-                                <p>From the above skeleton it can be seen that there are 7 major logical code blocks in page. Most of the contents displayed on the screen goes in one of this block.</p>
+                                <p>From the above skeleton it can be seen that there are 7 major logical code blocks on page. Most of the contents displayed on the screen go in one of these blocks.</p>
 
-                                <p><code>div class="loading-overlay"</code> shows a loading overlay on the whole page or over single DOM elements</p>
+                                <p><code>div id="loading"</code> shows a loading layout on the whole page</p>
 
-                                <p><code>header id="header"</code> section contains the code for carousel, contact details, logo and primary navigation at top.</p>
+                                <p><code>header class="Navbar sticky-header"</code> contains the code logo and primary navigation at the top.</p>
 
-                                <p><code>div id="about_us"</code> <code>div id="menu"</code> <code>div id="reservation"</code> <code>div id="gallery"</code> section contains the page specific content as well as their details.</p>
+                                <p><code>div class="Main sticky"</code> contains the page specific content as well as their details.</p>
 
-                                <p><code>site-footer</code> section typically remains the same. It consist of short about info, working days list, contact details, social icons and copyright text note also.</p>
+                                <p>Further, skeleton shows two additional markup tags.<code>nav class="cd-nav-container burger-menu burger-menu--right" id="cd-nav"</code> contains the menu for the mobile version. <code>div class="cd-overlay"</code> when mobile menu is shown, this layer is visible under mobile menu above content, too.</p>
 
-                                <p>Further, skeleton shows two additional markup tags.<code>div id="cd-nav"</code> contains the menu for the mobile version. <code>div class="cd-overlay"</code> when mobile menu showed this layer visibled under mobile menu above content too.</p>
+                                <p><code>div class="scroll-up"</code> when you click this element which shows on the right side you can go to the top automatically.</p>
+
+                                <p><code>footer class="Navbar clearfix"</code> contains the code like header and extra subscribe form.</p>
 
                           </section>
-                    <a name="stylesheet-files"></a>
                     <section id="stylesheet-files" class="section" data-magellan-destination="stylesheet-files">
                           
                           <h1>3. Stylesheet Files</h1>
 
                           <br>
 
-                          <p>All styling realted files of this template can be found in the folder named <code>css</code>.</p>
+                          <p>All styling related files of this template can be found in this folder path <code>template/src/assets/css</code></p>
 
 <pre data-language="Folder Map">
   <code class="language-markup">
     css/
     |
     |-- bootstrap.min.css
-    |-- bootstrap-datepicker.css
-    |-- bootstrap-datetimepicker.css
-    |-- bootstrap-theme.min.css
+    |-- slick-carousel.min
     |-- fonts.css
-    |-- font-awesome.min.css
-    |-- main.css
+    |-- style.css
     |-- responsive.css
-    |-- aos.css
-    |-- slick.css
-    |-- slick-theme.css
-    |-- scrolling-nav.css
-    |-- jquery.fancybox.css
-    |-- touch-sideswipe.css
   </code>
 </pre>
 
                           <br>
                           <p>
-                           As it can be seen, in this folder there are 14 <code>CSS</code> files.<br /> 
-                          <code>Bootstrap</code> is an open source toolkit for developing with HTML, CSS, and JS. Quickly prototype your ideas or build your entire app with responsive grid system<br />
-                          <code>Bootstrap Date Time Picker</code> widget based on twitter bootstrap
-                          <code>Bootstrap Datepicker</code> provides a flexible datepicker widget in the Bootstrap style
-                          <code>Fonts</code> import Fonts to stylesheet<br />
-                          <code>Font Awesome</code> is iconic font and CSS toolkit<br />
-                          <code>Main</code> custom style file<br /> 
-                          <code>Responsive</code> for responsive design<br />
-                          <code>Aos</code> animate On scroll library<br />
-                          <code>Slick</code> is a responsive carousel jQuery plugin that supports multiple breakpoints, CSS3 transitions, touch events/swiping & much more<br />
-                          <code>Scrolling Nav</code> is a basic Bootstrap framework for creating smooth scrolling, one page websites <br />   
-                          <code>FancyBox</code> is a tool for displaying images, html content and multi-media in a Mac-style "lightbox" that floats overtop of web page <br />
-                          <code>Touch side swipe</code> widget-library for mobile navbar (vanilla js and little bit pure css)                      
-
-
+                           As it can be seen, the folder contains 5 <code>css</code> files.<br> 
+                          <code>bootstrap.min.css</code> is an open source toolkit for developing with HTML, CSS, and JS. Quickly prototype your ideas or build your entire app with responsive grid system.<br>
+                          <code>slick-carousel.css</code> is a responsive carousel jQuery plugin that supports multiple breakpoints, CSS3 transitions, touch events/swiping & much more.<br>                          
+                          <code>fonts.css</code> import fonts to stylesheet.<br>
+                          <code>style.css</code> custom style file.<br> 
+                          <code>responsive.css</code> for responsive design.<br>                     
+                          </p>
                     </section>
 
-                    <a name="javascript-files"></a>
                     <section id="javascript-files" class="section" data-magellan-destination="javascript-files">
                           
                           <h1>4. Javascript Files</h1>
 
                           <br>
 
-                          <p>All client-side related javascript files can be found in the <code>js</code> folder.</p>
+                          <p>All client-side related javascript files can be found in this folder path <code>template/src/assets/js</code></p>
 
 <pre data-language="Folder Map">
   <code class="language-markup">
     js/
     |    
-    |-- jquery-2.1.1.min.js  
+    |-- jquery.min.js  
     |-- bootstrap.min.js 
-    |-- jquery.easing.min.js      
-    |-- bootstrap-datepicker.js
-    |-- bootstrap-datetimepicker.js
-    |-- moment.js
-    |-- main.js
-    |-- aos.js
-    |-- jquery.fancybox.js
-    |-- jquery.mousewheel.min.js
-    |-- jquery.touchSwipe.min.js
     |-- slick.min.js
-    |-- scrolling-nav.js
-    |-- loadMoreResults.js
+    |-- burger-menu.min.js
+    |-- main.js
   </code>
 </pre> 
                          
                           <br>
                           <p>
-                          In this folder there are 13 files. <br /> 
-                          <code>Jquery</code> is a fast, small, and feature-rich JavaScript library<br />
-                          <code>Jquery Easing</code> a jQuery plugin from GSGD to give advanced easing options<br />
-                          <code>Bootstrap</code> is an open source toolkit for developing with HTML, CSS, and JS. Quickly prototype your ideas or build your entire app with responsive grid system<br />
-                          <code>Bootstrap Date Time Picker</code> widget based on twitter bootstrap<br />
-                          <code>Bootstrap Datepicker</code> provides a flexible datepicker widget in the Bootstrap style
-                          <code>Main</code> contains all the custom programmed javascript coded specifically for this template<br /> 
-                          <code>Aos</code> animate On scroll library<br />
-                          <code>Slick</code> is a responsive carousel jQuery plugin that supports multiple breakpoints, CSS3 transitions, touch events/swiping & much more<br />
-                          <code>Scrolling Nav</code> is a basic Bootstrap framework for creating smooth scrolling, one page websites <br />   
-                          <code>FancyBox</code> is a tool for displaying images, html content and multi-media in a Mac-style "lightbox" that floats overtop of web page <br />
-                          <code>Touch side swipe</code> widget-library for mobile navbar (vanilla js and little bit pure css) <br />
-                          <code>loadMoreResults</code> is a small jQuery plugin for adding a 'Load More' pagination button to your long web content that allows you to dynamically load more items according to your needs.
+                          In this folder there are 5 files. <br> 
+                          <code>jquery.min.js</code> is a fast, small, and feature-rich JavaScript library<br>
+                          <code>bootstrap.min.js</code> is an open source toolkit for developing with HTML, CSS, and JS. Quickly prototype your ideas or build your entire app with responsive grid system<br>
+                          <code>slick.min.js</code> is a responsive carousel jQuery plugin that supports multiple breakpoints, CSS3 transitions, touch events/swiping & much more<br>
+                          <code>burger-menu.min.js</code> contains javascript codes for mobile menu<br>
+                          <code>main.js</code> contains all the custom programmed javascript coded specifically for this template<br> 
                         </p>
 
                     </section>
 
-                    <a name="support-desk"></a>
                     <section id="support-desk" class="section" data-magellan-destination="support-desk">
                           
                           <h1>5. Support Desk</h1>
 
                           <br>
 
-                          <p>Please remember you have purchased a very affordable theme and you have not paid for a full-time web design agency. Occasionally we will help with small tweaks, but these requests will be put on a lower priority due to their nature.</p>
+                          <p>Please be reminded that you have purchased a very affordable theme and you have not paid for a full-time web design agency. Occasionally, we will help with small tweaks, but these requests will be put on a lower priority due to their nature.</p>
                       
 
                           <section class="sub-section">
@@ -334,7 +299,7 @@
                                 <br>
 
                                 <ul>
-                                  <li>Make sure your question is a valid item Issue and not a customization request.</li>
+                                  <li>Make sure your question is a valid item issue and not a customization request.</li>
                                   <li>Make sure you have read through the documentation and any related video guides before asking support on how to accomplish a task.</li>
                                   <li>Make sure to double check the item FAQs.</li>
                                   <li>If you have customized your item and now have an issue, back-track to make sure you didn't make a mistake. If you have made changes and can't find the issue, please provide us with your changelog.</li>
@@ -347,7 +312,6 @@
 
                     </section>                    
 
-                    <a name="files-resources"></a>
                     <section id="files-resources" class="section" data-magellan-destination="files-resources">
                           
                           <h1>6. Files &amp; Resources</h1>
@@ -359,81 +323,49 @@
 
                           <ul>
                             <li><a href="https://jquery.com/" target="_blank">jQuery</a></li>
-                            <li><a href="https://getbootstrap.com/docs/3.3/" target="_blank">Bootstrap</a></li>
-                            <li><a href="http://gsgd.co.uk/splash/" target="_blank">Jquery Easing</a></li>
-                            <li><a href="https://eonasdan.github.io/bootstrap-datetimepicker/" target="_blank">Bootstrap Date/Time Picker</a></li>
-                            <li><a href="https://bootstrap-datepicker.readthedocs.io/en/latest/" target="_blank">Bootstrap Date Picker</a></li>
-                            <li><a href="https://michalsnik.github.io/aos/" target="_blank">Aos</a></li>
-                            <li><a href="http://fancybox.net/" target="_blank">Fancybox</a></li>
-                            <li><a href="https://github.com/jquery/jquery-mousewheel" target="_blank">Jquery Mousewheel</a></li>
-                            <li><a href="https://github.com/mattbryson/TouchSwipe-Jquery-Plugin" target="_blank">Touch Swipe</a></li>
+                            <li><a href="https://getbootstrap.com/docs/4.0/getting-started/introduction/" target="_blank">Bootstrap 4</a></li>
                             <li><a href="http://kenwheeler.github.io/slick/" target="_blank">Slick Slider</a></li>
-                            <li><a href="https://startbootstrap.com/template-overviews/scrolling-nav/" target="_blank">Scrolling Nav</a></li>
-                            <li><a href="https://www.jqueryscript.net/loading/Load-More-Pagination-jQuery-loadMoreResults.html" target="_blank">loadMoreResults</a></li>
                             <li> <strong>Fonts used</strong>
                               <ul>
-                                <li><a href="https://www.fontsquirrel.com/fonts/chunkfive" target="_blank">ChunkFive Ex</a></li>
-                                <li><a href="https://fonts.google.com/specimen/Montserrat" target="_blank">Montserrat</a></li>
-                                <li><a href="https://fonts.google.com/specimen/Raleway" target="_blank">Raleway</a></li>
-                                <li><a href="https://fontawesome.com/v4.7.0/" target="_blank">Font Awesome</a></li>
+                                <li><a href="https://www.downloadfonts.io/proxima-nova-font-family-free/" target="_blank">Proxima Nova</a></li>
                               </ul>
                             </li>
                           </ul>
 
                     </section>
 
-                    <a name="php-file"></a>
                     <section id="php-file" class="section" data-magellan-destination="php-file">
                           
                           <h1>7. PHP Code Explanation</h1>
 
                           <br>
 
-                          <p><code>index.php</code> file for deploy and init on docker container or heroku<p>
+                          <p>Php files for deploy and init on docker container or heroku<p>
 
                     </section>
 
-                    <a name="google-map"></a>
                     <section id="google-map" class="section" data-magellan-destination="google-map">
                           
                           <h1>8. Google Map Api</h1>
 
                           <br>
 
-                          <p>I've used Google Map Api for generate Google Map. You ease change map style or marker from guidelines <a href="https://developers.google.com/maps/documentation/javascript/adding-a-google-map" target="_blank">Google Map</a><p>
+                          <p>I've used Google Map Api to generate Google Map. You are able to change map style or marker from guidelines <a href="https://developers.google.com/maps/documentation/javascript/adding-a-google-map" target="_blank">Google Map</a><p>
 
                     </section>
 
-                    <a name="updates"></a>
                     <section id="updates" class="section" data-magellan-destination="updates">
                           
                           <h1>9. Regular Updates</h1>
 
                           <br>
 
-                          <p>We’re always improving our skills and knowledge so we’re making changes regularly. From bug fixes to new awesome features, updates generally come at least twice a month.<p>
-
-<pre>     
-  V1.2
-  - fixed: burger menu view on tablet devices
-  - fixed: navbar fixed view 
-  - updated: documentation file
-
-  V1.1
-  - added: loadMoreResults plugin for gallery photos
-  - fixed: slider responsive view to medium devices
-  - added: extra images for slider, menu and gallery sections
-  - changed: content of menu section  
-  - updated: documentation file
-  
-  V1.0
-  - fixed: font smoothing in webkit and firefox  
-</pre>                            
+                          <p>We’re always improving our skills and knowledge so we’re making changes regularly. From bug fixes to new awesome features, updates generally come at least twice a month.<p>                       
 
                     </section>
 
                     <footer>
-                      <p>© Butazzo Pizza Cafe and Restaurant HTML Template</p>
+                      <p>© Levien - Casino Resort & Hotel HTML Template</p>
                     </footer>
 
                 </div>
@@ -443,9 +375,7 @@
         </section>
         
         <script src="js/vendor/jquery-1.11.2.min.js"></script>
-        <script src="js/foundation.js"></script>
         <script src="js/prism.js"></script>
-        <script src="js/smoothscroll.js"></script>
         <script src="js/main.js"></script>
     </body>
 </html>
