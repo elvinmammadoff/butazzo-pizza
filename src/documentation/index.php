@@ -27,13 +27,13 @@
               <div class="large-10 large-centered columns">
 
                   <div class="name">
-                      <h3>Levien - Casino Resort & Hotel</h3>
+                      <h3>Butazzo Pizza</h3>
                       <p>Premium HTML Template Documentation</p>
                   </div>
 
                   <ul class="meta">
                       <li><strong>Author:</strong> <a href="https://themeforest.net/user/alissio" target="_blank">Alissio</a></li>
-                      <li><strong>Live Preview:</strong> <a href="https://levien-casino.herokuapp.com/" target="_blank">View Demo</a></li>
+                      <li><strong>Live Preview:</strong> <a href="https://butazzo-pizza.herokuapp.com/">View Demo</a></li>
                       <li><strong>Support:</strong> <a href="mailto:elvinmammadoff@gmail.com">Ask a Question</a></li> 
                   </ul>
 
@@ -79,7 +79,7 @@
                     <section id="introduction" class="section" data-magellan-destination="introduction">
                           
                           <h1>Howdy!</h1>
-                          <p class="lead">You are a shining owner of a regular license based on Levien - Casino Resort & Hotel Theme</p>
+                          <p class="lead">You are a shining owner of a regular license based on Butazzo Pizza Theme</p>
                           <p>First of all, Thank you so much for purchasing this template and for being my loyal customer. You are entitled to get free updates to this product + exceptional support (as per market policy) from the author directly.</p>
                           <p>This documentation is to help you understand the template's structure. Please go through the documentation carefully to understand how this template is made and how to edit this properly. Basic HTML and CSS knowledge is required to customize this template.</p>
 
@@ -112,87 +112,86 @@
 
                       <br>
 
-                      <p>Levien – Casino Resort & Hotel HTML Template Included 4 HTML files are well-organized and named accordingly, so it’s very easy to change any and all of the design. 
-                        Our Template files are built with Bootstrap 4. You can customize it very easily to fit your casino needs.<br/>
-                        The general <code>template</code> structure is the same throughout the template. Here is the general structure. Note that for brevity, I'm not including content that isn’t relevant to the technique.
-                      </p>
+                      <p>This theme is a responsive landing page which built with Bootstrap fraemwork and you can customize it very easily. All of the information within the main
+                        content area is nested within a div with an class of "sections". The general
+                        <code>template</code> structure is the same throughout the template. Here is the general
+                        structure. Note that for brevity, I'm not including content that isn’t relevant to the
+                        technique.</p>
 
 <pre data-language="HTML Skeleton">
-<code class="language-markup">
-
-  <!-- BEGIN  Loading Section -->
-  <div id="loading">
-    <div class="loading__center">
-      <div class="loading__position">
-        <div id="object"></div>
-      </div>
+  <code class="language-markup">
+  
+    <!-- BEGIN  Loading Section -->  
+    <div class="loading-overlay">
+        <div class="spinner">
+            <span></span>
+            <span></span>
+            <span></span>
+            <span></span>
+            <span></span>
+        </div>
     </div>
-  </div>
-  <!-- END Loading Section -->
-
-  <!-- BEGIN Header -->
-  <header class="Navbar sticky-header"></header>
-  <!-- END Header-->
-
-  <!-- BEGIN Main -->
-  <div class="Main sticky">
-
-      <!-- Banner -->
-      <section class="Banner section"></section>
-
-      <!-- Hotels -->
-      <section class="Hotels section"></section>
-
-      <!-- Review -->
-      <section class="Review section"></section>
-
-  </div>
-  <!-- END Main -->
-
-  <!-- BEGIN Mobile burger navigation -->
-  <nav class="cd-nav-container burger-menu burger-menu--right" id="cd-nav"></nav>
-  <!-- END Mobile burger navigation -->
-
-  <!-- BEGIN Overlay mask -->
-  <div class="cd-overlay"></div>
-  <!-- END Overlay mask -->
-
-  <!-- BEGIN Go to top button -->
-  <div class="scroll-up">
-      <div class="scroll-up__icon"></div>
-  </div>
-  <!-- END Go to top button -->
-
-  <!-- BEGIN Footer -->
-  <footer class="Navbar clearfix"></footer>
-  <!-- END Footer -->
-
-</code>
-</pre>
+    <!-- END Loading Section -->
+  
+    <!-- BEGIN body wrapper -->
+      <div class="body-wrapper">
+  
+        <!-- Begin header-->
+        <header id="header"></header>
+        <!-- End header-->
+  
+        <!-- Begin Sections-->
+  
+        <!--    About Us    -->
+        <div class="container section" id="about_us"></div>
+  
+        <!--    Menus   -->
+        <div class="container section" id="menu"></div>
+  
+        <!--    Reservation    -->
+        <div class="fixed_layer section" id="reservation"></div>
+  
+        <!--    Gallery    -->
+        <div class="container section" id="gallery"></div>
+  
+        <!-- End Sections -->
+  
+        <!--  Begin Footer  -->
+        <footer></footer> 
+        <!-- End Footer -->
+  
+      </div>
+    <!-- END body-wrapper -->
+    
+    <!-- START mobile right burger menu -->
+    <nav class="cd-nav-container right_menu" id="cd-nav"></nav>
+  
+    <div class="cd-overlay"></div><!-- /.cd-overlay -->
+  
+  </code>
+  </pre>
                           
 
                     </section>
-                          <section id="skeleton-details" class="section"  data-magellan-destination="skeleton-details">
-                                
-                                <h2>2.1. Skeleton Details</h2>
+                    <section id="skeleton-details" class="sub-section"  data-magellan-destination="skeleton-details">
+                          
+                          <h2>2.1. Skeleton Details</h2>
 
-                                <br>
+                          <br>
 
-                                <p>From the above skeleton it can be seen that there are 7 major logical code blocks on page. Most of the contents displayed on the screen go in one of these blocks.</p>
+                          <p>From the above skeleton it can be seen that there are 7 major logical code blocks in page. Most of the contents displayed on the screen goes in one of this block.</p>
 
-                                <p><code>div id="loading"</code> shows a loading layout on the whole page</p>
+                          <p><code>div class="loading-overlay"</code> shows a loading overlay on the whole page or over single DOM elements</p>
 
-                                <p><code>header class="Navbar sticky-header"</code> contains the code logo and primary navigation at the top.</p>
+                          <p><code>header id="header"</code> section contains the code for carousel, contact details, logo and primary navigation at top.</p>
 
-                                <p><code>div class="Main sticky"</code> contains the page specific content as well as their details.</p>
+                          <p><code>div id="about_us"</code> <code>div id="menu"</code> <code>div id="reservation"</code> <code>div id="gallery"</code> section contains the page specific content as well as their details.</p>
 
-                                <p>Further, skeleton shows two additional markup tags.<code>nav class="cd-nav-container burger-menu burger-menu--right" id="cd-nav"</code> contains the menu for the mobile version. <code>div class="cd-overlay"</code> when mobile menu is shown, this layer is visible under mobile menu above content, too.</p>
+                          <p><code>site-footer</code> section typically remains the same. It consist of short about info, working days list, contact details, social icons and copyright text note also.</p>
 
-                                <p><code>div class="scroll-up"</code> when you click this element which shows on the right side you can go to the top automatically.</p>
+                          <p>Further, skeleton shows two additional markup tags.<code>div id="cd-nav"</code> contains the menu for the mobile version. <code>div class="cd-overlay"</code> when mobile menu showed this layer visibled under mobile menu above content too.</p>
 
-                                <p><code>footer class="Navbar clearfix"</code> contains the code like header and extra subscribe form.</p>
-
-                          </section>
+                    </section>
                     <section id="stylesheet-files" class="section" data-magellan-destination="stylesheet-files">
                           
                           <h1>3. Stylesheet Files</h1>
@@ -206,21 +205,37 @@
     css/
     |
     |-- bootstrap.min.css
-    |-- slick-carousel.min
+    |-- bootstrap-datepicker.css
+    |-- bootstrap-datetimepicker.css
+    |-- bootstrap-theme.min.css
     |-- fonts.css
-    |-- style.css
+    |-- font-awesome.min.css
+    |-- main.css
     |-- responsive.css
+    |-- aos.css
+    |-- slick.css
+    |-- slick-theme.css
+    |-- scrolling-nav.css
+    |-- jquery.fancybox.css
+    |-- touch-sideswipe.css
   </code>
 </pre>
 
                           <br>
                           <p>
-                           As it can be seen, the folder contains 5 <code>css</code> files.<br> 
+                           As it can be seen, the folder contains 14 <code>css</code> files.<br> 
                           <code>bootstrap.min.css</code> is an open source toolkit for developing with HTML, CSS, and JS. Quickly prototype your ideas or build your entire app with responsive grid system.<br>
-                          <code>slick-carousel.css</code> is a responsive carousel jQuery plugin that supports multiple breakpoints, CSS3 transitions, touch events/swiping & much more.<br>                          
+                          <code>bootstrap-datepicker.css</code> provides a flexible datepicker widget in the Bootstrap style.<br>
+                          <code>bootstrap-datetimepicker.css</code> widget based on twitter bootstrap.<br>
                           <code>fonts.css</code> import fonts to stylesheet.<br>
-                          <code>style.css</code> custom style file.<br> 
-                          <code>responsive.css</code> for responsive design.<br>                     
+                          <code>font-awesome.min.css</code> is iconic font and CSS toolkit.<br>
+                          <code>main.css</code> custom style file.<br> 
+                          <code>responsive.css</code> for responsive design.<br>      
+                          <code>aos.css</code> animate On scroll library.<br>     
+                          <code>slick-carousel.css</code> is a responsive carousel jQuery plugin that supports multiple breakpoints, CSS3 transitions, touch events/swiping & much more.<br>                          
+                          <code>scrolling-nav.css</code> is a basic Bootstrap framework for creating smooth scrolling, one page websites <br>   
+                          <code>jquery.fancybox.css</code> is a tool for displaying images, html content and multi-media in a Mac-style "lightbox" that floats overtop of web page <br>
+                          <code>touch-sideswipe.css</code> widget-library for mobile navbar (vanilla js and little bit pure css)                                        
                           </p>
                     </section>
 
@@ -236,22 +251,38 @@
   <code class="language-markup">
     js/
     |    
-    |-- jquery.min.js  
+    |-- jquery-2.1.1.min.js  
     |-- bootstrap.min.js 
-    |-- slick.min.js
-    |-- burger-menu.min.js
+    |-- jquery.easing.min.js      
+    |-- bootstrap-datepicker.js
+    |-- bootstrap-datetimepicker.js
+    |-- moment.js
     |-- main.js
+    |-- aos.js
+    |-- jquery.fancybox.js
+    |-- jquery.mousewheel.min.js
+    |-- jquery.touchSwipe.min.js
+    |-- slick.min.js
+    |-- scrolling-nav.js
+    |-- loadMoreResults.js
   </code>
 </pre> 
                          
                           <br>
                           <p>
-                          In this folder there are 5 files. <br> 
+                          In this folder there are 13 files. <br> 
                           <code>jquery.min.js</code> is a fast, small, and feature-rich JavaScript library<br>
+                          <code>jquery.easing.min.js</code> a jQuery plugin from GSGD to give advanced easing options<br>
                           <code>bootstrap.min.js</code> is an open source toolkit for developing with HTML, CSS, and JS. Quickly prototype your ideas or build your entire app with responsive grid system<br>
-                          <code>slick.min.js</code> is a responsive carousel jQuery plugin that supports multiple breakpoints, CSS3 transitions, touch events/swiping & much more<br>
-                          <code>burger-menu.min.js</code> contains javascript codes for mobile menu<br>
+                          <code>bootstrap-datetimepicker.js</code> widget based on twitter bootstrap<br />
+                          <code>bootstrap-datepicker.js</code> provides a flexible datepicker widget in the Bootstrap style
                           <code>main.js</code> contains all the custom programmed javascript coded specifically for this template<br> 
+                          <code>aos.js</code> animate On scroll library<br />
+                          <code>slick.min.js</code> is a responsive carousel jQuery plugin that supports multiple breakpoints, CSS3 transitions, touch events/swiping & much more<br>
+                          <code>scrolling-nav.js</code> is a basic Bootstrap framework for creating smooth scrolling, one page websites <br />   
+                          <code>jquery.fancybox.js</code> is a tool for displaying images, html content and multi-media in a Mac-style "lightbox" that floats overtop of web page <br />
+                          <code>jquery.touchSwipe.min.js</code> widget-library for mobile navbar (vanilla js and little bit pure css) <br />
+                          <code>loadMoreResults.js</code> is a small jQuery plugin for adding a 'Load More' pagination button to your long web content that allows you to dynamically load more items according to your needs.                          
                         </p>
 
                     </section>
@@ -323,11 +354,23 @@
 
                           <ul>
                             <li><a href="https://jquery.com/" target="_blank">jQuery</a></li>
-                            <li><a href="https://getbootstrap.com/docs/4.0/getting-started/introduction/" target="_blank">Bootstrap 4</a></li>
+                            <li><a href="https://getbootstrap.com/docs/3.3/" target="_blank">Bootstrap</a></li>
+                            <li><a href="http://gsgd.co.uk/splash/" target="_blank">Jquery Easing</a></li>
+                            <li><a href="https://eonasdan.github.io/bootstrap-datetimepicker/" target="_blank">Bootstrap Date/Time Picker</a></li>
+                            <li><a href="https://bootstrap-datepicker.readthedocs.io/en/latest/" target="_blank">Bootstrap Date Picker</a></li>
+                            <li><a href="https://michalsnik.github.io/aos/" target="_blank">Aos</a></li>
+                            <li><a href="http://fancybox.net/" target="_blank">Fancybox</a></li>
+                            <li><a href="https://github.com/jquery/jquery-mousewheel" target="_blank">Jquery Mousewheel</a></li>
+                            <li><a href="https://github.com/mattbryson/TouchSwipe-Jquery-Plugin" target="_blank">Touch Swipe</a></li>
                             <li><a href="http://kenwheeler.github.io/slick/" target="_blank">Slick Slider</a></li>
+                            <li><a href="https://startbootstrap.com/template-overviews/scrolling-nav/" target="_blank">Scrolling Nav</a></li>
+                            <li><a href="https://www.jqueryscript.net/loading/Load-More-Pagination-jQuery-loadMoreResults.html" target="_blank">loadMoreResults</a></li>
                             <li> <strong>Fonts used</strong>
                               <ul>
-                                <li><a href="https://www.downloadfonts.io/proxima-nova-font-family-free/" target="_blank">Proxima Nova</a></li>
+                                <li><a href="https://www.fontsquirrel.com/fonts/chunkfive" target="_blank">ChunkFive Ex</a></li>
+                                <li><a href="https://fonts.google.com/specimen/Montserrat" target="_blank">Montserrat</a></li>
+                                <li><a href="https://fonts.google.com/specimen/Raleway" target="_blank">Raleway</a></li>
+                                <li><a href="https://fontawesome.com/v4.7.0/" target="_blank">Font Awesome</a></li>
                               </ul>
                             </li>
                           </ul>
@@ -340,7 +383,7 @@
 
                           <br>
 
-                          <p>Php files for deploy and init on docker container or heroku<p>
+                          <p><code>index.php</code> file for deploy and init on docker container or heroku<p>
 
                     </section>
 
@@ -362,10 +405,41 @@
 
                           <p>We’re always improving our skills and knowledge so we’re making changes regularly. From bug fixes to new awesome features, updates generally come at least twice a month.<p>                       
 
+<pre>     
+  V1.4
+  - fixed: go to top button work on footer
+  - fixed: search input clear empty value
+  - fixed: search input clear empty value
+  - added: animate gallery load icon when click more button
+  - added: menu and gallery big images for popup
+  - changed: menu and gallery images
+  - updated: documentation file
+
+  V1.3
+  - fixed: header search clear button type
+  - fixed: inputs type text autocomplete 
+  - added: scroll up button function
+  - updated: documentation file
+
+  V1.2
+  - fixed: burger menu view on tablet devices
+  - fixed: navbar fixed view 
+  - updated: documentation file
+
+  V1.1
+  - added: loadMoreResults plugin for gallery photos
+  - fixed: slider responsive view to medium devices
+  - added: extra images for slider, menu and gallery sections
+  - changed: content of menu section  
+  - updated: documentation file
+  
+  V1.0
+  - fixed: font smoothing in webkit and firefox  
+</pre>  
                     </section>
 
                     <footer>
-                      <p>© Levien - Casino Resort & Hotel HTML Template</p>
+                      <p>© Butazzo Pizza Cafe and Restaurant HTML Template</p>
                     </footer>
 
                 </div>
