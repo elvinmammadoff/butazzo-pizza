@@ -409,7 +409,6 @@
   V1.4
   - fixed: go to top button work on footer
   - fixed: search input clear empty value
-  - fixed: search input clear empty value
   - added: animate gallery load icon when click more button
   - added: menu and gallery big images for popup
   - changed: menu and gallery images
