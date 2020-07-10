@@ -22,7 +22,7 @@
 	|___ Datepicker
 	|___ Fancybox
 	|___ ScrollUp
-	|___
+	|___ Slick slider
 	|___
     |
 	[END INDEX ]
@@ -291,3 +291,27 @@ $(document).ready(function() {
     }
 
     //======= END ScrollUp ========
+
+
+    //======= START Slick slider ========
+
+    $('#chef-slider').slick({
+        slidesToShow: 3,
+        slidesToScroll: 3,
+        autoplay: false,
+        infinite: false,
+        draggable: true,
+        dots: true,
+        arrows: false,
+        responsive: [
+            {
+                breakpoint: 767,
+                 settings: {
+                        slidesToShow: 3,
+                        slidesToScroll: 1,
+                    }
+            }
+        ]
+    });
+
+    //======= END Slick slider ========

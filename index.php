@@ -775,6 +775,148 @@
             </div>
         </div>
 
+        <!--    Our Chef    -->
+
+        <div class="container section" id="chef" data-aos="fade-up">
+            <div class="title-block">
+                <h1 class="section-title">Our Chef</h1>
+            </div>
+            <div id="chef-slider">
+                <div class="chef-item">
+                    <div class="chef-image">
+                        <img src="src/assets/img/photos/chef_1.jpg" alt="" />
+                    </div>
+                    <div class="chef-info">
+                        <h3 class="chef-name">Margaret Loe Chef</h3>
+                        <div class="chef-social">
+                            <a href="" class="chef-social-item">
+                                <i class="fa fa-facebook"></i>
+                            </a>
+                            <a href="" class="chef-social-item">
+                                <i class="fa fa-twitter"></i>
+                            </a>
+                            <a href="" class="chef-social-item">
+                                <i class="fa fa-linkedin"></i>
+                            </a>
+                            <a href="" class="chef-social-item">
+                                <i class="fa fa-google-plus"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="chef-item">
+                    <div class="chef-image">
+                        <img src="src/assets/img/photos/chef_2.jpg" alt="" />
+                    </div>
+                    <div class="chef-info">
+                        <h3 class="chef-name">Margaret Loe Chef</h3>
+                        <div class="chef-social">
+                            <a href="" class="chef-social-item">
+                                <i class="fa fa-facebook"></i>
+                            </a>
+                            <a href="" class="chef-social-item">
+                                <i class="fa fa-twitter"></i>
+                            </a>
+                            <a href="" class="chef-social-item">
+                                <i class="fa fa-linkedin"></i>
+                            </a>
+                            <a href="" class="chef-social-item">
+                                <i class="fa fa-google-plus"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="chef-item">
+                    <div class="chef-image">
+                        <img src="src/assets/img/photos/chef_3.jpg" alt="" />
+                    </div>
+                    <div class="chef-info">
+                        <h3 class="chef-name">Margaret Loe Chef</h3>
+                        <div class="chef-social">
+                            <a href="" class="chef-social-item">
+                                <i class="fa fa-facebook"></i>
+                            </a>
+                            <a href="" class="chef-social-item">
+                                <i class="fa fa-twitter"></i>
+                            </a>
+                            <a href="" class="chef-social-item">
+                                <i class="fa fa-linkedin"></i>
+                            </a>
+                            <a href="" class="chef-social-item">
+                                <i class="fa fa-google-plus"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="chef-item">
+                    <div class="chef-image">
+                        <img src="src/assets/img/photos/chef_1.jpg" alt="" />
+                    </div>
+                    <div class="chef-info">
+                        <h3 class="chef-name">Margaret Loe Chef</h3>
+                        <div class="chef-social">
+                            <a href="" class="chef-social-item">
+                                <i class="fa fa-facebook"></i>
+                            </a>
+                            <a href="" class="chef-social-item">
+                                <i class="fa fa-twitter"></i>
+                            </a>
+                            <a href="" class="chef-social-item">
+                                <i class="fa fa-linkedin"></i>
+                            </a>
+                            <a href="" class="chef-social-item">
+                                <i class="fa fa-google-plus"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="chef-item">
+                    <div class="chef-image">
+                        <img src="src/assets/img/photos/chef_2.jpg" alt="" />
+                    </div>
+                    <div class="chef-info">
+                        <h3 class="chef-name">Margaret Loe Chef</h3>
+                        <div class="chef-social">
+                            <a href="" class="chef-social-item">
+                                <i class="fa fa-facebook"></i>
+                            </a>
+                            <a href="" class="chef-social-item">
+                                <i class="fa fa-twitter"></i>
+                            </a>
+                            <a href="" class="chef-social-item">
+                                <i class="fa fa-linkedin"></i>
+                            </a>
+                            <a href="" class="chef-social-item">
+                                <i class="fa fa-google-plus"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="chef-item">
+                    <div class="chef-image">
+                        <img src="src/assets/img/photos/chef_3.jpg" alt="" />
+                    </div>
+                    <div class="chef-info">
+                        <h3 class="chef-name">Margaret Loe Chef</h3>
+                        <div class="chef-social">
+                            <a href="" class="chef-social-item">
+                                <i class="fa fa-facebook"></i>
+                            </a>
+                            <a href="" class="chef-social-item">
+                                <i class="fa fa-twitter"></i>
+                            </a>
+                            <a href="" class="chef-social-item">
+                                <i class="fa fa-linkedin"></i>
+                            </a>
+                            <a href="" class="chef-social-item">
+                                <i class="fa fa-google-plus"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
         <!--    Reservation    -->
 
         <div class="fixed_layer section" id="reservation">
@@ -833,9 +975,6 @@
 
         <!--    Gallery    -->
         <div class="container section" id="gallery" data-aos="fade-up">
-            <div class="title-block">
-                <h1 class="section-title">Gallery</h1>
-            </div>
             <div id="photo_gallery" class="list1">
                 <div class="row">
                     <div class="col-sm-4 col-md-3 item">
@@ -1181,7 +1320,7 @@
     <script src="src/assets/js/jquery.fancybox.js"></script>
     <script src="src/assets/js/loadMoreResults.js"></script>
     <script src="src/assets/js/main.js"></script>
-    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBcg5Y2D1fpGI12T8wcbtPIsyGdw-_NV1Y&callback=myMap"></script>
+    <script src="src/assets/js/mapApiKey.js"></script>
 
 </body>
 
