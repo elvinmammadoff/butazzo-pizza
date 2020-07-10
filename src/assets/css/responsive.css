@@ -35,9 +35,14 @@
     .navbar-collapse.collapse { display: flex!important; }
 }
 
+@media only screen and (max-width: 599px) and (min-width: 354px) {
+    .chef-image img { object-fit: contain; }
+}
+
 @media only screen and (max-width: 767px) {
-    .right_menu_icon {margin-top: 0;}
-    .navbar-collapse.collapse {display: none!important;}
+    .chef-info { padding-left: 20px; padding-right: 20px; }
+    .right_menu_icon { margin-top: 0;}
+    .navbar-collapse.collapse { display: none!important;}
 	.item_badge { width: 90px!important; height: 90px!important; } 
 	.badge_btext { font-size: 28px; }
 	.badge_stext { font-size: 18px; margin-top: -5px; }
