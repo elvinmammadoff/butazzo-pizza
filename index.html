@@ -235,6 +235,7 @@
                                         <ul class="nav navbar-nav">
                                             <li><a class="page-scroll" href="#header">Home</a></li>
                                             <li><a class="page-scroll" href="#about_us">About</a></li>
+                                            <li><a class="page-scroll" href="#chef">Chef</a></li>
                                             <li><a class="page-scroll" href="#menu">Menus</a></li>
                                             <li><a class="page-scroll" href="#gallery">Gallery</a></li>
                                             <li><a class="page-scroll" href="#reservation">Reservation</a></li>
@@ -975,6 +976,9 @@
 
         <!--    Gallery    -->
         <div class="container section" id="gallery" data-aos="fade-up">
+            <div class="title-block">
+                <h1 class="section-title">Gallery</h1>
+            </div>
             <div id="photo_gallery" class="list1">
                 <div class="row">
                     <div class="col-sm-4 col-md-3 item">
@@ -1287,6 +1291,7 @@
         <ul class="rmenu_list">
             <li><a class="page-scroll" href="#header">Home</a></li>
             <li><a class="page-scroll" href="#about_us">About</a></li>
+            <li><a class="page-scroll" href="#chef">Chef</a></li>
             <li><a class="page-scroll" href="#menu">Menus</a></li>
             <li><a class="page-scroll" href="#gallery">Gallery</a></li>
             <li><a class="page-scroll" href="#reservation">Reservation</a></li>
