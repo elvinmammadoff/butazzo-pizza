@@ -232,7 +232,7 @@
                           <code>main.css</code> custom style file.<br> 
                           <code>responsive.css</code> for responsive design.<br>      
                           <code>aos.css</code> animate On scroll library.<br>     
-                          <code>slick-carousel.css</code> is a responsive carousel jQuery plugin that supports multiple breakpoints, CSS3 transitions, touch events/swiping & much more.<br>                          
+                          <code>slick.css</code> is a responsive carousel jQuery plugin that supports multiple breakpoints, CSS3 transitions, touch events/swiping & much more.<br>                          
                           <code>scrolling-nav.css</code> is a basic Bootstrap framework for creating smooth scrolling, one page websites <br>   
                           <code>jquery.fancybox.css</code> is a tool for displaying images, html content and multi-media in a Mac-style "lightbox" that floats overtop of web page <br>
                           <code>touch-sideswipe.css</code> widget-library for mobile navbar (vanilla js and little bit pure css)                                        
@@ -265,6 +265,7 @@
     |-- slick.min.js
     |-- scrolling-nav.js
     |-- loadMoreResults.js
+    |-- mapApiKey.js
   </code>
 </pre> 
                          
@@ -282,7 +283,8 @@
                           <code>scrolling-nav.js</code> is a basic Bootstrap framework for creating smooth scrolling, one page websites <br />   
                           <code>jquery.fancybox.js</code> is a tool for displaying images, html content and multi-media in a Mac-style "lightbox" that floats overtop of web page <br />
                           <code>jquery.touchSwipe.min.js</code> widget-library for mobile navbar (vanilla js and little bit pure css) <br />
-                          <code>loadMoreResults.js</code> is a small jQuery plugin for adding a 'Load More' pagination button to your long web content that allows you to dynamically load more items according to your needs.                          
+                          <code>loadMoreResults.js</code> is a small jQuery plugin for adding a 'Load More' pagination button to your long web content that allows you to dynamically load more items according to your needs. <br />    
+                          <code>mapApiKey.js</code> to use the Maps Embed API you must have an API key. The API key is a unique identifier that is used to authenticate requests associated with your project for usage and billing purposes.                   
                         </p>
 
                     </section>
@@ -409,6 +411,7 @@
   
   V. 1.4.0 – 10.07.2020
   - New Feature: Chef personal info can be added and shown on slider
+  - Fix: Google Map API key source
   - Tweak: Improved Documentation
 
   V. 1.3.0 – 03.05.2020
