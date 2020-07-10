@@ -405,35 +405,41 @@
 
                           <p>We’re always improving our skills and knowledge so we’re making changes regularly. From bug fixes to new awesome features, updates generally come at least twice a month.<p>                       
 
-<pre>     
-  V1.4
-  - fixed: go to top button work on footer
-  - fixed: search input clear empty value
-  - added: animate gallery load icon when click more button
-  - added: menu and gallery big images for popup
-  - changed: menu and gallery images
-  - updated: documentation file
-
-  V1.3
-  - fixed: header search clear button type
-  - fixed: inputs type text autocomplete 
-  - added: scroll up button function
-  - updated: documentation file
-
-  V1.2
-  - fixed: burger menu view on tablet devices
-  - fixed: navbar fixed view 
-  - updated: documentation file
-
-  V1.1
-  - added: loadMoreResults plugin for gallery photos
-  - fixed: slider responsive view to medium devices
-  - added: extra images for slider, menu and gallery sections
-  - changed: content of menu section  
-  - updated: documentation file
+<pre>   
   
-  V1.0
-  - fixed: font smoothing in webkit and firefox  
+  V. 1.4.0 – 10.07.2020
+  - New Feature: Chef personal info can be added and shown on slider
+  - Tweak: Improved Documentation
+
+  V. 1.3.0 – 03.05.2020
+  - New: Animate gallery load icon added for more button
+  - Fix: Go to top button work on footer
+  - Fix: Search input clear empty value
+  - Tweak: Improved Documentation
+    
+  V. 1.2.0 – 1.12.2019
+  - New: Scroll up button functionality added
+  - Fix: Header search clear button type
+  - Fix: Inputs type text autocomplete 
+  - Tweak: Improved Documentation
+
+  V. 1.1.1 – 30.09.2018
+  - Fix: Burger menu view on tablet devices
+  - Fix: Navbar fixed view 
+  - Tweak: Improved Documentation
+
+  V. 1.1.0 – 08.07.2018
+  - New: loadMoreResults plugin for gallery photos
+  - Fix: Slider responsive view to medium devices
+  - Added: Extra images for slider, menu and gallery sections
+  - Fix: Content of menu section  
+  - Tweak: Improved Documentation
+
+  V. 1.0.1 – 7.07.2018
+  - Tweak: Improved Fonts Loading Performance
+  
+  V. 1.0.0 – 2.06.2018
+  - Initial release
 </pre>  
                     </section>
 

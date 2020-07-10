@@ -1,6 +1,6 @@
 /*********************************************************************************
 
-	Version: 1.3
+	Version: 1.4
 
     Note: This is scripts js. All custom scripts here.
 
