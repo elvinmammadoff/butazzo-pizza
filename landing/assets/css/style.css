@@ -221,11 +221,15 @@ a:focus {
     position: relative;
     display: block;
     text-align: center;
+    background: url('../img/frame.png') no-repeat;
+    background-size: contain;
+    padding-top: 34px;
+    box-shadow: 0 3px 12px 0 rgba(25,31,33,.1);
 }
 .demo-item:hover {
     z-index: 1;
 }
-.demo-item:before {
+/* .demo-item:before {
     content: '';
     position: fixed;
     top: 0;
@@ -242,7 +246,7 @@ a:focus {
 .demo-item:hover:before {
     opacity: 1;
     visibility: visible;
-}
+} */
 .demo-inner {
     height: 600px;
     width: 100%;
@@ -250,12 +254,12 @@ a:focus {
     background-repeat: no-repeat;
     background-position: top;
     transition: background-position 6s linear;
-    border-radius: 8px;
+    border-radius: 0 0 8px 8px;
     margin-bottom: 20px;
 }
-.demo-inner:hover {
+/* .demo-inner:hover {
     background-position: bottom;
-}
+} */
 .demo-inner.page-1 {
     background-image: url('https://s3.envato.com/files/286184278/02_Home%20V1.jpg');
 }
