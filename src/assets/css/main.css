@@ -156,21 +156,15 @@ a:focus {
     margin-bottom: 45px;
 }
 
-#gallery .members .name {
-    font-weight: normal;
-    font-family: Raleway-Black;
-}
-
 .navbar-nav>li>a {
     font-weight: normal;
-    font-family: Montserrat-Bold;
+    font-family: 'Montserrat-Bold';
 }
 
 #navbar_search input {
-    font-family: Raleway-Regular;
+    font-family: 'Raleway-Regular';
 }
 
-#gallery .members .position,
 #footer .form-control,
 .section-short,
 #menu_items .info .short {
@@ -185,7 +179,7 @@ a:focus {
 
 #menu_items .info .name {
     font-weight: normal;
-    font-family: Raleway-Bold;
+    font-family: 'Raleway-Bold';
 }
 
 .carousel-caption h1,
