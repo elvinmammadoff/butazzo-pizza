@@ -368,38 +368,6 @@
                                 </div>
                             </a>
                         </div>
-                        <div class="col-xs-6 col-sm-4 col-md-3">
-                            <a href="src/assets/img/photos/veggie-burger-lg.jpg" class="block fancybox">
-                                <div class="content">
-                                    <div class="filter_item_img">
-                                        <i class="fa fa-search-plus"></i>
-                                        <img src="src/assets/img/photos/veggie-burger-xs.jpg" alt="sample" />
-                                    </div>
-                                    <div class="info">
-                                        <div class="name">Veggie Burger</div>
-                                        <div class="size">Size: Regular</div>
-                                        <div class="short">Black beans, brown rice, mushrooms, tomato paste, smoked paprika</div>
-                                        <span class="filter_item_price">$8.99</span>
-                                    </div>
-                                </div>
-                            </a>
-                        </div>
-                        <div class="col-xs-6 col-sm-4 col-md-3">
-                            <a href="src/assets/img/photos/wild-salmon-burger-lg.jpg" class="block fancybox">
-                                <div class="content">
-                                    <div class="filter_item_img">
-                                        <i class="fa fa-search-plus"></i>
-                                        <img src="src/assets/img/photos/wild-salmon-burger-xs.jpg" alt="sample" />
-                                    </div>
-                                    <div class="info">
-                                        <div class="name">Wild Salmon Burger</div>
-                                        <div class="size">Size: Regular</div>
-                                        <div class="short">Bread crumbs, lemon, dijon mustard, capers, olive oil</div>
-                                        <span class="filter_item_price">$14.28</span>
-                                    </div>
-                                </div>
-                            </a>
-                        </div>
                     </div>
                 </div>
                 <div class="filtr-item image filter pizza">
@@ -732,54 +700,6 @@
                                         <div class="size">Size: Regular</div>
                                         <div class="short">Coconut rum, pineapple juice, blue curacao, luxardo cherries, gold rum</div>
                                         <span class="filter_item_price">$10.24</span>
-                                    </div>
-                                </div>
-                            </a>
-                        </div>
-                        <div class="col-xs-6 col-sm-4 col-md-3">
-                            <a href="src/assets/img/photos/tropical-garden-cocktail-lg.jpg" class="block fancybox">
-                                <div class="content">
-                                    <div class="filter_item_img">
-                                        <i class="fa fa-search-plus"></i>
-                                        <img src="src/assets/img/photos/tropical-garden-cocktail-xs.jpg" alt="sample" />
-                                    </div>
-                                    <div class="info">
-                                        <div class="name">Tropical Garden</div>
-                                        <div class="size">Size: Regular</div>
-                                        <div class="short">Grand marnier, vodka, tropical, cane sugar syrup</div>
-                                        <span class="filter_item_price">$9.89</span>
-                                    </div>
-                                </div>
-                            </a>
-                        </div>
-                        <div class="col-xs-6 col-sm-4 col-md-3">
-                            <a href="src/assets/img/photos/green-tea-lg.jpg" class="block fancybox">
-                                <div class="content">
-                                    <div class="filter_item_img">
-                                        <i class="fa fa-search-plus"></i>
-                                        <img src="src/assets/img/photos/green-tea-xs.jpg" alt="sample" />
-                                    </div>
-                                    <div class="info">
-                                        <div class="name">Green Tea</div>
-                                        <div class="size">Size: Regular</div>
-                                        <div class="short">Green tea is a type of tea that is made from Camellia sinensis leaves</div>
-                                        <span class="filter_item_price">$6.11</span>
-                                    </div>
-                                </div>
-                            </a>
-                        </div>
-                        <div class="col-xs-6 col-sm-4 col-md-3">
-                            <a href="src/assets/img/photos/spicy-ginger-lemon-tea-lg.jpg" class="block fancybox">
-                                <div class="content">
-                                    <div class="filter_item_img">
-                                        <i class="fa fa-search-plus"></i>
-                                        <img src="src/assets/img/photos/spicy-ginger-lemon-tea-xs.jpg" alt="sample" />
-                                    </div>
-                                    <div class="info">
-                                        <div class="name">Spicy Ginger Lemon Tea</div>
-                                        <div class="size">Size: Regular</div>
-                                        <div class="short">Lemon, honey, ginger, cayenne pepper</div>
-                                        <span class="filter_item_price">$9.99</span>
                                     </div>
                                 </div>
                             </a>
