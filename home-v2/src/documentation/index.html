@@ -66,7 +66,7 @@
                           <li data-magellan-arrival="support-desk"><a href="#support-desk">Support Desk</a></li>
                           <li data-magellan-arrival="files-resources"><a href="#files-resources">Files & Resources</a></li>
                           <li data-magellan-arrival="files-resources"><a href="#php-file">PHP Code Explanation</a></li>
-                          <li data-magellan-arrival="files-resources"><a href="#google-map">Google Map Api</a></li>
+                          <li data-magellan-arrival="files-resources"><a href="#yandex-map">Yandex Map Api</a></li>
                           <li data-magellan-arrival="files-resources"><a href="#updates">Regular Updates</a></li>
                       </ol>
 
@@ -265,7 +265,6 @@
     |-- slick.min.js
     |-- scrolling-nav.js
     |-- loadMoreResults.js
-    |-- mapApiKey.js
   </code>
 </pre> 
                          
@@ -283,8 +282,7 @@
                           <code>scrolling-nav.js</code> is a basic Bootstrap framework for creating smooth scrolling, one page websites <br />   
                           <code>jquery.fancybox.js</code> is a tool for displaying images, html content and multi-media in a Mac-style "lightbox" that floats overtop of web page <br />
                           <code>jquery.touchSwipe.min.js</code> widget-library for mobile navbar (vanilla js and little bit pure css) <br />
-                          <code>loadMoreResults.js</code> is a small jQuery plugin for adding a 'Load More' pagination button to your long web content that allows you to dynamically load more items according to your needs. <br />    
-                          <code>mapApiKey.js</code> to use the Maps Embed API you must have an API key. The API key is a unique identifier that is used to authenticate requests associated with your project for usage and billing purposes.                   
+                          <code>loadMoreResults.js</code> is a small jQuery plugin for adding a 'Load More' pagination button to your long web content that allows you to dynamically load more items according to your needs. <br />                     
                         </p>
 
                     </section>
@@ -389,13 +387,13 @@
 
                     </section>
 
-                    <section id="google-map" class="section" data-magellan-destination="google-map">
+                    <section id="yandex-map" class="section" data-magellan-destination="yandex-map">
                           
-                          <h1>8. Google Map Api</h1>
+                          <h1>8. Yandex Map Api</h1>
 
                           <br>
 
-                          <p>I've used Google Map Api to generate Google Map. You are able to change map style or marker from guidelines <a href="https://developers.google.com/maps/documentation/javascript/adding-a-google-map" target="_blank">Google Map</a><p>
+                          <p>I've used Yandex Map Api to generate Yandex Map. You are able to change map style or marker from guidelines <a href="https://tech.yandex.com/maps/doc/jsapi/2.1/quick-start/index-docpage/" target="_blank">Yandex Map</a><p>
 
                     </section>
 
@@ -409,39 +407,7 @@
 
 <pre>   
   
-  V. 1.4.0 – 10.07.2020
-  - New Feature: Chef personal info can be added and shown on slider
-  - Fix: Google Map API key source
-  - Tweak: Improved Documentation
-
-  V. 1.3.0 – 03.05.2020
-  - New: Animate gallery load icon added for more button
-  - Fix: Go to top button work on footer
-  - Fix: Search input clear empty value
-  - Tweak: Improved Documentation
-    
-  V. 1.2.0 – 1.12.2019
-  - New: Scroll up button functionality added
-  - Fix: Header search clear button type
-  - Fix: Inputs type text autocomplete 
-  - Tweak: Improved Documentation
-
-  V. 1.1.1 – 30.09.2018
-  - Fix: Burger menu view on tablet devices
-  - Fix: Navbar fixed view 
-  - Tweak: Improved Documentation
-
-  V. 1.1.0 – 08.07.2018
-  - New: loadMoreResults plugin for gallery photos
-  - Fix: Slider responsive view to medium devices
-  - Added: Extra images for slider, menu and gallery sections
-  - Fix: Content of menu section  
-  - Tweak: Improved Documentation
-
-  V. 1.0.1 – 7.07.2018
-  - Tweak: Improved Fonts Loading Performance
-  
-  V. 1.0.0 – 2.06.2018
+  V. 1.0.0 – 21.07.2020
   - Initial release
 </pre>  
                     </section>
