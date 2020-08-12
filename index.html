@@ -1136,9 +1136,9 @@
 
             <!--    Contact    -->
 
-            <!--    Google map, Social links    -->
+            <!--    Yandex map, Social links    -->
             <div class="section" id="contact">
-                <div id="googleMap"></div> 
+                <div id="map"></div> 
                 <div class="footer_pos">
                     <div class="container">
                         <div class="footer_content">
@@ -1324,8 +1324,8 @@
     <script src="src/assets/js/bootstrap-datetimepicker.js"></script>
     <script src="src/assets/js/jquery.fancybox.js"></script>
     <script src="src/assets/js/loadMoreResults.js"></script>
+    <script src="https://api-maps.yandex.ru/2.1/?apikey=pdct.1.1.20181030T175834Z.133bc6bb41576943.2897484581a2a12fea17740a34279c270c29ac48&lang=en_US"></script>
     <script src="src/assets/js/main.js"></script>
-    <script src="src/assets/js/mapApiKey.js"></script>
 
 </body>
 

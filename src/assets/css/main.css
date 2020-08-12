@@ -22,7 +22,7 @@
     5 - Fixed Layer
 
     6 - Footer
-        6.1 - Google map
+        6.1 - Yandex map
 
     7 - Mobile right menu
 
@@ -1729,13 +1729,12 @@ a:focus {
 
 /*----------------------------------------
 
-  6.1.  Google map
+  6.1.  Yandex map
 
 /*----------------------------------------*/
 
-#googleMap {
+#map {
     height: 500px;
-    margin-bottom: 180px;
 }
 
 
