@@ -283,30 +283,28 @@
             </div>
 
             <!--    Menus filter    -->
-            <div class="menu_filter text-center">
-                <ul class="list-unstyled list-inline d-inline-block">
-                    <li class="item active">
-                        <a href="#menu" class="filter-button" data-filter="burger" onclick = "void(0)">Burger</a>
-                    </li>
-                    <li class="item">
-                        <a href="#menu" class="filter-button" data-filter="pizza" onclick = "void(0)">Pizza</a>
-                    </li>
-                    <li class="item">
-                        <a href="#menu" class="filter-button" data-filter="salad" onclick = "void(0)">Salad</a>
-                    </li>
-                    <li class="item">
-                        <a href="#menu" class="filter-button" data-filter="soup" onclick = "void(0)">Soup</a>
-                    </li>
-                    <li class="item">
-                        <a href="#menu" class="filter-button" data-filter="drinks" onclick = "void(0)">Drinks</a>
-                    </li>
-                </ul>
-            </div> 
+            <ul class="nav nav-tabs menu_filter" id="myTab" role="tablist">
+                <li class="nav-item item" role="presentation">
+                  <a class="nav-link active" id="burger-tab" data-toggle="tab" href="#burger" role="tab" aria-controls="burger" aria-selected="true">Burger</a>
+                </li>
+                <li class="nav-item item" role="presentation">
+                  <a class="nav-link" id="pizza-tab" data-toggle="tab" href="#pizza" role="tab" aria-controls="pizza" aria-selected="false">Pizza</a>
+                </li>
+                <li class="nav-item item" role="presentation">
+                  <a class="nav-link" id="salad-tab" data-toggle="tab" href="#salad" role="tab" aria-controls="salad" aria-selected="false">Salad</a>
+                </li>
+                <li class="nav-item item" role="presentation">
+                  <a class="nav-link" id="soup-tab" data-toggle="tab" href="#soup" role="tab" aria-controls="soup" aria-selected="false">Soup</a>
+                </li>
+                <li class="nav-item item" role="presentation">
+                  <a class="nav-link" id="drinks-tab" data-toggle="tab" href="#drinks" role="tab" aria-controls="drinks" aria-selected="false">Drinks</a>
+                </li>
+            </ul>
+
 
             <!--    Menus items     -->
-            <div id="menu_items">
-
-                <div class="filtr-item image filter burger active">
+            <div class="tab-content" id="menu_items">
+                <div class="tab-pane fade in active" id="burger" role="tabpanel" aria-labelledby="burger-tab">
                     <div class="row">
                         <div class="col-sm-6">
                             <a href="src/assets/img/photos/beef-burger-lg.jpg" class="block fancybox">
@@ -400,7 +398,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="filtr-item image filter pizza">
+                <div class="tab-pane fade" id="pizza" role="tabpanel" aria-labelledby="pizza-tab">
                     <div class="row">
                         <div class="col-sm-6">
                             <a href="src/assets/img/photos/pizza-chicken-tikka-lg.jpg" class="block fancybox">
@@ -522,9 +520,9 @@
                                 </div>
                             </a>
                         </div>
-                    </div>
+                    </div>                    
                 </div>
-                <div class="filtr-item image filter salad">
+                <div class="tab-pane fade" id="salad" role="tabpanel" aria-labelledby="salad-tab">
                     <div class="row">
                         <div class="col-sm-6">
                             <a href="src/assets/img/photos/ambrosia-salad-lg.jpg" class="block fancybox">
@@ -586,9 +584,9 @@
                                 </div>
                             </a>
                         </div>
-                    </div>
+                    </div>                    
                 </div>
-                <div class="filtr-item image filter soup">
+                <div class="tab-pane fade" id="soup" role="tabpanel" aria-labelledby="soup-tab">
                     <div class="row">
                         <div class="col-sm-6">
                             <a href="src/assets/img/photos/chicken-noodle-soup-lg.jpg" class="block fancybox">
@@ -650,9 +648,9 @@
                                 </div>
                             </a>
                         </div>
-                    </div>
+                    </div>                    
                 </div>
-                <div class="filtr-item image filter drinks">
+                <div class="tab-pane fade" id="drinks" role="tabpanel" aria-labelledby="drinks-tab">
                     <div class="row">
                         <div class="col-sm-6">
                             <a href="src/assets/img/photos/americano-cocktail-lg.jpg" class="block fancybox">
@@ -759,25 +757,23 @@
                                 </div>
                             </a>
                         </div>
-                    </div>
+                    </div>                    
                 </div>
 
                 <div class="text-center">
                     <!-- BEGIN pagination -->
                     <ul class="pagination">
-                        <li class="active"><a href="#">1</a></li>
-                        <li><a href="#">2</a></li>
-                        <li><a href="#">3</a></li>
-                        <li><a href="#">4</a></li>
+                        <li class="active"><a href="javascript:;">1</a></li>
+                        <li><a href="javascript:;">2</a></li>
+                        <li><a href="javascript:;">3</a></li>
+                        <li><a href="javascript:;">4</a></li>
                     </ul>
                     <!-- END pagination -->
-                </div>
-
+                </div>                
             </div>
         </div>
 
         <!--    Our Chef    -->
-
         <div class="container section" id="chef" data-aos="fade-up">
             <div class="title-block">
                 <h1 class="section-title">Our Chef</h1>
@@ -919,7 +915,6 @@
         </div>
 
         <!--    Reservation    -->
-
         <div class="fixed_layer section" id="reservation">
             <div class="fixed_layer_padd container">
                 <div class="row">

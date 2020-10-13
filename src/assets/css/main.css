@@ -106,6 +106,10 @@ a:focus {
     opacity: 0;
 }
 
+.fade {
+    transition: opacity .5s ease-in-out;
+}
+
 .btn-border {
     border: 2px solid #379889;
     padding: 6px 66px;
@@ -829,6 +833,30 @@ a:focus {
 
 .menu_filter {
     margin-bottom: 80px;
+    border: none;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+    -webkit-justify-content: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+}
+
+.menu_filter.nav>li {
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
+.menu_filter.nav>li.active>a {
+    border-color: #990100;
+    background-color: #990100;
+    color: #fff;
+}
+
+.menu_filter.nav>li+li:after {
+    content: none;
 }
 
 .menu_filter .item {

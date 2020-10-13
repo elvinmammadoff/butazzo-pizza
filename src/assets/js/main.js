@@ -106,30 +106,6 @@ $(document).ready(function() {
     //======= END Carousel slider ========
 
 
-    //======= START Menu filter ========
-
-    $(document).on('click', '.filter-button', function(){
-
-        $(".filter-button").closest('li').removeClass("active")
-        $(this).closest('li').addClass("active");
-
-        var value = $(this).attr('data-filter');
-        
-        if(value === "active")
-        {
-            $('.filter').show('1000');
-        }
-        else
-        {
-            $(".filter").not('.'+value).hide('3000');
-            $('.filter').filter('.'+value).show('3000');
-            
-        }
-    });
-
-    //======= END Menu filter ========
-
-
     //======= START Search panel ========
 
     // Hide search panel
