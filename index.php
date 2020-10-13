@@ -286,19 +286,19 @@
             <div class="menu_filter text-center">
                 <ul class="list-unstyled list-inline d-inline-block">
                     <li class="item active">
-                        <a href="#burger" class="filter-button" data-filter="burger" onclick = "void(0)">Burger</a>
+                        <a href="#menu" class="filter-button" data-filter="burger" onclick = "void(0)">Burger</a>
                     </li>
                     <li class="item">
-                        <a href="#pizza" class="filter-button" data-filter="pizza" onclick = "void(0)">Pizza</a>
+                        <a href="#menu" class="filter-button" data-filter="pizza" onclick = "void(0)">Pizza</a>
                     </li>
                     <li class="item">
-                        <a href="#salad" class="filter-button" data-filter="salad" onclick = "void(0)">Salad</a>
+                        <a href="#menu" class="filter-button" data-filter="salad" onclick = "void(0)">Salad</a>
                     </li>
                     <li class="item">
-                        <a href="#soup" class="filter-button" data-filter="soup" onclick = "void(0)">Soup</a>
+                        <a href="#menu" class="filter-button" data-filter="soup" onclick = "void(0)">Soup</a>
                     </li>
                     <li class="item">
-                        <a href="#drinks" class="filter-button" data-filter="drinks" onclick = "void(0)">Drinks</a>
+                        <a href="#menu" class="filter-button" data-filter="drinks" onclick = "void(0)">Drinks</a>
                     </li>
                 </ul>
             </div> 
@@ -306,7 +306,7 @@
             <!--    Menus items     -->
             <div id="menu_items">
 
-                <div id="burger" class="filtr-item image filter burger active">
+                <div class="filtr-item image filter burger active">
                     <div class="row">
                         <div class="col-sm-6">
                             <a href="src/assets/img/photos/beef-burger-lg.jpg" class="block fancybox">
@@ -400,7 +400,7 @@
                         </div>
                     </div>
                 </div>
-                <div id="pizza" class="filtr-item image filter pizza">
+                <div class="filtr-item image filter pizza">
                     <div class="row">
                         <div class="col-sm-6">
                             <a href="src/assets/img/photos/pizza-chicken-tikka-lg.jpg" class="block fancybox">
@@ -524,7 +524,7 @@
                         </div>
                     </div>
                 </div>
-                <div id="salad" class="filtr-item image filter salad">
+                <div class="filtr-item image filter salad">
                     <div class="row">
                         <div class="col-sm-6">
                             <a href="src/assets/img/photos/ambrosia-salad-lg.jpg" class="block fancybox">
@@ -588,7 +588,7 @@
                         </div>
                     </div>
                 </div>
-                <div id="soup" class="filtr-item image filter soup">
+                <div class="filtr-item image filter soup">
                     <div class="row">
                         <div class="col-sm-6">
                             <a href="src/assets/img/photos/chicken-noodle-soup-lg.jpg" class="block fancybox">
@@ -652,7 +652,7 @@
                         </div>
                     </div>
                 </div>
-                <div id="drinks" class="filtr-item image filter drinks">
+                <div class="filtr-item image filter drinks">
                     <div class="row">
                         <div class="col-sm-6">
                             <a href="src/assets/img/photos/americano-cocktail-lg.jpg" class="block fancybox">
