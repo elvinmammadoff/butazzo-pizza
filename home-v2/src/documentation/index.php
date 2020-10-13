@@ -407,6 +407,11 @@
 
 <pre>   
   
+  V. 1.0.1 – 13.10.2020
+  - Fix: "Our Menus" section tab on click problem on iPhone devices.
+  - Tested: Android (Samsung, Google, HTC) and iOS (iPhone 11, iPhone 6s, iPad (6th Generation), iPad Air 2) devices, Safari, Firefox, Chrome browsers. 
+  - Tweak: Improved Documentation
+  
   V. 1.0.0 – 21.07.2020
   - Initial release
 </pre>  
