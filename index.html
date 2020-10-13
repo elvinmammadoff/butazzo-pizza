@@ -286,19 +286,19 @@
             <div class="menu_filter text-center">
                 <ul class="list-unstyled list-inline d-inline-block">
                     <li class="item active">
-                        <a href="javascript:;" class="filter-button" data-filter="burger">Burger</a>
+                        <a href="javascript:;" class="filter-button" data-filter="burger" onclick = "void(0)">Burger</a>
                     </li>
                     <li class="item">
-                        <a href="javascript:;" class="filter-button" data-filter="pizza">Pizza</a>
+                        <a href="javascript:;" class="filter-button" data-filter="pizza" onclick = "void(0)">Pizza</a>
                     </li>
                     <li class="item">
-                        <a href="javascript:;" class="filter-button" data-filter="salad">Salad</a>
+                        <a href="javascript:;" class="filter-button" data-filter="salad" onclick = "void(0)">Salad</a>
                     </li>
                     <li class="item">
-                        <a href="javascript:;" class="filter-button" data-filter="soup">Soup</a>
+                        <a href="javascript:;" class="filter-button" data-filter="soup" onclick = "void(0)">Soup</a>
                     </li>
                     <li class="item">
-                        <a href="javascript:;" class="filter-button" data-filter="drinks">Drinks</a>
+                        <a href="javascript:;" class="filter-button" data-filter="drinks" onclick = "void(0)">Drinks</a>
                     </li>
                 </ul>
             </div> 
