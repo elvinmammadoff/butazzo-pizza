@@ -47,6 +47,9 @@ ul, ol {
 li {
     padding: 7px;
 }
+pre {
+    white-space: pre-wrap;
+}
 pre code {
     background: transparent;
     border-width: 0;
