@@ -284,7 +284,7 @@
 
             <!--    Menus filter    -->
             <ul class="nav nav-tabs menu_filter" id="myTab" role="tablist">
-                <li class="nav-item item" role="presentation">
+                <li class="nav-item item active" role="presentation">
                   <a class="nav-link active" id="burger-tab" data-toggle="tab" href="#burger" role="tab" aria-controls="burger" aria-selected="true">Burger</a>
                 </li>
                 <li class="nav-item item" role="presentation">
