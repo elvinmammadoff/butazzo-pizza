@@ -108,7 +108,7 @@ $(document).ready(function() {
 
     //======= START Menu filter ========
 
-    $(document).on('click', '.filter-button', function(){
+    $('.filter-button').on('click', function(){
 
         $(".filter-button").closest('li').removeClass("active")
         $(this).closest('li').addClass("active");
