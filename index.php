@@ -14,8 +14,9 @@
     <title>Butazzo Pizza - Restaurant, Cafe, Fast Food business HTML5 Responsive, CSS3 One Page Template</title>
 
     <!-- Stylesheets -->
-    <link href="src/assets/css/bootstrap.min.css" type="text/css" rel="stylesheet" media="all" />
-    <link href="src/assets/css/bootstrap-theme.min.css" type="text/css" rel="stylesheet" media="all" />
+    <!-- <link href="src/assets/css/bootstrap.min.css" type="text/css" rel="stylesheet" media="all" /> -->
+    <!-- <link href="src/assets/css/bootstrap-theme.min.css" type="text/css" rel="stylesheet" media="all" /> -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
     <link href="src/assets/css/fonts.css" type="text/css" rel="stylesheet" />
     <link href="src/assets/css/font-awesome.min.css" type="text/css" rel="stylesheet" />
     <link href="src/assets/css/slick.css" type="text/css" rel="stylesheet" />
@@ -40,21 +41,6 @@
     <link rel="mask-icon" href="src/assets/img/favicon/safari-pinned-tab.svg" color="#5bbad5" />
     <meta name="msapplication-TileColor" content="#990100" />
     <meta name="theme-color" content="#ffffff" />    
-    
-    <script src="src/assets/js/jquery-2.1.1.min.js"></script>
-
-    <script type="text/javascript">
-$(window).on('load', () => {
-  let iOSdevice = !!navigator.platform && /iPad|iPhone|iPod/.test(navigator.platform)
-  if (iOSdevice)
-    $('[role="tablist"] .nav-link').each((i,e) => {
-      if (!$(e).attr('href'))
-        $(e).attr('href', $(e).data('target'))
-    })
-})
-    </script> 
-
-    <script src="src/assets/js/bootstrap.min.js"></script>
 
 </head>
 <!-- END head -->
@@ -298,7 +284,7 @@ $(window).on('load', () => {
             </div>
 
             <!--    Menus filter    -->
-            <ul class="nav nav-tabs menu_filter" id="myTab" role="tablist" data-toggle="tasb">
+            <ul class="nav nav-tabs menu_filter" id="myTab" role="tablist">
                 <li class="nav-item item active" role="presentation">
                   <a class="nav-link active" id="burger-tab" data-toggle="tab" href="#burger" role="tab" aria-controls="burger" aria-selected="true">Burger</a>
                 </li>
@@ -1321,6 +1307,9 @@ $(window).on('load', () => {
     <!-- END mobile right burger menu -->
 
     <!-- JavaScript -->
+    <script src="src/assets/js/jquery-2.1.1.min.js"></script>
+    <!-- <script src="src/assets/js/bootstrap.min.js"></script> -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
     <script src="src/assets/js/jquery.mousewheel.min.js"></script>
     <script src="src/assets/js/jquery.easing.min.js"></script>
     <script src="src/assets/js/scrolling-nav.js"></script>
