@@ -42,6 +42,13 @@
     <meta name="theme-color" content="#ffffff" />    
     
     <script src="src/assets/js/jquery-2.1.1.min.js"></script>
+
+    <script type="text/javascript">
+        jQuery(document).ready(function ($) {
+            $('#tabs').tab();
+        });
+    </script> 
+
     <script src="src/assets/js/bootstrap.min.js"></script>
 
 </head>
