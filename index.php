@@ -44,9 +44,14 @@
     <script src="src/assets/js/jquery-2.1.1.min.js"></script>
 
     <script type="text/javascript">
-        jQuery(document).ready(function ($) {
-            $('#tabs').tab();
-        });
+$(window).on('load', () => {
+  let iOSdevice = !!navigator.platform && /iPad|iPhone|iPod/.test(navigator.platform)
+  if (iOSdevice)
+    $('[role="tablist"] .nav-link').each((i,e) => {
+      if (!$(e).attr('href'))
+        $(e).attr('href', $(e).data('target'))
+    })
+})
     </script> 
 
     <script src="src/assets/js/bootstrap.min.js"></script>
