@@ -33,6 +33,8 @@
 
 $(document).ready(function() {
 
+    $("#myTab").tab();
+
     //======= START jQuery loadMoreResults ========
 
     $(".btn-load-more").click(function(){

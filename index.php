@@ -40,6 +40,9 @@
     <link rel="mask-icon" href="src/assets/img/favicon/safari-pinned-tab.svg" color="#5bbad5" />
     <meta name="msapplication-TileColor" content="#990100" />
     <meta name="theme-color" content="#ffffff" />    
+    
+    <script src="src/assets/js/jquery-2.1.1.min.js"></script>
+    <script src="src/assets/js/bootstrap.min.js"></script>
 
 </head>
 <!-- END head -->
@@ -283,7 +286,7 @@
             </div>
 
             <!--    Menus filter    -->
-            <ul class="nav nav-tabs menu_filter" id="myTab" role="tablist">
+            <ul class="nav nav-tabs menu_filter" id="myTab" role="tablist" data-toggle="tasb">
                 <li class="nav-item item active" role="presentation">
                   <a class="nav-link active" id="burger-tab" data-toggle="tab" href="#burger" role="tab" aria-controls="burger" aria-selected="true">Burger</a>
                 </li>
@@ -1306,8 +1309,6 @@
     <!-- END mobile right burger menu -->
 
     <!-- JavaScript -->
-    <script src="src/assets/js/jquery-2.1.1.min.js"></script>
-    <script src="src/assets/js/bootstrap.min.js"></script>
     <script src="src/assets/js/jquery.mousewheel.min.js"></script>
     <script src="src/assets/js/jquery.easing.min.js"></script>
     <script src="src/assets/js/scrolling-nav.js"></script>
