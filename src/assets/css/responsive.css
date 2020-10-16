@@ -65,6 +65,7 @@
     #menu_items .info .short { width: 80%; margin: 8px auto; white-space: unset; }
     .menu_filter { margin-bottom: 40px; }
     .menu_filter .item a { font-size: 14px; padding: 2px 20px; }
+    .menu_filter .item a:hover {border-color: #f6a525; color: #f6a525; background-color: transparent;}
     #menu_items .image { margin-bottom: 10px; }
     .filter_item_img { float: none; margin-right: 0; }
     .about_img { height: auto; }

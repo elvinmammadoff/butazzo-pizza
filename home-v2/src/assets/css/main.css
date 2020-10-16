@@ -929,7 +929,6 @@ a:focus {
     display: block;
 }
 
-.menu_filter .item a:focus,
 .menu_filter .item a:hover {
     text-decoration: none;
     background-color: #0C8027;
@@ -940,6 +939,12 @@ a:focus {
     -ms-transition: all .3s ease-out;
     -o-transition: all .3s ease-out;
     transition: all .3s ease-out;
+}
+
+.menu_filter .item a:focus {
+    background-color: transparent;
+    border-color: #FF7200;
+    color: #FF7200;
 }
 
 .menu_filter .item.active a {
