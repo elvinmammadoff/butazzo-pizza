@@ -66,7 +66,7 @@
                           <li data-magellan-arrival="support-desk"><a href="#support-desk">Support Desk</a></li>
                           <li data-magellan-arrival="files-resources"><a href="#files-resources">Files & Resources</a></li>
                           <li data-magellan-arrival="files-resources"><a href="#php-file">PHP Code Explanation</a></li>
-                          <li data-magellan-arrival="files-resources"><a href="#google-map">Google Map Api</a></li>
+                          <li data-magellan-arrival="files-resources"><a href="#yandex-map">Yandex Map Api</a></li>
                           <li data-magellan-arrival="files-resources"><a href="#updates">Regular Updates</a></li>
                       </ol>
 
@@ -284,7 +284,6 @@
                           <code>jquery.fancybox.js</code> is a tool for displaying images, html content and multi-media in a Mac-style "lightbox" that floats overtop of web page <br />
                           <code>jquery.touchSwipe.min.js</code> widget-library for mobile navbar (vanilla js and little bit pure css) <br />
                           <code>loadMoreResults.js</code> is a small jQuery plugin for adding a 'Load More' pagination button to your long web content that allows you to dynamically load more items according to your needs. <br />    
-                          <code>mapApiKey.js</code> to use the Maps Embed API you must have an API key. The API key is a unique identifier that is used to authenticate requests associated with your project for usage and billing purposes.                   
                         </p>
 
                     </section>
@@ -389,13 +388,13 @@
 
                     </section>
 
-                    <section id="google-map" class="section" data-magellan-destination="google-map">
+                    <section id="yandex-map" class="section" data-magellan-destination="yandex-map">
                           
-                          <h1>8. Google Map Api</h1>
+                          <h1>8. Yandex Map Api</h1>
 
                           <br>
 
-                          <p>I've used Google Map Api to generate Google Map. You are able to change map style or marker from guidelines <a href="https://developers.google.com/maps/documentation/javascript/adding-a-google-map" target="_blank">Google Map</a><p>
+                          <p>I've used Yandex Map Api to generate Yandex Map. You are able to change map style or marker from guidelines <a href="https://tech.yandex.com/maps/doc/jsapi/2.1/quick-start/index-docpage/" target="_blank">Yandex Map</a><p>
 
                     </section>
 
@@ -409,14 +408,24 @@
 
 <pre>   
   
-  V. 1.4.1 – 13.10.2020
+  V. 1.5.1 – 13.10.2020
   - Fix: "Our Menus" section tab on click problem on iPhone devices.
   - Tested: Android (Samsung, Google, HTC) and iOS (iPhone 11, iPhone 6s, iPad (6th Generation), iPad Air 2) devices, Safari, Firefox, Chrome browsers. 
+  - Tweak: Improved Documentation
+  
+  V. 1.5.0 – 21.07.2020
+  - New: Home version 2 added
+  - Added: Yandex Map API
   - Tweak: Improved Documentation
   
   V. 1.4.0 – 10.07.2020
   - New Feature: Chef personal info can be added and shown on slider
   - Fix: Google Map API key source
+  - Tweak: Improved Documentation
+
+  V. 1.3.1 – 04.05.2020
+  - Added: Menu and gallery big images for popup
+  - Fix: Menu and gallery images changed
   - Tweak: Improved Documentation
 
   V. 1.3.0 – 03.05.2020
