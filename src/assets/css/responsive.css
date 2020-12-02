@@ -130,7 +130,7 @@
 	.search_input:-moz-placeholder { color: #fff;}
 	.right_menu_search form { position: relative; }
 	.right_menu_search { padding: 15px; }
-    #googleMap { margin-bottom: 0; height: 300px; }
+    #map { height: 300px; }
     .footer_pos { top: 20px; position: relative; padding-bottom: 20px; }
     #footer .footer_border { border: none; padding-left: 0; }
     #footer .footer_ttl_padd, #footer .footer_txt { padding-left: 0; }

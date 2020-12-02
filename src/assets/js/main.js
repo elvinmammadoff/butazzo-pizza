@@ -13,7 +13,7 @@
     |___ loadMoreResults
     |___ Touch Swipe mobile menu
     |___ Loading overlay
-    |___ Carousel sliderfilter
+    |___ Carousel Slider filter
 	|___ Search panel
 	|___ AOS Animate
 	|___ Swipe Carousel slider
