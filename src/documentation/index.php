@@ -3,9 +3,11 @@
     <head>
         <meta charset="utf-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-        <title></title>
         <meta name="description" content="">
         <meta name="viewport" content="width=device-width, initial-scale=1">
+
+        <!-- Title -->
+        <title>Documentation - Butazzo Pizza</title>
 
         <link rel="stylesheet" href="css/normalize.min.css">
         <link rel="stylesheet" href="css/foundation.css">
@@ -21,7 +23,7 @@
     <body>
 
         <header id="site-header">
-            
+
             <div class="row">
 
               <div class="large-10 large-centered columns">
@@ -34,7 +36,7 @@
                   <ul class="meta">
                       <li><strong>Author:</strong> <a href="https://themeforest.net/user/alissio" target="_blank">Alissio</a></li>
                       <li><strong>Live Preview:</strong> <a href="https://butazzo-pizza.herokuapp.com/">View Demo</a></li>
-                      <li><strong>Support:</strong> <a href="mailto:elvinmammadoff@gmail.com">Ask a Question</a></li> 
+                      <li><strong>Support:</strong> <a href="mailto:elvinmammadoff@gmail.com">Ask a Question</a></li>
                   </ul>
 
                   <p>Thank you for purchasing my theme. <br> If you have any questions that are beyond the scope of this help file, <br> please feel free to email <a href="mailto:designer.rafiq@gmail.com">here</a><br> Thanks so much!</p>
@@ -74,10 +76,10 @@
 
                 </div>
 
-                <m id="main-content" class="large-9 large-pull-3 columns">
+                <div id="main-content" class="large-9 large-pull-3 columns">
 
                     <section id="introduction" class="section" data-magellan-destination="introduction">
-                          
+
                           <h1>Howdy!</h1>
                           <p class="lead">You are a shining owner of a regular license based on Butazzo Pizza Theme</p>
                           <p>First of all, Thank you so much for purchasing this template and for being my loyal customer. You are entitled to get free updates to this product + exceptional support (as per market policy) from the author directly.</p>
@@ -86,7 +88,7 @@
                     </section>
 
                     <section id="getting-started" class="section" data-magellan-destination="getting-started">
-                          
+
                           <h1>1. Getting Started</h1>
 
                           <br>
@@ -99,7 +101,7 @@
                             <li><strong>template</strong> — Contains all the original template files comprises of HTML, CSS, JS etc. This is the folder which you'll upload on your server after necessary modifications.</li>
 
                             <li><strong>documentation</strong> — Inside this folder, you will find the same documentation updated with the latest changes.</li>
-                            
+
                           </ul>
 
                           <p>Details regarding contents and structure of <code>template</code> folder is given below.</p>
@@ -107,7 +109,7 @@
                     </section>
 
                     <section id="html-structure" class="section"  data-magellan-destination="html-structure">
-                          
+
                       <h1>2. HTML Structure</h1>
 
                       <br>
@@ -120,8 +122,8 @@
 
 <pre data-language="HTML Skeleton">
   <code class="language-markup">
-  
-    <!-- BEGIN  Loading Section -->  
+
+    <!-- BEGIN  Loading Section -->
     <div class="loading-overlay">
         <div class="spinner">
             <span></span>
@@ -132,49 +134,49 @@
         </div>
     </div>
     <!-- END Loading Section -->
-  
+
     <!-- BEGIN body wrapper -->
       <div class="body-wrapper">
-  
+
         <!-- Begin header-->
         <header id="header"></header>
         <!-- End header-->
-  
+
         <!-- Begin Sections-->
-  
+
         <!--    About Us    -->
         <div class="container section" id="about_us"></div>
-  
+
         <!--    Menus   -->
         <div class="container section" id="menu"></div>
-  
+
         <!--    Reservation    -->
         <div class="fixed_layer section" id="reservation"></div>
-  
+
         <!--    Gallery    -->
         <div class="container section" id="gallery"></div>
-  
+
         <!-- End Sections -->
-  
+
         <!--  Begin Footer  -->
-        <footer></footer> 
+        <footer></footer>
         <!-- End Footer -->
-  
+
       </div>
     <!-- END body-wrapper -->
-    
+
     <!-- START mobile right burger menu -->
     <nav class="cd-nav-container right_menu" id="cd-nav"></nav>
-  
+
     <div class="cd-overlay"></div><!-- /.cd-overlay -->
-  
+
   </code>
   </pre>
-                          
+
 
                     </section>
                     <section id="skeleton-details" class="sub-section"  data-magellan-destination="skeleton-details">
-                          
+
                           <h2>2.1. Skeleton Details</h2>
 
                           <br>
@@ -193,7 +195,7 @@
 
                     </section>
                     <section id="stylesheet-files" class="section" data-magellan-destination="stylesheet-files">
-                          
+
                           <h1>3. Stylesheet Files</h1>
 
                           <br>
@@ -223,24 +225,24 @@
 
                           <br>
                           <p>
-                           As it can be seen, the folder contains 14 <code>css</code> files.<br> 
+                           As it can be seen, the folder contains 14 <code>css</code> files.<br>
                           <code>bootstrap.min.css</code> is an open source toolkit for developing with HTML, CSS, and JS. Quickly prototype your ideas or build your entire app with responsive grid system.<br>
                           <code>bootstrap-datepicker.css</code> provides a flexible datepicker widget in the Bootstrap style.<br>
                           <code>bootstrap-datetimepicker.css</code> widget based on twitter bootstrap.<br>
                           <code>fonts.css</code> import fonts to stylesheet.<br>
                           <code>font-awesome.min.css</code> is iconic font and CSS toolkit.<br>
-                          <code>main.css</code> custom style file.<br> 
-                          <code>responsive.css</code> for responsive design.<br>      
-                          <code>aos.css</code> animate On scroll library.<br>     
-                          <code>slick.css</code> is a responsive carousel jQuery plugin that supports multiple breakpoints, CSS3 transitions, touch events/swiping & much more.<br>                          
-                          <code>scrolling-nav.css</code> is a basic Bootstrap framework for creating smooth scrolling, one page websites <br>   
+                          <code>main.css</code> custom style file.<br>
+                          <code>responsive.css</code> for responsive design.<br>
+                          <code>aos.css</code> animate On scroll library.<br>
+                          <code>slick.css</code> is a responsive carousel jQuery plugin that supports multiple breakpoints, CSS3 transitions, touch events/swiping & much more.<br>
+                          <code>scrolling-nav.css</code> is a basic Bootstrap framework for creating smooth scrolling, one page websites <br>
                           <code>jquery.fancybox.css</code> is a tool for displaying images, html content and multi-media in a Mac-style "lightbox" that floats overtop of web page <br>
-                          <code>touch-sideswipe.css</code> widget-library for mobile navbar (vanilla js and little bit pure css)                                        
+                          <code>touch-sideswipe.css</code> widget-library for mobile navbar (vanilla js and little bit pure css)
                           </p>
                     </section>
 
                     <section id="javascript-files" class="section" data-magellan-destination="javascript-files">
-                          
+
                           <h1>4. Javascript Files</h1>
 
                           <br>
@@ -250,10 +252,10 @@
 <pre data-language="Folder Map">
   <code class="language-markup">
     js/
-    |    
-    |-- jquery-2.1.1.min.js  
-    |-- bootstrap.min.js 
-    |-- jquery.easing.min.js      
+    |
+    |-- jquery-2.1.1.min.js
+    |-- bootstrap.min.js
+    |-- jquery.easing.min.js
     |-- bootstrap-datepicker.js
     |-- bootstrap-datetimepicker.js
     |-- moment.js
@@ -265,54 +267,53 @@
     |-- slick.min.js
     |-- scrolling-nav.js
     |-- loadMoreResults.js
-    |-- mapApiKey.js
   </code>
-</pre> 
-                         
+</pre>
+
                           <br>
                           <p>
-                          In this folder there are 13 files. <br> 
+                          In this folder there are 13 files. <br>
                           <code>jquery.min.js</code> is a fast, small, and feature-rich JavaScript library<br>
                           <code>jquery.easing.min.js</code> a jQuery plugin from GSGD to give advanced easing options<br>
                           <code>bootstrap.min.js</code> is an open source toolkit for developing with HTML, CSS, and JS. Quickly prototype your ideas or build your entire app with responsive grid system<br>
                           <code>bootstrap-datetimepicker.js</code> widget based on twitter bootstrap<br />
                           <code>bootstrap-datepicker.js</code> provides a flexible datepicker widget in the Bootstrap style
-                          <code>main.js</code> contains all the custom programmed javascript coded specifically for this template<br> 
+                          <code>main.js</code> contains all the custom programmed javascript coded specifically for this template<br>
                           <code>aos.js</code> animate On scroll library<br />
                           <code>slick.min.js</code> is a responsive carousel jQuery plugin that supports multiple breakpoints, CSS3 transitions, touch events/swiping & much more<br>
-                          <code>scrolling-nav.js</code> is a basic Bootstrap framework for creating smooth scrolling, one page websites <br />   
+                          <code>scrolling-nav.js</code> is a basic Bootstrap framework for creating smooth scrolling, one page websites <br />
                           <code>jquery.fancybox.js</code> is a tool for displaying images, html content and multi-media in a Mac-style "lightbox" that floats overtop of web page <br />
                           <code>jquery.touchSwipe.min.js</code> widget-library for mobile navbar (vanilla js and little bit pure css) <br />
-                          <code>loadMoreResults.js</code> is a small jQuery plugin for adding a 'Load More' pagination button to your long web content that allows you to dynamically load more items according to your needs. <br />    
+                          <code>loadMoreResults.js</code> is a small jQuery plugin for adding a 'Load More' pagination button to your long web content that allows you to dynamically load more items according to your needs. <br />
                         </p>
 
                     </section>
 
                     <section id="support-desk" class="section" data-magellan-destination="support-desk">
-                          
+
                           <h1>5. Support Desk</h1>
 
                           <br>
 
                           <p>Please be reminded that you have purchased a very affordable theme and you have not paid for a full-time web design agency. Occasionally, we will help with small tweaks, but these requests will be put on a lower priority due to their nature.</p>
-                      
+
 
                           <section class="sub-section">
-                                
+
                                 <h2>Support for my items includes:</h2>
 
                                 <br>
 
                                 <ul>
                                   <li>Responding to questions or problems regarding the item and its features</li>
-                                  <li>Fixing bugs and reported issues</li>        
+                                  <li>Fixing bugs and reported issues</li>
                                   <li>Providing updates to ensure compatibility with new software versions</li>
-                                </ul>   
+                                </ul>
 
                           </section>
 
                           <section class="sub-section">
-                                
+
                                 <h2>Item support does not include:</h2>
 
                                 <br>
@@ -320,12 +321,12 @@
                                 <ul>
                                   <li>Customization and installation services</li>
                                   <li>Support for third party software and plug-ins</li>
-                                </ul>   
+                                </ul>
 
                           </section>
 
                           <section class="sub-section">
-                                
+
                                 <h2>Before seeking support, please...</h2>
 
                                 <br>
@@ -339,13 +340,13 @@
                                   <li>Make sure to state the name of the item you are having issues with when requesting support via ThemeForest.</li>
                                 </ul>
 
-                          </section>   
+                          </section>
 
 
-                    </section>                    
+                    </section>
 
                     <section id="files-resources" class="section" data-magellan-destination="files-resources">
-                          
+
                           <h1>6. Files &amp; Resources</h1>
 
                           <br>
@@ -379,7 +380,7 @@
                     </section>
 
                     <section id="php-file" class="section" data-magellan-destination="php-file">
-                          
+
                           <h1>7. PHP Code Explanation</h1>
 
                           <br>
@@ -389,12 +390,12 @@
                     </section>
 
                     <section id="yandex-map" class="section" data-magellan-destination="yandex-map">
-                          
+
                           <h1>8. Yandex Map Api</h1>
 
                           <br>
 
-                          <p>I've used Yandex Map Api to generate Yandex Map. You are able to change map style or marker from guidelines <a href="https://tech.yandex.com/maps/doc/jsapi/2.1/quick-start/index-docpage/" target="_blank">Yandex Map</a><p>
+                          <p>I have used Yandex Map Api to generate Yandex Map. You are able to change map style or marker from guidelines <a href="https://tech.yandex.com/maps/doc/jsapi/2.1/quick-start/index-docpage/" target="_blank">Yandex Map</a><p>
 
                     </section>
 
