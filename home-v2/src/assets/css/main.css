@@ -376,7 +376,7 @@ a:focus {
 }
 
 .navbar-nav>li.active>a {
-    color: #ffd630;
+    color: #FF7200;
 }
 
 .navbar-nav>li>a:after {
@@ -1288,12 +1288,12 @@ a:focus {
 
 #chef-slider .slick-dots li button:before {
     font-size: 16px;
-    color: #f6a525;
+    color: #FF7200;
     opacity: 1;
 }
 
 #chef-slider .slick-dots li.slick-active button:before {
-    color: #990100;
+    color: #0C8027;
 }
 
 .chef-item {
