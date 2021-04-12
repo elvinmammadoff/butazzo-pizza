@@ -88,67 +88,10 @@
                     </a>
 
                     <!-- Wrapper for slides -->
-                    <div class="carousel-inner" role="listbox">
+                    <div class="carousel-inner">
 
                         <!-- Carousel items   -->
-                        <div class="item active">
-                            <div class="carousel-caption">
-                                <div class="fadeUp item_img">
-                                    <img src="src/assets/img/photos/pizza.png" alt="sample" /> 
-                                    <div class="item_badge">
-                                        <span class="badge_btext">20%</span>
-                                        <span class="badge_stext">OFF</span>
-                                    </div>
-                                </div>
-                                <div class="fadeUp fade-slow item_details">
-                                    <h4 class="item_name">Delicious Food</h4>
-                                    <p class="item_info">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-                                    <div class="item_link_box">
-                                        <a href="#reservation" class="item_link page-scroll">Make Reservation</a>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-
-                        <div class="item">
-                            <div class="carousel-caption">
-                                <div class="fadeUp item_img">
-                                    <img src="src/assets/img/photos/tortilla.png" alt="sample" />
-                                    <div class="item_badge">
-                                        <span class="badge_btext">20%</span>
-                                        <span class="badge_stext">OFF</span>
-                                    </div>
-                                </div>
-                                <div class="fadeUp fade-slow item_details">
-                                    <h4 class="item_name">Delicious Food</h4>
-                                    <p class="item_info">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-                                    <div class="item_link_box">
-                                        <a href="#reservation" class="item_link page-scroll">Make Reservation</a>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-
-                        <div class="item">
-                            <div class="carousel-caption">
-                                <div class="fadeUp item_img">
-                                    <img src="src/assets/img/photos/burger.png" alt="sample" />
-                                    <div class="item_badge">
-                                        <span class="badge_btext">20%</span>
-                                        <span class="badge_stext">OFF</span>
-                                    </div>
-                                </div>
-                                <div class="fadeUp fade-slow item_details">
-                                    <h4 class="item_name">Delicious Food</h4>
-                                    <p class="item_info">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-                                    <div class="item_link_box">
-                                        <a href="#reservation" class="item_link page-scroll">Make Reservation</a>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-
-                        <div class="item">
+                        <div class="carousel-item active">
                             <div class="carousel-caption">
                                 <div class="fadeUp item_img">
                                     <img src="src/assets/img/photos/pizza.png" alt="sample" />
@@ -167,7 +110,64 @@
                             </div>
                         </div>
 
-                        <div class="item">
+                        <div class="carousel-item">
+                            <div class="carousel-caption">
+                                <div class="fadeUp item_img">
+                                    <img src="src/assets/img/photos/tortilla.png" alt="sample" />
+                                    <div class="item_badge">
+                                        <span class="badge_btext">20%</span>
+                                        <span class="badge_stext">OFF</span>
+                                    </div>
+                                </div>
+                                <div class="fadeUp fade-slow item_details">
+                                    <h4 class="item_name">Delicious Food</h4>
+                                    <p class="item_info">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                                    <div class="item_link_box">
+                                        <a href="#reservation" class="item_link page-scroll">Make Reservation</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="carousel-item">
+                            <div class="carousel-caption">
+                                <div class="fadeUp item_img">
+                                    <img src="src/assets/img/photos/burger.png" alt="sample" />
+                                    <div class="item_badge">
+                                        <span class="badge_btext">20%</span>
+                                        <span class="badge_stext">OFF</span>
+                                    </div>
+                                </div>
+                                <div class="fadeUp fade-slow item_details">
+                                    <h4 class="item_name">Delicious Food</h4>
+                                    <p class="item_info">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                                    <div class="item_link_box">
+                                        <a href="#reservation" class="item_link page-scroll">Make Reservation</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="carousel-item">
+                            <div class="carousel-caption">
+                                <div class="fadeUp item_img">
+                                    <img src="src/assets/img/photos/pizza.png" alt="sample" />
+                                    <div class="item_badge">
+                                        <span class="badge_btext">20%</span>
+                                        <span class="badge_stext">OFF</span>
+                                    </div>
+                                </div>
+                                <div class="fadeUp fade-slow item_details">
+                                    <h4 class="item_name">Delicious Food</h4>
+                                    <p class="item_info">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                                    <div class="item_link_box">
+                                        <a href="#reservation" class="item_link page-scroll">Make Reservation</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="carousel-item">
                             <div class="carousel-caption">
                                 <div class="fadeUp item_img">
                                     <img src="src/assets/img/photos/burger.png" alt="sample" />
@@ -186,9 +186,7 @@
                             </div>
                         </div>
                     </div>
-
                 </div>
-                <!-- /.container -->
             </div>
             <!-- END carousel -->
 
@@ -233,7 +231,7 @@
                                 <div class="collapse navbar-collapse" id="navbar">
                                     <div class="navbar-right">
                                         <ul class="nav navbar-nav">
-                                            <li><a class="page-scroll" href="#header">Home</a></li>
+                                            <li class="active"><a class="page-scroll" href="#header">Home</a></li>
                                             <li><a class="page-scroll" href="#about_us">About</a></li>
                                             <li><a class="page-scroll" href="#chef">Chef</a></li>
                                             <li><a class="page-scroll" href="#menu">Menus</a></li>
@@ -260,15 +258,15 @@
 
         <!--    About Us    -->
         <div class="container section" id="about_us">
-            <div class="col-sm-12 d-flex flex-xs-column">
-                <div class="col-sm-6 d-flex align-items-center padd_lr0" data-aos="fade-up">
+            <div class="col-md-12 d-flex flex-xs-column">
+                <div class="col-md-6 d-flex align-items-center padd_lr0" data-aos="fade-up">
                     <div class="content">
                         <h1 class="section-title title_sty1">about us</h1>
                         <p class="short">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
                             Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
                     </div>
                 </div>
-                <div class="col-sm-6 img text-center padd_lr0" data-aos="fade-down">
+                <div class="col-md-6 img text-center padd_lr0" data-aos="fade-down">
                     <div class="border_on">
                         <img src="src/assets/img/photos/about-us.jpg" alt="sample" class="about_img" />
                     </div>
@@ -306,7 +304,7 @@
             <div class="tab-content" id="menu_items">
                 <div class="tab-pane fade in active" id="burger" role="tabpanel" aria-labelledby="burger-tab">
                     <div class="row">
-                        <div class="col-sm-6">
+                        <div class="col-md-6">
                             <a href="src/assets/img/photos/beef-burger-lg.jpg" class="block fancybox">
                                 <div class="content">
                                     <div class="filter_item_img">
@@ -321,7 +319,7 @@
                                 </div>
                             </a>
                         </div>
-                        <div class="col-sm-6">
+                        <div class="col-md-6">
                             <a href="src/assets/img/photos/bison-burger-lg.jpg" class="block fancybox">
                                 <div class="content">
                                     <div class="filter_item_img">
@@ -336,7 +334,7 @@
                                 </div>
                             </a>
                         </div>
-                        <div class="col-sm-6">
+                        <div class="col-md-6">
                             <a href="src/assets/img/photos/black-bean-burger-lg.jpg" class="block fancybox">
                                 <div class="content">
                                     <div class="filter_item_img">
@@ -351,7 +349,7 @@
                                 </div>
                             </a>
                         </div>
-                        <div class="col-sm-6">
+                        <div class="col-md-6">
                             <a href="src/assets/img/photos/elk-burger-lg.jpg" class="block fancybox">
                                 <div class="content">
                                     <div class="filter_item_img">
@@ -366,7 +364,7 @@
                                 </div>
                             </a>
                         </div>
-                        <div class="col-sm-6">
+                        <div class="col-md-6">
                             <a href="src/assets/img/photos/veggie-burger-lg.jpg" class="block fancybox">
                                 <div class="content">
                                     <div class="filter_item_img">
@@ -381,7 +379,7 @@
                                 </div>
                             </a>
                         </div>
-                        <div class="col-sm-6">
+                        <div class="col-md-6">
                             <a href="src/assets/img/photos/wild-salmon-burger-lg.jpg" class="block fancybox">
                                 <div class="content">
                                     <div class="filter_item_img">
@@ -400,7 +398,7 @@
                 </div>
                 <div class="tab-pane fade" id="pizza" role="tabpanel" aria-labelledby="pizza-tab">
                     <div class="row">
-                        <div class="col-sm-6">
+                        <div class="col-md-6">
                             <a href="src/assets/img/photos/pizza-chicken-tikka-lg.jpg" class="block fancybox">
                                 <div class="content">
                                     <div class="filter_item_img">
@@ -415,7 +413,7 @@
                                 </div>
                             </a>
                         </div>
-                        <div class="col-sm-6">
+                        <div class="col-md-6">
                             <a href="src/assets/img/photos/pizza-hawaii-lg.jpg" class="block fancybox">
                                 <div class="content">
                                     <div class="filter_item_img">
@@ -430,7 +428,7 @@
                                 </div>
                             </a>
                         </div>
-                        <div class="col-sm-6">
+                        <div class="col-md-6">
                             <a href="src/assets/img/photos/pizza-kebab-lg.jpg" class="block fancybox">
                                 <div class="content">
                                     <div class="filter_item_img">
@@ -445,7 +443,7 @@
                                 </div>
                             </a>
                         </div>
-                        <div class="col-sm-6">
+                        <div class="col-md-6">
                             <a href="src/assets/img/photos/pizza-margherita-lg.jpg" class="block fancybox">
                                 <div class="content">
                                     <div class="filter_item_img">
@@ -460,7 +458,7 @@
                                 </div>
                             </a>
                         </div>
-                        <div class="col-sm-6">
+                        <div class="col-md-6">
                             <a href="src/assets/img/photos/pizza-mushroom-lg.jpg" class="block fancybox">
                                 <div class="content">
                                     <div class="filter_item_img">
@@ -475,7 +473,7 @@
                                 </div>
                             </a>
                         </div>
-                        <div class="col-sm-6">
+                        <div class="col-md-6">
                             <a href="src/assets/img/photos/pizza-neapolitan-lg.jpg" class="block fancybox">
                                 <div class="content">
                                     <div class="filter_item_img">
@@ -490,7 +488,7 @@
                                 </div>
                             </a>
                         </div>
-                        <div class="col-sm-6">
+                        <div class="col-md-6">
                             <a href="src/assets/img/photos/pizza-pepperoni-lg.jpg" class="block fancybox">
                                 <div class="content">
                                     <div class="filter_item_img">
@@ -505,7 +503,7 @@
                                 </div>
                             </a>
                         </div>
-                        <div class="col-sm-6">
+                        <div class="col-md-6">
                             <a href="src/assets/img/photos/pizza-veggie-lg.jpg" class="block fancybox">
                                 <div class="content">
                                     <div class="filter_item_img">
@@ -520,11 +518,11 @@
                                 </div>
                             </a>
                         </div>
-                    </div>                    
+                    </div>
                 </div>
                 <div class="tab-pane fade" id="salad" role="tabpanel" aria-labelledby="salad-tab">
                     <div class="row">
-                        <div class="col-sm-6">
+                        <div class="col-md-6">
                             <a href="src/assets/img/photos/ambrosia-salad-lg.jpg" class="block fancybox">
                                 <div class="content">
                                     <div class="filter_item_img">
@@ -539,7 +537,7 @@
                                 </div>
                             </a>
                         </div>
-                        <div class="col-sm-6">
+                        <div class="col-md-6">
                             <a href="src/assets/img/photos/bound-salad-lg.jpg" class="block fancybox">
                                 <div class="content">
                                     <div class="filter_item_img">
@@ -554,7 +552,7 @@
                                 </div>
                             </a>
                         </div>
-                        <div class="col-sm-6">
+                        <div class="col-md-6">
                             <a href="src/assets/img/photos/fruit-salad-lg.jpg" class="block fancybox">
                                 <div class="content">
                                     <div class="filter_item_img">
@@ -569,7 +567,7 @@
                                 </div>
                             </a>
                         </div>
-                        <div class="col-sm-6">
+                        <div class="col-md-6">
                             <a href="src/assets/img/photos/garden-salad-lg.jpg" class="block fancybox">
                                 <div class="content">
                                     <div class="filter_item_img">
@@ -584,11 +582,11 @@
                                 </div>
                             </a>
                         </div>
-                    </div>                    
+                    </div>
                 </div>
                 <div class="tab-pane fade" id="soup" role="tabpanel" aria-labelledby="soup-tab">
                     <div class="row">
-                        <div class="col-sm-6">
+                        <div class="col-md-6">
                             <a href="src/assets/img/photos/chicken-noodle-soup-lg.jpg" class="block fancybox">
                                 <div class="content">
                                     <div class="filter_item_img">
@@ -603,7 +601,7 @@
                                 </div>
                             </a>
                         </div>
-                        <div class="col-sm-6">
+                        <div class="col-md-6">
                             <a href="src/assets/img/photos/puree-of-carrot-soup-lg.jpg" class="block fancybox">
                                 <div class="content">
                                     <div class="filter_item_img">
@@ -618,7 +616,7 @@
                                 </div>
                             </a>
                         </div>
-                        <div class="col-sm-6">
+                        <div class="col-md-6">
                             <a href="src/assets/img/photos/seafood-bisque-soup-lg.jpg" class="block fancybox">
                                 <div class="content">
                                     <div class="filter_item_img">
@@ -633,7 +631,7 @@
                                 </div>
                             </a>
                         </div>
-                        <div class="col-sm-6">
+                        <div class="col-md-6">
                             <a href="src/assets/img/photos/veloute-tomate-soup-lg.jpg" class="block fancybox">
                                 <div class="content">
                                     <div class="filter_item_img">
@@ -648,11 +646,11 @@
                                 </div>
                             </a>
                         </div>
-                    </div>                    
+                    </div>
                 </div>
                 <div class="tab-pane fade" id="drinks" role="tabpanel" aria-labelledby="drinks-tab">
                     <div class="row">
-                        <div class="col-sm-6">
+                        <div class="col-md-6">
                             <a href="src/assets/img/photos/americano-cocktail-lg.jpg" class="block fancybox">
                                 <div class="content">
                                     <div class="filter_item_img">
@@ -667,7 +665,7 @@
                                 </div>
                             </a>
                         </div>
-                        <div class="col-sm-6">
+                        <div class="col-md-6">
                             <a href="src/assets/img/photos/cosmopolitan-cocktail-lg.jpg" class="block fancybox">
                                 <div class="content">
                                     <div class="filter_item_img">
@@ -682,7 +680,7 @@
                                 </div>
                             </a>
                         </div>
-                        <div class="col-sm-6">
+                        <div class="col-md-6">
                             <a href="src/assets/img/photos/malibu-sunset-cocktail-lg.jpg" class="block fancybox">
                                 <div class="content">
                                     <div class="filter_item_img">
@@ -697,7 +695,7 @@
                                 </div>
                             </a>
                         </div>
-                        <div class="col-sm-6">
+                        <div class="col-md-6">
                             <a href="src/assets/img/photos/sweet-poison-cocktail-lg.jpg" class="block fancybox">
                                 <div class="content">
                                     <div class="filter_item_img">
@@ -712,7 +710,7 @@
                                 </div>
                             </a>
                         </div>
-                        <div class="col-sm-6">
+                        <div class="col-md-6">
                             <a href="src/assets/img/photos/tropical-garden-cocktail-lg.jpg" class="block fancybox">
                                 <div class="content">
                                     <div class="filter_item_img">
@@ -727,7 +725,7 @@
                                 </div>
                             </a>
                         </div>
-                        <div class="col-sm-6">
+                        <div class="col-md-6">
                             <a href="src/assets/img/photos/green-tea-lg.jpg" class="block fancybox">
                                 <div class="content">
                                     <div class="filter_item_img">
@@ -742,7 +740,7 @@
                                 </div>
                             </a>
                         </div>
-                        <div class="col-sm-6">
+                        <div class="col-md-6">
                             <a href="src/assets/img/photos/spicy-ginger-lemon-tea-lg.jpg" class="block fancybox">
                                 <div class="content">
                                     <div class="filter_item_img">
@@ -757,7 +755,7 @@
                                 </div>
                             </a>
                         </div>
-                    </div>                    
+                    </div>
                 </div>
 
                 <div class="text-center">
@@ -769,7 +767,7 @@
                         <li><a href="javascript:;">4</a></li>
                     </ul>
                     <!-- END pagination -->
-                </div>                
+                </div>
             </div>
         </div>
 
@@ -918,19 +916,19 @@
         <div class="fixed_layer section" id="reservation">
             <div class="fixed_layer_padd container">
                 <div class="row">
-                    <div class="col-md-offset-6 col-md-6" data-aos="fade-down">
+                    <div class="offset-lg-6 col-lg-6" data-aos="fade-down">
                         <div class="reserv_box">
                             <h1 class="section-title title_sty1">online reservation</h1>
                             <p class="short">Lorem Ipsum is simply dummy text of the printing and typesetting industry. </p>
                             <form id="reserv_form" method="post">
                                 <div class="row">
-                                    <div class="col-sm-6">
+                                    <div class="col-md-6">
                                         <div class="form-group form_pos">
                                             <input type="text" name="name" autocomplete="off" required="" placeholder="Your name" class="form-control" onfocus="this.placeholder = ''" onblur="this.placeholder = 'Your name'" />
                                             <span class="form_icon"></span>
                                         </div>
                                     </div>
-                                    <div class="col-sm-6">
+                                    <div class="col-md-6">
                                         <div class="form-group form_pos">
                                             <input type="email" name="email" autocomplete="off" required="" placeholder="Your email" class="form-control" onfocus="this.placeholder = ''" onblur="this.placeholder = 'Your email'" />
                                             <span class="form_icon"></span>
@@ -938,19 +936,19 @@
                                     </div>
                                 </div>
                                 <div class="row">
-                                    <div class="col-sm-4">
+                                    <div class="col-md-4">
                                         <div class="form-group form_pos">
                                             <input type="text" name="phone" autocomplete="off" required="" placeholder="Phone" class="form-control" onfocus="this.placeholder = ''" onblur="this.placeholder = 'Phone'" />
                                             <span class="form_icon"></span>
                                         </div>
                                     </div>
-                                    <div class="col-sm-4">
+                                    <div class="col-md-4">
                                         <div class="form-group form_pos">
                                             <input type="text" name="date" autocomplete="off" required="" placeholder="Date" class="form-control" id="reserv_date" onfocus="this.placeholder = ''" onblur="this.placeholder = 'Date'" />
                                             <span class="form_icon"></span>
                                         </div>
                                     </div>
-                                    <div class="col-sm-4">
+                                    <div class="col-md-4">
                                         <div class="form-group form_pos">
                                             <input type="text" name="time" autocomplete="off" required="" placeholder="Time" class="form-control" id="reserv_time" onfocus="this.placeholder = ''" onblur="this.placeholder = 'Time'" />
                                             <span class="form_icon"></span>
@@ -976,7 +974,7 @@
             </div>
             <div id="photo_gallery" class="list1">
                 <div class="row">
-                    <div class="col-sm-4 col-md-3 item">
+                    <div class="col-md-4 col-lg-3 item">
                         <a href="src/assets/img/photos/wings-lg.jpg" class="block fancybox" data-fancybox-group="fancybox">
                             <div class="content">
                                 <img src="src/assets/img/photos/wings-xs.jpg" alt="sample" />
@@ -986,7 +984,7 @@
                             </div>
                         </a>
                     </div>
-                    <div class="col-sm-4 col-md-3 item">
+                    <div class="col-md-4 col-lg-3 item">
                         <a href="src/assets/img/photos/spare-ribs-lg.jpg" class="block fancybox" data-fancybox-group="fancybox">
                             <div class="content">
                                 <img src="src/assets/img/photos/spare-ribs-xs.jpg" alt="sample" />
@@ -996,7 +994,7 @@
                             </div>
                         </a>
                     </div>
-                    <div class="col-sm-4 col-md-3 item">
+                    <div class="col-md-4 col-lg-3 item">
                         <a href="src/assets/img/photos/spaghetti-lg.jpg" class="block fancybox" data-fancybox-group="fancybox">
                             <div class="content">
                                 <img src="src/assets/img/photos/spaghetti-xs.jpg" alt="sample" />
@@ -1006,7 +1004,7 @@
                             </div>
                         </a>
                     </div>
-                    <div class="col-sm-4 col-md-3 item">
+                    <div class="col-md-4 col-lg-3 item">
                         <a href="src/assets/img/photos/salmon-lg.jpg" class="block fancybox" data-fancybox-group="fancybox">
                             <div class="content">
                                 <img src="src/assets/img/photos/salmon-xs.jpg" alt="sample" />
@@ -1016,7 +1014,7 @@
                             </div>
                         </a>
                     </div>
-                    <div class="col-sm-4 col-md-3 item">
+                    <div class="col-md-4 col-lg-3 item">
                         <a href="src/assets/img/photos/salad-lg.jpg" class="block fancybox" data-fancybox-group="fancybox">
                             <div class="content">
                                 <img src="src/assets/img/photos/salad-xs.jpg" alt="sample" />
@@ -1026,7 +1024,7 @@
                             </div>
                         </a>
                     </div>
-                    <div class="col-sm-4 col-md-3 item">
+                    <div class="col-md-4 col-lg-3 item">
                         <a href="src/assets/img/photos/pizza-lg.jpg" class="block fancybox" data-fancybox-group="fancybox">
                             <div class="content">
                                 <img src="src/assets/img/photos/pizza-xs.jpg" alt="sample" />
@@ -1036,7 +1034,7 @@
                             </div>
                         </a>
                     </div>
-                    <div class="col-sm-4 col-md-3 item">
+                    <div class="col-md-4 col-lg-3 item">
                         <a href="src/assets/img/photos/meat-lg.jpg" class="block fancybox" data-fancybox-group="fancybox">
                             <div class="content">
                                 <img src="src/assets/img/photos/meat-xs.jpg" alt="sample" />
@@ -1046,7 +1044,7 @@
                             </div>
                         </a>
                     </div>
-                    <div class="col-sm-4 col-md-3 item">
+                    <div class="col-md-4 col-lg-3 item">
                         <a href="src/assets/img/photos/burger-lg.jpg" class="block fancybox" data-fancybox-group="fancybox">
                             <div class="content">
                                 <img src="src/assets/img/photos/burger-xs.jpg" alt="sample" />
@@ -1056,9 +1054,9 @@
                             </div>
                         </a>
                     </div>
-                </div> 
+                </div>
                 <div class="row" id="loadMore">
-                    <div class="col-sm-4 col-md-3 item">
+                    <div class="col-md-4 col-lg-3 item">
                         <a href="src/assets/img/photos/salmon-bread-lg.jpg" class="block fancybox" data-fancybox-group="fancybox">
                             <div class="content">
                                 <img src="src/assets/img/photos/salmon-bread-xs.jpg" alt="sample" />
@@ -1068,7 +1066,7 @@
                             </div>
                         </a>
                     </div>
-                    <div class="col-sm-4 col-md-3 item">
+                    <div class="col-md-4 col-lg-3 item">
                         <a href="src/assets/img/photos/bratstreifen-lg.jpg" class="block fancybox" data-fancybox-group="fancybox">
                             <div class="content">
                                 <img src="src/assets/img/photos/bratstreifen-xs.jpg" alt="sample" />
@@ -1078,7 +1076,7 @@
                             </div>
                         </a>
                     </div>
-                    <div class="col-sm-4 col-md-3 item">
+                    <div class="col-md-4 col-lg-3 item">
                         <a href="src/assets/img/photos/beans-lg.jpg" class="block fancybox" data-fancybox-group="fancybox">
                             <div class="content">
                                 <img src="src/assets/img/photos/beans-xs.jpg" alt="sample" />
@@ -1088,8 +1086,8 @@
                             </div>
                         </a>
                     </div>
-                    <div class="col-sm-4 col-md-3 item">
-                        <a href="src/assets/img/photos/chicken-cutlet-lg.jpg" class="block fancybox" data-fancybox-group="fancybox"> 
+                    <div class="col-md-4 col-lg-3 item">
+                        <a href="src/assets/img/photos/chicken-cutlet-lg.jpg" class="block fancybox" data-fancybox-group="fancybox">
                             <div class="content">
                                 <img src="src/assets/img/photos/chicken-cutlet-xs.jpg" alt="sample" />
                                 <div class="zoom">
@@ -1124,7 +1122,7 @@
             <div class="scroll-up__icon">
                 <i class="fa fa-arrow-up"></i>
             </div>
-        </div><!-- End /.scroll-up -->        
+        </div><!-- End /.scroll-up -->
 
         <!--  Begin Footer  -->
         <footer id="footer">
@@ -1133,16 +1131,16 @@
 
             <!--    Yandex map, Social links    -->
             <div class="section" id="contact">
-                <div id="map"></div> 
+                <div id="map"></div>
                 <div class="footer_pos">
                     <div class="container">
                         <div class="footer_content">
                             <div class="row">
-                                <div class="col-sm-6 col-md-4">
+                                <div class="col-md-6 col-lg-4">
                                     <h4 class="footer_ttl footer_ttl_padd">about us</h4>
                                     <p class="footer_txt">Lorem Ipsum is simply dummy text of the printing and typesetting industry. It has survived not only five centuries but also the leap into electronic typesetting. </p>
                                 </div>
-                                <div class="col-sm-6 col-md-5">
+                                <div class="col-md-6 col-lg-5">
                                     <h4 class="footer_ttl footer_ttl_padd">working hours</h4>
                                     <div class="footer_border">
                                         <div class="week_row clearfix">
@@ -1202,7 +1200,7 @@
                                         </div>
                                     </div>
                                 </div>
-                                <div class="col-sm-12 col-md-3">
+                                <div class="col-md-12 col-lg-3">
                                     <h4 class="footer_ttl footer_ttl_padd">contact us</h4>
                                     <div class="footer_border">
                                         <div class="footer_cnt">
@@ -1225,12 +1223,12 @@
                     <div class="copyright">
                         <div class="container">
                             <div class="row">
-                                <div class="col-md-8">
+                                <div class="col-lg-8">
                                     <div class="copy_text">
                                         Copyright © 2018 Agency <span>|</span> All Rights Reserved
                                     </div>
                                 </div>
-                                <div class="col-md-4">
+                                <div class="col-lg-4">
                                     <div class="social-links">
                                         <ul class="list-inline">
                                             <li class="list-inline-item">

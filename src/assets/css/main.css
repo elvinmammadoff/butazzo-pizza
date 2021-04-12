@@ -365,6 +365,10 @@ a:focus {
     text-shadow: none;
 }
 
+.navbar-nav>li:last-child>a {
+    margin-right: 0;
+}
+
 .navbar-nav>li.active>a {
     color: #ffd630;
 }
@@ -503,7 +507,7 @@ a:focus {
     transform: translateY(-50%);
 }
 
-.carousel-inner .item {
+.carousel-inner .carousel-item {
     height: 634px;
     background-position: center;
     background-size: cover;
@@ -683,7 +687,7 @@ a:focus {
     transition: all 1s
 }
 
-.carousel-inner .item.active .carousel-caption .fadeUp {
+.carousel-inner .carousel-item.active .carousel-caption .fadeUp {
     transform: translateY(0);
     opacity: 1;
 }
@@ -1189,6 +1193,9 @@ a:focus {
 
 #chef-slider .slick-dots {
     bottom: 0;
+    display: flex!important;
+    align-items: center;
+    justify-content: center;
 }
 
 #chef-slider .slick-dots li {
@@ -1398,6 +1405,7 @@ a:focus {
     margin-top: 50px;
     border-radius: 0;
     border: 1px solid #fff;
+    color: #fff;
 }
 
 #reserv_form .btn[type="submit"]:hover {
@@ -1455,7 +1463,8 @@ a:focus {
 
 .pagination>li>a {
     min-width: 30px;
-    min-height: 30px;
+    width: 30px;
+    height: 30px;
     display: -webkit-box;
     display: -webkit-flex;
     display: -ms-flexbox;

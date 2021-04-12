@@ -33,13 +33,26 @@
 
 $(document).ready(function() {
 
+    //======= START Affix Navbar fixed on scroll ========
+
+    $(window).on('scroll', function (event) {
+        var scrollValue = $(window).scrollTop();
+        if (scrollValue > 85) {
+            $('.navbar-container').addClass('affix');
+        } else{
+            $('.navbar-container').removeClass('affix');
+        }
+    });
+
+    //======= END Affix Navbar fixed on scroll ========
+
     //======= START jQuery loadMoreResults ========
 
     $(".btn-load-more").click(function(){
         $(".load-dots").addClass('visible'); 
         $(".btn-load-more").hide();   
         setTimeout(function(){
-            $("#loadMore").show(); 
+            $("#loadMore").show().css("display","flex");
             $(".load-dots").removeClass('visible');     
         }, 5000);
     });
