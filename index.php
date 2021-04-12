@@ -196,7 +196,7 @@
                 <div class="navbar-container" data-spy="affix" data-offset-top="400">
                     <div class="container">
 
-                        <div class="navbar_top hidden-xs">
+                        <div class="navbar_top d-none d-sm-none d-md-block">
                             <div class="top_addr">
                                 <span><i class="fa fa-map-marker" aria-hidden="true"></i> Your country, your city, 12345</span>
                                 <span><i class="fa fa-phone" aria-hidden="true"></i> 123 456 789</span>
