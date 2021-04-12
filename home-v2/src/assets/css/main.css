@@ -170,6 +170,10 @@ a:focus {
     font-family: 'Montserrat-Bold';
 }
 
+.navbar-nav>li:last-child>a {
+    margin-right: 0;
+}
+
 #navbar_search input {
     font-family: 'Raleway-Regular';
 }
@@ -366,13 +370,13 @@ a:focus {
     color: #fff;
     text-transform: uppercase;
     padding: 6px 0;
-    margin: 0 15px;
+    margin: 0 14px;
     position: relative;
     text-shadow: none;
 }
 
 .navbar-nav>li.active>a {
-    color: #FF7200;
+    color: #ffd630;
 }
 
 .navbar-nav>li>a:after {
@@ -510,7 +514,7 @@ a:focus {
     transform: translateY(-50%);
 }
 
-.carousel-inner .item {
+.carousel-inner .carousel-item {
     height: 634px;
     background-position: center;
     background-size: cover;
@@ -690,7 +694,7 @@ a:focus {
     transition: all 1s
 }
 
-.carousel-inner .item.active .carousel-caption .fadeUp {
+.carousel-inner .carousel-item.active .carousel-caption .fadeUp {
     transform: translateY(0);
     opacity: 1;
 }
@@ -1272,6 +1276,9 @@ a:focus {
 
 #chef-slider .slick-dots {
     bottom: 0;
+    display: flex!important;
+    align-items: center;
+    justify-content: center;
 }
 
 #chef-slider .slick-dots li {
@@ -1281,12 +1288,12 @@ a:focus {
 
 #chef-slider .slick-dots li button:before {
     font-size: 16px;
-    color: #FF7200;
+    color: #f6a525;
     opacity: 1;
 }
 
 #chef-slider .slick-dots li.slick-active button:before {
-    color: #0C8027;
+    color: #990100;
 }
 
 .chef-item {
@@ -1482,6 +1489,7 @@ a:focus {
     margin-top: 50px;
     border-radius: 0;
     border: 1px solid #fff;
+    color: #fff;
 }
 
 #reserv_form .btn[type="submit"]:hover {
@@ -1539,7 +1547,8 @@ a:focus {
 
 .pagination>li>a {
     min-width: 30px;
-    min-height: 30px;
+    width: 30px;
+    height: 30px;
     display: -webkit-box;
     display: -webkit-flex;
     display: -ms-flexbox;

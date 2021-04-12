@@ -10,6 +10,7 @@
 
     [ INDEX ]
 	|
+    |___ Affix Navbar fixed on scroll
     |___ loadMoreResults
     |___ Touch Swipe mobile menu
     |___ Loading overlay
