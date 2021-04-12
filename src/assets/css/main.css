@@ -1206,13 +1206,12 @@ a:focus {
 }
 
 #chef-slider .slick-dots li button:before {
-    font-size: 16px;
-    color: #f6a525;
+    background-color: #f6a525;
     opacity: 1;
 }
 
 #chef-slider .slick-dots li.slick-active button:before {
-    color: #990100;
+    background-color: #990100;
 }
 
 .chef-item {
