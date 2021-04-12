@@ -115,7 +115,7 @@
                       <p>This theme is a responsive landing page which built with Bootstrap fraemwork and you can customize it very easily. All of the information within the main
                         content area is nested within a div with an class of "sections". The general
                         <code>template</code> structure is the same throughout the template. Here is the general
-                        structure. Note that for brevity, I'm not including content that isn’t relevant to the
+                        structure. Note that for brevity, I am not including content that isn’t relevant to the
                         technique.</p>
 
 <pre data-language="HTML Skeleton">
@@ -354,7 +354,7 @@
 
                           <ul>
                             <li><a href="https://jquery.com/" target="_blank">jQuery</a></li>
-                            <li><a href="https://getbootstrap.com/docs/3.3/" target="_blank">Bootstrap</a></li>
+                            <li><a href="https://getbootstrap.com/docs/4.5/getting-started/introduction/" target="_blank">Bootstrap 4.5</a></li>
                             <li><a href="http://gsgd.co.uk/splash/" target="_blank">Jquery Easing</a></li>
                             <li><a href="https://eonasdan.github.io/bootstrap-datetimepicker/" target="_blank">Bootstrap Date/Time Picker</a></li>
                             <li><a href="https://bootstrap-datepicker.readthedocs.io/en/latest/" target="_blank">Bootstrap Date Picker</a></li>
@@ -378,7 +378,7 @@
                     </section>
 
                     <section id="php-file" class="section" data-magellan-destination="php-file">
-                          
+
                           <h1>7. PHP Code Explanation</h1>
 
                           <br>
@@ -388,24 +388,29 @@
                     </section>
 
                     <section id="yandex-map" class="section" data-magellan-destination="yandex-map">
-                          
+
                           <h1>8. Yandex Map Api</h1>
 
                           <br>
 
-                          <p>I've used Yandex Map Api to generate Yandex Map. You are able to change map style or marker from guidelines <a href="https://tech.yandex.com/maps/doc/jsapi/2.1/quick-start/index-docpage/" target="_blank">Yandex Map</a><p>
+                          <p>I have used Yandex Map Api to generate Yandex Map. You are able to change map style or marker from guidelines <a href="https://tech.yandex.com/maps/doc/jsapi/2.1/quick-start/index-docpage/" target="_blank">Yandex Map</a><p>
 
                     </section>
 
                     <section id="updates" class="section" data-magellan-destination="updates">
-                          
+
                           <h1>9. Regular Updates</h1>
 
                           <br>
 
-                          <p>We’re always improving our skills and knowledge so we’re making changes regularly. From bug fixes to new awesome features, updates generally come at least twice a month.<p>                       
+                          <p>We’re always improving our skills and knowledge so we’re making changes regularly. From bug fixes to new awesome features, updates generally come at least twice a month.<p>
 
-<pre>   
+<pre>
+
+  V. 1.0.2 – 13.04.2021
+  - Update: Bootstrap Framework to 4.5.
+  - Tested: Android (Samsung, Google, HTC) and iOS (iPhone 11, iPhone 6s, iPad (6th Generation), iPad Air 2) devices, Safari, Firefox, Chrome browsers.
+  - Tweak: Improved Documentation
   
   V. 1.0.1 – 13.10.2020
   - Fix: "Our Menus" section tab on click problem on iPhone devices.
