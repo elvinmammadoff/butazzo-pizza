@@ -20,46 +20,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="cb9bf845-cfc8-40ad-91c8-f45bc3ad989f" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/test.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/preview/assets/css/bootstrap.min.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/preview/assets/css/fonts.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/preview/assets/css/media.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/preview/assets/css/style.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/preview/assets/fonts/Montserrat-Bold/Montserrat-Bold.eot" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/preview/assets/fonts/Montserrat-Bold/Montserrat-Bold.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/preview/assets/fonts/Montserrat-Bold/Montserrat-Bold.ttf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/preview/assets/fonts/Montserrat-Bold/Montserrat-Bold.woff" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/preview/assets/fonts/Montserrat-Regular/Montserrat-Regular.eot" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/preview/assets/fonts/Montserrat-Regular/Montserrat-Regular.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/preview/assets/fonts/Montserrat-Regular/Montserrat-Regular.ttf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/preview/assets/fonts/Montserrat-Regular/Montserrat-Regular.woff" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/preview/assets/fonts/Raleway-Black/Raleway-Black.eot" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/preview/assets/fonts/Raleway-Black/Raleway-Black.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/preview/assets/fonts/Raleway-Black/Raleway-Black.ttf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/preview/assets/fonts/Raleway-Black/Raleway-Black.woff" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/preview/assets/fonts/Raleway-Regular/Raleway-Regular.eot" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/preview/assets/fonts/Raleway-Regular/Raleway-Regular.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/preview/assets/fonts/Raleway-Regular/Raleway-Regular.ttf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/preview/assets/fonts/Raleway-Regular/Raleway-Regular.woff" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/preview/assets/img/banner.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/preview/assets/img/favicon/android-chrome-192x192.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/preview/assets/img/favicon/android-chrome-256x256.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/preview/assets/img/favicon/apple-touch-icon.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/preview/assets/img/favicon/browserconfig.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/preview/assets/img/favicon/favicon-16x16.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/preview/assets/img/favicon/favicon-32x32.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/preview/assets/img/favicon/favicon.ico" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/preview/assets/img/favicon/mstile-150x150.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/preview/assets/img/favicon/safari-pinned-tab.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/preview/assets/img/favicon/site.webmanifest" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/preview/assets/img/frame.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/preview/assets/img/logo.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/preview/assets/img/pizza.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/preview/assets/js/jquery-2.1.1.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/preview/assets/js/jquery.easing.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/preview/assets/js/main.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/preview/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/preview/index.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/documentation/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/documentation/index.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -97,7 +59,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1672435801403</updated>
-      <workItem from="1672435802794" duration="126000" />
+      <workItem from="1672435802794" duration="767000" />
     </task>
     <servers />
   </component>
