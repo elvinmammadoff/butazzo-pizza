@@ -113,10 +113,59 @@ $(document).ready(function() {
     //======= START Carousel slider ========
 
     $('.carousel').carousel({
-      arrows: true
+      arrows: true,
+      pause: false
     })
 
     //======= END Carousel slider ========
+
+    $('a[data-toggle="tab"]').on('shown.bs.tab', function (event) {
+        $('.loading').show().delay(5000).fadeOut('slow');
+    })
+
+    $(window).load(function (){
+        $('.loading').show().delay(5000).fadeOut('slow');
+    })
+
+
+    //======= Menu Slider Start ========
+    $('#menu-slider, #burger-slider, #pizza-slider, #salad-slider, #soup-slider, #drinks-slider').slick({
+        slidesToShow: 4,
+        slidesToScroll: 1,
+        centerMode: true,
+        autoplay: true,
+        draggable: true,
+        dots: false,
+        arrows: false,
+        focusOnSelect: true,
+        pauseOnHover:false,
+        infinite: true,
+        responsive: [
+            {
+                breakpoint: 1160,
+                settings: {
+                    centerMode: true,
+                    slidesToShow: 2,
+                    slidesToScroll: 1,
+                }
+            },
+            {
+                breakpoint: 840,
+                settings: {
+                    slidesToShow: 1,
+                }
+            },
+            {
+                breakpoint: 600,
+                settings: {
+                    slidesToShow: 1,
+                }
+            }
+        ]
+    });
+
+    //======= Menu Slider End ========
+
 
 
     //======= START Search panel ========
