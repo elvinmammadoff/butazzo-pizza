@@ -36,7 +36,7 @@
     <link rel="icon" type="image/png" sizes="32x32" href="src/assets/img/favicon/favicon-32x32.png" />
     <link rel="icon" type="image/png" sizes="16x16" href="src/assets/img/favicon/favicon-16x16.png" />
     <link rel="icon" type="image/png" href="src/assets/img/favicon/favicon.ico" />
-    <link rel="manifest" href="src/assets/img/site.webmanifest" />
+    <link rel="manifest" href="src/assets/img/favicon/site.webmanifest" />
     <link rel="mask-icon" href="src/assets/img/favicon/safari-pinned-tab.svg" color="#5bbad5" />
     <meta name="msapplication-TileColor" content="#990100" />
     <meta name="theme-color" content="#ffffff" />    
@@ -518,7 +518,7 @@
                                 </div>
                             </a>
                         </div>
-                    </div>
+                    </div>                    
                 </div>
                 <div class="tab-pane fade" id="salad" role="tabpanel" aria-labelledby="salad-tab">
                     <div class="row">
@@ -582,7 +582,7 @@
                                 </div>
                             </a>
                         </div>
-                    </div>
+                    </div>                    
                 </div>
                 <div class="tab-pane fade" id="soup" role="tabpanel" aria-labelledby="soup-tab">
                     <div class="row">
@@ -646,7 +646,7 @@
                                 </div>
                             </a>
                         </div>
-                    </div>
+                    </div>                    
                 </div>
                 <div class="tab-pane fade" id="drinks" role="tabpanel" aria-labelledby="drinks-tab">
                     <div class="row">
@@ -755,7 +755,7 @@
                                 </div>
                             </a>
                         </div>
-                    </div>
+                    </div>                    
                 </div>
 
                 <div class="text-center">
@@ -767,7 +767,7 @@
                         <li><a href="javascript:;">4</a></li>
                     </ul>
                     <!-- END pagination -->
-                </div>
+                </div>                
             </div>
         </div>
 
@@ -1054,7 +1054,7 @@
                             </div>
                         </a>
                     </div>
-                </div>
+                </div> 
                 <div class="row" id="loadMore">
                     <div class="col-md-4 col-lg-3 item">
                         <a href="src/assets/img/photos/salmon-bread-lg.jpg" class="block fancybox" data-fancybox-group="fancybox">
@@ -1087,7 +1087,7 @@
                         </a>
                     </div>
                     <div class="col-md-4 col-lg-3 item">
-                        <a href="src/assets/img/photos/chicken-cutlet-lg.jpg" class="block fancybox" data-fancybox-group="fancybox">
+                        <a href="src/assets/img/photos/chicken-cutlet-lg.jpg" class="block fancybox" data-fancybox-group="fancybox"> 
                             <div class="content">
                                 <img src="src/assets/img/photos/chicken-cutlet-xs.jpg" alt="sample" />
                                 <div class="zoom">
@@ -1122,7 +1122,7 @@
             <div class="scroll-up__icon">
                 <i class="fa fa-arrow-up"></i>
             </div>
-        </div><!-- End /.scroll-up -->
+        </div><!-- End /.scroll-up -->        
 
         <!--  Begin Footer  -->
         <footer id="footer">
@@ -1131,7 +1131,7 @@
 
             <!--    Yandex map, Social links    -->
             <div class="section" id="contact">
-                <div id="map"></div>
+                <div id="map"></div> 
                 <div class="footer_pos">
                     <div class="container">
                         <div class="footer_content">
@@ -1299,12 +1299,12 @@
 
     <div class="cd-overlay"></div>
     <!-- /.cd-overlay -->
-
+         
 
     <!-- END mobile right burger menu -->
 
     <!-- JavaScript -->
-    <script src="src/assets/js/jquery-2.1.1.min.js"></script>
+    <script src="src/assets/js/jquery-2.1.1.min.js"></script> 
     <script src="src/assets/js/bootstrap.min.js"></script>
     <script src="src/assets/js/jquery.mousewheel.min.js"></script>
     <script src="src/assets/js/jquery.easing.min.js"></script>
