@@ -25,7 +25,7 @@
     <link rel="icon" type="image/png" sizes="32x32" href="assets/img/favicon/favicon-32x32.png" />
     <link rel="icon" type="image/png" sizes="16x16" href="assets/img/favicon/favicon-16x16.png" />
     <link rel="icon" type="image/png" href="assets/img/favicon/favicon.ico" />
-    <link rel="manifest" href="assets/img/site.webmanifest" />
+    <link rel="manifest" href="assets/img/favicon/site.webmanifest" />
     <link rel="mask-icon" href="assets/img/favicon/safari-pinned-tab.svg" color="#5bbad5" />
     <meta name="msapplication-TileColor" content="#990100" />
     <meta name="theme-color" content="#ffffff" />    
@@ -59,20 +59,20 @@
         <div class="row">
             <div class="col-sm-6 col-md-6 col-lg-6">
                 <div class="demo">
-                    <a href="https://butazzo-pizza.vercel.app" class="demo-item">
+                    <a href="https://sensational-cupcake-075815.netlify.app/" class="demo-item">
                         <div class="demo-inner page-1"></div>
                     </a>
                     <h4 class="demo-title">Home Version 1</h4>
-                    <a href="https://butazzo-pizza.vercel.app" class="button">View Page</a>
+                    <a href="https://sensational-cupcake-075815.netlify.app/" class="button">View Page</a>
                 </div>
             </div>
             <div class="col-sm-6 col-md-6 col-lg-6">
                 <div class="demo">
-                    <a href="https://butazzo-pizza.vercel.app/home-v2/index.html" class="demo-item">
+                    <a href="https://sensational-cupcake-075815.netlify.app/home-v2" class="demo-item">
                         <div class="demo-inner page-2"></div>
                     </a>
                     <h4 class="demo-title">Home Version 2</h4>
-                    <a href="https://butazzo-pizza.vercel.app/home-v2/index.html" class="button">View Page</a>
+                    <a href="https://sensational-cupcake-075815.netlify.app/home-v2" class="button">View Page</a>
                 </div>
             </div>
         </div>
