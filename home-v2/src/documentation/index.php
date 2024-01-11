@@ -33,7 +33,7 @@
 
                   <ul class="meta">
                       <li><strong>Author:</strong> <a href="https://themeforest.net/user/alissio" target="_blank">Alissio</a></li>
-                      <li><strong>Live Preview:</strong> <a href="https://butazzo-pizza.herokuapp.com/">View Demo</a></li>
+                      <li><strong>Live Preview:</strong> <a href="https://butazzopizza.netlify.app/landing/">View Demo</a></li>
                       <li><strong>Support:</strong> <a href="mailto:elvinmammadoff@gmail.com">Ask a Question</a></li> 
                   </ul>
 
@@ -378,7 +378,7 @@
                     </section>
 
                     <section id="php-file" class="section" data-magellan-destination="php-file">
-
+                          
                           <h1>7. PHP Code Explanation</h1>
 
                           <br>
@@ -388,7 +388,7 @@
                     </section>
 
                     <section id="yandex-map" class="section" data-magellan-destination="yandex-map">
-
+                          
                           <h1>8. Yandex Map Api</h1>
 
                           <br>
@@ -398,14 +398,19 @@
                     </section>
 
                     <section id="updates" class="section" data-magellan-destination="updates">
-
+                          
                           <h1>9. Regular Updates</h1>
 
                           <br>
 
-                          <p>We’re always improving our skills and knowledge so we’re making changes regularly. From bug fixes to new awesome features, updates generally come at least twice a month.<p>
+                          <p>We’re always improving our skills and knowledge so we’re making changes regularly. From bug fixes to new awesome features, updates generally come at least twice a month.<p>                       
 
 <pre>
+
+  V. 1.0.3 – 11.01.2024
+  - Update: Preview link change.
+  - Fix: Optimization images for SEO.
+  - Tweak: Improved Documentation
 
   V. 1.0.2 – 13.04.2021
   - Update: Bootstrap Framework to 4.5.

@@ -7,7 +7,7 @@
         <meta name="viewport" content="width=device-width, initial-scale=1">
 
         <!-- Title -->
-        <title>Documentation - Pizza Mizza</title>
+        <title>Documentation - Butazzo Pizza</title>
 
         <link rel="stylesheet" href="css/normalize.min.css">
         <link rel="stylesheet" href="css/foundation.css">
@@ -29,13 +29,13 @@
               <div class="large-10 large-centered columns">
 
                   <div class="name">
-                      <h3>Pizza Mizza</h3>
+                      <h3>Butazzo Pizza</h3>
                       <p>Premium HTML Template Documentation</p>
                   </div>
 
                   <ul class="meta">
                       <li><strong>Author:</strong> <a href="https://themeforest.net/user/alissio" target="_blank">Alissio</a></li>
-                      <li><strong>Live Preview:</strong> <a href="https://pizzamizza.netlify.app/">View Demo</a></li>
+                      <li><strong>Live Preview:</strong> <a href="https://butazzopizza.netlify.app/landing/">View Demo</a></li>
                       <li><strong>Support:</strong> <a href="mailto:elvinmammadoff@gmail.com">Ask a Question</a></li> 
                   </ul>
 
@@ -81,7 +81,7 @@
                     <section id="introduction" class="section" data-magellan-destination="introduction">
                           
                           <h1>Howdy!</h1>
-                          <p class="lead">You are a shining owner of a regular license based on Pizza Mizza Theme</p>
+                          <p class="lead">You are a shining owner of a regular license based on Butazzo Pizza Theme</p>
                           <p>First of all, Thank you so much for purchasing this template and for being my loyal customer. You are entitled to get free updates to this product + exceptional support (as per market policy) from the author directly.</p>
                           <p>This documentation is to help you understand the template's structure. Please go through the documentation carefully to understand how this template is made and how to edit this properly. Basic HTML and CSS knowledge is required to customize this template.</p>
 
@@ -411,13 +411,13 @@
 
 <pre>
   
-  V. 1.0.0 – 28.12.2023
+  V. 1.0.0 – 11.01.2024
   - Initial release
 </pre>  
                     </section>
 
                     <footer>
-                      <p>© Pizza Mizza Cafe and Restaurant HTML Template</p>
+                      <p>© Butazzo Pizza Cafe and Restaurant HTML Template</p>
                     </footer>
 
                 </div>

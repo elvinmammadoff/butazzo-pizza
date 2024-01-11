@@ -266,6 +266,9 @@ a:focus {
 .demo-inner.page-2 {
     background-image: url('https://s3.envato.com/files/286184278/03_Home%20V2.jpg');
 }
+.demo-inner.page-3 {
+    background-image: url('../img/home-v3.png');
+}
 .demo-title {
     font-size: 26px;
     line-height: 32px;
