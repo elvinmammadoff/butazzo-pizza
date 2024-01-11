@@ -1,6 +1,6 @@
 /*********************************************************************************
 
-	Version: 1.4
+	Version: 1.0
 
     Note: This is scripts js. All custom scripts here.
 
@@ -22,7 +22,6 @@
 	|___ Fancybox
 	|___ ScrollUp
 	|___ Slick slider
-	|___ Init Yandex Map
 	|___
     |
 	[END INDEX ]
@@ -102,7 +101,6 @@ $(document).ready(function() {
 
 
     //======= START Loading overlay ========
-
     $(window).on('load', function () {
         $('.loading-overlay').fadeOut(100);
     });
@@ -111,28 +109,19 @@ $(document).ready(function() {
 
 
     //======= START Carousel slider ========
-
     $('.carousel').carousel({
-      arrows: true,
-      pause: false
+      arrows: false,
+      pause: false,
     })
 
     //======= END Carousel slider ========
 
-    $('a[data-toggle="tab"]').on('shown.bs.tab', function (event) {
-        $('.loading').show().delay(5000).fadeOut('slow');
-    })
-
-    $(window).load(function (){
-        $('.loading').show().delay(5000).fadeOut('slow');
-    })
-
 
     //======= Menu Slider Start ========
     $('#menu-slider, #burger-slider, #pizza-slider, #salad-slider, #soup-slider, #drinks-slider').slick({
-        slidesToShow: 4,
+        slidesToShow: 3,
         slidesToScroll: 1,
-        centerMode: true,
+        centerMode: false,
         autoplay: true,
         draggable: true,
         dots: false,
@@ -277,6 +266,35 @@ $(document).ready(function() {
     //======= END Fancybox ========
 
 
+    /*======
+    *
+    * Page Scrolling
+    *
+    ======*/
+    //jQuery for page scrolling feature - requires jQuery Easing plugin
+
+    //Nav-link's to active as you scroll through sections
+    var sections = document.querySelectorAll("section");
+    var navLink = document.querySelectorAll("ul.navbar-nav li a");
+    window.onscroll = () => {
+      var current = "";
+    
+      sections.forEach((section) => {
+        var sectionTop = section.offsetTop;
+        if (pageYOffset >= sectionTop - 60) {
+          current = section.getAttribute("id"); 
+        }
+      });
+    
+      navLink.forEach((a) => {
+        a.classList.remove("active");
+        if (a.classList.contains(current)) {
+          a.classList.add("active");
+        }
+      });
+    };
+
+
     //======= START ScrollUp ========
 
 	$(document).on( 'scroll', function(){
@@ -303,13 +321,14 @@ $(document).ready(function() {
     //======= START Slick slider ========
 
     $('#chef-slider').slick({
-        slidesToShow: 3,
-        slidesToScroll: 3,
-        autoplay: false,
-        infinite: false,
+        slidesToShow: 4,
+        slidesToScroll: 1,
+        autoplay: true,
+        infinite: true,
         draggable: true,
-        dots: true,
-        arrows: false,
+        dots: false,
+        arrows: true,
+        pauseOnHover: false,
         responsive: [
             {
                 breakpoint: 992,
@@ -330,39 +349,3 @@ $(document).ready(function() {
 
     //======= END Slick slider ========
 
-
-    //======= START Init Yandex Map ========
-
-    ymaps.ready(init);
-    var myMap, 
-        myPlacemark;
-
-    var iconBase = 'src/assets/img/map-marker.png';
-    
-    function init(){ 
-        myMap = new ymaps.Map("map", {
-            center: [40.372488, 49.954121],
-            zoom: 13,
-    });
-    
-    myPlacemark = new ymaps.Placemark([40.372488, 49.954121], { 
-        // hintContent: 'Moscow!', 
-        // balloonContent: 'Capital of Russia'
-    },{
-        iconLayout: 'default#image',
-        iconImageHref: 'src/assets/img/map-marker.png',
-        iconImageSize: [26, 40],
-    });
-        
-        myMap.geoObjects.add(myPlacemark);
-        // myMap.controls.remove('zoomControl');
-        myMap.controls.remove('rulerControl');
-        myMap.controls.remove('geolocationControl');
-        myMap.controls.remove('searchControl');
-        myMap.controls.remove('trafficControl');
-        myMap.controls.remove('typeSelector');
-        myMap.controls.remove('fullscreenControl');
-        myMap.behaviors.disable('scrollZoom');
-    }
-
-    //======= END Init Yandex Map ========

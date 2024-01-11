@@ -7,7 +7,7 @@
         <meta name="viewport" content="width=device-width, initial-scale=1">
 
         <!-- Title -->
-        <title>Documentation - Butazzo Pizza</title>
+        <title>Documentation - Pizza Mizza</title>
 
         <link rel="stylesheet" href="css/normalize.min.css">
         <link rel="stylesheet" href="css/foundation.css">
@@ -23,20 +23,20 @@
     <body>
 
         <header id="site-header">
-
+            
             <div class="row">
 
               <div class="large-10 large-centered columns">
 
                   <div class="name">
-                      <h3>Butazzo Pizza</h3>
+                      <h3>Pizza Mizza</h3>
                       <p>Premium HTML Template Documentation</p>
                   </div>
 
                   <ul class="meta">
                       <li><strong>Author:</strong> <a href="https://themeforest.net/user/alissio" target="_blank">Alissio</a></li>
-                      <li><strong>Live Preview:</strong> <a href="https://butazzo-pizza.herokuapp.com/">View Demo</a></li>
-                      <li><strong>Support:</strong> <a href="mailto:elvinmammadoff@gmail.com">Ask a Question</a></li>
+                      <li><strong>Live Preview:</strong> <a href="https://pizzamizza.netlify.app/">View Demo</a></li>
+                      <li><strong>Support:</strong> <a href="mailto:elvinmammadoff@gmail.com">Ask a Question</a></li> 
                   </ul>
 
                   <p>Thank you for purchasing my theme. <br> If you have any questions that are beyond the scope of this help file, <br> please feel free to email <a href="mailto:designer.rafiq@gmail.com">here</a><br> Thanks so much!</p>
@@ -79,16 +79,16 @@
                 <div id="main-content" class="large-9 large-pull-3 columns">
 
                     <section id="introduction" class="section" data-magellan-destination="introduction">
-
+                          
                           <h1>Howdy!</h1>
-                          <p class="lead">You are a shining owner of a regular license based on Butazzo Pizza Theme</p>
+                          <p class="lead">You are a shining owner of a regular license based on Pizza Mizza Theme</p>
                           <p>First of all, Thank you so much for purchasing this template and for being my loyal customer. You are entitled to get free updates to this product + exceptional support (as per market policy) from the author directly.</p>
                           <p>This documentation is to help you understand the template's structure. Please go through the documentation carefully to understand how this template is made and how to edit this properly. Basic HTML and CSS knowledge is required to customize this template.</p>
 
                     </section>
 
                     <section id="getting-started" class="section" data-magellan-destination="getting-started">
-
+                          
                           <h1>1. Getting Started</h1>
 
                           <br>
@@ -101,7 +101,7 @@
                             <li><strong>template</strong> — Contains all the original template files comprises of HTML, CSS, JS etc. This is the folder which you'll upload on your server after necessary modifications.</li>
 
                             <li><strong>documentation</strong> — Inside this folder, you will find the same documentation updated with the latest changes.</li>
-
+                            
                           </ul>
 
                           <p>Details regarding contents and structure of <code>template</code> folder is given below.</p>
@@ -109,7 +109,7 @@
                     </section>
 
                     <section id="html-structure" class="section"  data-magellan-destination="html-structure">
-
+                          
                       <h1>2. HTML Structure</h1>
 
                       <br>
@@ -122,8 +122,8 @@
 
 <pre data-language="HTML Skeleton">
   <code class="language-markup">
-
-    <!-- BEGIN  Loading Section -->
+  
+    <!-- BEGIN  Loading -->  
     <div class="loading-overlay">
         <div class="spinner">
             <span></span>
@@ -133,50 +133,53 @@
             <span></span>
         </div>
     </div>
-    <!-- END Loading Section -->
-
+    <!-- END Loading -->
+  
     <!-- BEGIN body wrapper -->
       <div class="body-wrapper">
+  
+        <!-- Begin hero-->
+        <section id="hero"></section>
+        <!-- End hero-->
+          
+        <!-- Special Menu Slider Start -->
+        <section class="section" id="special"></section>
+        <!-- Special Menu Slider End -->
 
-        <!-- Begin header-->
-        <header id="header"></header>
-        <!-- End header-->
-
-        <!-- Begin Sections-->
-
-        <!--    About Us    -->
-        <div class="container section" id="about_us"></div>
-
+        <!--    About    -->
+        <section class="container section" id="about"></section>
+  
         <!--    Menus   -->
-        <div class="container section" id="menu"></div>
+        <section class="section" id="menus"></section>
 
+        <!--    Chef    -->
+        <section class="section chef" id="chef"></section>
+  
         <!--    Reservation    -->
-        <div class="fixed_layer section" id="reservation"></div>
-
+        <section class="section" id="reservation"></section>
+  
         <!--    Gallery    -->
-        <div class="container section" id="gallery"></div>
-
-        <!-- End Sections -->
-
+        <section class="container section" id="gallery"></section>
+  
         <!--  Begin Footer  -->
-        <footer></footer>
+        <section class="section footer" id="contact"></section> 
         <!-- End Footer -->
-
+  
       </div>
     <!-- END body-wrapper -->
-
+    
     <!-- START mobile right burger menu -->
     <nav class="cd-nav-container right_menu" id="cd-nav"></nav>
-
+  
     <div class="cd-overlay"></div><!-- /.cd-overlay -->
-
+  
   </code>
   </pre>
-
+                          
 
                     </section>
                     <section id="skeleton-details" class="sub-section"  data-magellan-destination="skeleton-details">
-
+                          
                           <h2>2.1. Skeleton Details</h2>
 
                           <br>
@@ -185,17 +188,17 @@
 
                           <p><code>div class="loading-overlay"</code> shows a loading overlay on the whole page or over single DOM elements</p>
 
-                          <p><code>header id="header"</code> section contains the code for carousel, contact details, logo and primary navigation at top.</p>
+                          <p><code>section id="hero"</code> contains the code for carousel, contact details, logo and primary navigation at top.</p>
 
-                          <p><code>div id="about_us"</code> <code>div id="menu"</code> <code>div id="reservation"</code> <code>div id="gallery"</code> section contains the page specific content as well as their details.</p>
+                          <p><code>div id="about"</code> <code>div id="menus"</code> <code>div id="reservation"</code> <code>div id="gallery"</code> section contains the page specific content as well as their details.</p>
 
-                          <p><code>site-footer</code> section typically remains the same. It consist of short about info, working days list, contact details, social icons and copyright text note also.</p>
+                          <p><code>footer</code> section typically remains the same. It consist of short about info, working days list, contact details, social icons and copyright text note also.</p>
 
                           <p>Further, skeleton shows two additional markup tags.<code>div id="cd-nav"</code> contains the menu for the mobile version. <code>div class="cd-overlay"</code> when mobile menu showed this layer visibled under mobile menu above content too.</p>
 
                     </section>
                     <section id="stylesheet-files" class="section" data-magellan-destination="stylesheet-files">
-
+                          
                           <h1>3. Stylesheet Files</h1>
 
                           <br>
@@ -225,24 +228,24 @@
 
                           <br>
                           <p>
-                           As it can be seen, the folder contains 14 <code>css</code> files.<br>
+                           As it can be seen, the folder contains 14 <code>css</code> files.<br> 
                           <code>bootstrap.min.css</code> is an open source toolkit for developing with HTML, CSS, and JS. Quickly prototype your ideas or build your entire app with responsive grid system.<br>
                           <code>bootstrap-datepicker.css</code> provides a flexible datepicker widget in the Bootstrap style.<br>
                           <code>bootstrap-datetimepicker.css</code> widget based on twitter bootstrap.<br>
                           <code>fonts.css</code> import fonts to stylesheet.<br>
                           <code>font-awesome.min.css</code> is iconic font and CSS toolkit.<br>
-                          <code>main.css</code> custom style file.<br>
-                          <code>responsive.css</code> for responsive design.<br>
-                          <code>aos.css</code> animate On scroll library.<br>
-                          <code>slick.css</code> is a responsive carousel jQuery plugin that supports multiple breakpoints, CSS3 transitions, touch events/swiping & much more.<br>
-                          <code>scrolling-nav.css</code> is a basic Bootstrap framework for creating smooth scrolling, one page websites <br>
+                          <code>main.css</code> custom style file.<br> 
+                          <code>responsive.css</code> for responsive design.<br>      
+                          <code>aos.css</code> animate On scroll library.<br>     
+                          <code>slick.css</code> is a responsive carousel jQuery plugin that supports multiple breakpoints, CSS3 transitions, touch events/swiping & much more.<br>                          
+                          <code>scrolling-nav.css</code> is a basic Bootstrap framework for creating smooth scrolling, one page websites <br>   
                           <code>jquery.fancybox.css</code> is a tool for displaying images, html content and multi-media in a Mac-style "lightbox" that floats overtop of web page <br>
-                          <code>touch-sideswipe.css</code> widget-library for mobile navbar (vanilla js and little bit pure css)
+                          <code>touch-sideswipe.css</code> widget-library for mobile navbar (vanilla js and little bit pure css)                                        
                           </p>
                     </section>
 
                     <section id="javascript-files" class="section" data-magellan-destination="javascript-files">
-
+                          
                           <h1>4. Javascript Files</h1>
 
                           <br>
@@ -252,10 +255,10 @@
 <pre data-language="Folder Map">
   <code class="language-markup">
     js/
-    |
-    |-- jquery-2.1.1.min.js
-    |-- bootstrap.min.js
-    |-- jquery.easing.min.js
+    |    
+    |-- jquery-2.1.1.min.js  
+    |-- bootstrap.min.js 
+    |-- jquery.easing.min.js      
     |-- bootstrap-datepicker.js
     |-- bootstrap-datetimepicker.js
     |-- moment.js
@@ -268,52 +271,52 @@
     |-- scrolling-nav.js
     |-- loadMoreResults.js
   </code>
-</pre>
-
+</pre> 
+                         
                           <br>
                           <p>
-                          In this folder there are 13 files. <br>
+                          In this folder there are 13 files. <br> 
                           <code>jquery.min.js</code> is a fast, small, and feature-rich JavaScript library<br>
                           <code>jquery.easing.min.js</code> a jQuery plugin from GSGD to give advanced easing options<br>
                           <code>bootstrap.min.js</code> is an open source toolkit for developing with HTML, CSS, and JS. Quickly prototype your ideas or build your entire app with responsive grid system<br>
                           <code>bootstrap-datetimepicker.js</code> widget based on twitter bootstrap<br />
                           <code>bootstrap-datepicker.js</code> provides a flexible datepicker widget in the Bootstrap style
-                          <code>main.js</code> contains all the custom programmed javascript coded specifically for this template<br>
+                          <code>main.js</code> contains all the custom programmed javascript coded specifically for this template<br> 
                           <code>aos.js</code> animate On scroll library<br />
                           <code>slick.min.js</code> is a responsive carousel jQuery plugin that supports multiple breakpoints, CSS3 transitions, touch events/swiping & much more<br>
-                          <code>scrolling-nav.js</code> is a basic Bootstrap framework for creating smooth scrolling, one page websites <br />
+                          <code>scrolling-nav.js</code> is a basic Bootstrap framework for creating smooth scrolling, one page websites <br />   
                           <code>jquery.fancybox.js</code> is a tool for displaying images, html content and multi-media in a Mac-style "lightbox" that floats overtop of web page <br />
                           <code>jquery.touchSwipe.min.js</code> widget-library for mobile navbar (vanilla js and little bit pure css) <br />
-                          <code>loadMoreResults.js</code> is a small jQuery plugin for adding a 'Load More' pagination button to your long web content that allows you to dynamically load more items according to your needs. <br />
+                          <code>loadMoreResults.js</code> is a small jQuery plugin for adding a 'Load More' pagination button to your long web content that allows you to dynamically load more items according to your needs. <br />    
                         </p>
 
                     </section>
 
                     <section id="support-desk" class="section" data-magellan-destination="support-desk">
-
+                          
                           <h1>5. Support Desk</h1>
 
                           <br>
 
                           <p>Please be reminded that you have purchased a very affordable theme and you have not paid for a full-time web design agency. Occasionally, we will help with small tweaks, but these requests will be put on a lower priority due to their nature.</p>
-
+                      
 
                           <section class="sub-section">
-
+                                
                                 <h2>Support for my items includes:</h2>
 
                                 <br>
 
                                 <ul>
                                   <li>Responding to questions or problems regarding the item and its features</li>
-                                  <li>Fixing bugs and reported issues</li>
+                                  <li>Fixing bugs and reported issues</li>        
                                   <li>Providing updates to ensure compatibility with new software versions</li>
-                                </ul>
+                                </ul>   
 
                           </section>
 
                           <section class="sub-section">
-
+                                
                                 <h2>Item support does not include:</h2>
 
                                 <br>
@@ -321,12 +324,12 @@
                                 <ul>
                                   <li>Customization and installation services</li>
                                   <li>Support for third party software and plug-ins</li>
-                                </ul>
+                                </ul>   
 
                           </section>
 
                           <section class="sub-section">
-
+                                
                                 <h2>Before seeking support, please...</h2>
 
                                 <br>
@@ -340,13 +343,13 @@
                                   <li>Make sure to state the name of the item you are having issues with when requesting support via ThemeForest.</li>
                                 </ul>
 
-                          </section>
+                          </section>   
 
 
-                    </section>
+                    </section>                    
 
                     <section id="files-resources" class="section" data-magellan-destination="files-resources">
-
+                          
                           <h1>6. Files &amp; Resources</h1>
 
                           <br>
@@ -369,7 +372,6 @@
                             <li><a href="https://www.jqueryscript.net/loading/Load-More-Pagination-jQuery-loadMoreResults.html" target="_blank">loadMoreResults</a></li>
                             <li> <strong>Fonts used</strong>
                               <ul>
-                                <li><a href="https://www.fontsquirrel.com/fonts/chunkfive" target="_blank">ChunkFive Ex</a></li>
                                 <li><a href="https://fonts.google.com/specimen/Montserrat" target="_blank">Montserrat</a></li>
                                 <li><a href="https://fonts.google.com/specimen/Raleway" target="_blank">Raleway</a></li>
                                 <li><a href="https://fontawesome.com/v4.7.0/" target="_blank">Font Awesome</a></li>
@@ -380,7 +382,7 @@
                     </section>
 
                     <section id="php-file" class="section" data-magellan-destination="php-file">
-
+                          
                           <h1>7. PHP Code Explanation</h1>
 
                           <br>
@@ -390,7 +392,7 @@
                     </section>
 
                     <section id="yandex-map" class="section" data-magellan-destination="yandex-map">
-
+                          
                           <h1>8. Yandex Map Api</h1>
 
                           <br>
@@ -400,74 +402,22 @@
                     </section>
 
                     <section id="updates" class="section" data-magellan-destination="updates">
-
+                          
                           <h1>9. Regular Updates</h1>
 
                           <br>
 
-                          <p>We’re always improving our skills and knowledge so we’re making changes regularly. From bug fixes to new awesome features, updates generally come at least twice a month.<p>
+                          <p>We’re always improving our skills and knowledge so we’re making changes regularly. From bug fixes to new awesome features, updates generally come at least twice a month.<p>                       
 
 <pre>
-
-  V. 1.5.2 – 13.04.2021
-  - Update: Bootstrap Framework to 4.5.
-  - Tested: Android (Samsung, Google, HTC) and iOS (iPhone 11, iPhone 6s, iPad (6th Generation), iPad Air 2) devices, Safari, Firefox, Chrome browsers.
-  - Tweak: Improved Documentation
   
-  V. 1.5.1 – 13.10.2020
-  - Fix: "Our Menus" section tab on click problem on iPhone devices.
-  - Tested: Android (Samsung, Google, HTC) and iOS (iPhone 11, iPhone 6s, iPad (6th Generation), iPad Air 2) devices, Safari, Firefox, Chrome browsers. 
-  - Tweak: Improved Documentation
-  
-  V. 1.5.0 – 21.07.2020
-  - New: Home version 2 added
-  - Added: Yandex Map API
-  - Tweak: Improved Documentation
-  
-  V. 1.4.0 – 10.07.2020
-  - New Feature: Chef personal info can be added and shown on slider
-  - Fix: Google Map API key source
-  - Tweak: Improved Documentation
-
-  V. 1.3.1 – 04.05.2020
-  - Added: Menu and gallery big images for popup
-  - Fix: Menu and gallery images changed
-  - Tweak: Improved Documentation
-
-  V. 1.3.0 – 03.05.2020
-  - New: Animate gallery load icon added for more button
-  - Fix: Go to top button work on footer
-  - Fix: Search input clear empty value
-  - Tweak: Improved Documentation
-    
-  V. 1.2.0 – 1.12.2019
-  - New: Scroll up button functionality added
-  - Fix: Header search clear button type
-  - Fix: Inputs type text autocomplete 
-  - Tweak: Improved Documentation
-
-  V. 1.1.1 – 30.09.2018
-  - Fix: Burger menu view on tablet devices
-  - Fix: Navbar fixed view 
-  - Tweak: Improved Documentation
-
-  V. 1.1.0 – 08.07.2018
-  - New: loadMoreResults plugin for gallery photos
-  - Fix: Slider responsive view to medium devices
-  - Added: Extra images for slider, menu and gallery sections
-  - Fix: Content of menu section  
-  - Tweak: Improved Documentation
-
-  V. 1.0.1 – 7.07.2018
-  - Tweak: Improved Fonts Loading Performance
-  
-  V. 1.0.0 – 2.06.2018
+  V. 1.0.0 – 28.12.2023
   - Initial release
 </pre>  
                     </section>
 
                     <footer>
-                      <p>© Butazzo Pizza Cafe and Restaurant HTML Template</p>
+                      <p>© Pizza Mizza Cafe and Restaurant HTML Template</p>
                     </footer>
 
                 </div>
