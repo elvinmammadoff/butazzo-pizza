@@ -8,38 +8,38 @@
     <!-- Meta tags -->
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
-    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
     <meta name="description" content="">
     <meta name="author" content="">
     <title>Butazzo Pizza - Restaurant, Cafe, Fast Food business HTML5 Responsive, CSS3 One Page Template</title>
 
     <!-- Stylesheets -->
-    <link href="src/assets/css/bootstrap.min.css" type="text/css" rel="stylesheet" media="all" />
-    <link href="src/assets/css/bootstrap-theme.min.css" type="text/css" rel="stylesheet" media="all" />
-    <link href="src/assets/css/fonts.css" type="text/css" rel="stylesheet" />
-    <link href="src/assets/css/font-awesome.min.css" type="text/css" rel="stylesheet" />
-    <link href="src/assets/css/slick.css" type="text/css" rel="stylesheet" />
-    <link href="src/assets/css/slick-theme.css" type="text/css" rel="stylesheet" />
-    <link href="src/assets/css/aos.css" type="text/css" rel="stylesheet" />
-    <link href="src/assets/css/scrolling-nav.css" type="text/css" rel="stylesheet" />
-    <link href="src/assets/css/bootstrap-datepicker.css" type="text/css" rel="stylesheet" />
-    <link href="src/assets/css/bootstrap-datetimepicker.css" type="text/css" rel="stylesheet" />
-    <link href="src/assets/css/touch-sideswipe.css" type="text/css" rel="stylesheet" />
-    <link href="src/assets/css/jquery.fancybox.css" type="text/css" rel="stylesheet" />
-    <link href="src/assets/css/main.css" type="text/css" rel="stylesheet" />
-    <link href="src/assets/css/responsive.css" type="text/css" rel="stylesheet" />
+    <link href="src/assets/css/bootstrap.min.css" type="text/css" rel="stylesheet" media="all">
+    <link href="src/assets/css/bootstrap-theme.min.css" type="text/css" rel="stylesheet" media="all">
+    <link href="src/assets/css/fonts.css" type="text/css" rel="stylesheet">
+    <link href="src/assets/css/font-awesome.min.css" type="text/css" rel="stylesheet">
+    <link href="src/assets/css/slick.css" type="text/css" rel="stylesheet">
+    <link href="src/assets/css/slick-theme.css" type="text/css" rel="stylesheet">
+    <link href="src/assets/css/aos.css" type="text/css" rel="stylesheet">
+    <link href="src/assets/css/scrolling-nav.css" type="text/css" rel="stylesheet">
+    <link href="src/assets/css/bootstrap-datepicker.css" type="text/css" rel="stylesheet">
+    <link href="src/assets/css/bootstrap-datetimepicker.css" type="text/css" rel="stylesheet">
+    <link href="src/assets/css/touch-sideswipe.css" type="text/css" rel="stylesheet">
+    <link href="src/assets/css/jquery.fancybox.css" type="text/css" rel="stylesheet">
+    <link href="src/assets/css/main.css" type="text/css" rel="stylesheet">
+    <link href="src/assets/css/responsive.css" type="text/css" rel="stylesheet">
 
     <!-- Favicon -->
-    <link rel="apple-touch-icon" sizes="180x180" href="src/assets/img/favicon/apple-touch-icon.png" />
+    <link rel="apple-touch-icon" sizes="180x180" href="src/assets/img/favicon/apple-touch-icon.png">
     <link rel="icon" type="image/png" sizes="256x256"  href="src/assets/img/favicon/android-chrome-256x256.png">
     <link rel="icon" type="image/png" sizes="192x192"  href="src/assets/img/favicon/android-chrome-192x192.png">    
-    <link rel="icon" type="image/png" sizes="32x32" href="src/assets/img/favicon/favicon-32x32.png" />
-    <link rel="icon" type="image/png" sizes="16x16" href="src/assets/img/favicon/favicon-16x16.png" />
-    <link rel="icon" type="image/png" href="src/assets/img/favicon/favicon.ico" />
-    <link rel="manifest" href="src/assets/img/favicon/site.webmanifest" />
-    <link rel="mask-icon" href="src/assets/img/favicon/safari-pinned-tab.svg" color="#5bbad5" />
-    <meta name="msapplication-TileColor" content="#990100" />
-    <meta name="theme-color" content="#ffffff" />    
+    <link rel="icon" type="image/png" sizes="32x32" href="src/assets/img/favicon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="src/assets/img/favicon/favicon-16x16.png">
+    <link rel="icon" type="image/png" href="src/assets/img/favicon/favicon.ico">
+    <link rel="manifest" href="src/assets/img/favicon/site.webmanifest">
+    <link rel="mask-icon" href="src/assets/img/favicon/safari-pinned-tab.svg" color="#5bbad5">
+    <meta name="msapplication-TileColor" content="#990100">
+    <meta name="theme-color" content="#ffffff">    
 
 </head>
 <!-- END head -->
@@ -94,7 +94,7 @@
                         <div class="carousel-item active">
                             <div class="carousel-caption">
                                 <div class="fadeUp item_img">
-                                    <img src="src/assets/img/photos/pizza.png" alt="sample" />
+                                    <img src="src/assets/img/photos/pizza.png" alt="sample">
                                     <div class="item_badge">
                                         <span class="badge_btext">20%</span>
                                         <span class="badge_stext">OFF</span>
@@ -113,7 +113,7 @@
                         <div class="carousel-item">
                             <div class="carousel-caption">
                                 <div class="fadeUp item_img">
-                                    <img src="src/assets/img/photos/tortilla.png" alt="sample" />
+                                    <img src="src/assets/img/photos/tortilla.png" alt="sample">
                                     <div class="item_badge">
                                         <span class="badge_btext">20%</span>
                                         <span class="badge_stext">OFF</span>
@@ -132,7 +132,7 @@
                         <div class="carousel-item">
                             <div class="carousel-caption">
                                 <div class="fadeUp item_img">
-                                    <img src="src/assets/img/photos/burger.png" alt="sample" />
+                                    <img src="src/assets/img/photos/burger.png" alt="sample">
                                     <div class="item_badge">
                                         <span class="badge_btext">20%</span>
                                         <span class="badge_stext">OFF</span>
@@ -151,7 +151,7 @@
                         <div class="carousel-item">
                             <div class="carousel-caption">
                                 <div class="fadeUp item_img">
-                                    <img src="src/assets/img/photos/pizza.png" alt="sample" />
+                                    <img src="src/assets/img/photos/pizza.png" alt="sample">
                                     <div class="item_badge">
                                         <span class="badge_btext">20%</span>
                                         <span class="badge_stext">OFF</span>
@@ -170,7 +170,7 @@
                         <div class="carousel-item">
                             <div class="carousel-caption">
                                 <div class="fadeUp item_img">
-                                    <img src="src/assets/img/photos/burger.png" alt="sample" />
+                                    <img src="src/assets/img/photos/burger.png" alt="sample">
                                     <div class="item_badge">
                                         <span class="badge_btext">20%</span>
                                         <span class="badge_stext">OFF</span>
@@ -220,7 +220,7 @@
                                 <!-- Brand and toggle get grouped for better mobile display -->
                                 <div class="navbar-header">
                                     <a class="navbar-brand" href="#">
-                                        <img src="src/assets/img/logo.png" alt="logo" />
+                                        <img src="src/assets/img/logo.png" alt="logo">
                                     </a>
                                     <a href="#cd-nav" class="cd-nav-trigger right_menu_icon">
                                         <span><i class="fa fa-bars" aria-hidden="true"></i></span>
@@ -268,7 +268,7 @@
                 </div>
                 <div class="col-md-6 img text-center padd_lr0" data-aos="fade-down">
                     <div class="border_on">
-                        <img src="src/assets/img/photos/about-us.jpg" alt="sample" class="about_img" />
+                        <img src="src/assets/img/photos/about-us.jpg" alt="sample" class="about_img">
                     </div>
                 </div>
             </div>
@@ -282,7 +282,7 @@
 
             <!--    Menus filter    -->
             <ul class="nav nav-tabs menu_filter" id="myTab" role="tablist">
-                <li class="nav-item item active" role="presentation">
+                <li class="nav-item item" role="presentation">
                   <a class="nav-link active" id="burger-tab" data-toggle="tab" href="#burger" role="tab" aria-controls="burger" aria-selected="true">Burger</a>
                 </li>
                 <li class="nav-item item" role="presentation">
@@ -309,7 +309,7 @@
                                 <div class="content">
                                     <div class="filter_item_img">
                                         <i class="fa fa-search-plus"></i>
-                                        <img src="src/assets/img/photos/beef-burger-xs.jpg" alt="sample" />
+                                        <img src="src/assets/img/photos/beef-burger-xs.jpg" alt="sample">
                                     </div>
                                     <div class="info">
                                         <div class="name">Beef Burger</div>
@@ -324,7 +324,7 @@
                                 <div class="content">
                                     <div class="filter_item_img">
                                         <i class="fa fa-search-plus"></i>
-                                        <img src="src/assets/img/photos/bison-burger-xs.jpg" alt="sample" />
+                                        <img src="src/assets/img/photos/bison-burger-xs.jpg" alt="sample">
                                     </div>
                                     <div class="info">
                                         <div class="name">Bison Burger</div>
@@ -339,7 +339,7 @@
                                 <div class="content">
                                     <div class="filter_item_img">
                                         <i class="fa fa-search-plus"></i>
-                                        <img src="src/assets/img/photos/black-bean-burger-xs.jpg" alt="sample" />
+                                        <img src="src/assets/img/photos/black-bean-burger-xs.jpg" alt="sample">
                                     </div>
                                     <div class="info">
                                         <div class="name">Black Bean Burger</div>
@@ -354,7 +354,7 @@
                                 <div class="content">
                                     <div class="filter_item_img">
                                         <i class="fa fa-search-plus"></i>
-                                        <img src="src/assets/img/photos/elk-burger-xs.jpg" alt="sample" />
+                                        <img src="src/assets/img/photos/elk-burger-xs.jpg" alt="sample">
                                     </div>
                                     <div class="info">
                                         <div class="name">Elk Burger</div>
@@ -369,7 +369,7 @@
                                 <div class="content">
                                     <div class="filter_item_img">
                                         <i class="fa fa-search-plus"></i>
-                                        <img src="src/assets/img/photos/veggie-burger-xs.jpg" alt="sample" />
+                                        <img src="src/assets/img/photos/veggie-burger-xs.jpg" alt="sample">
                                     </div>
                                     <div class="info">
                                         <div class="name">Veggie Burger</div>
@@ -384,7 +384,7 @@
                                 <div class="content">
                                     <div class="filter_item_img">
                                         <i class="fa fa-search-plus"></i>
-                                        <img src="src/assets/img/photos/wild-salmon-burger-xs.jpg" alt="sample" />
+                                        <img src="src/assets/img/photos/wild-salmon-burger-xs.jpg" alt="sample">
                                     </div>
                                     <div class="info">
                                         <div class="name">Wild Salmon Burger</div>
@@ -403,7 +403,7 @@
                                 <div class="content">
                                     <div class="filter_item_img">
                                         <i class="fa fa-search-plus"></i>
-                                        <img src="src/assets/img/photos/pizza-chicken-tikka-xs.jpg" alt="sample" />
+                                        <img src="src/assets/img/photos/pizza-chicken-tikka-xs.jpg" alt="sample">
                                     </div>
                                     <div class="info">
                                         <div class="name">Chicken Tikka</div>
@@ -418,7 +418,7 @@
                                 <div class="content">
                                     <div class="filter_item_img">
                                         <i class="fa fa-search-plus"></i>
-                                        <img src="src/assets/img/photos/pizza-hawaii-xs.jpg" alt="sample" />
+                                        <img src="src/assets/img/photos/pizza-hawaii-xs.jpg" alt="sample">
                                     </div>
                                     <div class="info">
                                         <div class="name">Pizza Hawaii</div>
@@ -433,7 +433,7 @@
                                 <div class="content">
                                     <div class="filter_item_img">
                                         <i class="fa fa-search-plus"></i>
-                                        <img src="src/assets/img/photos/pizza-kebab-xs.jpg" alt="sample" />
+                                        <img src="src/assets/img/photos/pizza-kebab-xs.jpg" alt="sample">
                                     </div>
                                     <div class="info">
                                         <div class="name">Pizza Kebab</div>
@@ -448,7 +448,7 @@
                                 <div class="content">
                                     <div class="filter_item_img">
                                         <i class="fa fa-search-plus"></i>
-                                        <img src="src/assets/img/photos/pizza-margherita-xs.jpg" alt="sample" />
+                                        <img src="src/assets/img/photos/pizza-margherita-xs.jpg" alt="sample">
                                     </div>
                                     <div class="info">
                                         <div class="name">Margherita</div>
@@ -463,7 +463,7 @@
                                 <div class="content">
                                     <div class="filter_item_img">
                                         <i class="fa fa-search-plus"></i>
-                                        <img src="src/assets/img/photos/pizza-mushroom-xs.jpg" alt="sample" />
+                                        <img src="src/assets/img/photos/pizza-mushroom-xs.jpg" alt="sample">
                                     </div>
                                     <div class="info">
                                         <div class="name">Pizza Mushroom</div>
@@ -478,7 +478,7 @@
                                 <div class="content">
                                     <div class="filter_item_img">
                                         <i class="fa fa-search-plus"></i>
-                                        <img src="src/assets/img/photos/pizza-neapolitan-xs.jpg" alt="sample" />
+                                        <img src="src/assets/img/photos/pizza-neapolitan-xs.jpg" alt="sample">
                                     </div>
                                     <div class="info">
                                         <div class="name">Neapolitan</div>
@@ -493,7 +493,7 @@
                                 <div class="content">
                                     <div class="filter_item_img">
                                         <i class="fa fa-search-plus"></i>
-                                        <img src="src/assets/img/photos/pizza-pepperoni-xs.jpg" alt="sample" />
+                                        <img src="src/assets/img/photos/pizza-pepperoni-xs.jpg" alt="sample">
                                     </div>
                                     <div class="info">
                                         <div class="name">Pepperoni</div>
@@ -508,7 +508,7 @@
                                 <div class="content">
                                     <div class="filter_item_img">
                                         <i class="fa fa-search-plus"></i>
-                                        <img src="src/assets/img/photos/pizza-veggie-xs.jpg" alt="sample" />
+                                        <img src="src/assets/img/photos/pizza-veggie-xs.jpg" alt="sample">
                                     </div>
                                     <div class="info">
                                         <div class="name">Pizza Veggie</div>
@@ -527,7 +527,7 @@
                                 <div class="content">
                                     <div class="filter_item_img">
                                         <i class="fa fa-search-plus"></i>
-                                        <img src="src/assets/img/photos/ambrosia-salad-xs.jpg" alt="sample" />
+                                        <img src="src/assets/img/photos/ambrosia-salad-xs.jpg" alt="sample">
                                     </div>
                                     <div class="info">
                                         <div class="name">Ambrosia</div>
@@ -542,7 +542,7 @@
                                 <div class="content">
                                     <div class="filter_item_img">
                                         <i class="fa fa-search-plus"></i>
-                                        <img src="src/assets/img/photos/bound-salad-xs.jpg" alt="sample" />
+                                        <img src="src/assets/img/photos/bound-salad-xs.jpg" alt="sample">
                                     </div>
                                     <div class="info">
                                         <div class="name">Bound Salad</div>
@@ -557,7 +557,7 @@
                                 <div class="content">
                                     <div class="filter_item_img">
                                         <i class="fa fa-search-plus"></i>
-                                        <img src="src/assets/img/photos/fruit-salad-xs.jpg" alt="sample" />
+                                        <img src="src/assets/img/photos/fruit-salad-xs.jpg" alt="sample">
                                     </div>
                                     <div class="info">
                                         <div class="name">Fruit Salad</div>
@@ -572,7 +572,7 @@
                                 <div class="content">
                                     <div class="filter_item_img">
                                         <i class="fa fa-search-plus"></i>
-                                        <img src="src/assets/img/photos/garden-salad-xs.jpg" alt="sample" />
+                                        <img src="src/assets/img/photos/garden-salad-xs.jpg" alt="sample">
                                     </div>
                                     <div class="info">
                                         <div class="name">Garden Salad</div>
@@ -591,7 +591,7 @@
                                 <div class="content">
                                     <div class="filter_item_img">
                                         <i class="fa fa-search-plus"></i>
-                                        <img src="src/assets/img/photos/chicken-noodle-soup-xs.jpg" alt="sample" />
+                                        <img src="src/assets/img/photos/chicken-noodle-soup-xs.jpg" alt="sample">
                                     </div>
                                     <div class="info">
                                         <div class="name">Chicken Noodle</div>
@@ -606,7 +606,7 @@
                                 <div class="content">
                                     <div class="filter_item_img">
                                         <i class="fa fa-search-plus"></i>
-                                        <img src="src/assets/img/photos/puree-of-carrot-soup-xs.jpg" alt="sample" />
+                                        <img src="src/assets/img/photos/puree-of-carrot-soup-xs.jpg" alt="sample">
                                     </div>
                                     <div class="info">
                                         <div class="name">Puree of Carrot</div>
@@ -621,7 +621,7 @@
                                 <div class="content">
                                     <div class="filter_item_img">
                                         <i class="fa fa-search-plus"></i>
-                                        <img src="src/assets/img/photos/seafood-bisque-soup-xs.jpg" alt="sample" />
+                                        <img src="src/assets/img/photos/seafood-bisque-soup-xs.jpg" alt="sample">
                                     </div>
                                     <div class="info">
                                         <div class="name">Seafood Bisque</div>
@@ -636,7 +636,7 @@
                                 <div class="content">
                                     <div class="filter_item_img">
                                         <i class="fa fa-search-plus"></i>
-                                        <img src="src/assets/img/photos/veloute-tomate-soup-xs.jpg" alt="sample" />
+                                        <img src="src/assets/img/photos/veloute-tomate-soup-xs.jpg" alt="sample">
                                     </div>
                                     <div class="info">
                                         <div class="name">Veloute Tomato</div>
@@ -655,7 +655,7 @@
                                 <div class="content">
                                     <div class="filter_item_img">
                                         <i class="fa fa-search-plus"></i>
-                                        <img src="src/assets/img/photos/americano-cocktail-xs.jpg" alt="sample" />
+                                        <img src="src/assets/img/photos/americano-cocktail-xs.jpg" alt="sample">
                                     </div>
                                     <div class="info">
                                         <div class="name">Americano</div>
@@ -670,7 +670,7 @@
                                 <div class="content">
                                     <div class="filter_item_img">
                                         <i class="fa fa-search-plus"></i>
-                                        <img src="src/assets/img/photos/cosmopolitan-cocktail-xs.jpg" alt="sample" />
+                                        <img src="src/assets/img/photos/cosmopolitan-cocktail-xs.jpg" alt="sample">
                                     </div>
                                     <div class="info">
                                         <div class="name">Cosmopolitan</div>
@@ -685,7 +685,7 @@
                                 <div class="content">
                                     <div class="filter_item_img">
                                         <i class="fa fa-search-plus"></i>
-                                        <img src="src/assets/img/photos/malibu-sunset-cocktail-xs.jpg" alt="sample" />
+                                        <img src="src/assets/img/photos/malibu-sunset-cocktail-xs.jpg" alt="sample">
                                     </div>
                                     <div class="info">
                                         <div class="name">Malibu Sunset</div>
@@ -700,7 +700,7 @@
                                 <div class="content">
                                     <div class="filter_item_img">
                                         <i class="fa fa-search-plus"></i>
-                                        <img src="src/assets/img/photos/sweet-poison-cocktail-xs.jpg" alt="sample" />
+                                        <img src="src/assets/img/photos/sweet-poison-cocktail-xs.jpg" alt="sample">
                                     </div>
                                     <div class="info">
                                         <div class="name">Sweet Poison</div>
@@ -715,7 +715,7 @@
                                 <div class="content">
                                     <div class="filter_item_img">
                                         <i class="fa fa-search-plus"></i>
-                                        <img src="src/assets/img/photos/tropical-garden-cocktail-xs.jpg" alt="sample" />
+                                        <img src="src/assets/img/photos/tropical-garden-cocktail-xs.jpg" alt="sample">
                                     </div>
                                     <div class="info">
                                         <div class="name">Tropical Garden</div>
@@ -730,7 +730,7 @@
                                 <div class="content">
                                     <div class="filter_item_img">
                                         <i class="fa fa-search-plus"></i>
-                                        <img src="src/assets/img/photos/green-tea-xs.jpg" alt="sample" />
+                                        <img src="src/assets/img/photos/green-tea-xs.jpg" alt="sample">
                                     </div>
                                     <div class="info">
                                         <div class="name">Green Tea</div>
@@ -745,7 +745,7 @@
                                 <div class="content">
                                     <div class="filter_item_img">
                                         <i class="fa fa-search-plus"></i>
-                                        <img src="src/assets/img/photos/spicy-ginger-lemon-tea-xs.jpg" alt="sample" />
+                                        <img src="src/assets/img/photos/spicy-ginger-lemon-tea-xs.jpg" alt="sample">
                                     </div>
                                     <div class="info">
                                         <div class="name">Spicy Ginger Lemon Tea</div>
@@ -759,15 +759,10 @@
                 </div>
 
                 <div class="text-center">
-                    <!-- BEGIN pagination -->
-                    <ul class="pagination">
-                        <li class="active"><a href="javascript:;">1</a></li>
-                        <li><a href="javascript:;">2</a></li>
-                        <li><a href="javascript:;">3</a></li>
-                        <li><a href="javascript:;">4</a></li>
-                    </ul>
-                    <!-- END pagination -->
-                </div>                
+                    <a href="menus.html" class="btn-view more_btn btn-load-more">
+                        <span>go to menus</span>
+                    </a>
+                </div>               
             </div>
         </div>
 
@@ -779,7 +774,7 @@
             <div id="chef-slider">
                 <div class="chef-item">
                     <div class="chef-image">
-                        <img src="src/assets/img/photos/chef_1.jpg" alt="" />
+                        <img src="src/assets/img/photos/chef_1.jpg" alt="">
                     </div>
                     <div class="chef-info">
                         <h3 class="chef-name">Margaret Loe Chef</h3>
@@ -801,7 +796,7 @@
                 </div>
                 <div class="chef-item">
                     <div class="chef-image">
-                        <img src="src/assets/img/photos/chef_2.jpg" alt="" />
+                        <img src="src/assets/img/photos/chef_2.jpg" alt="">
                     </div>
                     <div class="chef-info">
                         <h3 class="chef-name">Margaret Loe Chef</h3>
@@ -823,7 +818,7 @@
                 </div>
                 <div class="chef-item">
                     <div class="chef-image">
-                        <img src="src/assets/img/photos/chef_3.jpg" alt="" />
+                        <img src="src/assets/img/photos/chef_3.jpg" alt="">
                     </div>
                     <div class="chef-info">
                         <h3 class="chef-name">Margaret Loe Chef</h3>
@@ -845,7 +840,7 @@
                 </div>
                 <div class="chef-item">
                     <div class="chef-image">
-                        <img src="src/assets/img/photos/chef_1.jpg" alt="" />
+                        <img src="src/assets/img/photos/chef_1.jpg" alt="">
                     </div>
                     <div class="chef-info">
                         <h3 class="chef-name">Margaret Loe Chef</h3>
@@ -867,7 +862,7 @@
                 </div>
                 <div class="chef-item">
                     <div class="chef-image">
-                        <img src="src/assets/img/photos/chef_2.jpg" alt="" />
+                        <img src="src/assets/img/photos/chef_2.jpg" alt="">
                     </div>
                     <div class="chef-info">
                         <h3 class="chef-name">Margaret Loe Chef</h3>
@@ -889,7 +884,7 @@
                 </div>
                 <div class="chef-item">
                     <div class="chef-image">
-                        <img src="src/assets/img/photos/chef_3.jpg" alt="" />
+                        <img src="src/assets/img/photos/chef_3.jpg" alt="">
                     </div>
                     <div class="chef-info">
                         <h3 class="chef-name">Margaret Loe Chef</h3>
@@ -924,13 +919,13 @@
                                 <div class="row">
                                     <div class="col-md-6">
                                         <div class="form-group form_pos">
-                                            <input type="text" name="name" autocomplete="off" required="" placeholder="Your name" class="form-control" onfocus="this.placeholder = ''" onblur="this.placeholder = 'Your name'" />
+                                            <input type="text" name="name" autocomplete="off" required="" placeholder="Your name" class="form-control" onfocus="this.placeholder = ''" onblur="this.placeholder = 'Your name'">
                                             <span class="form_icon"></span>
                                         </div>
                                     </div>
                                     <div class="col-md-6">
                                         <div class="form-group form_pos">
-                                            <input type="email" name="email" autocomplete="off" required="" placeholder="Your email" class="form-control" onfocus="this.placeholder = ''" onblur="this.placeholder = 'Your email'" />
+                                            <input type="email" name="email" autocomplete="off" required="" placeholder="Your email" class="form-control" onfocus="this.placeholder = ''" onblur="this.placeholder = 'Your email'">
                                             <span class="form_icon"></span>
                                         </div>
                                     </div>
@@ -938,19 +933,19 @@
                                 <div class="row">
                                     <div class="col-md-4">
                                         <div class="form-group form_pos">
-                                            <input type="text" name="phone" autocomplete="off" required="" placeholder="Phone" class="form-control" onfocus="this.placeholder = ''" onblur="this.placeholder = 'Phone'" />
+                                            <input type="text" name="phone" autocomplete="off" required="" placeholder="Phone" class="form-control" onfocus="this.placeholder = ''" onblur="this.placeholder = 'Phone'">
                                             <span class="form_icon"></span>
                                         </div>
                                     </div>
                                     <div class="col-md-4">
                                         <div class="form-group form_pos">
-                                            <input type="text" name="date" autocomplete="off" required="" placeholder="Date" class="form-control" id="reserv_date" onfocus="this.placeholder = ''" onblur="this.placeholder = 'Date'" />
+                                            <input type="text" name="date" autocomplete="off" required="" placeholder="Date" class="form-control" id="reserv_date" onfocus="this.placeholder = ''" onblur="this.placeholder = 'Date'">
                                             <span class="form_icon"></span>
                                         </div>
                                     </div>
                                     <div class="col-md-4">
                                         <div class="form-group form_pos">
-                                            <input type="text" name="time" autocomplete="off" required="" placeholder="Time" class="form-control" id="reserv_time" onfocus="this.placeholder = ''" onblur="this.placeholder = 'Time'" />
+                                            <input type="text" name="time" autocomplete="off" required="" placeholder="Time" class="form-control" id="reserv_time" onfocus="this.placeholder = ''" onblur="this.placeholder = 'Time'">
                                             <span class="form_icon"></span>
                                         </div>
                                     </div>
@@ -958,7 +953,7 @@
                                 <div class="form-group">
                                     <textarea rows="3" name="message" placeholder="Message" class="form-control" onfocus="this.placeholder = ''" onblur="this.placeholder = 'Message'"></textarea>
                                 </div>
-                                <input type="submit" name="send" value="book now" class="btn btn-block" />
+                                <input type="submit" name="send" value="book now" class="btn btn-block">
                             </form>
                         </div>
                     </div>
@@ -977,7 +972,7 @@
                     <div class="col-md-4 col-lg-3 item">
                         <a href="src/assets/img/photos/wings-lg.jpg" class="block fancybox" data-fancybox-group="fancybox">
                             <div class="content">
-                                <img src="src/assets/img/photos/wings-xs.jpg" alt="sample" />
+                                <img src="src/assets/img/photos/wings-xs.jpg" alt="sample">
                                 <div class="zoom">
                                     <span class="zoom_icon"><i class="fa fa-search-plus"></i></span>
                                 </div>
@@ -987,7 +982,7 @@
                     <div class="col-md-4 col-lg-3 item">
                         <a href="src/assets/img/photos/spare-ribs-lg.jpg" class="block fancybox" data-fancybox-group="fancybox">
                             <div class="content">
-                                <img src="src/assets/img/photos/spare-ribs-xs.jpg" alt="sample" />
+                                <img src="src/assets/img/photos/spare-ribs-xs.jpg" alt="sample">
                                 <div class="zoom">
                                     <span class="zoom_icon"><i class="fa fa-search-plus"></i></span>
                                 </div>
@@ -997,7 +992,7 @@
                     <div class="col-md-4 col-lg-3 item">
                         <a href="src/assets/img/photos/spaghetti-lg.jpg" class="block fancybox" data-fancybox-group="fancybox">
                             <div class="content">
-                                <img src="src/assets/img/photos/spaghetti-xs.jpg" alt="sample" />
+                                <img src="src/assets/img/photos/spaghetti-xs.jpg" alt="sample">
                                 <div class="zoom">
                                     <span class="zoom_icon"><i class="fa fa-search-plus"></i></span>
                                 </div>
@@ -1007,7 +1002,7 @@
                     <div class="col-md-4 col-lg-3 item">
                         <a href="src/assets/img/photos/salmon-lg.jpg" class="block fancybox" data-fancybox-group="fancybox">
                             <div class="content">
-                                <img src="src/assets/img/photos/salmon-xs.jpg" alt="sample" />
+                                <img src="src/assets/img/photos/salmon-xs.jpg" alt="sample">
                                 <div class="zoom">
                                     <span class="zoom_icon"><i class="fa fa-search-plus"></i></span>
                                 </div>
@@ -1017,7 +1012,7 @@
                     <div class="col-md-4 col-lg-3 item">
                         <a href="src/assets/img/photos/salad-lg.jpg" class="block fancybox" data-fancybox-group="fancybox">
                             <div class="content">
-                                <img src="src/assets/img/photos/salad-xs.jpg" alt="sample" />
+                                <img src="src/assets/img/photos/salad-xs.jpg" alt="sample">
                                 <div class="zoom">
                                     <span class="zoom_icon"><i class="fa fa-search-plus"></i></span>
                                 </div>
@@ -1027,7 +1022,7 @@
                     <div class="col-md-4 col-lg-3 item">
                         <a href="src/assets/img/photos/pizza-lg.jpg" class="block fancybox" data-fancybox-group="fancybox">
                             <div class="content">
-                                <img src="src/assets/img/photos/pizza-xs.jpg" alt="sample" />
+                                <img src="src/assets/img/photos/pizza-xs.jpg" alt="sample">
                                 <div class="zoom">
                                     <span class="zoom_icon"><i class="fa fa-search-plus"></i></span>
                                 </div>
@@ -1037,7 +1032,7 @@
                     <div class="col-md-4 col-lg-3 item">
                         <a href="src/assets/img/photos/meat-lg.jpg" class="block fancybox" data-fancybox-group="fancybox">
                             <div class="content">
-                                <img src="src/assets/img/photos/meat-xs.jpg" alt="sample" />
+                                <img src="src/assets/img/photos/meat-xs.jpg" alt="sample">
                                 <div class="zoom">
                                     <span class="zoom_icon"><i class="fa fa-search-plus"></i></span>
                                 </div>
@@ -1047,7 +1042,7 @@
                     <div class="col-md-4 col-lg-3 item">
                         <a href="src/assets/img/photos/burger-lg.jpg" class="block fancybox" data-fancybox-group="fancybox">
                             <div class="content">
-                                <img src="src/assets/img/photos/burger-xs.jpg" alt="sample" />
+                                <img src="src/assets/img/photos/burger-xs.jpg" alt="sample">
                                 <div class="zoom">
                                     <span class="zoom_icon"><i class="fa fa-search-plus"></i></span>
                                 </div>
@@ -1059,7 +1054,7 @@
                     <div class="col-md-4 col-lg-3 item">
                         <a href="src/assets/img/photos/salmon-bread-lg.jpg" class="block fancybox" data-fancybox-group="fancybox">
                             <div class="content">
-                                <img src="src/assets/img/photos/salmon-bread-xs.jpg" alt="sample" />
+                                <img src="src/assets/img/photos/salmon-bread-xs.jpg" alt="sample">
                                 <div class="zoom">
                                     <span class="zoom_icon"><i class="fa fa-search-plus"></i></span>
                                 </div>
@@ -1069,7 +1064,7 @@
                     <div class="col-md-4 col-lg-3 item">
                         <a href="src/assets/img/photos/bratstreifen-lg.jpg" class="block fancybox" data-fancybox-group="fancybox">
                             <div class="content">
-                                <img src="src/assets/img/photos/bratstreifen-xs.jpg" alt="sample" />
+                                <img src="src/assets/img/photos/bratstreifen-xs.jpg" alt="sample">
                                 <div class="zoom">
                                     <span class="zoom_icon"><i class="fa fa-search-plus"></i></span>
                                 </div>
@@ -1079,7 +1074,7 @@
                     <div class="col-md-4 col-lg-3 item">
                         <a href="src/assets/img/photos/beans-lg.jpg" class="block fancybox" data-fancybox-group="fancybox">
                             <div class="content">
-                                <img src="src/assets/img/photos/beans-xs.jpg" alt="sample" />
+                                <img src="src/assets/img/photos/beans-xs.jpg" alt="sample">
                                 <div class="zoom">
                                     <span class="zoom_icon"><i class="fa fa-search-plus"></i></span>
                                 </div>
@@ -1089,7 +1084,7 @@
                     <div class="col-md-4 col-lg-3 item">
                         <a href="src/assets/img/photos/chicken-cutlet-lg.jpg" class="block fancybox" data-fancybox-group="fancybox"> 
                             <div class="content">
-                                <img src="src/assets/img/photos/chicken-cutlet-xs.jpg" alt="sample" />
+                                <img src="src/assets/img/photos/chicken-cutlet-xs.jpg" alt="sample">
                                 <div class="zoom">
                                     <span class="zoom_icon"><i class="fa fa-search-plus"></i></span>
                                 </div>
@@ -1209,7 +1204,7 @@
                                         </div>
                                         <div class="footer_cnt">
                                             <i class="fa fa-phone"></i>
-                                            <span>(457) 570 5682; (385) 620 756</span>
+                                            <span>(457) 570 56 82 <br> (385) 620 75 61</span>
                                         </div>
                                         <div class="footer_cnt">
                                             <i class="fa fa-envelope"></i>
@@ -1272,7 +1267,7 @@
     <nav class="cd-nav-container right_menu" id="cd-nav">
         <div class="header__open_menu">
             <a href="index.html" class="rmenu_logo" title="yagmurmebel.az">
-                <img src="src/assets/img/logo.png" alt="logo" />
+                <img src="src/assets/img/logo.png" alt="logo">
             </a>
         </div>
         <div class="right_menu_search">
