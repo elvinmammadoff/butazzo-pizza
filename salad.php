@@ -8,39 +8,39 @@
     <!-- Meta tags -->
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
-    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8"
     <meta name="description" content="">
     <meta name="author" content="">
     <title>Butazzo Pizza - Restaurant, Cafe, Fast Food business HTML5 Responsive, CSS3 One Page Template</title>
 
     <!-- Stylesheets -->
-    <link href="src/assets/css/bootstrap.min.css" type="text/css" rel="stylesheet" media="all" />
-    <link href="src/assets/css/bootstrap-theme.min.css" type="text/css" rel="stylesheet" media="all" />
-    <link href="src/assets/css/fonts.css" type="text/css" rel="stylesheet" />
-    <link href="src/assets/css/font-awesome.min.css" type="text/css" rel="stylesheet" />
-    <link href="src/assets/css/slick.css" type="text/css" rel="stylesheet" />
-    <link href="src/assets/css/slick-theme.css" type="text/css" rel="stylesheet" />
-    <link href="src/assets/css/aos.css" type="text/css" rel="stylesheet" />
-    <link href="src/assets/css/scrolling-nav.css" type="text/css" rel="stylesheet" />
-    <link href="src/assets/css/bootstrap-datepicker.css" type="text/css" rel="stylesheet" />
-    <link href="src/assets/css/bootstrap-datetimepicker.css" type="text/css" rel="stylesheet" />
-    <link href="src/assets/css/touch-sideswipe.css" type="text/css" rel="stylesheet" />
-    <link href="src/assets/css/jquery.fancybox.css" type="text/css" rel="stylesheet" />
-    <link href="src/assets/css/flaticon.css" type="text/css" rel="stylesheet" />
-    <link href="src/assets/css/main.css" type="text/css" rel="stylesheet" />
-    <link href="src/assets/css/responsive.css" type="text/css" rel="stylesheet" />
+    <link href="src/assets/css/bootstrap.min.css" type="text/css" rel="stylesheet" media="all"
+    <link href="src/assets/css/bootstrap-theme.min.css" type="text/css" rel="stylesheet" media="all"
+    <link href="src/assets/css/fonts.css" type="text/css" rel="stylesheet"
+    <link href="src/assets/css/font-awesome.min.css" type="text/css" rel="stylesheet"
+    <link href="src/assets/css/slick.css" type="text/css" rel="stylesheet"
+    <link href="src/assets/css/slick-theme.css" type="text/css" rel="stylesheet"
+    <link href="src/assets/css/aos.css" type="text/css" rel="stylesheet"
+    <link href="src/assets/css/scrolling-nav.css" type="text/css" rel="stylesheet"
+    <link href="src/assets/css/bootstrap-datepicker.css" type="text/css" rel="stylesheet"
+    <link href="src/assets/css/bootstrap-datetimepicker.css" type="text/css" rel="stylesheet"
+    <link href="src/assets/css/touch-sideswipe.css" type="text/css" rel="stylesheet"
+    <link href="src/assets/css/jquery.fancybox.css" type="text/css" rel="stylesheet"
+    <link href="src/assets/css/flaticon.css" type="text/css" rel="stylesheet"
+    <link href="src/assets/css/main.css" type="text/css" rel="stylesheet"
+    <link href="src/assets/css/responsive.css" type="text/css" rel="stylesheet"
 
     <!-- Favicon -->
-    <link rel="apple-touch-icon" sizes="180x180" href="src/assets/img/favicon/apple-touch-icon.png" />
+    <link rel="apple-touch-icon" sizes="180x180" href="src/assets/img/favicon/apple-touch-icon.png"
     <link rel="icon" type="image/png" sizes="256x256"  href="src/assets/img/favicon/android-chrome-256x256.png">
     <link rel="icon" type="image/png" sizes="192x192"  href="src/assets/img/favicon/android-chrome-192x192.png">    
-    <link rel="icon" type="image/png" sizes="32x32" href="src/assets/img/favicon/favicon-32x32.png" />
-    <link rel="icon" type="image/png" sizes="16x16" href="src/assets/img/favicon/favicon-16x16.png" />
-    <link rel="icon" type="image/png" href="src/assets/img/favicon/favicon.ico" />
-    <link rel="manifest" href="src/assets/img/favicon/site.webmanifest" />
-    <link rel="mask-icon" href="src/assets/img/favicon/safari-pinned-tab.svg" color="#5bbad5" />
-    <meta name="msapplication-TileColor" content="#990100" />
-    <meta name="theme-color" content="#ffffff" />    
+    <link rel="icon" type="image/png" sizes="32x32" href="src/assets/img/favicon/favicon-32x32.png"
+    <link rel="icon" type="image/png" sizes="16x16" href="src/assets/img/favicon/favicon-16x16.png"
+    <link rel="icon" type="image/png" href="src/assets/img/favicon/favicon.ico"
+    <link rel="manifest" href="src/assets/img/favicon/site.webmanifest"
+    <link rel="mask-icon" href="src/assets/img/favicon/safari-pinned-tab.svg" color="#5bbad5"
+    <meta name="msapplication-TileColor" content="#990100"
+    <meta name="theme-color" content="#ffffff"    
 
 </head>
 <!-- END head -->
@@ -97,7 +97,7 @@
                                 <!-- Brand and toggle get grouped for better mobile display -->
                                 <div class="navbar-header">
                                     <a class="navbar-brand" href="/">
-                                        <img src="src/assets/img/logo.png" alt="logo" />
+                                        <img src="src/assets/img/logo.png" alt="logo"
                                     </a>
                                     <a href="#cd-nav" class="cd-nav-trigger right_menu_icon">
                                         <span><i class="fa fa-bars" aria-hidden="true"></i></span>
@@ -789,7 +789,7 @@
     <nav class="cd-nav-container right_menu" id="cd-nav">
         <div class="header__open_menu">
             <a href="index.html" class="rmenu_logo" title="yagmurmebel.az">
-                <img src="src/assets/img/logo.png" alt="logo" />
+                <img src="src/assets/img/logo.png" alt="logo"
             </a>
         </div>
         <div class="right_menu_search">
