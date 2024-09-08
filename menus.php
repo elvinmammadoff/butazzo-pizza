@@ -163,7 +163,7 @@
                                 <!-- Image -->
                                 <a href="burger.html" class="image-link">
 									<div class="hover-overlay"> 
-										<img class="img-fluid" src="src/assets/img/photos/menus/burger/img-1.jpg">			
+										<img class="img-fluid" src="src/assets/img/photos/menus/burger/img-1.jpg" alt="burger">			
 										<div class="item-overlay"></div>
 
 										<!-- Image Meta -->
@@ -192,7 +192,7 @@
                                 <!-- Image -->
                                 <a href="pizza.html" class="image-link">
 									<div class="hover-overlay"> 
-										<img class="img-fluid" src="src/assets/img/photos/menus/pizza/img-1.jpg">			
+										<img class="img-fluid" src="src/assets/img/photos/menus/pizza/img-1.jpg" alt="pizza">			
 										<div class="item-overlay"></div>
 
 										<!-- Image Meta -->
@@ -221,7 +221,7 @@
                                 <!-- Image -->
                                 <a href="salad.html" class="image-link">
 									<div class="hover-overlay"> 
-										<img class="img-fluid" src="src/assets/img/photos/menus/salad/img-1.jpg">			
+										<img class="img-fluid" src="src/assets/img/photos/menus/salad/img-1.jpg" alt="salad">			
 										<div class="item-overlay"></div>
 
 										<!-- Image Meta -->
@@ -250,7 +250,7 @@
                                 <!-- Image -->
                                 <a href="soup.html" class="image-link">
 									<div class="hover-overlay"> 
-										<img class="img-fluid" src="src/assets/img/photos/menus/soup/img-5.jpg">			
+										<img class="img-fluid" src="src/assets/img/photos/menus/soup/img-5.jpg" alt="soup">			
 										<div class="item-overlay"></div>
 
 										<!-- Image Meta -->
@@ -279,7 +279,7 @@
                                 <!-- Image -->
                                 <a href="drinks.html" class="image-link">
 									<div class="hover-overlay"> 
-										<img class="img-fluid" src="src/assets/img/photos/menus/drinks/img-1.jpg">			
+										<img class="img-fluid" src="src/assets/img/photos/menus/drinks/img-1.jpg" alt="drinks">			
 										<div class="item-overlay"></div>
 
 										<!-- Image Meta -->
