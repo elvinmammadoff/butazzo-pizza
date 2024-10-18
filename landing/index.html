@@ -53,7 +53,7 @@
     <div class="container section" id="pages">
         <div class="section-subject">
             <h5 class="section-category">Home Pages</h5>
-            <h2 class="section-title">2 Unique Home Pages</h2>
+            <h2 class="section-title">3 Unique Home Pages</h2>
             <p class="section-subtitle">We built each home page with a different style so that there is something for everyone.</p>
         </div>
         <div class="row">
@@ -88,7 +88,7 @@
     </div>
     <div class="copyright">
         <div class="container">
-            <p class="copyright-text">Copyright © 2020 Alissio All Rights Reserved.</p>
+            <p class="copyright-text">Copyright © 2024 Alissio All Rights Reserved.</p>
         </div>
     </div>
 
