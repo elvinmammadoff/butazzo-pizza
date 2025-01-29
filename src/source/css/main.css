@@ -204,14 +204,18 @@ a:focus {
 
 @font-face {
     font-family: 'ChunkFiveEx';
-    src: url('../fonts/ChunkFiveEx/ChunkFiveEx.eot');
-    src: url('../fonts/ChunkFiveEx/ChunkFiveEx.eot?#iefix') format('embedded-opentype'),
-        url('../fonts/ChunkFiveEx/ChunkFiveEx.woff') format('woff'),
-        url('../fonts/ChunkFiveEx/ChunkFiveEx.ttf') format('truetype'),
-        url('../fonts/ChunkFiveEx/ChunkFiveEx.svg#ChunkFiveEx') format('svg');
+    src: url('../fonts/ChunkFiveEx.eot');
+    src: url('../fonts/ChunkFiveEx.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/ChunkFiveEx.woff2') format('woff2'),
+        url('../fonts/ChunkFiveEx.woff') format('woff'),
+        url('../fonts/ChunkFiveEx.ttf') format('truetype'),
+        url('../fonts/ChunkFiveEx.svg#ChunkFiveEx') format('svg');
     font-weight: normal;
     font-style: normal;
+    font-display: swap;
 }
+
+
 
 
 /*----------------------------------------
