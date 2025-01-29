@@ -1660,7 +1660,7 @@ a:focus {
 
 .fixed_layer {
     position: relative;
-    background: url('../img/photos/reservation.jpg') 50% 0 no-repeat fixed;
+    background: url('../img/photos/reservation.avif') 50% 0 no-repeat fixed;
     background-size: cover;
     color: #fff;
     padding-top: 50px;
