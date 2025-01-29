@@ -1,6 +1,6 @@
 /*********************************************************************************
 
-	Version: 1.4
+	Version: 1.0
 
     Note: This is scripts js. All custom scripts here.
 
@@ -14,10 +14,8 @@
     |___ loadMoreResults
     |___ Touch Swipe mobile menu
     |___ Loading overlay
-    |___ Carousel Slider filter
 	|___ Search panel
 	|___ AOS Animate
-	|___ Swipe Carousel slider
 	|___ Datepicker
 	|___ Fancybox
 	|___ ScrollUp
@@ -77,15 +75,11 @@ $(document).ready(function() {
         $("body").css({'overflow':'hidden'});
     });
     
-    $('.cd-close-nav, .cd-overlay').on('click', function(event){
-        event.preventDefault();
+    // close right menu clicking the right menu nav and overlay
+    $('.page-scroll, .cd-overlay').on('click', function(){
         toggleLeftNav(false);
         toggleRightNav(false);
         $("body").css({'overflow':'auto'});
-    });
-    //select a new section
-    $('.cd-nav li').on('click', function(){
-
     });
 
     function toggleLeftNav(bool) {
@@ -110,26 +104,17 @@ $(document).ready(function() {
     //======= END Loading overlay ========
 
 
-    //======= START Carousel slider ========
-
-    $('.carousel').carousel({
-      arrows: true
-    })
-
-    //======= END Carousel slider ========
-
-
     //======= START Search panel ========
 
     // Hide search panel
     function hideNavbarSearch() {
-        $('.top_addr').fadeIn();
+        $('.top-addr').fadeIn();
         $('#navbar_search').fadeOut();
     }
 
     // Show search panel
     $(document).on('click', '#search', function () {
-        $('.top_addr').fadeOut();
+        $('.top-addr').fadeOut();
         $('#navbar_search').fadeIn();
         $('#navbar_search input').focus();
     });
@@ -162,36 +147,17 @@ $(document).ready(function() {
     //======= END AOS Animate ========
 
 
-    //======= START Swipe Carousel slider ========
-
-    // Add swipe mod to bootstrap carousel
-    $(".carousel").swipe({
-
-      swipe: function(event, direction, distance, duration, fingerCount, fingerData) {
-
-        if (direction === 'left') $(this).carousel('next');
-        if (direction === 'right') $(this).carousel('prev');
-
-      },
-      allowPageScroll:"vertical"
-
-    });
-
-    //======= END Swipe Carousel slider ========
 
 });
 
 
     //======= START Datepicker ========
 
-    $(document).ready(function() {
-        $('#reserv_date').datepicker();
-    });
 
-    $(document).ready(function() {
-        $('#reserv_time').datetimepicker({
-            format: 'LT'
-        });
+    $('#reserv_date').datepicker();
+
+    $('#reserv_time').datetimepicker({
+        format: 'HH:mm'
     });
 
     //======= END Datepicker ========
@@ -199,33 +165,9 @@ $(document).ready(function() {
 
     //======= START Fancybox ========
 
-    $('[data-fancybox]').fancybox({
-        protect: true
+    Fancybox.bind("[data-fancybox]", {
+        // Your custom options
     });
-
-    jQuery(document).ready(function($) {
-        $('.fancybox')
-            .fancybox({                     
-            beforeShow: function () {
-                if (this.title) {
-                    // New line
-                    this.title += '<br />';
-                }
-            },
-            afterShow: function () {
-            },  
-            helpers: {
-                title: {
-                    type: 'inside'
-                }, //<-- add a comma to separate the following option
-                buttons: {} //<-- add this for buttons
-            },
-            closeBtn: true, // you will use the buttons now
-            arrows: true
-        });  
-    });   
-
-    //======= END Fancybox ========
 
 
     //======= START ScrollUp ========
@@ -245,7 +187,7 @@ $(document).ready(function() {
 		element = $('body'),
 		offset = element.offset(),
 		offsetTop = offset.top;
-		$('html, body').animate({scrollTop: offsetTop}, 500, 'linear');
+		$('html, body').animate({scrollTop: offsetTop}, 100, 'linear');
     }
 
     //======= END ScrollUp ========
