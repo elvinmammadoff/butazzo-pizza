@@ -1,6 +1,4 @@
-﻿
-
-(function ($) {
+﻿(function ($) {
 	'use strict';
 
 	$.fn.loadMoreResults = function (options) {
