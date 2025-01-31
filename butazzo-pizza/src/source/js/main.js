@@ -234,11 +234,11 @@ $(document).ready(function() {
     
     function init(){ 
         myMap = new ymaps.Map("map", {
-            center: [40.372488, 49.954121],
-            zoom: 13,
+            center: [42.684692, -73.798954],
+            zoom: 10,
     });
     
-    myPlacemark = new ymaps.Placemark([40.372488, 49.954121], { 
+    myPlacemark = new ymaps.Placemark([42.684692, -73.798954], { 
         // hintContent: 'Moscow!', 
         // balloonContent: 'Capital of Russia'
     },{
