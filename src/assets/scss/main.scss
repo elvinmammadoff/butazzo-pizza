@@ -2,7 +2,7 @@
 
 /* ----------------------------------
 
-Name: main.css
+Name: main.scss
 Author: Alissio
 Website: https://butazzopizza.netlify.app/
 Exclusively available here: https://themeforest.net/user/alissio
@@ -201,8 +201,8 @@ a {
 
 @font-face {
   font-family: 'ChunkFiveEx';
-  src: url('../fonts/ChunkFiveEx.eot');
-  src: url('../fonts/ChunkFiveEx.eot?#iefix') format("embedded-opentype"), url('../fonts/ChunkFiveEx.woff2') format("woff2"), url('../fonts/ChunkFiveEx.woff') format("woff"), url('../fonts/ChunkFiveEx.ttf') format("truetype"), url('../fonts/ChunkFiveEx.svg#ChunkFiveEx') format("svg");
+  src: url('../fonts/ChunkFiveEx/ChunkFiveEx.eot');
+  src: url('../fonts/ChunkFiveEx/ChunkFiveEx.eot?#iefix') format("embedded-opentype"), url('../fonts/ChunkFiveEx/ChunkFiveEx.woff2') format("woff2"), url('../fonts/ChunkFiveEx/ChunkFiveEx.woff') format("woff"), url('../fonts/ChunkFiveEx/ChunkFiveEx.ttf') format("truetype"), url('../fonts/ChunkFiveEx/ChunkFiveEx.svg#ChunkFiveEx') format("svg");
   font-weight: normal;
   font-style: normal;
   font-display: swap;
@@ -538,12 +538,10 @@ a {
 
 .carousel-control-prev, .carousel-control-next {
   width: auto;
-}
-
-.carousel-control-prev button, .carousel-control-next button {
   background-color: transparent;
   border: none;
   padding: 0;
+  cursor: pointer !important;
 }
 
 .carousel-inner .carousel-item {
@@ -805,18 +803,24 @@ a {
   font-weight: 400;
 }
 
-#about_us .short, .carousel-caption p {
+#about_us .short {
   font-family: 'Montserrat';
   font-weight: 300;
 }
 
-#menu_items .info .name {
-  font-weight: normal;
-  font-family: 'Raleway';
-  font-weight: 700;
+.carousel-caption {
+  p {
+    font-family: 'Montserrat';
+    font-weight: 300;
+  }
+
+  h1 {
+    font-weight: normal;
+    font-family: 'ChunkFiveEx';
+  }
 }
 
-.carousel-caption h1, #about_us .title, .section-title, .btn-border, .control-label, .item_name {
+#about_us .title, .section-title, .btn-border, .control-label, .item_name {
   font-weight: normal;
   font-family: 'ChunkFiveEx';
 }
@@ -931,7 +935,7 @@ a {
 /*----------------------------------------*/
 
 .menu-page {
-  background-image: url('../img/photos/menus/menu-page.jpg');
+  background-image: url('../img/photos/menus/menu-page.avif');
 }
 
 .filtr-item {
@@ -1129,6 +1133,7 @@ a {
       -o-text-overflow: ellipsis;
       text-overflow: ellipsis;
       overflow: hidden;
+      font-weight: normal;
     }
 
     .short {
@@ -1172,6 +1177,7 @@ a {
 
 #photo_gallery {
   height: 100%;
+  margin-top: 60px;
 
   > div {
     margin: 0;
@@ -1580,6 +1586,26 @@ a {
     }
 
     width: 180px;
+    display: block;
+  }
+}
+
+.datepicker {
+  padding: 8px;
+
+  td, th {
+    width: 30px;
+    height: 30px;
+  }
+
+  table tr td.active {
+    background-image: none !important;
+    background-color: #0C8027 !important;
+
+    &:hover {
+      background-image: none !important;
+      background-color: #0C8027 !important;
+    }
   }
 }
 
@@ -2080,12 +2106,12 @@ footer {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -webkit-box-align: center;
-  -ms-flex-align: center;
-  align-items: center;
   -webkit-box-pack: center;
   -ms-flex-pack: center;
   justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
 
   span {
     background-color: transparent;

@@ -32,8 +32,9 @@
 
 $(document).ready(function() {
 
-    //======= START Affix Navbar fixed on scroll ========
 
+    
+    //======= START Affix Navbar fixed on scroll ========
     $(window).on('scroll', function (event) {
         var scrollValue = $(window).scrollTop();
         if (scrollValue > 85) {
@@ -42,11 +43,11 @@ $(document).ready(function() {
             $('.navbar-container').removeClass('affix');
         }
     });
-
     //======= END Affix Navbar fixed on scroll ========
 
-    //======= START jQuery loadMoreResults ========
 
+
+    //======= START jQuery loadMoreResults ========
     $(".btn-load-more").click(function(){
         $(".load-dots").addClass('visible'); 
         $(".btn-load-more").hide();   
@@ -55,8 +56,8 @@ $(document).ready(function() {
             $(".load-dots").removeClass('visible');     
         }, 5000);
     });
-    
     //======= END jQuery loadMoreResults ========
+
 
 
     //======= START Touch Swipe mobile menu ========
@@ -91,17 +92,16 @@ $(document).ready(function() {
         $('.right_menu, .cd-overlay').toggleClass('is-visible', bool);
         $('main').toggleClass('scale-down', bool);
     }
-
     //======= END Touch Swipe mobile menu ========
 
 
-    //======= START Loading overlay ========
 
+    //======= START Loading overlay ========
     $(window).on('load', function () {
         $('.loading-overlay').fadeOut(100);
     });
-
     //======= END Loading overlay ========
+
 
 
     //======= START Search panel ========
@@ -131,8 +131,8 @@ $(document).ready(function() {
             hideNavbarSearch()
         }
     });
-
     //======= END Search panel ========
+
 
 
     //======= START AOS Animate ========
@@ -141,37 +141,42 @@ $(document).ready(function() {
     AOS.init({
         duration: 1200,
         startEvent: 'DOMContentLoaded',
-        once: true,
+        once: false,
+        mirror: true
     });
-
     //======= END AOS Animate ========
 
 
 
-});
-
-
     //======= START Datepicker ========
-
-
-    $('#reserv_date').datepicker();
-
-    $('#reserv_time').datetimepicker({
-        format: 'HH:mm'
+    $('#reserv_date').datepicker({
+        locale: 'en',
+        todayHighlight : true,
+        todayBtn: "linked",
+        autoclose: true,
+        templates: {
+            leftArrow: '<i class="fa-solid fa-chevron-left"></i>',
+            rightArrow: '<i class="fa-solid fa-chevron-right"></i>'
+        },
+        format: "yyyy / mm / dd"
     });
 
+    $('#reserv_time').datetimepicker({
+        format: 'hh : mm A'
+    });
     //======= END Datepicker ========
 
 
-    //======= START Fancybox ========
 
+    //======= START Fancybox ========
     Fancybox.bind("[data-fancybox]", {
         // Your custom options
-    });
+    });  
+    //======= END Fancybox ========
+
 
 
     //======= START ScrollUp ========
-
 	$(document).on( 'scroll', function(){
 		if ($(window).scrollTop() > 400) {
 			$('.scroll-up').addClass('show');
@@ -189,12 +194,11 @@ $(document).ready(function() {
 		offsetTop = offset.top;
 		$('html, body').animate({scrollTop: offsetTop}, 100, 'linear');
     }
-
     //======= END ScrollUp ========
 
 
-    //======= START Slick slider ========
 
+    //======= START Slick slider ========
     $('#chef-slider').slick({
         slidesToShow: 3,
         slidesToScroll: 3,
@@ -220,12 +224,11 @@ $(document).ready(function() {
             }
         ]
     });
-
     //======= END Slick slider ========
 
 
-    //======= START Init Yandex Map ========
 
+    //======= START Init Yandex Map ========
     ymaps.ready(init);
     var myMap, 
         myPlacemark;
@@ -236,17 +239,17 @@ $(document).ready(function() {
         myMap = new ymaps.Map("map", {
             center: [42.684692, -73.798954], 
             zoom: 10,
-    });
-    
-    myPlacemark = new ymaps.Placemark([42.684692, -73.798954], { 
-        // hintContent: 'Moscow!', 
-        // balloonContent: 'Capital of Russia'
-    },{
-        iconLayout: 'default#image',
-        iconImageHref: 'src/assets/img/map-marker.png',
-        iconImageSize: [26, 40],
-    });
+        });
         
+        myPlacemark = new ymaps.Placemark([42.684692, -73.798954], { 
+            // hintContent: 'Moscow!', 
+            // balloonContent: 'Capital of Russia'
+        },{
+            iconLayout: 'default#image',
+            iconImageHref: 'src/assets/img/map-marker.png',
+            iconImageSize: [26, 40],
+        });
+            
         myMap.geoObjects.add(myPlacemark);
         // myMap.controls.remove('zoomControl');
         myMap.controls.remove('rulerControl');
@@ -257,5 +260,7 @@ $(document).ready(function() {
         myMap.controls.remove('fullscreenControl');
         myMap.behaviors.disable('scrollZoom');
     }
-
     //======= END Init Yandex Map ========
+
+    
+});

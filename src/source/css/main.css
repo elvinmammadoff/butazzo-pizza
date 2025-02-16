@@ -11,9 +11,6 @@ Exclusively available here: https://themeforest.net/user/alissio
 ------------------------------------- */
 
 
-
-
-
 /*-----------------------------------------------------------------------------------
 
 
@@ -208,12 +205,12 @@ a:focus {
 
 @font-face {
     font-family: 'ChunkFiveEx';
-    src: url('../fonts/ChunkFiveEx.eot');
-    src: url('../fonts/ChunkFiveEx.eot?#iefix') format('embedded-opentype'),
-        url('../fonts/ChunkFiveEx.woff2') format('woff2'),
-        url('../fonts/ChunkFiveEx.woff') format('woff'),
-        url('../fonts/ChunkFiveEx.ttf') format('truetype'),
-        url('../fonts/ChunkFiveEx.svg#ChunkFiveEx') format('svg');
+    src: url('../fonts/ChunkFiveEx/ChunkFiveEx.eot');
+    src: url('../fonts/ChunkFiveEx/ChunkFiveEx.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/ChunkFiveEx/ChunkFiveEx.woff2') format('woff2'),
+        url('../fonts/ChunkFiveEx/ChunkFiveEx.woff') format('woff'),
+        url('../fonts/ChunkFiveEx/ChunkFiveEx.ttf') format('truetype'),
+        url('../fonts/ChunkFiveEx/ChunkFiveEx.svg#ChunkFiveEx') format('svg');
     font-weight: normal;
     font-style: normal;
     font-display: swap;
@@ -553,13 +550,10 @@ a:focus {
 .carousel-control-prev,
 .carousel-control-next {
     width: auto;
-}
-
-.carousel-control-prev button,
-.carousel-control-next button {
     background-color: transparent;
     border: none;
     padding: 0;
+    cursor: pointer !important;
 }
 
 .carousel-inner .carousel-item {
@@ -808,12 +802,6 @@ a:focus {
 .carousel-caption p {
     font-family: 'Montserrat';
     font-weight: 300;
-}
-
-#menu_items .info .name {
-    font-weight: normal;
-    font-family: 'Raleway';
-    font-weight: 700;
 }
 
 .carousel-caption h1,
@@ -1129,6 +1117,7 @@ a:focus {
     -o-text-overflow: ellipsis;
     text-overflow: ellipsis;
     overflow: hidden;
+    font-weight: normal;
 }
 
 #menu_items .info .short {
@@ -1167,6 +1156,7 @@ a:focus {
 
 #photo_gallery {
     height: 100%;
+    margin-top: 60px;
 }
 
 #photo_gallery>div {
@@ -1573,6 +1563,22 @@ a:focus {
 
 #reserv_form .bootstrap-datetimepicker-widget {
     width: 180px;
+    display: block;
+}
+
+.datepicker {
+    padding: 8px;
+}
+
+.datepicker td, .datepicker th {
+    width: 30px;
+    height: 30px;
+}
+
+.datepicker table tr td.active, 
+.datepicker table tr td.active:hover {
+    background-image: none !important;
+    background-color: #0C8027 !important;
 }
 
 /*-----------------------------------------

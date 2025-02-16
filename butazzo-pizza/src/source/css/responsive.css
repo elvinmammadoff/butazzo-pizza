@@ -56,6 +56,12 @@
     }
 }
 
+@media only screen and (max-width: 520px) {
+    .item_img img {
+        height: auto;
+    }
+}
+
 @media only screen and (max-width: 767px) {
     .chef-info {
         padding-left: 20px;
@@ -113,15 +119,6 @@
         margin: 10px 0 0;
     }
 
-    #photo_gallery>div>div {
-        width: 50%;
-        float: left;
-    }
-
-    #photo_gallery>div>div:nth-child(2n+1) {
-        clear: both;
-    }
-
     #photo_gallery img {
         width: 100%;
         height: auto;
@@ -164,7 +161,6 @@
     }
 
     .item_img {
-        float: none;
         margin: 0;
         padding-right: 20px;
     }
@@ -314,7 +310,6 @@
 
 @media only screen and (max-width: 767px) and (min-width: 600px) {
     .social-links {
-        float: left;
         margin-top: 15px;
     }
 }

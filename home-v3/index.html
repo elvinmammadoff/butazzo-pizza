@@ -7,25 +7,13 @@
 
     <!-- Meta tags -->
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
-    <meta name="description" content="">
-    <meta name="author" content="">
-    <title>Pizza Mizza - Restaurant, Cafe, Fast Food business HTML5 Responsive One Page Template</title>
+    <meta name="description" content="Butazzo Pizza is a clean, modern, and responsive one-page HTML template designed for restaurants, cafes, and fast-food businesses.">
+    <meta name="author" content="Alissio">
 
-    <!-- Stylesheets -->
-    <link href="src/assets/css/bootstrap.min.css" type="text/css" rel="stylesheet" media="all">
-    <link href="src/assets/css/bootstrap-theme.min.css" type="text/css" rel="stylesheet" media="all">
-    <link href="src/assets/css/slick.css" type="text/css" rel="stylesheet">
-    <link href="src/assets/css/slick-theme.css" type="text/css" rel="stylesheet">
-    <link href="src/assets/css/aos.css" type="text/css" rel="stylesheet">
-    <link href="src/assets/css/scrolling-nav.css" type="text/css" rel="stylesheet">
-    <link href="src/assets/css/bootstrap-datepicker.css" type="text/css" rel="stylesheet">
-    <link href="src/assets/css/bootstrap-datetimepicker.css" type="text/css" rel="stylesheet">
-    <link href="src/assets/css/touch-sideswipe.css" type="text/css" rel="stylesheet">
-    <link href="src/assets/css/jquery.fancybox.css" type="text/css" rel="stylesheet">
-    <link href="src/assets/css/main.css" type="text/css" rel="stylesheet">
-    <link href="src/assets/css/responsive.css" type="text/css" rel="stylesheet">
+    <!-- Title -->
+    <title>Butazzo Pizza - Restaurant, Cafe, Fast Food business, Responsive, One Page Bootstrap Template</title>
 
     <!-- Favicon -->
     <link rel="apple-touch-icon" sizes="180x180" href="./src/assets/img/favicon/apple-touch-icon.png">
@@ -39,10 +27,10 @@
     <meta name="msapplication-TileColor" content="#0b1f3c">
     <meta name="theme-color" content="#ffffff">
 
-    <!-- Google Fonts -->
-    <link
-        href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700;800;900&family=Raleway:wght@100;200;300;400;500;600;700;800;900&display=swap"
-        rel="stylesheet">
+    <!-- Stylesheets -->
+    <link href="src/assets/css/plugins.min.css" type="text/css" rel="stylesheet">
+    <link href="src/assets/css/main.min.css" type="text/css" rel="stylesheet">
+    <link href="src/assets/css/responsive.min.css" type="text/css" rel="stylesheet">
 
 </head>
 <!-- END head -->
@@ -70,80 +58,54 @@
         <section id="hero">
 
             <!-- BEGIN carousel -->
-            <div id="main-carousel" class="carousel slide" data-ride="carousel">
-                <div class="pos_rel">
-
+            <div id="carouselExample" class="carousel slide w-100" data-bs-ride="carousel"  data-bs-interval="4000">
+    
+                <div class="container pos_rel">
+    
                     <!-- Indicators -->
                     <ol class="carousel-indicators">
-                        <li data-target="#main-carousel" data-slide-to="0" class="active">
+                        <li type="button" data-bs-target="#carouselExample" aria-label="Slide 0" data-bs-slide-to="0" class="active">
                             <img src="src/assets/img/carousel/chicken-caesar-pizza.png" alt="chicken-caesar-pizza">
                         </li>
-                        <li data-target="#main-carousel" data-slide-to="1">
-                            <img src="src/assets/img/carousel/taco.png" alt="taco">
+                        <li type="button" data-bs-target="#carouselExample" aria-label="Slide 1" data-bs-slide-to="1">
+                            <img src="src/assets/img/carousel/taco.png" alt="taco"></li>
+                        <li type="button" data-bs-target="#carouselExample" aria-label="Slide 2" data-bs-slide-to="2">
+                            <img src="src/assets/img/carousel/double-burger.png" alt="double-burger">
                         </li>
-                        <li data-target="#main-carousel" data-slide-to="2">
-                            <img src="src/assets/img/carousel/double-burger.png" alt="double-">
-                        </li>
-                        <li data-target="#main-carousel" data-slide-to="3">
+                        <li type="button" data-bs-target="#carouselExample" aria-label="Slide 3" data-bs-slide-to="3">
                             <img src="src/assets/img/carousel/cocktail.png" alt="cocktail">
                         </li>
-                        <li data-target="#main-carousel" data-slide-to="4">
+                        <li type="button" data-bs-target="#carouselExample" aria-label="Slide 4" data-bs-slide-to="4">
                             <img src="src/assets/img/carousel/salad.png" alt="salad">
                         </li>
                     </ol>
-
+    
                     <!-- Wrapper for slides -->
                     <div class="carousel-inner">
-
+    
                         <!-- Carousel items   -->
                         <div class="carousel-item active">
                             <div class="carousel-caption">
-                                <div class="container">
-                                    <div class="row">
-                                        <div class="col-lg-6">
-                                            <div class="fadeUp item_img">
-                                                <img src="src/assets/img/carousel/chicken-caesar-pizza.png" alt="sample">
-                                            </div>
-                                        </div>
-                                        <div class="col-lg-6">
-                                            <div class="fadeUp fade-slow item_details">
-                                                <div class="item_badge">
-                                                    <span class="badge_btext"><sup>$</sup> 12.99</span>
-                                                </div>
-                                                <h4 class="item_name">Chicken Caesar Pizza</h4>
-                                                <div class="item_link_box">
-                                                    <a href="#reservation" class="item_link page-scroll">
-                                                        <i class="icon-shopping"></i>
-                                                        <span>Make Reservation</span>
-                                                    </a>
+                                <div class="carousel-caption__content">
+                                    <div class="container">
+                                        <div class="row">
+                                            <div class="col-lg-6">
+                                                <div class="fadeUp item_img">
+                                                    <img src="src/assets/img/carousel/chicken-caesar-pizza.png" alt="pizza" width="450" height="297">
                                                 </div>
                                             </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-
-                        <div class="carousel-item">
-                            <div class="carousel-caption">
-                                <div class="container">
-                                    <div class="row">
-                                        <div class="col-lg-6">
-                                            <div class="fadeUp item_img">
-                                                <img src="src/assets/img/carousel/taco.png" alt="sample">
-                                            </div>
-                                        </div>
-                                        <div class="col-lg-6">
-                                            <div class="fadeUp fade-slow item_details">
-                                                <div class="item_badge">
-                                                    <span class="badge_btext"><sup>$</sup> 12.99</span>
-                                                </div>
-                                                <h4 class="item_name">Mexican Chicken Tacos</h4>
-                                                <div class="item_link_box">
-                                                    <a href="#reservation" class="item_link page-scroll">
-                                                        <i class="icon-shopping"></i>
-                                                        <span>Make Reservation</span>
-                                                    </a>
+                                            <div class="col-lg-6">
+                                                <div class="fadeUp fade-slow item_details">
+                                                    <div class="item_badge">
+                                                        <span class="badge_btext"><sup>$</sup> 12.99</span>
+                                                    </div>
+                                                    <h4 class="item_name">Chicken Caesar Pizza</h4>
+                                                    <div class="item_link_box">
+                                                        <a href="#reservation" class="item_link page-scroll">
+                                                            <i class="icon-shopping"></i>
+                                                            <span>Make Reservation</span>
+                                                        </a>
+                                                    </div>
                                                 </div>
                                             </div>
                                         </div>
@@ -151,27 +113,28 @@
                                 </div>
                             </div>
                         </div>
-
                         <div class="carousel-item">
                             <div class="carousel-caption">
-                                <div class="container">
-                                    <div class="row">
-                                        <div class="col-lg-6">
-                                            <div class="fadeUp item_img">
-                                                <img src="src/assets/img/carousel/double-burger.png" alt="sample">
-                                            </div>
-                                        </div>
-                                        <div class="col-lg-6">
-                                            <div class="fadeUp fade-slow item_details">
-                                                <div class="item_badge">
-                                                    <span class="badge_btext"><sup>$</sup> 12.99</span>
+                                <div class="carousel-caption__content">
+                                    <div class="container">
+                                        <div class="row">
+                                            <div class="col-lg-6">
+                                                <div class="fadeUp item_img">
+                                                    <img src="src/assets/img/carousel/taco.png" alt="sample" width="368" height="310">
                                                 </div>
-                                                <h4 class="item_name">Perfect Double Burger</h4>
-                                                <div class="item_link_box">
-                                                    <a href="#reservation" class="item_link page-scroll">
-                                                        <i class="icon-shopping"></i>
-                                                        <span>Make Reservation</span>
-                                                    </a>
+                                            </div>
+                                            <div class="col-lg-6">
+                                                <div class="fadeUp fade-slow item_details">
+                                                    <div class="item_badge">
+                                                        <span class="badge_btext"><sup>$</sup> 12.99</span>
+                                                    </div>
+                                                    <h4 class="item_name">Mexican Chicken Tacos</h4>
+                                                    <div class="item_link_box">
+                                                        <a href="#reservation" class="item_link page-scroll">
+                                                            <i class="icon-shopping"></i>
+                                                            <span>Make Reservation</span>
+                                                        </a>
+                                                    </div>
                                                 </div>
                                             </div>
                                         </div>
@@ -179,27 +142,28 @@
                                 </div>
                             </div>
                         </div>
-
                         <div class="carousel-item">
                             <div class="carousel-caption">
-                                <div class="container">
-                                    <div class="row">
-                                        <div class="col-lg-6">
-                                            <div class="fadeUp item_img">
-                                                <img src="src/assets/img/carousel/cocktail.png" alt="sample">
-                                            </div>
-                                        </div>
-                                        <div class="col-lg-6">
-                                            <div class="fadeUp fade-slow item_details">
-                                                <div class="item_badge">
-                                                    <span class="badge_btext"><sup>$</sup> 12.99</span>
+                                <div class="carousel-caption__content">
+                                    <div class="container">
+                                        <div class="row">
+                                            <div class="col-lg-6">
+                                                <div class="fadeUp item_img">
+                                                    <img src="src/assets/img/carousel/double-burger.png" alt="sample" width="368" height="310">
                                                 </div>
-                                                <h4 class="item_name">Pink Martini Cocktail</h4>
-                                                <div class="item_link_box">
-                                                    <a href="#reservation" class="item_link page-scroll">
-                                                        <i class="icon-shopping"></i>
-                                                        <span>Make Reservation</span>
-                                                    </a>
+                                            </div>
+                                            <div class="col-lg-6">
+                                                <div class="fadeUp fade-slow item_details">
+                                                    <div class="item_badge">
+                                                        <span class="badge_btext"><sup>$</sup> 12.99</span>
+                                                    </div>
+                                                    <h4 class="item_name">Perfect Double Burger</h4>
+                                                    <div class="item_link_box">
+                                                        <a href="#reservation" class="item_link page-scroll">
+                                                            <i class="icon-shopping"></i>
+                                                            <span>Make Reservation</span>
+                                                        </a>
+                                                    </div>
                                                 </div>
                                             </div>
                                         </div>
@@ -207,27 +171,57 @@
                                 </div>
                             </div>
                         </div>
-
                         <div class="carousel-item">
                             <div class="carousel-caption">
-                                <div class="container">
-                                    <div class="row">
-                                        <div class="col-lg-6">
-                                            <div class="fadeUp item_img">
-                                                <img src="src/assets/img/carousel/salad.png" alt="sample">
+                                <div class="carousel-caption__content">
+                                    <div class="container">
+                                        <div class="row">
+                                            <div class="col-lg-6">
+                                                <div class="fadeUp item_img">
+                                                    <img src="src/assets/img/carousel/cocktail.png" alt="sample" width="368" height="310">
+                                                </div>
+                                            </div>
+                                            <div class="col-lg-6">
+                                                <div class="fadeUp fade-slow item_details">
+                                                    <div class="item_badge">
+                                                        <span class="badge_btext"><sup>$</sup> 12.99</span>
+                                                    </div>
+                                                    <h4 class="item_name">Pink Martini Cocktail</h4>
+                                                    <div class="item_link_box">
+                                                        <a href="#reservation" class="item_link page-scroll">
+                                                            <i class="icon-shopping"></i>
+                                                            <span>Make Reservation</span>
+                                                        </a>
+                                                    </div>
+                                                </div>
                                             </div>
                                         </div>
-                                        <div class="col-lg-6">
-                                            <div class="fadeUp fade-slow item_details">
-                                                <div class="item_badge">
-                                                    <span class="badge_btext"><sup>$</sup> 12.99</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="carousel-item">
+                            <div class="carousel-caption">
+                                <div class="carousel-caption__content">
+                                    <div class="container">
+                                        <div class="row">
+                                            <div class="col-lg-6">
+                                                <div class="fadeUp item_img">
+                                                    <img src="src/assets/img/carousel/salad.png" alt="sample" width="368" height="310">
                                                 </div>
-                                                <h4 class="item_name">Grilled Chicken Salad</h4>
-                                                <div class="item_link_box">
-                                                    <a href="#reservation" class="item_link page-scroll">
-                                                        <i class="icon-shopping"></i>
-                                                        <span>Make Reservation</span>
-                                                    </a>
+                                            </div>
+                                            <div class="col-lg-6">
+                                                <div class="fadeUp fade-slow item_details">
+                                                    <div class="item_badge">
+                                                        <span class="badge_btext"><sup>$</sup> 12.99</span>
+                                                    </div>
+                                                    <h4 class="item_name">Grilled Chicken Salad</h4>
+                                                    <div class="item_link_box">
+                                                        <a href="#reservation" class="item_link page-scroll">
+                                                            <i class="icon-shopping"></i>
+                                                            <span>Make Reservation</span>
+                                                        </a>
+                                                    </div>
                                                 </div>
                                             </div>
                                         </div>
@@ -237,6 +231,7 @@
                         </div>
                     </div>
                 </div>
+    
             </div>
             <!-- END carousel -->
 
@@ -268,7 +263,7 @@
                                                     <li><a class="page-scroll menus" href="#menus">Menus</a></li>
                                                     <li><a class="page-scroll chef" href="#chef">Chef</a></li>
                                                     <li><a class="page-scroll reservation" href="#reservation">Reservation</a></li>
-                                                    <li><a class="page-scroll gallery" href="#gallery">Gallery</a></li>
+                                                    <li><a class="page-scroll gallery" href="#photos">Gallery</a></li>
                                                     <li><a class="page-scroll footer" href="#contact">Contact</a></li>
                                                 </ul>
                                             </div>
@@ -309,7 +304,7 @@
                 </div>
 
                 <!--    Special Menu items     -->
-                <div id="burger-slider" class="menu-slider">
+                <div id="special-menu" class="menu-slider">
                     <div class="menu-slider-item" data-aos="fade-up">
                         <a href="#" class="menu-slider-item-link"></a>
                         <div class="menu-slider-item-image">
@@ -408,36 +403,45 @@
 
                 <!--    Menus filter    -->
                 <ul class="nav nav-tabs menu_filter" id="myTab" role="tablist">
+    
+                    <!-- Menu Tab Nav Item -->
                     <li class="nav-item item" role="presentation" data-aos="zoom-in">
-                        <a class="nav-link active" id="burger-tab" data-toggle="tab" href="#burger" role="tab"
+                        <a class="nav-link active" id="burger-tab" data-bs-toggle="tab" data-bs-target="#burger" role="tab"
                             aria-controls="burger" aria-selected="true">
                             <i class="icon-burger"></i>
                             <span>Burgers</span>
                         </a>
                     </li>
+    
+                    <!-- Menu Tab Nav Item -->
                     <li class="nav-item item" role="presentation" data-aos="zoom-in">
-                        <a class="nav-link" id="pizza-tab" data-toggle="tab" href="#pizza" role="tab"
+                        <a class="nav-link" id="pizza-tab" data-bs-toggle="tab" data-bs-target="#pizza" role="tab"
                             aria-controls="pizza" aria-selected="false">
                             <i class="icon-pizza-slice"></i>
                             <span>Pizza</span>
                         </a>
                     </li>
+    
+                    <!-- Menu Tab Nav Item -->
                     <li class="nav-item item" role="presentation" data-aos="zoom-in">
-                        <a class="nav-link" id="salad-tab" data-toggle="tab" href="#salad" role="tab"
+                        <a class="nav-link" id="salad-tab" data-bs-toggle="tab" data-bs-target="#salad" role="tab"
                             aria-controls="salad" aria-selected="false">
                             <i class="icon-salad"></i>
                             <span>Salads</span>
                         </a>
                     </li>
+    
+                    <!-- Menu Tab Nav Item -->
                     <li class="nav-item item" role="presentation" data-aos="zoom-in">
-                        <a class="nav-link" id="soup-tab" data-toggle="tab" href="#soup" role="tab" aria-controls="soup"
-                            aria-selected="false">
+                        <a class="nav-link" id="soup-tab" data-bs-toggle="tab" data-bs-target="#soup" role="tab" aria-controls="soup" aria-selected="false">
                             <i class="icon-soup"></i>
                             <span>Soup</span>
                         </a>
                     </li>
+    
+                    <!-- Menu Tab Nav Item -->
                     <li class="nav-item item" role="presentation" data-aos="zoom-in">
-                        <a class="nav-link" id="drinks-tab" data-toggle="tab" href="#drinks" role="tab"
+                        <a class="nav-link" id="drinks-tab" data-bs-toggle="tab" data-bs-target="#drinks" role="tab"
                             aria-controls="drinks" aria-selected="false">
                             <i class="icon-drink"></i>
                             <span>Drinks</span>
@@ -446,11 +450,11 @@
                 </ul>
 
                 <!--    Menus items     -->
-                <div class="tab-content" id="menu_items">
-                    <div class="tab-pane fade in active" id="burger" role="tabpanel" aria-labelledby="burger-tab">
+                <div class="tab-content" id="menu_items"> 
+                    <div class="tab-pane fade show active" id="burger" role="tabpanel" aria-labelledby="burger-tab" tabindex="0">
                         <div class="row">
                             <div class="col-md-6 col-lg-4" data-aos="fade-up">
-                                <a href="src/assets/img/photos/bacon-burger.jpg" class="block fancybox">
+                                <div data-src="src/assets/img/photos/bacon-burger.jpg" data-fancybox="gallery" class="block fancybox">
                                     <div class="content">
                                         <div class="filter_item_img">
                                             <i class="icon-zoom-in"></i>
@@ -463,10 +467,10 @@
                                             <span class="filter_item_price">$12.99</span>
                                         </div>
                                     </div>
-                                </a>
+                                </div>
                             </div>
                             <div class="col-md-6 col-lg-4" data-aos="fade-up">
-                                <a href="src/assets/img/photos/black-bean-burger.jpg" class="block fancybox">
+                                <div data-src="src/assets/img/photos/black-bean-burger.jpg" data-fancybox="gallery" class="block fancybox">
                                     <div class="content">
                                         <div class="filter_item_img">
                                             <i class="icon-zoom-in"></i>
@@ -480,10 +484,10 @@
                                             <span class="filter_item_price">$13.50</span>
                                         </div>
                                     </div>
-                                </a>
+                                </div>
                             </div>
                             <div class="col-md-6 col-lg-4" data-aos="fade-up">
-                                <a href="src/assets/img/photos/classic-burger.jpg" class="block fancybox">
+                                <div data-src="src/assets/img/photos/classic-burger.jpg" data-fancybox="gallery" class="block fancybox">
                                     <div class="content">
                                         <div class="filter_item_img">
                                             <i class="icon-zoom-in"></i>
@@ -496,10 +500,10 @@
                                             <span class="filter_item_price">$6.89</span>
                                         </div>
                                     </div>
-                                </a>
+                                </div>
                             </div>
                             <div class="col-md-6 col-lg-4" data-aos="fade-up">
-                                <a href="src/assets/img/photos/double-burger.jpg" class="block fancybox">
+                                <div data-src="src/assets/img/photos/double-burger.jpg" data-fancybox="gallery" class="block fancybox">
                                     <div class="content">
                                         <div class="filter_item_img">
                                             <i class="icon-zoom-in"></i>
@@ -513,10 +517,10 @@
                                             <span class="filter_item_price">$8.35</span>
                                         </div>
                                     </div>
-                                </a>
+                                </div>
                             </div>
                             <div class="col-md-6 col-lg-4" data-aos="fade-up">
-                                <a href="src/assets/img/photos/smokey-burger.jpg" class="block fancybox">
+                                <div data-src="src/assets/img/photos/smokey-burger.jpg" data-fancybox="gallery" class="block fancybox">
                                     <div class="content">
                                         <div class="filter_item_img">
                                             <i class="icon-zoom-in"></i>
@@ -530,10 +534,10 @@
                                             <span class="filter_item_price">$8.99</span>
                                         </div>
                                     </div>
-                                </a>
+                                </div>
                             </div>
                             <div class="col-md-6 col-lg-4" data-aos="fade-up">
-                                <a href="src/assets/img/photos/turkey-burger.jpg" class="block fancybox">
+                                <div data-src="src/assets/img/photos/turkey-burger.jpg" data-fancybox="gallery" class="block fancybox">
                                     <div class="content">
                                         <div class="filter_item_img">
                                             <i class="icon-zoom-in"></i>
@@ -547,14 +551,14 @@
                                             <span class="filter_item_price">$8.30</span>
                                         </div>
                                     </div>
-                                </a>
+                                </div>
                             </div>
                         </div>
                     </div>
-                    <div class="tab-pane fade" id="pizza" role="tabpanel" aria-labelledby="pizza-tab">
+                    <div class="tab-pane fade" id="pizza" role="tabpanel" aria-labelledby="pizza-tab" tabindex="0">
                         <div class="row">
                             <div class="col-md-6 col-lg-4" data-aos="fade-up">
-                                <a href="src/assets/img/photos/pizza-chicken-tikka-lg.jpg" class="block fancybox">
+                                <div data-src="src/assets/img/photos/pizza-chicken-tikka-lg.jpg" data-fancybox="gallery" class="block fancybox">
                                     <div class="content">
                                         <div class="filter_item_img">
                                             <i class="icon-zoom-in"></i>
@@ -567,10 +571,10 @@
                                             <span class="filter_item_price">$8.25</span>
                                         </div>
                                     </div>
-                                </a>
+                                </div>
                             </div>
                             <div class="col-md-6 col-lg-4" data-aos="fade-up">
-                                <a href="src/assets/img/photos/pizza-hawaii-lg.jpg" class="block fancybox">
+                                <div data-src="src/assets/img/photos/pizza-hawaii-lg.jpg" data-fancybox="gallery" class="block fancybox">
                                     <div class="content">
                                         <div class="filter_item_img">
                                             <i class="icon-zoom-in"></i>
@@ -584,10 +588,10 @@
                                             <span class="filter_item_price">$13.62</span>
                                         </div>
                                     </div>
-                                </a>
+                                </div>
                             </div>
                             <div class="col-md-6 col-lg-4" data-aos="fade-up">
-                                <a href="src/assets/img/photos/pizza-kebab-lg.jpg" class="block fancybox">
+                                <div data-src="src/assets/img/photos/pizza-kebab-lg.jpg" data-fancybox="gallery" class="block fancybox">
                                     <div class="content">
                                         <div class="filter_item_img">
                                             <i class="icon-zoom-in"></i>
@@ -601,10 +605,10 @@
                                             <span class="filter_item_price">$15.25</span>
                                         </div>
                                     </div>
-                                </a>
+                                </div>
                             </div>
                             <div class="col-md-6 col-lg-4" data-aos="fade-up">
-                                <a href="src/assets/img/photos/pizza-margherita-lg.jpg" class="block fancybox">
+                                <div data-src="src/assets/img/photos/pizza-margherita-lg.jpg" data-fancybox="gallery" class="block fancybox">
                                     <div class="content">
                                         <div class="filter_item_img">
                                             <i class="icon-zoom-in"></i>
@@ -617,10 +621,10 @@
                                             <span class="filter_item_price">$13.34</span>
                                         </div>
                                     </div>
-                                </a>
+                                </div>
                             </div>
                             <div class="col-md-6 col-lg-4" data-aos="fade-up">
-                                <a href="src/assets/img/photos/pizza-mushroom-lg.jpg" class="block fancybox">
+                                <div data-src="src/assets/img/photos/pizza-mushroom-lg.jpg" data-fancybox="gallery" class="block fancybox">
                                     <div class="content">
                                         <div class="filter_item_img">
                                             <i class="icon-zoom-in"></i>
@@ -633,10 +637,10 @@
                                             <span class="filter_item_price">$12.99</span>
                                         </div>
                                     </div>
-                                </a>
+                                </div>
                             </div>
                             <div class="col-md-6 col-lg-4" data-aos="fade-up">
-                                <a href="src/assets/img/photos/pizza-neapolitan-lg.jpg" class="block fancybox">
+                                <div data-src="src/assets/img/photos/pizza-neapolitan-lg.jpg" data-fancybox="gallery" class="block fancybox">
                                     <div class="content">
                                         <div class="filter_item_img">
                                             <i class="icon-zoom-in"></i>
@@ -649,10 +653,10 @@
                                             <span class="filter_item_price">$11.00</span>
                                         </div>
                                     </div>
-                                </a>
+                                </div>
                             </div>
                             <div class="col-md-6 col-lg-4" data-aos="fade-up">
-                                <a href="src/assets/img/photos/pizza-pepperoni-lg.jpg" class="block fancybox">
+                                <div data-src="src/assets/img/photos/pizza-pepperoni-lg.jpg" data-fancybox="gallery" class="block fancybox">
                                     <div class="content">
                                         <div class="filter_item_img">
                                             <i class="icon-zoom-in"></i>
@@ -665,10 +669,10 @@
                                             <span class="filter_item_price">$6.99</span>
                                         </div>
                                     </div>
-                                </a>
+                                </div>
                             </div>
                             <div class="col-md-6 col-lg-4" data-aos="fade-up">
-                                <a href="src/assets/img/photos/pizza-veggie-lg.jpg" class="block fancybox">
+                                <div data-src="src/assets/img/photos/pizza-veggie-lg.jpg" data-fancybox="gallery" class="block fancybox">
                                     <div class="content">
                                         <div class="filter_item_img">
                                             <i class="icon-zoom-in"></i>
@@ -682,14 +686,14 @@
                                             <span class="filter_item_price">$5.99</span>
                                         </div>
                                     </div>
-                                </a>
+                                </div>
                             </div>
                         </div>
                     </div>
-                    <div class="tab-pane fade" id="salad" role="tabpanel" aria-labelledby="salad-tab">
+                    <div class="tab-pane fade" id="salad" role="tabpanel" aria-labelledby="salad-tab" tabindex="0">
                         <div class="row">
                             <div class="col-md-6 col-lg-4" data-aos="fade-up">
-                                <a href="src/assets/img/photos/ambrosia-salad-lg.jpg" class="block fancybox">
+                                <div data-src="src/assets/img/photos/ambrosia-salad-lg.jpg" data-fancybox="gallery" class="block fancybox">
                                     <div class="content">
                                         <div class="filter_item_img">
                                             <i class="icon-zoom-in"></i>
@@ -703,10 +707,10 @@
                                             <span class="filter_item_price">$18.00</span>
                                         </div>
                                     </div>
-                                </a>
+                                </div>
                             </div>
                             <div class="col-md-6 col-lg-4" data-aos="fade-up">
-                                <a href="src/assets/img/photos/bound-salad-lg.jpg" class="block fancybox">
+                                <div data-src="src/assets/img/photos/bound-salad-lg.jpg" data-fancybox="gallery" class="block fancybox">
                                     <div class="content">
                                         <div class="filter_item_img">
                                             <i class="icon-zoom-in"></i>
@@ -719,10 +723,10 @@
                                             <span class="filter_item_price">$12.49</span>
                                         </div>
                                     </div>
-                                </a>
+                                </div>
                             </div>
                             <div class="col-md-6 col-lg-4" data-aos="fade-up">
-                                <a href="src/assets/img/photos/fruit-salad-lg.jpg" class="block fancybox">
+                                <div data-src="src/assets/img/photos/fruit-salad-lg.jpg" data-fancybox="gallery" class="block fancybox">
                                     <div class="content">
                                         <div class="filter_item_img">
                                             <i class="icon-zoom-in"></i>
@@ -735,10 +739,10 @@
                                             <span class="filter_item_price">$17.62</span>
                                         </div>
                                     </div>
-                                </a>
+                                </div>
                             </div>
                             <div class="col-md-6 col-lg-4" data-aos="fade-up">
-                                <a href="src/assets/img/photos/garden-salad-lg.jpg" class="block fancybox">
+                                <div data-src="src/assets/img/photos/garden-salad-lg.jpg" data-fancybox="gallery" class="block fancybox">
                                     <div class="content">
                                         <div class="filter_item_img">
                                             <i class="icon-zoom-in"></i>
@@ -751,14 +755,14 @@
                                             <span class="filter_item_price">$9.99</span>
                                         </div>
                                     </div>
-                                </a>
+                                </div>
                             </div>
                         </div>
                     </div>
-                    <div class="tab-pane fade" id="soup" role="tabpanel" aria-labelledby="soup-tab">
+                    <div class="tab-pane fade" id="soup" role="tabpanel" aria-labelledby="soup-tab" tabindex="0">
                         <div class="row">
                             <div class="col-md-6 col-lg-4" data-aos="fade-up">
-                                <a href="src/assets/img/photos/chicken-noodle-soup-lg.jpg" class="block fancybox">
+                                <div data-src="src/assets/img/photos/chicken-noodle-soup-lg.jpg" data-fancybox="gallery" class="block fancybox">
                                     <div class="content">
                                         <div class="filter_item_img">
                                             <i class="icon-zoom-in"></i>
@@ -771,10 +775,10 @@
                                             <span class="filter_item_price">$6.88</span>
                                         </div>
                                     </div>
-                                </a>
+                                </div>
                             </div>
                             <div class="col-md-6 col-lg-4" data-aos="fade-up">
-                                <a href="src/assets/img/photos/puree-of-carrot-soup-lg.jpg" class="block fancybox">
+                                <div data-src="src/assets/img/photos/puree-of-carrot-soup-lg.jpg" data-fancybox="gallery" class="block fancybox">
                                     <div class="content">
                                         <div class="filter_item_img">
                                             <i class="icon-zoom-in"></i>
@@ -788,10 +792,10 @@
                                             <span class="filter_item_price">$7.12</span>
                                         </div>
                                     </div>
-                                </a>
+                                </div>
                             </div>
                             <div class="col-md-6 col-lg-4" data-aos="fade-up">
-                                <a href="src/assets/img/photos/seafood-bisque-soup-lg.jpg" class="block fancybox">
+                                <div data-src="src/assets/img/photos/seafood-bisque-soup-lg.jpg" data-fancybox="gallery" class="block fancybox">
                                     <div class="content">
                                         <div class="filter_item_img">
                                             <i class="icon-zoom-in"></i>
@@ -804,10 +808,10 @@
                                             <span class="filter_item_price">$14.95</span>
                                         </div>
                                     </div>
-                                </a>
+                                </div>
                             </div>
                             <div class="col-md-6 col-lg-4" data-aos="fade-up">
-                                <a href="src/assets/img/photos/veloute-tomate-soup-lg.jpg" class="block fancybox">
+                                <div data-src="src/assets/img/photos/veloute-tomate-soup-lg.jpg" data-fancybox="gallery" class="block fancybox">
                                     <div class="content">
                                         <div class="filter_item_img">
                                             <i class="icon-zoom-in"></i>
@@ -821,14 +825,14 @@
                                             <span class="filter_item_price">$6.93</span>
                                         </div>
                                     </div>
-                                </a>
+                                </div>
                             </div>
                         </div>
                     </div>
-                    <div class="tab-pane fade" id="drinks" role="tabpanel" aria-labelledby="drinks-tab">
+                    <div class="tab-pane fade" id="drinks" role="tabpanel" aria-labelledby="drinks-tab" tabindex="0">
                         <div class="row">
                             <div class="col-md-6 col-lg-4" data-aos="fade-up">
-                                <a href="src/assets/img/photos/americano-cocktail-lg.jpg" class="block fancybox">
+                                <div data-src="src/assets/img/photos/americano-cocktail-lg.jpg" data-fancybox="gallery" class="block fancybox">
                                     <div class="content">
                                         <div class="filter_item_img">
                                             <i class="icon-zoom-in"></i>
@@ -840,10 +844,10 @@
                                             <span class="filter_item_price">$20.00</span>
                                         </div>
                                     </div>
-                                </a>
+                                </div>
                             </div>
                             <div class="col-md-6 col-lg-4" data-aos="fade-up">
-                                <a href="src/assets/img/photos/cosmopolitan-cocktail-lg.jpg" class="block fancybox">
+                                <div data-src="src/assets/img/photos/cosmopolitan-cocktail-lg.jpg" data-fancybox="gallery" class="block fancybox">
                                     <div class="content">
                                         <div class="filter_item_img">
                                             <i class="icon-zoom-in"></i>
@@ -858,10 +862,10 @@
                                             <span class="filter_item_price">$14.99</span>
                                         </div>
                                     </div>
-                                </a>
+                                </div>
                             </div>
                             <div class="col-md-6 col-lg-4" data-aos="fade-up">
-                                <a href="src/assets/img/photos/malibu-sunset-cocktail-lg.jpg" class="block fancybox">
+                                <div data-src="src/assets/img/photos/malibu-sunset-cocktail-lg.jpg" data-fancybox="gallery" class="block fancybox">
                                     <div class="content">
                                         <div class="filter_item_img">
                                             <i class="icon-zoom-in"></i>
@@ -875,10 +879,10 @@
                                             <span class="filter_item_price">$12.48</span>
                                         </div>
                                     </div>
-                                </a>
+                                </div>
                             </div>
                             <div class="col-md-6 col-lg-4" data-aos="fade-up">
-                                <a href="src/assets/img/photos/sweet-poison-cocktail-lg.jpg" class="block fancybox">
+                                <div data-src="src/assets/img/photos/sweet-poison-cocktail-lg.jpg" data-fancybox="gallery" class="block fancybox">
                                     <div class="content">
                                         <div class="filter_item_img">
                                             <i class="icon-zoom-in"></i>
@@ -893,10 +897,10 @@
                                             <span class="filter_item_price">$10.24</span>
                                         </div>
                                     </div>
-                                </a>
+                                </div>
                             </div>
                             <div class="col-md-6 col-lg-4" data-aos="fade-up">
-                                <a href="src/assets/img/photos/tropical-garden-cocktail-lg.jpg" class="block fancybox">
+                                <div data-src="src/assets/img/photos/tropical-garden-cocktail-lg.jpg" data-fancybox="gallery" class="block fancybox">
                                     <div class="content">
                                         <div class="filter_item_img">
                                             <i class="icon-zoom-in"></i>
@@ -909,10 +913,10 @@
                                             <span class="filter_item_price">$9.89</span>
                                         </div>
                                     </div>
-                                </a>
+                                </div>
                             </div>
                             <div class="col-md-6 col-lg-4" data-aos="fade-up">
-                                <a href="src/assets/img/photos/green-tea-lg.jpg" class="block fancybox">
+                                <div data-src="src/assets/img/photos/green-tea-lg.jpg" data-fancybox="gallery" class="block fancybox">
                                     <div class="content">
                                         <div class="filter_item_img">
                                             <i class="icon-zoom-in"></i>
@@ -925,10 +929,10 @@
                                             <span class="filter_item_price">$6.11</span>
                                         </div>
                                     </div>
-                                </a>
+                                </div>
                             </div>
                             <div class="col-md-6 col-lg-4" data-aos="fade-up">
-                                <a href="src/assets/img/photos/spicy-ginger-lemon-tea-lg.jpg" class="block fancybox">
+                                <div data-src="src/assets/img/photos/spicy-ginger-lemon-tea-lg.jpg" data-fancybox="gallery" class="block fancybox">
                                     <div class="content">
                                         <div class="filter_item_img">
                                             <i class="icon-zoom-in"></i>
@@ -941,7 +945,7 @@
                                             <span class="filter_item_price">$9.99</span>
                                         </div>
                                     </div>
-                                </a>
+                                </div>
                             </div>
                         </div>
                     </div>
@@ -1124,37 +1128,37 @@
                             <form id="reserv_form" method="post">
                                 <div class="row">
                                     <div class="col-md-6">
-                                        <div class="form-group form_pos">
+                                        <div class="form-group">
                                             <input type="text" name="name" autocomplete="off" required=""
                                                 placeholder="Name*" class="form-control">
                                         </div>
                                     </div>
                                     <div class="col-md-6">
-                                        <div class="form-group form_pos">
+                                        <div class="form-group">
                                             <input type="email" name="email" autocomplete="off" required=""
                                                 placeholder="Email*" class="form-control">
                                         </div>
                                     </div>
                                     <div class="col-md-6">
-                                        <div class="form-group form_pos">
+                                        <div class="form-group">
                                             <input type="text" name="phone" autocomplete="off" required=""
                                                 placeholder="Phone*" class="form-control">
                                         </div>
                                     </div>
                                     <div class="col-md-6">
-                                        <div class="form-group form_pos">
+                                        <div class="form-group">
                                             <input type="text" name="date" autocomplete="off" required=""
                                                 placeholder="Date*" class="form-control" id="reserv_date">
                                         </div>
                                     </div>
                                     <div class="col-md-6">
-                                        <div class="form-group form_pos">
+                                        <div class="form-group">
                                             <input type="text" name="time" autocomplete="off" required=""
                                                 placeholder="Time*" class="form-control" id="reserv_time">
                                         </div>
                                     </div>
                                     <div class="col-md-6">
-                                        <div class="form-group form_pos">
+                                        <div class="form-group">
                                             <input type="text" name="guest" autocomplete="off" required=""
                                                 placeholder="Guest*" class="form-control">
                                         </div>
@@ -1172,7 +1176,7 @@
         </section>
 
         <!--    Gallery    -->
-        <section class="section" id="gallery">
+        <section class="section" id="photos">
             <div class="container">
                 <div class="title-block">
                     <span class="section-subtitle" data-aos="fade-up">Fresh from Pizza Mizza</span>
@@ -1180,9 +1184,8 @@
                 </div>
                 <div id="photo_gallery" class="list1">
                     <div class="row">
-                        <div class="col-md-4 col-lg-3 item" data-aos="zoom-in">
-                            <a href="src/assets/img/photos/wings-lg.jpg" class="block fancybox"
-                                data-fancybox-group="fancybox">
+                        <div class="col-sm-6 col-md-4 col-lg-3 item" data-aos="zoom-in">
+                            <div data-src="src/assets/img/photos/wings-lg.jpg" data-fancybox="gallery" class="block fancybox">
                                 <div class="content">
                                     <img src="src/assets/img/photos/wings-xs.jpg" alt="sample">
                                     <div class="igall-details">
@@ -1199,11 +1202,10 @@
                                         </div>
                                     </div>
                                 </div>
-                            </a>
+                            </div>
                         </div>
-                        <div class="col-md-4 col-lg-3 item" data-aos="zoom-in">
-                            <a href="src/assets/img/photos/spare-ribs-lg.jpg" class="block fancybox"
-                                data-fancybox-group="fancybox">
+                        <div class="col-sm-6 col-md-4 col-lg-3 item" data-aos="zoom-in">
+                            <div data-src="src/assets/img/photos/spare-ribs-lg.jpg" data-fancybox="gallery" class="block fancybox">
                                 <div class="content">
                                     <img src="src/assets/img/photos/spare-ribs-xs.jpg" alt="sample">
                                     <div class="igall-details">
@@ -1220,11 +1222,10 @@
                                         </div>
                                     </div>
                                 </div>
-                            </a>
+                            </div>
                         </div>
-                        <div class="col-md-4 col-lg-3 item" data-aos="zoom-in">
-                            <a href="src/assets/img/photos/spaghetti-lg.jpg" class="block fancybox"
-                                data-fancybox-group="fancybox">
+                        <div class="col-sm-6 col-md-4 col-lg-3 item" data-aos="zoom-in">
+                            <div data-src="src/assets/img/photos/spaghetti-lg.jpg" data-fancybox="gallery" class="block fancybox">
                                 <div class="content">
                                     <img src="src/assets/img/photos/spaghetti-xs.jpg" alt="sample">
                                     <div class="igall-details">
@@ -1241,11 +1242,10 @@
                                         </div>
                                     </div>
                                 </div>
-                            </a>
+                            </div>
                         </div>
-                        <div class="col-md-4 col-lg-3 item" data-aos="zoom-in">
-                            <a href="src/assets/img/photos/salmon-lg.jpg" class="block fancybox"
-                                data-fancybox-group="fancybox">
+                        <div class="col-sm-6 col-md-4 col-lg-3 item" data-aos="zoom-in">
+                            <div data-src="src/assets/img/photos/salmon-lg.jpg" data-fancybox="gallery" class="block fancybox">
                                 <div class="content">
                                     <img src="src/assets/img/photos/salmon-xs.jpg" alt="sample">
                                     <div class="igall-details">
@@ -1262,11 +1262,10 @@
                                         </div>
                                     </div>
                                 </div>
-                            </a>
+                            </div>
                         </div>
-                        <div class="col-md-4 col-lg-3 item" data-aos="zoom-in">
-                            <a href="src/assets/img/photos/salad-lg.jpg" class="block fancybox"
-                                data-fancybox-group="fancybox">
+                        <div class="col-sm-6 col-md-4 col-lg-3 item" data-aos="zoom-in">
+                            <div data-src="src/assets/img/photos/salad-lg.jpg" data-fancybox="gallery" class="block fancybox">
                                 <div class="content">
                                     <img src="src/assets/img/photos/salad-xs.jpg" alt="sample">
                                     <div class="igall-details">
@@ -1283,11 +1282,10 @@
                                         </div>
                                     </div>
                                 </div>
-                            </a>
+                            </div>
                         </div>
-                        <div class="col-md-4 col-lg-3 item" data-aos="zoom-in">
-                            <a href="src/assets/img/photos/pizza-lg.jpg" class="block fancybox"
-                                data-fancybox-group="fancybox">
+                        <div class="col-sm-6 col-md-4 col-lg-3 item" data-aos="zoom-in">
+                            <div data-src="src/assets/img/photos/pizza-lg.jpg" data-fancybox="gallery" class="block fancybox">
                                 <div class="content">
                                     <img src="src/assets/img/photos/pizza-xs.jpg" alt="sample">
                                     <div class="igall-details">
@@ -1304,11 +1302,10 @@
                                         </div>
                                     </div>
                                 </div>
-                            </a>
+                            </div>
                         </div>
-                        <div class="col-md-4 col-lg-3 item" data-aos="zoom-in">
-                            <a href="src/assets/img/photos/meat-lg.jpg" class="block fancybox"
-                                data-fancybox-group="fancybox">
+                        <div class="col-sm-6 col-md-4 col-lg-3 item" data-aos="zoom-in">
+                            <div data-src="src/assets/img/photos/meat-lg.jpg" data-fancybox="gallery" class="block fancybox">
                                 <div class="content">
                                     <img src="src/assets/img/photos/meat-xs.jpg" alt="sample">
                                     <div class="igall-details">
@@ -1325,11 +1322,10 @@
                                         </div>
                                     </div>
                                 </div>
-                            </a>
+                            </div>
                         </div>
-                        <div class="col-md-4 col-lg-3 item" data-aos="zoom-in">
-                            <a href="src/assets/img/photos/burger-lg.jpg" class="block fancybox"
-                                data-fancybox-group="fancybox">
+                        <div class="col-sm-6 col-md-4 col-lg-3 item" data-aos="zoom-in">
+                            <div data-src="src/assets/img/photos/burger-lg.jpg" data-fancybox="gallery" class="block fancybox">
                                 <div class="content">
                                     <img src="src/assets/img/photos/burger-xs.jpg" alt="sample">
                                     <div class="igall-details">
@@ -1346,13 +1342,12 @@
                                         </div>
                                     </div>
                                 </div>
-                            </a>
+                            </div>
                         </div>
                     </div>
                     <div class="row" id="loadMore">
-                        <div class="col-md-4 col-lg-3 item" data-aos="zoom-in">
-                            <a href="src/assets/img/photos/bratstreifen-lg.jpg" class="block fancybox"
-                                data-fancybox-group="fancybox">
+                        <div class="col-sm-6 col-md-4 col-lg-3 item" data-aos="zoom-in">
+                            <div data-src="src/assets/img/photos/bratstreifen-lg.jpg" data-fancybox="gallery" class="block fancybox">
                                 <div class="content">
                                     <img src="src/assets/img/photos/bratstreifen-xs.jpg" alt="sample">
                                     <div class="igall-details">
@@ -1369,11 +1364,10 @@
                                         </div>
                                     </div>
                                 </div>
-                            </a>
+                            </div>
                         </div>
-                        <div class="col-md-4 col-lg-3 item" data-aos="zoom-in">
-                            <a href="src/assets/img/photos/salmon-bread-lg.jpg" class="block fancybox"
-                                data-fancybox-group="fancybox">
+                        <div class="col-sm-6 col-md-4 col-lg-3 item" data-aos="zoom-in">
+                            <div data-src="src/assets/img/photos/salmon-bread-lg.jpg" data-fancybox="gallery" class="block fancybox">
                                 <div class="content">
                                     <img src="src/assets/img/photos/salmon-bread-xs.jpg" alt="sample">
                                     <div class="igall-details">
@@ -1390,11 +1384,10 @@
                                         </div>
                                     </div>
                                 </div>
-                            </a>
+                            </div>
                         </div>
-                        <div class="col-md-4 col-lg-3 item" data-aos="zoom-in">
-                            <a href="src/assets/img/photos/eggs-benedict-burger.jpg" class="block fancybox"
-                                data-fancybox-group="fancybox">
+                        <div class="col-sm-6 col-md-4 col-lg-3 item" data-aos="zoom-in">
+                            <div data-src="src/assets/img/photos/eggs-benedict-burger.jpg" data-fancybox="gallery" class="block fancybox">
                                 <div class="content">
                                     <img src="src/assets/img/photos/eggs-benedict-burger.jpg" alt="sample">
                                     <div class="igall-details">
@@ -1411,11 +1404,10 @@
                                         </div>
                                     </div>
                                 </div>
-                            </a>
+                            </div>
                         </div>
-                        <div class="col-md-4 col-lg-3 item" data-aos="zoom-in">
-                            <a href="src/assets/img/photos/chicken-cutlet-lg.jpg" class="block fancybox"
-                                data-fancybox-group="fancybox">
+                        <div class="col-sm-6 col-md-4 col-lg-3 item" data-aos="zoom-in">
+                            <div data-src="src/assets/img/photos/chicken-cutlet-lg.jpg" data-fancybox="gallery" class="block fancybox">
                                 <div class="content">
                                     <img src="src/assets/img/photos/chicken-cutlet-xs.jpg" alt="sample">
                                     <div class="igall-details">
@@ -1432,7 +1424,7 @@
                                         </div>
                                     </div>
                                 </div>
-                            </a>
+                            </div>
                         </div>
                     </div>
                     <div class="load-dots">
@@ -1570,12 +1562,12 @@
             </form>
         </div>
         <ul class="rmenu_list">
-            <li><a class="page-scroll" href="#header">Home</a></li>
+            <li><a class="page-scroll" href="#hero">Home</a></li>
             <li><a class="page-scroll" href="#special">Special</a></li>
             <li><a class="page-scroll" href="#about">About</a></li>
             <li><a class="page-scroll" href="#menus">Menus</a></li>
             <li><a class="page-scroll" href="#chef">Chef</a></li>
-            <li><a class="page-scroll" href="#gallery">Gallery</a></li>
+            <li><a class="page-scroll" href="#photos">Gallery</a></li>
             <li><a class="page-scroll" href="#reservation">Reservation</a></li>
             <li><a class="page-scroll" href="#contact">Contact</a></li>
         </ul>
@@ -1592,22 +1584,10 @@
     <!-- END mobile right burger menu -->
 
     <!-- JavaScript -->
-    <script src="src/assets/js/jquery-2.1.1.min.js"></script>
-    <script src="src/assets/js/bootstrap.min.js"></script>
-    <script src="src/assets/js/jquery.mousewheel.min.js"></script>
-    <script src="src/assets/js/jquery.easing.min.js"></script>
-    <script src="src/assets/js/scrolling-nav.js"></script>
-    <script src="src/assets/js/aos.js"></script>
-    <script src="src/assets/js/slick.min.js"></script>
-    <script src="src/assets/js/jquery.touchSwipe.min.js"></script>
-    <script src="src/assets/js/moment.js"></script>
-    <script src="src/assets/js/bootstrap-datepicker.js"></script>
-    <script src="src/assets/js/bootstrap-datetimepicker.js"></script>
-    <script src="src/assets/js/jquery.fancybox.js"></script>
-    <script src="src/assets/js/loadMoreResults.js"></script>
+    <script src="src/assets/js/plugins.min.js"></script>
     <script
         src="https://api-maps.yandex.ru/2.1/?apikey=pdct.1.1.20181030T175834Z.133bc6bb41576943.2897484581a2a12fea17740a34279c270c29ac48&lang=en_US"></script>
-    <script src="src/assets/js/main.js"></script>
+    <script src="src/assets/js/main.min.js"></script>
 
 </body>
 

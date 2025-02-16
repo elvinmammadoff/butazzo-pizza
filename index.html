@@ -28,7 +28,6 @@
 
     <!-- Stylesheets -->
     <link href="src/assets/css/plugins.min.css" type="text/css" rel="stylesheet">
-    <link href="src/assets/css/touch-sideswipe.css" type="text/css" rel="stylesheet">
     <link href="src/assets/css/main.min.css" type="text/css" rel="stylesheet">
     <link href="src/assets/css/responsive.min.css" type="text/css" rel="stylesheet">
 
@@ -225,13 +224,17 @@
                         </div>
                     </div>
                 </div>
-                <button class="carousel-control-prev" data-bs-target="#carouselExample" type="button" data-bs-slide="prev">
-                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                    <span class="visually-hidden">Previous</span>
+                <button class="carousel-control-prev">
+                    <div data-bs-target="#carouselExample" type="button" data-bs-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Previous</span>
+                    </div>
                 </button>
-                <button class="carousel-control-next" data-bs-target="#carouselExample" type="button" data-bs-slide="next">
-                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                    <span class="visually-hidden">Next</span>
+                <button class="carousel-control-next">
+                    <div data-bs-target="#carouselExample" type="button" data-bs-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Next</span>
+                    </div>
                 </button>
             </div>
 
@@ -937,7 +940,7 @@
      
                                          <!-- Your Name -->
                                          <div class="col-md-6">
-                                             <div class="form-group form_pos">
+                                             <div class="form-group position-relative">
                                                  <input type="text" name="name" autocomplete="off" required="" placeholder="Full Name" class="form-control" onfocus="this.placeholder = ''" onblur="this.placeholder = 'Full Name'">
                                                  <span class="form_icon"></span>
                                              </div>
@@ -945,7 +948,7 @@
      
                                          <!-- Your Email -->
                                          <div class="col-md-6">
-                                             <div class="form-group form_pos">
+                                             <div class="form-group position-relative">
                                                  <input type="email" name="email" autocomplete="off" required="" placeholder="Email" class="form-control" onfocus="this.placeholder = ''" onblur="this.placeholder = 'Email'">
                                                  <span class="form_icon"></span>
                                              </div>
@@ -955,7 +958,7 @@
      
                                          <!-- Phone -->
                                          <div class="col-md-4">
-                                             <div class="form-group form_pos">
+                                             <div class="form-group position-relative">
                                                  <input type="text" name="phone" autocomplete="off" required="" placeholder="Phone" class="form-control" onfocus="this.placeholder = ''" onblur="this.placeholder = 'Phone'">
                                                  <span class="form_icon"></span>
                                              </div>
@@ -963,7 +966,7 @@
      
                                          <!-- Date -->
                                          <div class="col-md-4">
-                                             <div class="form-group form_pos">
+                                             <div class="form-group position-relative">
                                                  <input type="text" name="date" autocomplete="off" required="" placeholder="Date" class="form-control" id="reserv_date" onfocus="this.placeholder = ''" onblur="this.placeholder = 'Date'">
                                                  <span class="form_icon"></span>
                                              </div>
@@ -971,7 +974,7 @@
      
                                          <!-- Time -->
                                          <div class="col-md-4">
-                                             <div class="form-group form_pos">
+                                             <div class="form-group position-relative">
                                                  <input type="text" name="time" autocomplete="off" required="" placeholder="Time" class="form-control" id="reserv_time" onfocus="this.placeholder = ''" onblur="this.placeholder = 'Time'">
                                                  <span class="form_icon"></span>
                                              </div>
@@ -1004,7 +1007,7 @@
                 <div class="row">
 
                     <!-- Gallery Item -->
-                    <div class="col-md-4 col-lg-3 item" data-aos="zoom-in">
+                    <div class="col-sm-6 col-md-4 col-lg-3 item" data-aos="zoom-in">
                         <div data-src="src/assets/img/photos/wings-lg.avif" data-fancybox="gallery" class="block fancybox" data-fancybox-group="fancybox">
                             <div class="content">
                                 <img src="src/assets/img/photos/wings-xs.avif" width="279" height="271" alt="wings">
@@ -1016,7 +1019,7 @@
                     </div>
 
                     <!-- Gallery Item -->
-                    <div class="col-md-4 col-lg-3 item" data-aos="zoom-in">
+                    <div class="col-sm-6 col-md-4 col-lg-3 item" data-aos="zoom-in">
                         <div data-src="src/assets/img/photos/spare-ribs-lg.avif" data-fancybox="gallery" class="block fancybox" data-fancybox-group="fancybox">
                             <div class="content">
                                 <img src="src/assets/img/photos/spare-ribs-xs.avif" width="279" height="271" alt="spare ribs">
@@ -1028,7 +1031,7 @@
                     </div>
 
                     <!-- Gallery Item -->
-                    <div class="col-md-4 col-lg-3 item" data-aos="zoom-in">
+                    <div class="col-sm-6 col-md-4 col-lg-3 item" data-aos="zoom-in">
                         <div data-src="src/assets/img/photos/spaghetti-lg.avif" data-fancybox="gallery" class="block fancybox" data-fancybox-group="fancybox">
                             <div class="content">
                                 <img src="src/assets/img/photos/spaghetti-xs.avif" width="279" height="271" alt="spaghetti">
@@ -1040,7 +1043,7 @@
                     </div>
 
                     <!-- Gallery Item -->
-                    <div class="col-md-4 col-lg-3 item" data-aos="zoom-in">
+                    <div class="col-sm-6 col-md-4 col-lg-3 item" data-aos="zoom-in">
                         <div data-src="src/assets/img/photos/salmon-lg.avif" data-fancybox="gallery" class="block fancybox" data-fancybox-group="fancybox">
                             <div class="content">
                                 <img src="src/assets/img/photos/salmon-xs.avif" width="279" height="271" alt="salmon">
@@ -1052,7 +1055,7 @@
                     </div>
 
                     <!-- Gallery Item -->
-                    <div class="col-md-4 col-lg-3 item" data-aos="zoom-in">
+                    <div class="col-sm-6 col-md-4 col-lg-3 item" data-aos="zoom-in">
                         <div data-src="src/assets/img/photos/salad-lg.avif" data-fancybox="gallery" class="block fancybox" data-fancybox-group="fancybox">
                             <div class="content">
                                 <img src="src/assets/img/photos/salad-xs.avif" width="279" height="271" alt="salad">
@@ -1064,7 +1067,7 @@
                     </div>
 
                     <!-- Gallery Item -->
-                    <div class="col-md-4 col-lg-3 item" data-aos="zoom-in">
+                    <div class="col-sm-6 col-md-4 col-lg-3 item" data-aos="zoom-in">
                         <div data-src="src/assets/img/photos/pizza-lg.avif" data-fancybox="gallery" class="block fancybox" data-fancybox-group="fancybox">
                             <div class="content">
                                 <img src="src/assets/img/photos/pizza-xs.avif" width="279" height="271" alt="pizza">
@@ -1076,7 +1079,7 @@
                     </div>
 
                     <!-- Gallery Item -->
-                    <div class="col-md-4 col-lg-3 item" data-aos="zoom-in">
+                    <div class="col-sm-6 col-md-4 col-lg-3 item" data-aos="zoom-in">
                         <div data-src="src/assets/img/photos/meat-lg.avif" data-fancybox="gallery" class="block fancybox" data-fancybox-group="fancybox">
                             <div class="content">
                                 <img src="src/assets/img/photos/meat-xs.avif" width="279" height="271" alt="meat">
@@ -1088,7 +1091,7 @@
                     </div>
 
                     <!-- Gallery Item -->
-                    <div class="col-md-4 col-lg-3 item" data-aos="zoom-in">
+                    <div class="col-sm-6 col-md-4 col-lg-3 item" data-aos="zoom-in">
                         <div data-src="src/assets/img/photos/burger-lg.avif" data-fancybox="gallery" class="block fancybox" data-fancybox-group="fancybox">
                             <div class="content">
                                 <img src="src/assets/img/photos/burger-xs.avif" width="279" height="271" alt="burger">
@@ -1104,7 +1107,7 @@
                 <div class="row" id="loadMore">
 
                     <!-- Gallery Item -->
-                    <div class="col-md-4 col-lg-3 item" data-aos="zoom-in">
+                    <div class="col-sm-6 col-md-4 col-lg-3 item" data-aos="zoom-in">
                         <div data-src="src/assets/img/photos/salmon-bread-lg.avif" data-fancybox="gallery" class="block fancybox" data-fancybox-group="fancybox">
                             <div class="content">
                                 <img src="src/assets/img/photos/salmon-bread-xs.avif" width="279" height="271" alt="salmon bread">
@@ -1116,7 +1119,7 @@
                     </div>
 
                     <!-- Gallery Item -->
-                    <div class="col-md-4 col-lg-3 item" data-aos="zoom-in">
+                    <div class="col-sm-6 col-md-4 col-lg-3 item" data-aos="zoom-in">
                         <div data-src="src/assets/img/photos/bratstreifen-lg.avif" data-fancybox="gallery" class="block fancybox" data-fancybox-group="fancybox">
                             <div class="content">
                                 <img src="src/assets/img/photos/bratstreifen-xs.avif" width="279" height="271" alt="bratstreifen">
@@ -1128,7 +1131,7 @@
                     </div>
 
                     <!-- Gallery Item -->
-                    <div class="col-md-4 col-lg-3 item" data-aos="zoom-in">
+                    <div class="col-sm-6 col-md-4 col-lg-3 item" data-aos="zoom-in">
                         <div data-src="src/assets/img/photos/beans-lg.avif" data-fancybox="gallery" class="block fancybox" data-fancybox-group="fancybox">
                             <div class="content">
                                 <img src="src/assets/img/photos/beans-xs.avif" width="279" height="271" alt="beans">
@@ -1140,7 +1143,7 @@
                     </div>
 
                     <!-- Gallery Item -->
-                    <div class="col-md-4 col-lg-3 item" data-aos="zoom-in">
+                    <div class="col-sm-6 col-md-4 col-lg-3 item" data-aos="zoom-in">
                         <div data-src="src/assets/img/photos/chicken-cutlet-lg.avif" data-fancybox="gallery" class="block fancybox" data-fancybox-group="fancybox"> 
                             <div class="content">
                                 <img src="src/assets/img/photos/chicken-cutlet-xs.avif" width="279" height="271" alt="chicken cutlet">

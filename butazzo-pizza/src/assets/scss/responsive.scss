@@ -111,15 +111,6 @@
   }
 
   #photo_gallery {
-    > div > div {
-      width: 50%;
-      float: left;
-
-      &:nth-child(2n+1) {
-        clear: both;
-      }
-    }
-
     img {
       width: 100%;
       height: auto;
@@ -163,7 +154,6 @@
   }
 
   .item_img {
-    float: none;
     margin: 0;
     padding-right: 20px;
   }
@@ -320,7 +310,6 @@
 
 @media only screen and (max-width: 767px) and (min-width: 600px) {
   .social-links {
-    float: left;
     margin-top: 15px;
   }
 }
