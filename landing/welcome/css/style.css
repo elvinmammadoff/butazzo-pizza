@@ -1140,9 +1140,6 @@ dl dd {
 .bg-transparent {
     background-color: transparent;
 }
-.bg-primary {
-    background-color: ;
-}
 .bg-white {
     background-color: #fff;
 }
@@ -1653,9 +1650,6 @@ label {
     header .logo {
         display: block;
         padding: 4px 0;
-    }
-    .header-nav .nav > li > a {
-        padding: ;
     }
     .header-nav .nav i {
         margin-top: 6px;
@@ -3162,11 +3156,11 @@ label {
     width: 100%;
     height: 100%;
 }
-.overlay-black-light:after,
+/* .overlay-black-light:after,
 .overlay-black-middle:after,
 .overlay-black-dark:after {
-    background: #222;
-}
+    background: rgba(34, 34, 34, .1);
+} */
 .overlay-gradient-light:after,
 .overlay-gradient-middle:after,
 .overlay-gradient-dark:after {
