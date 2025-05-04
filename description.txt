@@ -169,7 +169,14 @@
   <p><strong>– Alissio –</strong></p>
 
   <h3 id="item-description__change-log">Change Log:</h3>
-  <pre>
+<pre>
+  May 04, 2025: Butazzo Pizza v3.9.3
+  ---------------------------------------
+  - New: Home version 4 
+  - Fixed: Home version 1 Menu and Menu Inner page img view problems
+  - Tweak: Updated Documentation
+</pre>
+<pre>
   February 17, 2025: Butazzo Pizza v3.8.2
   ---------------------------------------
   - Updated: Bootstrap 4.5 to Bootstrap 5.3.3
