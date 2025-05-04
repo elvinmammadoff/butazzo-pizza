@@ -90,8 +90,9 @@
     }
 
     .item_name {
-        font-size: 30px;
+        font-size: 30px !important;
         line-height: 48px;
+        text-align: center;
     }
 
     footer{
