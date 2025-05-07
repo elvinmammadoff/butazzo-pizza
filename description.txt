@@ -1,183 +1,179 @@
-<div class="user-html user-html__with-lazy-load">
-  <p>
-    <a href="https://butazzopizza.netlify.app/documentation/" target="_blank">
-      <img src="https://camo.envatousercontent.com/d0ed58187549e9d50530b401f1238f017166f636/68747470733a2f2f63616d6f2e656e7661746f75736572636f6e74656e742e636f6d2f326264383036336331363164323061356530653165656238373739313837656663313861303237612f363837343734373037333361326632663633363136643666326536353665373636313734366637353733363537323633366636653734363536653734326536333666366432663337333436353338333233383338363436323631333533333636363436353634333136363331333433343330333233353338333533303632333233313634333733353636333633313336333533393337326633363338333733343337333433373330333733333333363133323636333236363336333333363331333636343336363633323635333633353336363533373336333633313337333433363636333733353337333333363335333733323336333333363636333636353337333433363335333636353337333433323635333633333336363633363634333236363336333533363333333333363336333333333331333333363333333833333331333333383336333533363336333333323336333233333336333333393336333433333334333333323333333933333332333333363333333533333336333633353333333433333338333333363333333933333332333333333333333233333338333633363333333033333332333633323333333833333333333333373336333233323636333333363333333833333337333333343333333733333334333333373333333033333337333333333333333333363331333333323336333633333332333633363333333633333339333333323336333533333337333333303333333633363336333333373333333333333337333333343333333633333339333333363336333433333336333333373333333233363335333333363333333333333336333333333333333233363336333333353333333933333333333333393333333633333334333333363333333733333334333333373333333733333336333333333333333833333337333333373333333233363336333333363336333633333336333633353333333633363333333333363333333933333336333633353333333633333335333333323336333433333336333333343333333633363336333333363333333333333337333333353333333633363334333333363333333533333336333633353333333733333334333333363333333133333337333333343333333633333339333333363336333633333336333633353333333233363335333333363336333133333337333333303333333633333337" alt="Butazzo Pizza - Online Documentation">
-    </a>
-    <a href="https://themeforest.net/item/butazzo-pizza-one-page-html/21838834/support/contact" target="_blank">
-      <img src="https://camo.envatousercontent.com/9907fe9b3841eb7e6a6bea4329604f2bbd961711/68747470733a2f2f63616d6f2e656e7661746f75736572636f6e74656e742e636f6d2f393665396434373337326165363762363039326466336565333039316435396536313661346636322f36383734373437303733336132663266363336313664366632653635366537363631373436663735373336353732363336663665373436353665373432653633366636643266363136343339363233323339363336343632363433363333333633353335363336323333333233313338363236313634363433313633363136333331333333323331363233343333363433313336333332663336333833373334333733343337333033373333333336313332363633323636333633333336333133363634333636363332363533363335333636353337333633363331333733343336363633373335333733333336333533373332333633333336363633363635333733343336333533363635333733343332363533363333333636363336363433323636333333313333333033333330333333333333333233333336333333323333333933333339333633343333333433363336333333343336333133363331333333343333333733363331333633363333333733333332333333303336333133333331333333343333333033333338333333333336333633363335333333333336333533333336333333303333333433363332333633353333333233363331333333343332363633333336333333383333333733333334333333373333333433333337333333303333333733333333333333333336333133333332333633363333333233363336333333363333333933333332333633353333333733333330333333363336333633333337333333333333333733333334333333363333333933333336333633343333333633333337333333323336333533333336333333333333333633333333333333323336333633333334333633313333333633363335333333343336333533333333333333363333333333333339333333333333333533333333333333313333333333333335333333323336333633333337333333343333333633333335333333363336333433333337333333303333333633363333333333363333333133333337333333343333333633333335333333323336333433333337333333333333333733333335333333373333333033333337333333303333333633363336333333373333333233333337333333343333333233363335333333363336333133333337333333303333333633333337" alt="Butazzo Pizza - Template Support">
-    </a>
-  </p>          
+<div class="user-html user-html__with-lazy-load"><h3 id="item-description__butazzo-pizza-fast-food-and-restaurant-template">Butazzo Pizza – Fast Food and Restaurant Template</h3>
+<p>Welcome to <strong>Butazzo Pizza</strong>, a modern and stylish HTML template comes with <strong>40+</strong> valid inner pages and <strong>04+</strong> home page variations designed specifically for fast food restaurants and eateries. <strong>Butazzo</strong> is the perfect solution for creating a professional and attractive online presence for your food business. Whether you own a fast food joint, a burger restaurant, a pizzeria, or a cafe, <strong>Butazzo</strong> has got you covered.</p><p><strong>Butazzo Pizza</strong> offers numerous awesome features like , <strong>restaurant, pizzeria, Bakery, Cafe, Bar, Catering, Food delivery service, bistro, dinner, reservation system, Table Booking &amp; OpenTable </strong> or your just a <strong>Blog</strong>. Well commented code, well-documented file structure and 24/7 professional and ultra-fast Support.</p>
 
-  <h3 id="item-description__butazzo-pizza">About Butazzo Pizza – Restaurant and Pizza One Page HTML Template</h3>
+<p><a href="https://butazzopizza.netlify.app/documentation/" rel="nofollow" target="_blank"><img alt="Butazzo Pizza - Documentation HTML Template" src="https://butazzopizza.netlify.app/documentation.png"></a><a href="https://themeforest.net/user/alissio/follow"><img src="https://butazzopizza.netlify.app/follow-us.png" alt="Butazzo Pizza - Follow Us"></a></p>
 
-  <p>
-    <strong>Butazzo Pizza</strong> – Bootstrap 5.3.3 based Fast Food and Restaurant One Page HTML Template. 
-    Butazzo Pizza is a clean, premium and modern HTML5 and CSS3 Template which can be used to create any site for multiple scenarios. 
-    It’s perfect for any Restaurant, Cafe, Fast Food business and much more with all the required files to create your stunning website.
-    <br><br>
-    Looks good on all types of screens devices and platforms (Android, iOS and Windows). 
-    This template is responsive on literally any screen size, this way you can worry less about interface, and focus on what is important. 
-    Use Butazzo Pizza, and create something amazing!
-    <br><br>
-    It has all the needed components for starting a brand new Restaurant, Cafe or redesigning your current website. 
-    It also has a online reservation form which is more it can be used. 
-    You can change all images and icons to make this template serve your business. 
-    Well documented, very easy to customize &amp; does not require much knowledge of coding.   
-  </p>  
+<p><img src="https://butazzopizza.netlify.app/showcase.gif" alt="Butazzo Pizza - Showcase"><a href="https://shakill.netlify.app/splash/#pages" rel="nofollow" target="_blank"><img src="https://butazzopizza.netlify.app/demos.png" alt="Butazzo Pizza - Demos"></a><img src="https://butazzopizza.netlify.app/mobile-first.png" alt="Butazzo Pizza - Mobile First"><img src="https://butazzopizza.netlify.app/core-features.png" alt="Butazzo Pizza - Core Features"><img src="https://butazzopizza.netlify.app/sass.png" alt="Butazzo Pizza - SASS"><img src="https://butazzopizza.netlify.app/rate-us.png" alt="Butazzo Pizza - Rate Us"></p>
 
-  <p>
-    <img src="https://camo.envatousercontent.com/a2654ec3ebd043d291a96b4d440d94072b1eb23b/68747470733a2f2f63616d6f2e656e7661746f75736572636f6e74656e742e636f6d2f353135323361313035336638373531383737356436613266333935333962303233343031336630362f3638373437343730373333613266326636333631366436663265363536653736363137343666373537333635373236333666366537343635366537343265363336663664326636313334363333323635333733303334333833353336333333333631363533343634363133323332333036333632333236353331363533303635333333363331333033373337363333373336363536333266333633383337333433373334333733303337333333333631333236363332363633363333333633313336363433363636333236353336333533363635333733363336333133373334333636363337333533373333333633353337333233363333333636363336363533373334333633353336363533373334333236353336333333363636333636343332363633363331333333323336333433333331333633363333333533333330333333373333333633333336333633353333333933333334333633343336333333363336333333373336333233363336333333313336333133333337333333363336333333333336333333323333333633333331333633313336333433333331333333323333333633363331333333323336333533333337333333383333333333333337333236363333333633333338333333373333333433333337333333343333333733333330333333373333333333333333333633313333333233363336333333323336333633333336333333393333333233363335333333373333333033333336333633363333333733333333333333373333333433333336333333393333333633363334333333363333333733333332333633353333333633333333333333363333333333333332333633363333333633363331333333343336333233333336333633353333333433363332333333343333333733333335333333373333333733333331333333353333333433333332333633363333333533333337333333363333333533333336333333323333333733333333333333363333333933333337333333343333333633333335333333323336333433333337333333303333333733333332333333363333333533333337333333363333333633333339333333363333333533333337333333373333333233363335333333363336333133333337333333303333333633333337" alt="Butazzo Pizza - Restaurant &amp; Pizza One Page HTML Template - 1">
-  </p>        
 
-  <h3 id="item-description__why-choose-butazzo-pizza">Why choose Butazzo Pizza?</h3>
-  <ul>
+
+
+
+<p>You can change all images and icons to make this template serve your business. <strong>Butazzo</strong> provides a responsive and mobile-friendly design, ensuring that your website looks great and functions smoothly across all devices.</p><p>With its clean code and customization options, you can easily personalize <strong>Butazzo</strong> to match your brand’s unique style and requirements. Use <strong>Butazzo</strong>, and create something amazing!
+</p>
+
+
+
+<h3 id="item-description__why-choose-butazzo-pizza"><strong>Why choose Butazzo Pizza?</strong></h3><p>Let’s explore the exciting features and content that Butazzo Pizza offers:</p>
+<ul>
     <li>
-      <strong>Fully Responsive</strong>
-      <p>Maximize the visibility of your website by making it fully responsive and compatible with all kinds of devices and resolutions.</p>
+        <strong>Home Page</strong>
+        <ul>
+            <li>The home page greets visitors with a stunning full-width banner showcasing mouthwatering food images, enticing them to explore further.</li>
+            <li>An elegant and intuitive navigation menu allows easy access to different sections of the website.</li>
+            <li>A featured section highlights the best-selling dishes or daily specials, grabbing the attention of potential customers.</li>
+        </ul>
     </li>
     <li>
-      <strong>Semantic</strong>
-      <p>
-        Maximum readable, well-structured and reusable HTML code structure, with clear, descriptive data for the contents.
-      </p>
+        <strong>Menu</strong>
+        <ul>
+            <li>The menu page presents your food offerings in an organized and visually appealing manner.</li>
+            <li>Categorize your menu items into different sections such as starters, main courses, desserts, and beverages for easy navigation.</li>
+        </ul>
     </li>
     <li>
-      <strong>Performance</strong>
-      <p>
-        Achieve a one-of-a-kind website performance with a boosted loading speed and the removal of any bootlenecks.
-      </p>
+        <strong>About Us</strong>
+        <ul>
+            <li>The about us page provides an opportunity to tell your brand’s story and showcase your restaurant’s unique qualities.</li>
+            <li>Share your mission, values, and the passion behind your culinary creations.</li>
+            <li>Highlight your team members and their expertise, creating a sense of trust and connection with your audience.</li>
+        </ul>
     </li>
-  </ul>
-
-  <h3 id="item-description__other-features">Other Features</h3>
-  <ul>
-    <li>Based on Bootstrap 5</li>
-    <li>Fully Responsive</li>
-    <li>Validated Code HTML5, CSS3</li>
-    <li>Fast Page Load</li>
-    <li>Mobile and Tablet Optimized</li>
-    <li>W3C HTML valid code</li>
-    <li>Cross Browsers Support</li>
-    <li>Unique, Clean &amp; Simple Design</li>
-    <li>100% Fully Customizable</li>
-    <li>Grid 1170 px</li>
-    <li>Mobile Navigation</li>
-    <li>Fixed Header</li>
-    <li>High SEO and Google Speed Score</li>
+    <li>
+        <strong>Gallery</strong>
+        <ul>
+            <li>Display a visually stunning gallery of your restaurant’s interior, dishes, and happy customers.</li>
+            <li>Showcasing high-quality images will tempt visitors and give them a glimpse of the delightful dining experience they can expect.</li>
+        </ul>
+    </li>
+    <li>
+        <strong>Blog</strong>
+        <ul>
+            <li>Engage with your audience by sharing interesting articles, recipes, and food-related tips on the blog page.</li>
+            <li>Establish your restaurant as a knowledgeable and authoritative source in the industry.</li>
+            <li>Encourage visitors to subscribe to your newsletter for regular updates and exclusive offers.</li>
+        </ul>
+    </li>
+    <li>
+        <strong>Contact</strong>
+        <ul>
+            <li>The contact page provides all the necessary information for customers to get in touch with your restaurant.</li>
+            <li>Display your address, phone number, email, and operating hours.</li>
+            <li>Include a contact form for easy communication and inquiries.</li>
+        </ul>
+    </li>
+    <li>
+        <strong>Testimonials</strong>
+        <ul>
+            <li>Display positive testimonials and reviews from satisfied customers, building trust and credibility.</li>
+            <li>Highlighting positive feedback helps potential customers make informed decisions and increases their confidence in choosing your restaurant.</li>
+        </ul>
+    </li>
+    <li>
+        <strong>Special Offers and Promotions</strong>
+        <ul>
+            <li>Butazzo Pizza allows you to showcase special offers, discounts, and promotions prominently on your website.</li>
+            <li>Drive sales and attract new customers with limited-time deals and seasonal menus.</li>
+        </ul>
+    </li>
+    <li>
+        <strong>Social Media Integration</strong>
+        <ul>
+            <li>Integrate your social media profiles to encourage visitors to follow your restaurant and stay connected.</li>
+            <li>Leverage the power of platforms like Instagram, Facebook, and Twitter to showcase your delicious creations and interact with your audience.</li>
+        </ul>
+    </li>
+    <li>
+        <strong>Online Ordering</strong>
+        <ul>
+            <li>Butazzo Pizza includes a convenient online ordering system, allowing customers to place their orders directly through your website.</li>
+            <li>Integrated with a secure payment gateway, customers can make payments easily and securely.</li>
+            <li>Orders can be customized with options for toppings, sides, and other preferences, providing a personalized ordering experience.</li>
+        </ul>
+    </li>
+</ul>
+<h3 id="item-description__butazzo-pizza-core-features"><strong>Butazzo Pizza Core Features</strong></h3>
+<ul>
+    <li>04+ Home Page</li>
+    <li>40+ Inner Pages</li>
+    <li>10+ Post Layout Pages</li>
+    <li>10+ Blogs Pages</li>
+    <li>02+ Special Menu Pages</li>
+    <li>Multiple Color Options</li>
+    <li>Detailed Documentation</li>
+    <li>Latest Bootstrap</li>
+    <li>Latest Swiper Slider</li>
+    <li>Latest jQuery</li>
+    <li>SCSS Compatible</li>
     <li>Google Fonts</li>
-    <li>Font Awesome Free 6 Icons</li>
-    <li>Better Support (response within 24 hours)</li>
-    <li>Free Regular Updates Template</li>
-    <li>Well, Extensive Documentation</li>
+    <li>Mobile Sidemenu</li>
+    <li>Contact Form</li>
+    <li>Effective Home Pages</li>
+    <li>Box and Frame Layout</li>
+    <li>Fully Responsive</li>
+    <li>Flaticon</li>
+    <li>Font Awesome Icons</li>
+    <li>Sticky Header</li>
+    <li>Modern Design</li>
+    <li>Clean Code &amp; Design</li>
+    <li>Video Modal</li>
+    <li>FREE Lifetime Updates</li>
+    <li>Easy to customize</li>
+    <li>W3C Validate Code</li>
+    <li>Typography</li>
+    <li>24/7 Great Support !!</li>
+</ul>
+<h3 id="item-description__you-will-get"><strong>You will get</strong></h3>
+<ul>
+<li>HTML Files</li>
+<li>Supporting CSS, SCSS, JSX, JS Files</li>
+<li>Premium Image Included in package</li>
+<li>Documentation in HTML</li>
+</ul>
+<h3 id="item-description__credits-and-sources"><strong>Credits and Sources</strong></h3>
+<ul>
+    <li><a href="https://getbootstrap.com/docs/5.3/getting-started/introduction/" rel="nofollow">Bootstrap 5.3</a></li><li><a href="https://swiperjs.com/" rel="nofollow">Swiper Slider 4.4.1</a></li>
+    
+    <li><a href="http://fancybox.net" rel="nofollow">Fancyapps 5.0.36</a></li>
+    <li><a href="https://kenwheeler.github.io/slick/" rel="nofollow">Slick Slider 1.8.1</a></li>
+    <li><a href="https://github.com/michalsnik/aos/tree/v2" rel="nofollow">AOS 2.3.4</a></li>
   </ul>
+<h3 id="item-description__fonts-used"><strong>Fonts used</strong></h3>
+<ul>
+<li><a href="https://fonts.google.com/specimen/Montserrat" rel="nofollow">Montserrat</a></li>
+<li><a href="https://fonts.google.com/specimen/Raleway" rel="nofollow">Raleway</a></li>
+<li><a href="https://fonts.google.com/specimen/Josefin+Sans" rel="nofollow" target="_blank">Josefin Sans</a></li>
+<li><a href="https://fonts.google.com/specimen/Lato" rel="nofollow" target="_blank">Lato</a></li>
+</ul>
+<h3 id="item-description__images-license"><strong>Images License</strong></h3><p>Thank you so much to the artists and authors who gave their permission to use their amazing works! <strong>THANK YOU!</strong></p>
+<ul>
+<li>All images used are taken from <a href="https://pixabay.com/" rel="nofollow" target="_blank">Pixabay</a> and <a href="https://unsplash.com/" rel="nofollow" target="_blank">Unsplash</a>. Pixabay and Unsplash is a vibrant community of authors, artists and creators sharing royalty-free images, video, audio and other media.
+</li>
+</ul>
 
-  <h3 id="item-description__files-included">Files Included</h3>
-  <ul>
-    <li>HTML File</li>
-    <li>Supporting CSS Files</li>
-    <li>Supporting SCSS Files</li>
-    <li>Supporting SASS Files</li>
-    <li>Supporting LESS Files</li>
-    <li>Supporting JS Files</li>
-    <li>Fonts in eot, svg, woff and ttf</li>
-    <li>Images in PNG, GIF, SVG and JPG</li>
-    <li>Image folder included files: 
-      <ul>
-        <li>Fancybox plugin images (fancb folder)</li>
-        <li>Favicon images (favicon folder)</li>
-        <li>Logo</li>
-        <li>Slider Background</li>
-        <li>Map Marker</li>
-      </ul>
-    </li>
-    <li>Documentation in HTML</li>
-  </ul>
 
-  <h3 id="item-description__3rd-party-libraries-used">3rd Party Libraries used:</h3>
-  <ul>
-    <li><a href="https://getbootstrap.com/docs/5.3/getting-started/introduction/" target="_blank">Bootstrap 5.3.3</a></li>
-    <li><a href="http://fancybox.net" target="_blank">Fancyapps 5.0.36</a></li>
-    <li><a href="https://kenwheeler.github.io/slick/" target="_blank">Slick Slider 1.8.1</a></li>
-    <li><a href="https://github.com/michalsnik/aos/tree/v2" target="_blank">AOS 2.3.4</a></li>
-  </ul>
+<h3 id="item-description__important-note"><strong>Important Note</strong></h3>
+<ul>
+<li>All images &amp; videos are used for preview demo purposes, But premium images are <strong>INCLUDED</strong> in the purchase package.</li>
+<li>Envato item scope <a href="https://themeforest.net/page/item_support_policy?_ga=2.233764957.275401607.1701770067-503905489.1698934107" target="_blank">support policy</a>.</li>
+<li>Included a documentation file for full instruction. You can see on this page <a href="https://shakill.netlify.app/documentation/index.html#credits" rel="nofollow" target="_blank">link</a><p></p></li>
+</ul>
+<h3 id="item-description__please-contact-at-validtheme-gmail-com-to-get-the-images-used-in-the-demo"><strong>Please contact at <a href="mailto:alissioteam@gmail.com">alissioteam@gmail.com</a> to get the all images used in the demo.</strong></h3>
 
-  <h3 id="item-description__icons">Icons:</h3>
-  <ul>
-    <li><a href="https://fontawesome.com/download" target="_blank">Font Awesome Free 6.7.2</a></li>
-    <li><a href="https://www.flaticon.com/" target="_blank">Flaticon</a></li>
-  </ul>
+<h3 id="item-description__documentation"><strong>Documentation</strong></h3><a href="https://shakill.netlify.app/documentation/" rel="nofollow" target="_blank">Check the docs here</a><h3 id="item-description__thank-you"><strong>Thank You</strong></h3><p>Thank you so much for using this template. Your comments and ratings would be much appreciated.</p><p>If you purchase this template, you will get support. We will update this template time by time and we want to hear your wishes for the future updates or for complete new templates.
+</p>
 
-  <h3 id="item-description__fonts-used">Fonts used:</h3>
-  <ul>
-    <li>ChunkFive Ex – <a href="https://www.fontsquirrel.com/fonts/chunkfive" target="_blank">ChunkFive Ex</a></li>
-    <li>Montserrat – <a href="https://fonts.google.com/specimen/Montserrat" target="_blank">Montserrat</a></li>
-    <li>Raleway – <a href="https://fonts.google.com/specimen/Raleway" target="_blank">Raleway</a></li>
-  </ul>
 
-  <h3 id="item-description__images">Images:</h3>
-  <p>
-    Thank you so much to the artists and authors who gave their permission to use their amazing works! 
-    <strong>THANK YOU!</strong>
-  </p>
-  <ul>
-    <li>
-      All images used are taken from <a href="https://pixabay.com/" rel="nofollow" target="_blank">Pixabay</a>. Pixabay is a vibrant community of authors, artists and creators sharing royalty-free images, video, audio and other media.
-    </li>
-  </ul>
 
-  <h3 id="item-description__documentation">Documentation</h3>
-  <a href="https://butazzopizza.netlify.app/documentation/" rel="nofollow" target="_blank">Check the docs here</a>
-
-  <h3 id="item-description__customization-services">Important Note:</h3>
-  <ul>
-    <li>
-      All images are just used for Preview Purpose Only. They are not part of the HTML templates and are not included in the final purchase files.
-    </li>
-    <li>
-      Images and videos shown on our demo site are not part of the template download package due to licensing limitations and hence we are providing placeholder images with recommended image size mentioned in it.
-    </li>
-    <li>
-      Any type of code or CSS customization and feature addition/change is not part of item support scope as per Envato item <a href="https://themeforest.net/page/item_support_policy?_ga=2.233764957.275401607.1701770067-503905489.1698934107" targe"_blank">support policy</a>.
-    </li>
-    <li>Also, keep in mind that is purely an HTML/CSS template and not an WordPress theme.</li>
-    <li>Included a documentation file for full instruction.</li>
-  </ul>
-
-  <h3 id="item-description__sources-and-credits">Sources and Credits</h3>
-  <p>
-    <strong>
-      PLEASE NOTE: Any media — Images and used in the preview are not included in Template you dowload. Images are only for demo purpose. Used images are replaced with placeholder. But included documentation file for full instruction. <br> <br>
-      Also, keep in mind that is purely an HTML/CSS template and not an WordPress theme.
-    </strong>
-  </p>
-
-  <h3 id="item-description__thank-you">Thank you:</h3>
-  <p>Thank you so much for using this template. Your comments and ratings would be much appreciated.</p>
-  <p>If you love our product, please don’t forget rate for us
-    <img src="https://camo.envatousercontent.com/2552f82161622264de550e01da1ae68280a25ffd/68747470733a2f2f63616d6f2e656e7661746f75736572636f6e74656e742e636f6d2f326539616164336261373134373739633938633639393563666635356239616337623564313039352f363837343734373037333361326632663635373337333666326437333663363936343635373232653665363537343663363936363739326536313730373032663733373236333266363936643637326637333734363137323265373036653637" alt="star">
-    <img src="https://camo.envatousercontent.com/2552f82161622264de550e01da1ae68280a25ffd/68747470733a2f2f63616d6f2e656e7661746f75736572636f6e74656e742e636f6d2f326539616164336261373134373739633938633639393563666635356239616337623564313039352f363837343734373037333361326632663635373337333666326437333663363936343635373232653665363537343663363936363739326536313730373032663733373236333266363936643637326637333734363137323265373036653637" alt="star">
-    <img src="https://camo.envatousercontent.com/2552f82161622264de550e01da1ae68280a25ffd/68747470733a2f2f63616d6f2e656e7661746f75736572636f6e74656e742e636f6d2f326539616164336261373134373739633938633639393563666635356239616337623564313039352f363837343734373037333361326632663635373337333666326437333663363936343635373232653665363537343663363936363739326536313730373032663733373236333266363936643637326637333734363137323265373036653637" alt="star">
-    <img src="https://camo.envatousercontent.com/2552f82161622264de550e01da1ae68280a25ffd/68747470733a2f2f63616d6f2e656e7661746f75736572636f6e74656e742e636f6d2f326539616164336261373134373739633938633639393563666635356239616337623564313039352f363837343734373037333361326632663635373337333666326437333663363936343635373232653665363537343663363936363739326536313730373032663733373236333266363936643637326637333734363137323265373036653637" alt="star">
-    <img src="https://camo.envatousercontent.com/2552f82161622264de550e01da1ae68280a25ffd/68747470733a2f2f63616d6f2e656e7661746f75736572636f6e74656e742e636f6d2f326539616164336261373134373739633938633639393563666635356239616337623564313039352f363837343734373037333361326632663635373337333666326437333663363936343635373232653665363537343663363936363739326536313730373032663733373236333266363936643637326637333734363137323265373036653637" alt="star"> 
-    and let us know your feedback for a better update. Thank you
-    <img src="https://camo.envatousercontent.com/365976edb905729e089028b8637d23e4020b88f8/68747470733a2f2f63616d6f2e656e7661746f75736572636f6e74656e742e636f6d2f646239386235646332373539366661323961313536636331333838653634353964656163306561372f3638373437343730373333613266326636353733373336663264373336633639363436353732326536653635373436633639363637393265363137303730326637333732363332663639366436373266373336643639366336353265373036653637" alt="happy">
-  </p>
-  <p>
-    If you purchase this template, you will get support. We will update this template time by time and we want to hear your wishes for the future updates or for complete new templates.
-  </p>
-  <p>We are grateful to you.</p>
-  <p><strong>– Alissio –</strong></p>
-
-  <h3 id="item-description__change-log">Change Log:</h3>
-<pre>
-  May 04, 2025: Butazzo Pizza v3.9.3
+<h3 id="item-description__change-log">Change Log</h3>
+<pre>  May 07, 2025: Butazzo Pizza v4.0
   ---------------------------------------
   - New: Home version 4 
+  - Fixed: Main slider captions mobile view problem
   - Fixed: Home version 1 Menu and Menu Inner page img view problems
   - Tweak: Updated Documentation
-</pre>
-<pre>
-  February 17, 2025: Butazzo Pizza v3.8.2
+</pre><br>
+<pre>  February 17, 2025: Butazzo Pizza v3.2.1
   ---------------------------------------
   - Updated: Bootstrap 4.5 to Bootstrap 5.3.3
   - Updated: Jquery 2.1.1 to Jquery 3.7.1
@@ -194,97 +190,83 @@
   - Fixed: mobile menu auto close after navigate
   - Fixed: some responsive UI problems
   - Tweak: Updated Documentation
-</pre>
-<pre>
-  September 08, 2024: Butazzo Pizza v3.8.1
+</pre><br>
+<pre>  September 08, 2024: Butazzo Pizza v3.1
   ----------------------------------------
   - Added: Menus and Category pages for Home v1
   - Fixed: Validation problems
   - Tweak: Improved Documentation
-</pre>
-<pre>
-  January 11, 2024: Butazzo Pizza v3.7.0
+</pre><br>
+<pre>  January 11, 2024: Butazzo Pizza v3.0
   --------------------------------------
   - New: Home version 3
   - Updated: Preview link change.
   - Fixed: Optimization images for SEO.
   - Tweak: Improved Documentation
-</pre>
-<pre>
-  April 13, 2021: Butazzo Pizza v2.6.2
+</pre><br>
+<pre>  April 13, 2021: Butazzo Pizza v2.6.2
   ------------------------------------
   - Update: Bootstrap Framework to 4.5.
   - Tested: Android (Samsung, Google, HTC) and iOS (iPhone 11, iPhone 6s, iPad (6th Generation), iPad Air 2) devices, Safari, Firefox, Chrome browsers.
   - Tweak: Improved Documentation
-</pre>
-<pre>
-  October 13, 2020: Butazzo Pizza v2.5.1
+</pre><br>
+<pre>  October 13, 2020: Butazzo Pizza v2.5.1
   --------------------------------------
   - Fixed: "Our Menus" section tab click problem on iPhone devices.
   - Tested: Android (Samsung, Google, HTC) and iOS (iPhone 11, iPhone 6s, iPad (6th Generation), iPad Air 2) devices, Safari, Firefox, Chrome browsers. 
   - Tweak: Improved Documentation
-</pre>
-<pre>
-  July 21, 2020: Butazzo Pizza v2.4.0
+</pre><br>
+<pre>  July 21, 2020: Butazzo Pizza v2.4.0
   -----------------------------------
   - New: Home version 2
   - Added: Yandex Map instead of Google Map
   - Tweak: Improved Documentation
-</pre>
-<pre>
-  July 10, 2020: Butazzo Pizza v1.3.7
+</pre><br>
+<pre>  July 10, 2020: Butazzo Pizza v1.3.7
   -----------------------------------
   - Added: Chef personal social icons on slider
   - Fixed: Google Map API key source
   - Tweak: Improved Documentation
-</pre>
-<pre>
-  May 04, 2020: Butazzo Pizza v1.3.6
+</pre><br>
+<pre>  May 04, 2020: Butazzo Pizza v1.3.6
   ----------------------------------
   - Added: New big size images for Menu and Gallery popup
   - Tweak: Improved Documentation
-</pre>
-<pre>
-  May 03, 2020: Butazzo Pizza v1.3.5
+</pre><br>
+<pre>  May 03, 2020: Butazzo Pizza v1.3.5
   ----------------------------------
   - Added: Loading spinner for Gallery load more
   - Fixed: Go to top button work on footer
   - Fixed: Search input clear empty value
   - Tweak: Improved Documentation
-</pre>
-<pre>
-  December 01, 2019: Butazzo Pizza v1.2.4
+</pre><br>
+<pre>  December 01, 2019: Butazzo Pizza v1.2.4
   ---------------------------------------
   - Added: Scroll up button functionality
   - Fixed: Header search clear button type
   - Fixed: Inputs type text autocomplete 
   - Tweak: Improved Documentation
-</pre>
-<pre>
-  September 30, 2018: Butazzo Pizza v1.1.3
+</pre><br>
+<pre>  September 30, 2018: Butazzo Pizza v1.1.3
   ----------------------------------------
   - Fixed: Burger menu view on tablet devices
   - Fixed: Navbar fixed view 
   - Tweak: Improved Documentation
-</pre>
-<pre>
-  July 08, 2018: Butazzo Pizza v1.1.2
+</pre><br>
+<pre>  July 08, 2018: Butazzo Pizza v1.1.2
   -----------------------------------
   - Added: loadMoreResults plugin for gallery photos
   - Added: Extra images for slider, menu and gallery sections
   - Fixed: Slider responsive view to medium devices
   - Fixed: Content of menu section  
   - Tweak: Improved Documentation
-</pre>
-<pre>
-  July 07, 2018: Butazzo Pizza v1.0.1
+</pre><br>
+<pre>  July 07, 2018: Butazzo Pizza v1.0.1
   -----------------------------------
   - Updated: Fonts Loading Performance
   - Tweak: Improved Documentation
-</pre>
-<pre>
-  June 02, 2018: Butazzo Pizza v1.0.0
+</pre><br>
+<pre>  June 02, 2018: Butazzo Pizza v1.0.0
   -----------------------------------
   - Initial release
-</pre>
-</div>
+</pre></div>
