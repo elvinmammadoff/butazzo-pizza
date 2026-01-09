@@ -290,9 +290,9 @@ var YogaCare = function(){
 		}
 	}
 	
-	var handledzNumber = function (){
-		if ($('.dz-number').length > 0) {
-			$('.dz-number').on('input', function() {
+	var handlebpNumber = function (){
+		if ($('.bp-number').length > 0) {
+			$('.bp-number').on('input', function() {
 				var inputVal = $(this).val();
 				var numericVal = inputVal.replace(/\D/g, ''); // Remove non-numeric characters
 
@@ -338,7 +338,6 @@ var YogaCare = function(){
 			handleBgEffect();
 			wow_animation();
 			setCurrentYear();
-			handleSupport();
 			handlePointerEffect();
 		},
 		

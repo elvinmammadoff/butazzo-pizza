@@ -25773,6 +25773,8 @@ pre {
 
 .coming-wrapper {
   position: relative;
+  display: flex;
+  align-items: center;
   z-index: 1;
   padding: 25px;
   height: 100dvh; }
@@ -25977,6 +25979,8 @@ pre {
 
 .under-construction {
   position: relative;
+  display: flex;
+  align-items: center;
   overflow: hidden;
   min-height: 750px;
   height: 100dvh; }
@@ -26035,12 +26039,12 @@ pre {
       top: 0;
       width: 100%;
       min-width: 35vw; }
-    .under-construction .construction-media::after {
+    .under-construction::after {
       position: absolute;
       content: "";
       top: -15vw;
-      left: 10vw;
-      z-index: -1;
+      right: -10vw;
+      z-index: 0;
       width: 50vw;
       height: 50vw;
       background: var(--secondary);
