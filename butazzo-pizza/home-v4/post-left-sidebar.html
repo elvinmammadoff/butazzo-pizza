@@ -38,6 +38,19 @@
 	<link rel="stylesheet" href="assets/vendor/rangeslider/rangeslider.css">
 	<link rel="stylesheet" href="assets/css/style.css">
 
+    <!-- Dark mode -->
+    <link rel="stylesheet" href="assets/css/dark-mode.css">
+    <script>
+      (function(){
+        try {
+          var t = localStorage.getItem('butazzo-theme');
+          if (!t) t = window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light';
+          document.documentElement.setAttribute('data-bs-theme', t);
+        } catch(e) {}
+      })();
+    </script>
+
+
 	<!-- Google Fonts -->
 	<link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600;1,700&family=Lato:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900" rel="stylesheet">
 	
@@ -71,8 +84,14 @@
 						<span></span>
 					</button>
 					
+					
 					<!-- EXTRA NAV -->
 					<div class="extra-nav">
+						<div class="extra-cell">
+															<button type="button" class="theme-toggle" aria-label="Switch theme">
+									<svg class="icon-moon" viewBox="0 0 24 24" aria-hidden="true"><path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"/></svg><svg class="icon-sun" viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="5"/><path d="M12 1v2M12 21v2M4.22 4.22l1.42 1.42M18.36 18.36l1.42 1.42M1 12h2M21 12h2M4.22 19.78l1.42-1.42M18.36 5.64l1.42-1.42"/></svg>
+								</button>
+						</div>
 						<div class="extra-cell">
 							<ul>
 								<li>
@@ -90,12 +109,12 @@
 											<div class="media"> 
 												<div class="media-left"> 
 													<a href="product-detail.html"> 
-														<img alt="/" class="media-object" src="https://placehold.co/80x80"> 
+														<img alt="/" class="media-object" src="https://placehold.co/200x200"> 
 													</a> 
 												</div> 
 												<div class="media-body"> 
 													<h6 class="bp-title"><a href="product-detail.html" class="media-heading">Double Burger</a></h6>
-													<span class="bp-price">$28.00</span>
+													<span class="bp-price">$16.00</span>
 													<span class="item-close">&times;</span>
 												</div> 
 											</div>
@@ -104,12 +123,12 @@
 											<div class="media"> 
 												<div class="media-left"> 
 													<a href="product-detail.html"> 
-														<img alt="/" class="media-object" src="https://placehold.co/80x80"> 
+														<img alt="/" class="media-object" src="https://placehold.co/200x200"> 
 													</a> 
 												</div> 
 												<div class="media-body"> 
 													<h6 class="bp-title"><a href="product-detail.html" class="media-heading">Cheese Burger</a></h6>
-													<span class="bp-price">$20.00</span>
+													<span class="bp-price">$16.00</span>
 													<span class="item-close">&times;</span>
 												</div> 
 											</div>
@@ -118,19 +137,19 @@
 											<div class="media"> 
 												<div class="media-left"> 
 													<a href="product-detail.html"> 
-														<img alt="/" class="media-object" src="https://placehold.co/80x80"> 
+														<img alt="/" class="media-object" src="https://placehold.co/200x200"> 
 													</a> 
 												</div> 
 												<div class="media-body"> 
 													<h6 class="bp-title"><a href="product-detail.html" class="media-heading">Burger</a></h6>
-													<span class="bp-price">$15.00</span>
+													<span class="bp-price">$16.00</span>
 													<span class="item-close">&times;</span>
 												</div> 
 											</div>
 										</li>
 										<li class="cart-item text-center d-flex justify-content-between">
 											<h6 class="text-primary mb-0">Total:</h6>
-											<h6 class="text-primary mb-0">$63</h6>
+											<h6 class="text-primary mb-0">$48</h6>
 										</li>
 										<li class="text-center d-flex">
 											<a href="shop-cart.html" class="btn btn-primary me-2 w-100 d-block btn-hover-1"><span>View Cart</span></a>
@@ -184,7 +203,7 @@
 											<li><a href="our-menu-2.html">Menu Style Card</a></li>
 										</ul>
 									</li>
-									<li class="header-adv p-0"><img src="https://placehold.co/300x350" alt="/"></li>
+									<li class="header-adv p-0"><img src="https://placehold.co/688x822" alt="/"></li>
 								</ul>
 							</li>
 							<li class="sub-menu-down"><a href="javascript:void(0);">Shop</a>
@@ -448,7 +467,7 @@
 								<div class="widget-post-bx">
 									<div class="widget-post clearfix">
 										<div class="bp-media"> 
-											<img src="https://placehold.co/100x80" alt="/">
+											<img src="https://placehold.co/150x150" alt="/">
 										</div>
 										<div class="bp-info">
 											<h6 class="title"><a href="blog-standard.html">Explore the Food Taste</a></h6>
@@ -468,7 +487,7 @@
 									</div>
 									<div class="widget-post clearfix">
 										<div class="bp-media"> 
-											<img src="https://placehold.co/100x80" alt="/">
+											<img src="https://placehold.co/150x150" alt="/">
 										</div>
 										<div class="bp-info">
 											<h6 class="title"><a href="blog-standard.html">Secrets of Delicious Food</a></h6>
@@ -488,7 +507,7 @@
 									</div>
 									<div class="widget-post clearfix">
 										<div class="bp-media"> 
-											<img src="https://placehold.co/100x80" alt="/">
+											<img src="https://placehold.co/150x150" alt="/">
 										</div>
 										<div class="bp-info">
 											<h6 class="title"><a href="blog-standard.html"> Inspiration for Food</a></h6>
@@ -591,7 +610,7 @@
                                         <li class="comment">
                                             <div class="comment-body">
                                                 <div class="comment-author vcard"> 
-													<img  class="avatar photo" src="https://placehold.co/80x80" alt="/"> 
+													<img  class="avatar photo" src="https://placehold.co/100x100" alt="/"> 
 													<cite class="fn">Monsur Rahman Lito</cite>
 												</div>
                                                 <p class="font-14 mb-0">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
@@ -604,7 +623,7 @@
                                                 <li class="comment odd parent">
                                                     <div class="comment-body">
                                                         <div class="comment-author vcard"> 
-															<img  class="avatar photo" src="https://placehold.co/80x80" alt="/"> 
+															<img  class="avatar photo" src="https://placehold.co/100x100" alt="/"> 
 															<cite class="fn">Jake Johnson</cite>
 														</div>
                                                        <p class="font-14 mb-0">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
@@ -621,7 +640,7 @@
                                         <li class="comment">
                                             <div class="comment-body">
                                                 <div class="comment-author vcard"> 
-													<img  class="avatar photo" src="https://placehold.co/80x80" alt="/"> 
+													<img  class="avatar photo" src="https://placehold.co/100x100" alt="/"> 
 													<cite class="fn">John Doe</cite> 
 												</div>
                                                 <p class="font-14 mb-0">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
@@ -765,6 +784,10 @@
 <script src="assets/js/custom.min.js"></script><!-- CUSTOM JS -->
 <script src="assets/vendor/wow/wow.js"></script><!-- WOW JS -->
 <script src="assets/vendor/rangeslider/rangeslider.js"></script><!-- RANGESLIDER JS -->
+
+<!-- Dark mode toggle -->
+<script src="assets/js/dark-mode.js"></script>
+
 </body>
 
 </html>

@@ -1,0 +1,215 @@
+/* ------------------------------------------------
+   Butazzo Pizza — Dark Mode Overrides
+   Activate with <html data-bs-theme="dark">
+   ------------------------------------------------ */
+
+[data-bs-theme="dark"] {
+  --bp-bg:        #0f1115;
+  --bp-surface:   #1a1d24;
+  --bp-surface-2: #232730;
+  --bp-border:    #2c313c;
+  --bp-text:      #e5e7eb;
+  --bp-text-muted:#9aa3b2;
+  --bp-heading:   #ffffff;
+  --bp-brand:     #f6a525;
+  --bp-brand-2:   #ffd630;
+  --bp-accent:    #990100;
+  color-scheme: dark;
+}
+
+/* Base surfaces */
+[data-bs-theme="dark"] body,
+[data-bs-theme="dark"] .main,
+[data-bs-theme="dark"] section,
+[data-bs-theme="dark"] .section {
+  background-color: var(--bp-bg);
+  color: var(--bp-text);
+}
+
+[data-bs-theme="dark"] h1, [data-bs-theme="dark"] h2,
+[data-bs-theme="dark"] h3, [data-bs-theme="dark"] h4,
+[data-bs-theme="dark"] h5, [data-bs-theme="dark"] h6,
+[data-bs-theme="dark"] .heading,
+[data-bs-theme="dark"] .navbar-nav > li > a {
+  color: var(--bp-heading);
+}
+
+[data-bs-theme="dark"] p,
+[data-bs-theme="dark"] li,
+[data-bs-theme="dark"] span,
+[data-bs-theme="dark"] label,
+[data-bs-theme="dark"] td,
+[data-bs-theme="dark"] th {
+  color: var(--bp-text);
+}
+
+[data-bs-theme="dark"] .text-muted,
+[data-bs-theme="dark"] small {
+  color: var(--bp-text-muted) !important;
+}
+
+/* Header / navbar — keep transparent so the carousel shows through.
+   Only the sticky (.affix) state gets a darkened fill. */
+[data-bs-theme="dark"] .navbar-container.affix {
+  background-color: rgba(15, 17, 21, 0.85);
+  border-bottom: 1px solid var(--bp-border);
+}
+
+[data-bs-theme="dark"] .navbar-nav > li > a:hover,
+[data-bs-theme="dark"] .navbar-nav > li.active > a {
+  color: var(--bp-brand);
+}
+
+/* Cards & menu items */
+[data-bs-theme="dark"] .card,
+[data-bs-theme="dark"] .menu-item,
+[data-bs-theme="dark"] .product-item,
+[data-bs-theme="dark"] .pricing-item,
+[data-bs-theme="dark"] .blog-item,
+[data-bs-theme="dark"] .chef-item,
+[data-bs-theme="dark"] .testimonial-item,
+[data-bs-theme="dark"] .feature-box,
+[data-bs-theme="dark"] .reservation-form,
+[data-bs-theme="dark"] .contact-form,
+[data-bs-theme="dark"] .modal-content {
+  background-color: var(--bp-surface);
+  border-color: var(--bp-border);
+  color: var(--bp-text);
+}
+
+[data-bs-theme="dark"] .card-body,
+[data-bs-theme="dark"] .card-header,
+[data-bs-theme="dark"] .card-footer {
+  background-color: transparent;
+  border-color: var(--bp-border);
+  color: var(--bp-text);
+}
+
+/* Forms */
+[data-bs-theme="dark"] .form-control,
+[data-bs-theme="dark"] .form-select,
+[data-bs-theme="dark"] input,
+[data-bs-theme="dark"] textarea,
+[data-bs-theme="dark"] select {
+  background-color: var(--bp-surface-2);
+  color: var(--bp-text);
+  border-color: var(--bp-border);
+}
+
+[data-bs-theme="dark"] .form-control::placeholder { color: var(--bp-text-muted); }
+
+[data-bs-theme="dark"] .form-control:focus {
+  background-color: var(--bp-surface-2);
+  color: var(--bp-text);
+  border-color: var(--bp-brand);
+  box-shadow: 0 0 0 .15rem rgba(246,165,37,.25);
+}
+
+/* Buttons (preserve brand) */
+[data-bs-theme="dark"] .btn-outline-light,
+[data-bs-theme="dark"] .btn-light {
+  color: var(--bp-text);
+  border-color: var(--bp-border);
+  background-color: transparent;
+}
+
+[data-bs-theme="dark"] .btn-outline-light:hover {
+  background-color: var(--bp-brand);
+  color: #111;
+  border-color: var(--bp-brand);
+}
+
+/* Tabs / pills */
+[data-bs-theme="dark"] .nav-tabs,
+[data-bs-theme="dark"] .nav-pills {
+  border-color: var(--bp-border);
+}
+[data-bs-theme="dark"] .nav-tabs .nav-link,
+[data-bs-theme="dark"] .nav-pills .nav-link {
+  color: var(--bp-text);
+}
+[data-bs-theme="dark"] .nav-tabs .nav-link.active,
+[data-bs-theme="dark"] .nav-pills .nav-link.active {
+  background-color: var(--bp-brand);
+  color: #111;
+  border-color: var(--bp-brand);
+}
+
+/* Footer */
+[data-bs-theme="dark"] footer,
+[data-bs-theme="dark"] .footer,
+[data-bs-theme="dark"] #footer {
+  background-color: #0a0c10;
+  color: var(--bp-text-muted);
+  border-top: 1px solid var(--bp-border);
+}
+
+[data-bs-theme="dark"] footer a { color: var(--bp-text); }
+[data-bs-theme="dark"] footer a:hover { color: var(--bp-brand); }
+
+/* Dividers & tables */
+[data-bs-theme="dark"] hr { border-color: var(--bp-border); }
+[data-bs-theme="dark"] .table {
+  --bs-table-bg: transparent;
+  --bs-table-color: var(--bp-text);
+  --bs-table-border-color: var(--bp-border);
+}
+
+/* Dropdowns */
+[data-bs-theme="dark"] .dropdown-menu {
+  background-color: var(--bp-surface);
+  border-color: var(--bp-border);
+}
+[data-bs-theme="dark"] .dropdown-item { color: var(--bp-text); }
+[data-bs-theme="dark"] .dropdown-item:hover,
+[data-bs-theme="dark"] .dropdown-item:focus {
+  background-color: var(--bp-surface-2);
+  color: var(--bp-brand);
+}
+
+/* Off-canvas / right menu */
+[data-bs-theme="dark"] #cd-nav,
+[data-bs-theme="dark"] .cd-nav,
+[data-bs-theme="dark"] .offcanvas {
+  background-color: var(--bp-surface);
+  color: var(--bp-text);
+}
+
+/* Light-on-white image holders soften */
+[data-bs-theme="dark"] .bg-white,
+[data-bs-theme="dark"] .bg-light {
+  background-color: var(--bp-surface) !important;
+  color: var(--bp-text);
+}
+
+/* Loading overlay */
+[data-bs-theme="dark"] #loading,
+[data-bs-theme="dark"] .loading-overlay {
+  background-color: var(--bp-bg);
+}
+
+/* Theme toggle button — lives in .top-addr__right after #search */
+.top-addr__right.search-block { display: flex; align-items: center; gap: 14px; }
+.theme-toggle {
+  background: transparent;
+  border: 1px solid #ffd630;
+  color: #ffd630;
+  width: 30px;
+  height: 30px;
+  padding: 0;
+  border-radius: 50%;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  font-size: 13px;
+  line-height: 1;
+  transition: color .2s ease, border-color .2s ease, background-color .2s ease, transform .2s ease;
+}
+.theme-toggle:hover { transform: rotate(15deg); background-color: rgba(255, 214, 48, .15); }
+.theme-toggle i,
+.theme-toggle svg { margin: 0 !important; }
+.theme-toggle .icon-moon { display: inline; }
+.theme-toggle .icon-sun  { display: none; }
+[data-bs-theme="dark"] .theme-toggle .icon-moon { display: none; }
+[data-bs-theme="dark"] .theme-toggle .icon-sun  { display: inline; }

@@ -40,6 +40,19 @@
 	<link rel="stylesheet" href="assets/vendor/rangeslider/rangeslider.css">
 	<link rel="stylesheet" href="assets/css/style.css">
 
+    <!-- Dark mode -->
+    <link rel="stylesheet" href="assets/css/dark-mode.css">
+    <script>
+      (function(){
+        try {
+          var t = localStorage.getItem('butazzo-theme');
+          if (!t) t = window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light';
+          document.documentElement.setAttribute('data-bs-theme', t);
+        } catch(e) {}
+      })();
+    </script>
+
+
 	<!-- Google Fonts -->
 	<link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600;1,700&family=Lato:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900" rel="stylesheet">
 	
@@ -72,9 +85,13 @@
 						<span></span>
 						<span></span>
 					</button>
-					
 					<!-- EXTRA NAV -->
 					<div class="extra-nav">
+						<div class="extra-cell">
+							<button type="button" class="theme-toggle" aria-label="Switch theme">
+									<svg class="icon-moon" viewBox="0 0 24 24" aria-hidden="true"><path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"/></svg><svg class="icon-sun" viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="5"/><path d="M12 1v2M12 21v2M4.22 4.22l1.42 1.42M18.36 18.36l1.42 1.42M1 12h2M21 12h2M4.22 19.78l1.42-1.42M18.36 5.64l1.42-1.42"/></svg>
+								</button>
+						</div>
 						<div class="extra-cell">
 							<div class="menu-btn">
 								<a href="javascript:void(0);">
@@ -129,7 +146,7 @@
 											<li><a href="our-menu-2.html">Menu Style Card</a></li>
 										</ul>
 									</li>
-									<li class="header-adv p-0"><img src="https://placehold.co/300x350" alt="/"></li>
+									<li class="header-adv p-0"><img src="https://placehold.co/688x822" alt="/"></li>
 								</ul>
 							</li>
 							<li class="sub-menu-down"><a href="javascript:void(0);">Shop</a>
@@ -295,7 +312,7 @@
 									</div>
 									<div class="col-xl-5 col-lg-5 col-md-5">
 										<div class="banner-media wow fadeInRight" data-wow-delay="1s">
-											<img src="https://placehold.co/470x400" alt="/" style="height: 740px;">
+											<img src="https://placehold.co/507x760" alt="/" style="height: 760px;">
 										</div>
 									</div>
 								</div>
@@ -322,7 +339,7 @@
 									</div>
 									<div class="col-xl-5 col-lg-5 col-md-5">
 										<div class="banner-media wow fadeInRight" data-wow-delay="1s">
-											<img src="https://placehold.co/470x400" alt="/" style="height: 740px;">
+											<img src="https://placehold.co/503x760" alt="/">
 										</div>
 									</div>
 								</div>
@@ -341,7 +358,7 @@
 							<div class="swiper-slide">
 								<div class="food-card">
 									<div class="bp-media m-r10">
-										<img src="https://placehold.co/80x90.png" alt="/">									
+										<img src="https://placehold.co/113x100" alt="/">									
 									</div>
 									<div class="bp-content">
 										<h5 class="title">BreakFast</h5>
@@ -352,7 +369,7 @@
 							<div class="swiper-slide">
 								<div class="food-card">
 									<div class="bp-media m-r10">
-										<img src="https://placehold.co/80x90.png" alt="/">									
+										<img src="https://placehold.co/100x117" alt="/">									
 									</div>
 									<div class="bp-content">
 										<h5 class="title">Lunch</h5>
@@ -387,7 +404,7 @@
 							<div class="bp-img-box style-4 box-hover wow fadeInUp" data-wow-delay="0.4s">
 								<div class="menu-detail">
 									<div class="bp-media">
-										<img src="https://placehold.co/60x60" alt="/">
+										<img src="https://placehold.co/100x100" alt="/">
 									</div>
 									<div class="bp-content">
 										<h6 class="title"><a href="product-detail.html">Burger</a></h6>
@@ -396,7 +413,7 @@
 								</div>
 								<div class="menu-footer">
 									<span>Regular Price</span>
-									<span class="price">$10.00</span>
+									<span class="price">$16.00</span>
 								</div>
 								<a class="detail-btn" href="product-detail.html"><i class="fa-solid fa-plus"></i></a>
 							</div>
@@ -405,7 +422,7 @@
 							<div class="bp-img-box style-4 box-hover wow fadeInUp" data-wow-delay="0.4s">
 								<div class="menu-detail">
 									<div class="bp-media">
-										<img src="https://placehold.co/60x60" alt="/">
+										<img src="https://placehold.co/100x100" alt="/">
 									</div>
 									<div class="bp-content">
 										<h6 class="title"><a href="product-detail.html">Hot Rice</a></h6>
@@ -414,7 +431,7 @@
 								</div>
 								<div class="menu-footer">
 									<span>Regular Price</span>
-									<span class="price">$15.00</span>
+									<span class="price">$16.00</span>
 								</div>
 								<a class="detail-btn" href="product-detail.html"><i class="fa-solid fa-plus"></i></a>
 							</div>
@@ -423,7 +440,7 @@
 							<div class="bp-img-box style-4 box-hover wow fadeInUp" data-wow-delay="0.6s">
 								<div class="menu-detail">
 									<div class="bp-media">
-										<img src="https://placehold.co/60x60" alt="/">
+										<img src="https://placehold.co/100x100" alt="/">
 									</div>
 									<div class="bp-content">
 										<h6 class="title"><a href="product-detail.html">Momos</a></h6>
@@ -432,7 +449,7 @@
 								</div>
 								<div class="menu-footer">
 									<span>Regular Price</span>
-									<span class="price">$25.00</span>
+									<span class="price">$16.00</span>
 								</div>
 								<a class="detail-btn" href="product-detail.html"><i class="fa-solid fa-plus"></i></a>
 							</div>
@@ -441,7 +458,7 @@
 							<div class="bp-img-box style-4 box-hover wow fadeInUp" data-wow-delay="0.8s">
 								<div class="menu-detail">
 									<div class="bp-media">
-										<img src="https://placehold.co/60x60" alt="/">
+										<img src="https://placehold.co/100x100" alt="/">
 									</div>
 									<div class="bp-content">
 										<h6 class="title"><a href="product-detail.html">Pasta</a></h6>
@@ -450,7 +467,7 @@
 								</div>
 								<div class="menu-footer">
 									<span>Regular Price</span>
-									<span class="price">$45.00</span>
+									<span class="price">$16.00</span>
 								</div>
 								<a class="detail-btn" href="product-detail.html"><i class="fa-solid fa-plus"></i></a>
 							</div>
@@ -459,7 +476,7 @@
 							<div class="bp-img-box style-4 box-hover wow fadeInUp" data-wow-delay="0.10s">
 								<div class="menu-detail">
 									<div class="bp-media">
-										<img src="https://placehold.co/60x60" alt="/">
+										<img src="https://placehold.co/100x100" alt="/">
 									</div>
 									<div class="bp-content">
 										<h6 class="title"><a href="product-detail.html">Panner</a></h6>
@@ -468,7 +485,7 @@
 								</div>
 								<div class="menu-footer">
 									<span>Regular Price</span>
-									<span class="price">$20.00</span>
+									<span class="price">$16.00</span>
 								</div>
 								<a class="detail-btn" href="product-detail.html"><i class="fa-solid fa-plus"></i></a>
 							</div>
@@ -477,7 +494,7 @@
 							<div class="bp-img-box style-4 box-hover wow fadeInUp" data-wow-delay="0.12s">
 								<div class="menu-detail">
 									<div class="bp-media">
-										<img src="https://placehold.co/60x60" alt="/">
+										<img src="https://placehold.co/100x100" alt="/">
 									</div>
 									<div class="bp-content">
 										<h6 class="title"><a href="product-detail.html">Soya Rice</a></h6>
@@ -486,7 +503,7 @@
 								</div>
 								<div class="menu-footer">
 									<span>Regular Price</span>
-									<span class="price">$90.00</span>
+									<span class="price">$16.00</span>
 								</div>
 								<a class="detail-btn" href="product-detail.html"><i class="fa-solid fa-plus"></i></a>
 							</div>
@@ -495,7 +512,7 @@
 							<div class="bp-img-box style-4 box-hover wow fadeInUp" data-wow-delay="0.4s">
 								<div class="menu-detail">
 									<div class="bp-media">
-										<img src="https://placehold.co/60x60" alt="/">
+										<img src="https://placehold.co/100x100" alt="/">
 									</div>
 									<div class="bp-content">
 										<h6 class="title"><a href="product-detail.html">Burger</a></h6>
@@ -504,7 +521,7 @@
 								</div>
 								<div class="menu-footer">
 									<span>Regular Price</span>
-									<span class="price">$10.00</span>
+									<span class="price">$16.00</span>
 								</div>
 								<a class="detail-btn" href="product-detail.html"><i class="fa-solid fa-plus"></i></a>
 							</div>
@@ -513,7 +530,7 @@
 							<div class="bp-img-box style-4 box-hover wow fadeInUp" data-wow-delay="0.4s">
 								<div class="menu-detail">
 									<div class="bp-media">
-										<img src="https://placehold.co/60x60" alt="/">
+										<img src="https://placehold.co/100x100" alt="/">
 									</div>
 									<div class="bp-content">
 										<h6 class="title"><a href="product-detail.html">Hot Rice</a></h6>
@@ -522,7 +539,7 @@
 								</div>
 								<div class="menu-footer">
 									<span>Regular Price</span>
-									<span class="price">$15.00</span>
+									<span class="price">$16.00</span>
 								</div>
 								<a class="detail-btn" href="product-detail.html"><i class="fa-solid fa-plus"></i></a>
 							</div>
@@ -591,7 +608,7 @@
 					<div class="col-lg-3 col-md-6 col-sm-6 m-b30 wow fadeInUp" data-wow-delay="0.2s">
 						<div class="bp-img-box style-3 box-hover">
 							<div class="bp-media">
-								<img src="https://placehold.co/270x350" alt="/">
+								<img src="https://placehold.co/400x520" alt="/">
 							</div>
 							<span class="bp-tag">TOP SELLER</span><div class="bp-meta">
 							</div>
@@ -602,7 +619,7 @@
 							<div class="bp-hover-content">
 								<div class="bp-info">
 									<h5 class="bp-title mb-0"><a href="our-menu-1.html">Pasta</a></h5>
-									<span class="bp-price">$35.00</span>
+									<span class="bp-price">$16.00</span>
 								</div>
 								<a href="shop-cart.html" class="btn btn-cart btn-white text-primary btn-square"><i class="flaticon-shopping-cart"></i></a>
 							</div>
@@ -611,7 +628,7 @@
 					<div class="col-lg-3 col-md-6 col-sm-6 m-b30 wow fadeInUp" data-wow-delay="0.4s">
 						<div class="bp-img-box style-3 box-hover">
 							<div class="bp-media">
-								<img src="https://placehold.co/270x350" alt="/">
+								<img src="https://placehold.co/400x520" alt="/">
 							</div>
 							<span class="bp-tag">TOP SELLER</span>
 							<div class="bp-content">
@@ -621,7 +638,7 @@
 							<div class="bp-hover-content">
 								<div class="bp-info">
 									<h5 class="bp-title mb-0"><a href="our-menu-1.html">Shake</a></h5>
-									<span class="bp-price">$55.00</span>
+									<span class="bp-price">$16.00</span>
 								</div>
 								<a href="shop-cart.html" class="btn btn-cart btn-white text-primary btn-square"><i class="flaticon-shopping-cart"></i></a>
 							</div>
@@ -630,7 +647,7 @@
 					<div class="col-lg-3 col-md-6 col-sm-6 m-b30 wow fadeInUp" data-wow-delay="0.6s">
 						<div class="bp-img-box style-3 box-hover">
 							<div class="bp-media">
-								<img src="https://placehold.co/270x350" alt="/">
+								<img src="https://placehold.co/400x520" alt="/">
 							</div>
 							<span class="bp-tag">TOP SELLER</span>
 							<div class="bp-content">
@@ -640,7 +657,7 @@
 							<div class="bp-hover-content">
 								<div class="bp-info">
 									<h5 class="bp-title mb-0"><a href="our-menu-1.html">Dal</a></h5>
-									<span class="bp-price">$25.00</span>
+									<span class="bp-price">$16.00</span>
 								</div>
 								<a href="shop-cart.html" class="btn btn-cart btn-white text-primary btn-square"><i class="flaticon-shopping-cart"></i></a>
 							</div>
@@ -649,7 +666,7 @@
 					<div class="col-lg-3 col-md-6 col-sm-6 m-b30 wow fadeInUp" data-wow-delay="0.8s">
 						<div class="bp-img-box style-3 box-hover">
 							<div class="bp-media">
-								<img src="https://placehold.co/270x350" alt="/">
+								<img src="https://placehold.co/400x520" alt="/">
 							</div>
 							<span class="bp-tag">TOP SELLER</span>
 							<div class="bp-content">
@@ -659,7 +676,7 @@
 							<div class="bp-hover-content">
 								<div class="bp-info">
 									<h5 class="bp-title mb-0"><a href="our-menu-1.html">Pizza</a></h5>
-									<span class="bp-price">$90.00</span>
+									<span class="bp-price">$16.00</span>
 								</div>
 								<a href="shop-cart.html" class="btn btn-cart btn-white text-primary btn-square"><i class="flaticon-shopping-cart"></i></a>
 							</div>
@@ -676,7 +693,7 @@
 				<div class="icon-wrapper1">
 					<div class="row wow fadeInUp" data-wow-delay="0.2s">
 						<div class="col-lg-3 col-md-6 col-sm-6">
-							<div class="icon-bx-wraper style-1 box-hover center" style="background-image: url('https://placehold.co/297x262/333/fff')">
+							<div class="icon-bx-wraper style-1 box-hover center" style="background-image: url(https://placehold.co/270x280)">
 								<div class="inner-content">
 									<div class="icon-bx m-b25"> 
 										<span class="icon-cell icon-md">
@@ -691,7 +708,7 @@
 							</div>
 						</div>
 						<div class="col-lg-3 col-md-6 col-sm-6">
-							<div class="icon-bx-wraper style-1 box-hover center" style="background-image: url('https://placehold.co/297x262/333/fff')">
+							<div class="icon-bx-wraper style-1 box-hover center" style="background-image: url(https://placehold.co/270x280)">
 								<div class="inner-content">
 									<div class="icon-bx m-b25"> 
 										<span class="icon-cell icon-md">
@@ -707,7 +724,7 @@
 					 
 						</div>
 						<div class="col-lg-3 col-md-6 col-sm-6">
-							<div class="icon-bx-wraper style-1 box-hover center" style="background-image: url('https://placehold.co/297x262/333/fff')">
+							<div class="icon-bx-wraper style-1 box-hover center" style="background-image: url(https://placehold.co/270x280)">
 								<div class="inner-content">
 									<div class="icon-bx m-b25"> 
 											<span class="icon-cell icon-md">
@@ -722,7 +739,7 @@
 							</div>
 						</div>
 						<div class="col-lg-3 col-md-6 col-sm-6">
-							<div class="icon-bx-wraper style-1 box-hover center" style="background-image: url('https://placehold.co/297x262/333/fff')">
+							<div class="icon-bx-wraper style-1 box-hover center" style="background-image: url(https://placehold.co/270x280)">
 								<div class="inner-content">
 									<div class="m-b25"> 
 										<span class="icon-cell icon-md">
@@ -771,13 +788,13 @@
 						<li class="card-container col-lg-6 col-md-6 m-b5 All drink sweet salad">
 							<div class="bp-img-box style-6 wow fadeInUp" data-wow-delay="0.4s">
 								<div class="bp-media">
-									<img src="https://placehold.co/80x80" alt="/">
+									<img src="https://placehold.co/120x120" alt="/">
 								</div>
 								<div class="bp-content">
 									<div class="bp-head">
 										<span class="header-text"><a href="our-menu-1.html">Pulled Chicken SandWich</a></span>
 										<span class="img-line"></span>
-										<span class="header-price">$30</span>
+										<span class="header-price">$16</span>
 									</div>
 									<p class="bp-body">
 										Lorem Ipsum is simply dummy text of the printing and typesetting industry.
@@ -788,13 +805,13 @@
 						<li class="card-container col-lg-6 col-md-6 m-b5 All pizza sweet">
 							<div class="bp-img-box style-6 wow fadeInUp" data-wow-delay="0.4s">
 								<div class="bp-media">
-									<img src="https://placehold.co/80x80" alt="/">
+									<img src="https://placehold.co/120x120" alt="/">
 								</div>
 								<div class="bp-content">
 									<div class="bp-head">
 										<span class="header-text"><a href="our-menu-1.html">BBQ Chicken Sandwich</a></span>
 										<span class="img-line"></span>
-										<span class="header-price">$30</span>
+										<span class="header-price">$16</span>
 									</div>
 									<p class="bp-body">
 										Lorem Ipsum is simply dummy text of the printing and typesetting industry.
@@ -805,13 +822,13 @@
 						<li class="card-container col-lg-6 col-md-6 m-b5 All salad spicy">
 							<div class="bp-img-box style-6 wow fadeInUp" data-wow-delay="0.6s">
 								<div class="bp-media">
-									<img src="https://placehold.co/80x80" alt="/">
+									<img src="https://placehold.co/120x120" alt="/">
 								</div>
 								<div class="bp-content">
 									<div class="bp-head">
 										<span class="header-text"><a href="our-menu-1.html">Canada Dry Ginger Ale</a></span>
 										<span class="img-line"></span>
-										<span class="header-price">$60</span>
+										<span class="header-price">$16</span>
 									</div>
 									<p class="bp-body">
 										Lorem Ipsum is simply dummy text of the printing and typesetting industry.
@@ -822,13 +839,13 @@
 						<li class="card-container col-lg-6 col-md-6 m-b5 All drink spicy sweet">
 							<div class="bp-img-box style-6 wow fadeInUp" data-wow-delay="0.6s">
 								<div class="bp-media">
-									<img src="https://placehold.co/80x80" alt="/">
+									<img src="https://placehold.co/120x120" alt="/">
 								</div>
 								<div class="bp-content">
 									<div class="bp-head">
 										<span class="header-text"><a href="our-menu-1.html">Honey Mustard Pasta</a></span>
 										<span class="img-line"></span>
-										<span class="header-price">$20</span>
+										<span class="header-price">$16</span>
 									</div>
 									<p class="bp-body">
 										Lorem Ipsum is simply dummy text of the printing and typesetting industry.
@@ -839,13 +856,13 @@
 						<li class="card-container col-lg-6 col-md-6 m-b5 All burger">
 							<div class="bp-img-box style-6 wow fadeInUp" data-wow-delay="0.8s">
 								<div class="bp-media">
-									<img src="https://placehold.co/80x80" alt="/">
+									<img src="https://placehold.co/120x120" alt="/">
 								</div>
 								<div class="bp-content">
 									<div class="bp-head">
 										<span class="header-text"><a href="our-menu-1.html">Martinelli’s Apple Juice</a></span>
 										<span class="img-line"></span>
-										<span class="header-price">$80</span>
+										<span class="header-price">$16</span>
 									</div>
 									<p class="bp-body">
 										Lorem Ipsum is simply dummy text of the printing and typesetting industry.
@@ -856,13 +873,13 @@
 						<li class="card-container col-lg-6 col-md-6 m-b5 All pizza burger">
 							<div class="bp-img-box style-6 wow fadeInUp" data-wow-delay="0.8s">
 								<div class="bp-media">
-									<img src="https://placehold.co/80x80" alt="/">
+									<img src="https://placehold.co/120x120" alt="/">
 								</div>
 								<div class="bp-content">
 									<div class="bp-head">
 										<span class="header-text"><a href="our-menu-1.html">Chicken Honey Plate</a></span>
 										<span class="img-line"></span>
-										<span class="header-price">$80</span>
+										<span class="header-price">$16</span>
 									</div>
 									<p class="bp-body">
 										Lorem Ipsum is simply dummy text of the printing and typesetting industry.
@@ -873,13 +890,13 @@
 						<li class="card-container col-lg-6 col-md-6 m-b5 All burger salad">
 							<div class="bp-img-box style-6 wow fadeInUp" data-wow-delay="0.10s">
 								<div class="bp-media">
-									<img src="https://placehold.co/80x80" alt="/">
+									<img src="https://placehold.co/120x120" alt="/">
 								</div>
 								<div class="bp-content">
 									<div class="bp-head">
 										<span class="header-text"><a href="our-menu-1.html">Mango Mania Smoothie</a></span>
 										<span class="img-line"></span>
-										<span class="header-price">$30</span>
+										<span class="header-price">$16</span>
 									</div>
 									<p class="bp-body">
 										Lorem Ipsum is simply dummy text of the printing and typesetting industry.
@@ -890,13 +907,13 @@
 						<li class="card-container col-lg-6 col-md-6 m-b5 All drink">
 							<div class="bp-img-box style-6 wow fadeInUp" data-wow-delay="0.10s">
 								<div class="bp-media">
-									<img src="https://placehold.co/80x80" alt="/">
+									<img src="https://placehold.co/120x120" alt="/">
 								</div>
 								<div class="bp-content">
 									<div class="bp-head">
 										<span class="header-text"><a href="our-menu-1.html">Jamaican Jerk Sandwich</a></span>
 										<span class="img-line"></span>
-										<span class="header-price">$80</span>
+										<span class="header-price">$16</span>
 									</div>
 									<p class="bp-body">
 										Lorem Ipsum is simply dummy text of the printing and typesetting industry.
@@ -923,7 +940,7 @@
 						<div class="swiper-slide">
 							<div class="bp-team style-1 wow fadeInUp" data-wow-delay="0.2s">
 								<div class="bp-media">
-									<img src="https://placehold.co/270x310" alt="/">
+									<img src="https://placehold.co/325x375" alt="/">
 								</div>
 								<div class="bp-content">
 									<div class="clearfix">
@@ -947,7 +964,7 @@
 						<div class="swiper-slide">
 							<div class="bp-team style-1 wow fadeInUp" data-wow-delay="0.4s">
 								<div class="bp-media">
-									<img src="https://placehold.co/270x310" alt="/">
+									<img src="https://placehold.co/325x375" alt="/">
 								</div>
 								<div class="bp-content">
 									<div class="clearfix">
@@ -971,7 +988,7 @@
 						<div class="swiper-slide">
 							<div class="bp-team style-1 wow fadeInUp" data-wow-delay="0.6s">
 								<div class="bp-media">
-									<img src="https://placehold.co/270x310" alt="/">
+									<img src="https://placehold.co/325x375" alt="/">
 								</div>
 								<div class="bp-content">
 									<div class="clearfix">
@@ -995,7 +1012,7 @@
 						<div class="swiper-slide">
 							<div class="bp-team style-1 wow fadeInUp" data-wow-delay="0.8s">
 								<div class="bp-media">
-									<img src="https://placehold.co/270x310" alt="/">
+									<img src="https://placehold.co/325x375" alt="/">
 								</div>
 								<div class="bp-content">
 									<div class="clearfix">
@@ -1019,7 +1036,7 @@
 						<div class="swiper-slide">
 							<div class="bp-team style-1 wow fadeInUp" data-wow-delay="0.2s">
 								<div class="bp-media">
-									<img src="https://placehold.co/270x310" alt="/">
+									<img src="https://placehold.co/325x375" alt="/">
 								</div>
 								<div class="bp-content">
 									<div class="clearfix">
@@ -1043,7 +1060,7 @@
 						<div class="swiper-slide">
 							<div class="bp-team style-1 wow fadeInUp" data-wow-delay="0.8s">
 								<div class="bp-media">
-									<img src="https://placehold.co/270x310" alt="/">
+									<img src="https://placehold.co/400x460" alt="/">
 								</div>
 								<div class="bp-content">
 									<div class="clearfix">
@@ -1076,7 +1093,7 @@
 			
 		<!-- Our Blog  -->
 		<section class="content-inner overflow-hidden section-wrapper-6 p-b40 pt-0">
-			<div class="rounded-0 contact-area bg-parallax" style="background-image:url('https://placehold.co/1351x528/333/555'); background-attachment: fixed;">
+			<div class="rounded-0 contact-area bg-parallax" style="background-image:url('https://placehold.co/1170x561'); background-attachment: fixed;">
 				<div class="container">
 					<div class="row align-items-center">
 						<div class="col-lg-8 col-md-12 m-b30">
@@ -1290,6 +1307,10 @@
 <script src="assets/js/bp.ajax.js"></script><!-- AJAX -->
 <script src="assets/js/custom.min.js"></script><!-- CUSTOM JS -->
 <script src="assets/vendor/rangeslider/rangeslider.js"></script><!-- CUSTOM JS -->
+
+<!-- Dark mode toggle -->
+<script src="assets/js/dark-mode.js"></script>
+
 </body>
 
 </html>

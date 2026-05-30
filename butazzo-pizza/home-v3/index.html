@@ -37,6 +37,19 @@
     <!-- Responsive -->
     <link rel="stylesheet" type="text/css" href="src/assets/css/responsive.min.css">
 
+    <!-- Dark mode -->
+    <link rel="stylesheet" type="text/css" href="src/assets/css/dark-mode.css">
+    <script>
+      (function(){
+        try {
+          var t = localStorage.getItem('butazzo-theme');
+          if (!t) t = window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light';
+          document.documentElement.setAttribute('data-bs-theme', t);
+        } catch(e) {}
+      })();
+    </script>
+
+
 		
     <!--[if lt IE 9]>
       <script src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.min.js"></script>
@@ -76,18 +89,18 @@
                     <!-- Indicators -->
                     <ol class="carousel-indicators">
                         <li type="button" data-bs-target="#carouselExample" aria-label="Slide 0" data-bs-slide-to="0" class="active">
-                            <img src="https://placehold.co/47x30" alt="chicken-caesar-pizza">
+                            <img src="https://placehold.co/623x401" alt="chicken-caesar-pizza">
                         </li>
                         <li type="button" data-bs-target="#carouselExample" aria-label="Slide 1" data-bs-slide-to="1">
-                            <img src="https://placehold.co/47x30" alt="taco"></li>
+                            <img src="https://placehold.co/648x385" alt="taco"></li>
                         <li type="button" data-bs-target="#carouselExample" aria-label="Slide 2" data-bs-slide-to="2">
-                            <img src="https://placehold.co/47x30" alt="double-burger">
+                            <img src="https://placehold.co/398x331" alt="double-burger">
                         </li>
                         <li type="button" data-bs-target="#carouselExample" aria-label="Slide 3" data-bs-slide-to="3">
-                            <img src="https://placehold.co/47x30" alt="cocktail">
+                            <img src="https://placehold.co/662x377" alt="cocktail">
                         </li>
                         <li type="button" data-bs-target="#carouselExample" aria-label="Slide 4" data-bs-slide-to="4">
-                            <img src="https://placehold.co/47x30" alt="salad">
+                            <img src="https://placehold.co/480x300" alt="salad">
                         </li>
                     </ol>
     
@@ -102,7 +115,7 @@
                                         <div class="row">
                                             <div class="col-lg-6">
                                                 <div class="fadeUp item_img">
-                                                    <img src="https://placehold.co/450x300" alt="pizza">
+                                                    <img src="https://placehold.co/623x401" alt="pizza">
                                                 </div>
                                             </div>
                                             <div class="col-lg-6">
@@ -131,7 +144,7 @@
                                         <div class="row">
                                             <div class="col-lg-6">
                                                 <div class="fadeUp item_img">
-                                                    <img src="https://placehold.co/450x300" alt="sample">
+                                                    <img src="https://placehold.co/648x385" alt="taco">
                                                 </div>
                                             </div>
                                             <div class="col-lg-6">
@@ -160,7 +173,7 @@
                                         <div class="row">
                                             <div class="col-lg-6">
                                                 <div class="fadeUp item_img">
-                                                    <img src="https://placehold.co/450x300" alt="sample">
+                                                    <img src="https://placehold.co/398x331" alt="double-burger">
                                                 </div>
                                             </div>
                                             <div class="col-lg-6">
@@ -189,7 +202,7 @@
                                         <div class="row">
                                             <div class="col-lg-6">
                                                 <div class="fadeUp item_img">
-                                                    <img src="https://placehold.co/450x300" alt="sample">
+                                                    <img src="https://placehold.co/662x377" alt="cocktail">
                                                 </div>
                                             </div>
                                             <div class="col-lg-6">
@@ -218,7 +231,7 @@
                                         <div class="row">
                                             <div class="col-lg-6">
                                                 <div class="fadeUp item_img">
-                                                    <img src="https://placehold.co/450x300" alt="sample">
+                                                    <img src="https://placehold.co/480x300" alt="salad">
                                                 </div>
                                             </div>
                                             <div class="col-lg-6">
@@ -284,6 +297,10 @@
                                 </nav>
                                 <div class="pull-right search-block d-none d-md-none d-lg-block">
                                     <i class="icon-search" id="search"></i>
+                                    <button type="button" class="theme-toggle" aria-label="Switch theme">
+                                        <i class="fa-solid fa-moon icon-moon" aria-hidden="true"></i>
+                                        <i class="fa-solid fa-sun icon-sun" aria-hidden="true"></i>
+                                    </button>
                                 </div>
                             </div>
                             <div id="navbar_search">
@@ -315,11 +332,11 @@
                 </div>
 
                 <!--    Special Menu items     -->
-                <div id="burger-slider" class="menu-slider">
+                <div id="special-menu" class="menu-slider">
                     <div class="menu-slider-item" data-aos="fade-up">
                         <a href="#" class="menu-slider-item-link"></a>
                         <div class="menu-slider-item-image">
-                            <img src="https://placehold.co/243x243" alt="">
+                            <img src="https://placehold.co/300x300" alt="">
                         </div>
                         <div class="menu-slider-item-desc">
                             <h4 class="menu-slider-item-title">Barbeque Chicken</h4>
@@ -333,7 +350,7 @@
                     </div>
                     <div class="menu-slider-item" data-aos="fade-up">
                         <div class="menu-slider-item-image">
-                            <img src="https://placehold.co/243x243" alt="">
+                            <img src="https://placehold.co/300x300" alt="">
                         </div>
                         <div class="menu-slider-item-desc">
                             <h4 class="menu-slider-item-title">Pepperoni</h4>
@@ -347,7 +364,7 @@
                     </div>
                     <div class="menu-slider-item" data-aos="fade-up">
                         <div class="menu-slider-item-image">
-                            <img src="https://placehold.co/243x243" alt="">
+                            <img src="https://placehold.co/513x513" alt="">
                         </div>
                         <div class="menu-slider-item-desc">
                             <h4 class="menu-slider-item-title">Cheese pizza</h4>
@@ -361,7 +378,7 @@
                     </div>
                     <div class="menu-slider-item" data-aos="fade-up">
                         <div class="menu-slider-item-image">
-                            <img src="https://placehold.co/243x243" alt="">
+                            <img src="https://placehold.co/300x300" alt="">
                         </div>
                         <div class="menu-slider-item-desc">
                             <h4 class="menu-slider-item-title">Vegetarian</h4>
@@ -384,7 +401,7 @@
                 <div class="row">
                     <div class="col-lg-6" data-aos="fade-down">
                         <div class="border_on">
-                            <img src="https://placehold.co/546x470" alt="pizza-restaurant" class="about-img">
+                            <img src="https://placehold.co/725x626" alt="pizza-restaurant" class="about-img">
                         </div>
                     </div>
                     <div class="col-lg-6" data-aos="fade-up">
@@ -465,11 +482,11 @@
                     <div class="tab-pane fade show active" id="burger" role="tabpanel" aria-labelledby="burger-tab" tabindex="0">
                         <div class="row">
                             <div class="col-md-6 col-lg-4" data-aos="fade-up">
-                                <div data-src="https://placehold.co/610x460" data-fancybox="gallery" class="block fancybox">
+                                <div data-src="https://placehold.co/612x459" data-fancybox="gallery" class="block fancybox">
                                     <div class="content">
                                         <div class="filter_item_img">
                                             <i class="icon-zoom-in"></i>
-                                            <img src="https://placehold.co/130x130" alt="sample">
+                                            <img src="https://placehold.co/612x459" alt="sample">
                                         </div>
                                         <div class="info">
                                             <div class="name">Bacon Burger</div>
@@ -481,11 +498,11 @@
                                 </div>
                             </div>
                             <div class="col-md-6 col-lg-4" data-aos="fade-up">
-                                <div data-src="https://placehold.co/610x460" data-fancybox="gallery" class="block fancybox">
+                                <div data-src="https://placehold.co/612x414" data-fancybox="gallery" class="block fancybox">
                                     <div class="content">
                                         <div class="filter_item_img">
                                             <i class="icon-zoom-in"></i>
-                                            <img src="https://placehold.co/130x130" alt="sample">
+                                            <img src="https://placehold.co/612x414" alt="sample">
                                         </div>
                                         <div class="info">
                                             <div class="name">Black Bean Burger</div>
@@ -498,11 +515,11 @@
                                 </div>
                             </div>
                             <div class="col-md-6 col-lg-4" data-aos="fade-up">
-                                <div data-src="https://placehold.co/610x460" data-fancybox="gallery" class="block fancybox">
+                                <div data-src="https://placehold.co/608x405" data-fancybox="gallery" class="block fancybox">
                                     <div class="content">
                                         <div class="filter_item_img">
                                             <i class="icon-zoom-in"></i>
-                                            <img src="https://placehold.co/130x130" alt="sample">
+                                            <img src="https://placehold.co/608x405" alt="sample">
                                         </div>
                                         <div class="info">
                                             <div class="name">Classic Burger</div>
@@ -514,11 +531,11 @@
                                 </div>
                             </div>
                             <div class="col-md-6 col-lg-4" data-aos="fade-up">
-                                <div data-src="https://placehold.co/610x460" data-fancybox="gallery" class="block fancybox">
+                                <div data-src="https://placehold.co/1125x750" data-fancybox="gallery" class="block fancybox">
                                     <div class="content">
                                         <div class="filter_item_img">
                                             <i class="icon-zoom-in"></i>
-                                            <img src="https://placehold.co/130x130" alt="sample">
+                                            <img src="https://placehold.co/1125x750" alt="sample">
                                         </div>
                                         <div class="info">
                                             <div class="name">Double Burger</div>
@@ -531,11 +548,11 @@
                                 </div>
                             </div>
                             <div class="col-md-6 col-lg-4" data-aos="fade-up">
-                                <div data-src="https://placehold.co/610x460" data-fancybox="gallery" class="block fancybox">
+                                <div data-src="https://placehold.co/626x358" data-fancybox="gallery" class="block fancybox">
                                     <div class="content">
                                         <div class="filter_item_img">
                                             <i class="icon-zoom-in"></i>
-                                            <img src="https://placehold.co/130x130" alt="sample">
+                                            <img src="https://placehold.co/626x358" alt="sample">
                                         </div>
                                         <div class="info">
                                             <div class="name">Smokey Burger</div>
@@ -548,11 +565,11 @@
                                 </div>
                             </div>
                             <div class="col-md-6 col-lg-4" data-aos="fade-up">
-                                <div data-src="https://placehold.co/610x460" data-fancybox="gallery" class="block fancybox">
+                                <div data-src="https://placehold.co/1800x1200" data-fancybox="gallery" class="block fancybox">
                                     <div class="content">
                                         <div class="filter_item_img">
                                             <i class="icon-zoom-in"></i>
-                                            <img src="https://placehold.co/130x130" alt="sample">
+                                            <img src="https://placehold.co/1800x1200" alt="sample">
                                         </div>
                                         <div class="info">
                                             <div class="name">Turkey Burger</div>
@@ -569,11 +586,11 @@
                     <div class="tab-pane fade" id="pizza" role="tabpanel" aria-labelledby="pizza-tab" tabindex="0">
                         <div class="row">
                             <div class="col-md-6 col-lg-4" data-aos="fade-up">
-                                <div data-src="https://placehold.co/610x460" data-fancybox="gallery" class="block fancybox">
+                                <div data-src="https://placehold.co/680x680" data-fancybox="gallery" class="block fancybox">
                                     <div class="content">
                                         <div class="filter_item_img">
                                             <i class="icon-zoom-in"></i>
-                                            <img src="https://placehold.co/130x130" alt="sample">
+                                            <img src="https://placehold.co/136x136" alt="sample">
                                         </div>
                                         <div class="info">
                                             <div class="name">Chicken Tikka</div>
@@ -585,11 +602,11 @@
                                 </div>
                             </div>
                             <div class="col-md-6 col-lg-4" data-aos="fade-up">
-                                <div data-src="https://placehold.co/610x460" data-fancybox="gallery" class="block fancybox">
+                                <div data-src="https://placehold.co/1200x900" data-fancybox="gallery" class="block fancybox">
                                     <div class="content">
                                         <div class="filter_item_img">
                                             <i class="icon-zoom-in"></i>
-                                            <img src="https://placehold.co/130x130" alt="sample">
+                                            <img src="https://placehold.co/136x136" alt="sample">
                                         </div>
                                         <div class="info">
                                             <div class="name">Pizza Hawaii</div>
@@ -602,11 +619,11 @@
                                 </div>
                             </div>
                             <div class="col-md-6 col-lg-4" data-aos="fade-up">
-                                <div data-src="https://placehold.co/610x460" data-fancybox="gallery" class="block fancybox">
+                                <div data-src="https://placehold.co/750x738" data-fancybox="gallery" class="block fancybox">
                                     <div class="content">
                                         <div class="filter_item_img">
                                             <i class="icon-zoom-in"></i>
-                                            <img src="https://placehold.co/130x130" alt="sample">
+                                            <img src="https://placehold.co/136x136" alt="sample">
                                         </div>
                                         <div class="info">
                                             <div class="name">Pizza Kebab</div>
@@ -619,11 +636,11 @@
                                 </div>
                             </div>
                             <div class="col-md-6 col-lg-4" data-aos="fade-up">
-                                <div data-src="https://placehold.co/610x460" data-fancybox="gallery" class="block fancybox">
+                                <div data-src="https://placehold.co/1200x922" data-fancybox="gallery" class="block fancybox">
                                     <div class="content">
                                         <div class="filter_item_img">
                                             <i class="icon-zoom-in"></i>
-                                            <img src="https://placehold.co/130x130" alt="sample">
+                                            <img src="https://placehold.co/136x136" alt="sample">
                                         </div>
                                         <div class="info">
                                             <div class="name">Margherita</div>
@@ -635,11 +652,11 @@
                                 </div>
                             </div>
                             <div class="col-md-6 col-lg-4" data-aos="fade-up">
-                                <div data-src="https://placehold.co/610x460" data-fancybox="gallery" class="block fancybox">
+                                <div data-src="https://placehold.co/900x575" data-fancybox="gallery" class="block fancybox">
                                     <div class="content">
                                         <div class="filter_item_img">
                                             <i class="icon-zoom-in"></i>
-                                            <img src="https://placehold.co/130x130" alt="sample">
+                                            <img src="https://placehold.co/136x136" alt="sample">
                                         </div>
                                         <div class="info">
                                             <div class="name">Pizza Mushroom</div>
@@ -651,11 +668,11 @@
                                 </div>
                             </div>
                             <div class="col-md-6 col-lg-4" data-aos="fade-up">
-                                <div data-src="https://placehold.co/610x460" data-fancybox="gallery" class="block fancybox">
+                                <div data-src="https://placehold.co/2000x1500" data-fancybox="gallery" class="block fancybox">
                                     <div class="content">
                                         <div class="filter_item_img">
                                             <i class="icon-zoom-in"></i>
-                                            <img src="https://placehold.co/130x130" alt="sample">
+                                            <img src="https://placehold.co/136x136" alt="sample">
                                         </div>
                                         <div class="info">
                                             <div class="name">Neapolitan</div>
@@ -667,11 +684,11 @@
                                 </div>
                             </div>
                             <div class="col-md-6 col-lg-4" data-aos="fade-up">
-                                <div data-src="https://placehold.co/610x460" data-fancybox="gallery" class="block fancybox">
+                                <div data-src="https://placehold.co/2250x1688" data-fancybox="gallery" class="block fancybox">
                                     <div class="content">
                                         <div class="filter_item_img">
                                             <i class="icon-zoom-in"></i>
-                                            <img src="https://placehold.co/130x130" alt="sample">
+                                            <img src="https://placehold.co/136x136" alt="sample">
                                         </div>
                                         <div class="info">
                                             <div class="name">Pepperoni</div>
@@ -683,16 +700,17 @@
                                 </div>
                             </div>
                             <div class="col-md-6 col-lg-4" data-aos="fade-up">
-                                <div data-src="https://placehold.co/610x460" data-fancybox="gallery" class="block fancybox">
+                                <div data-src="https://placehold.co/1200x1200" data-fancybox="gallery" class="block fancybox">
                                     <div class="content">
                                         <div class="filter_item_img">
                                             <i class="icon-zoom-in"></i>
-                                            <img src="https://placehold.co/130x130" alt="sample">
+                                            <img src="https://placehold.co/136x136" alt="sample">
                                         </div>
                                         <div class="info">
                                             <div class="name">Pizza Veggie</div>
                                             <div class="short">Crescent rolls, cream cheese, sour cream, ranch dressing
-                                                mix, dried dill weed</div>
+                                                mix,
+                                                dried dill weed</div>
                                             <span class="filter_item_price">$5.99</span>
                                         </div>
                                     </div>
@@ -703,27 +721,28 @@
                     <div class="tab-pane fade" id="salad" role="tabpanel" aria-labelledby="salad-tab" tabindex="0">
                         <div class="row">
                             <div class="col-md-6 col-lg-4" data-aos="fade-up">
-                                <div data-src="https://placehold.co/610x460" data-fancybox="gallery" class="block fancybox">
+                                <div data-src="https://placehold.co/1200x1200" data-fancybox="gallery" class="block fancybox">
                                     <div class="content">
                                         <div class="filter_item_img">
                                             <i class="icon-zoom-in"></i>
-                                            <img src="https://placehold.co/130x130" alt="sample">
+                                            <img src="https://placehold.co/136x136" alt="sample">
                                         </div>
                                         <div class="info">
                                             <div class="name">Ambrosia</div>
                                             <div class="short">Mandarin oranges, vanilla greek yogurt, maraschino
-                                                cherries, heavy cream, green grapes</div>
+                                                cherries,
+                                                heavy cream, green grapes</div>
                                             <span class="filter_item_price">$18.00</span>
                                         </div>
                                     </div>
                                 </div>
                             </div>
                             <div class="col-md-6 col-lg-4" data-aos="fade-up">
-                                <div data-src="https://placehold.co/610x460" data-fancybox="gallery" class="block fancybox">
+                                <div data-src="https://placehold.co/1200x630" data-fancybox="gallery" class="block fancybox">
                                     <div class="content">
                                         <div class="filter_item_img">
                                             <i class="icon-zoom-in"></i>
-                                            <img src="https://placehold.co/130x130" alt="sample">
+                                            <img src="https://placehold.co/136x136" alt="sample">
                                         </div>
                                         <div class="info">
                                             <div class="name">Bound Salad</div>
@@ -735,26 +754,27 @@
                                 </div>
                             </div>
                             <div class="col-md-6 col-lg-4" data-aos="fade-up">
-                                <div data-src="https://placehold.co/610x460" data-fancybox="gallery" class="block fancybox">
+                                <div data-src="https://placehold.co/832x468" data-fancybox="gallery" class="block fancybox">
                                     <div class="content">
                                         <div class="filter_item_img">
                                             <i class="icon-zoom-in"></i>
-                                            <img src="https://placehold.co/130x130" alt="sample">
+                                            <img src="https://placehold.co/136x136" alt="sample">
                                         </div>
                                         <div class="info">
                                             <div class="name">Fruit Salad</div>
-                                            <div class="short">Pineapple, orange juice, apples, strawberries, oranges together</div>
+                                            <div class="short">Pineapple, orange juice, apples, strawberries, oranges
+                                                together</div>
                                             <span class="filter_item_price">$17.62</span>
                                         </div>
                                     </div>
                                 </div>
                             </div>
                             <div class="col-md-6 col-lg-4" data-aos="fade-up">
-                                <div data-src="https://placehold.co/610x460" data-fancybox="gallery" class="block fancybox">
+                                <div data-src="https://placehold.co/960x960" data-fancybox="gallery" class="block fancybox">
                                     <div class="content">
                                         <div class="filter_item_img">
                                             <i class="icon-zoom-in"></i>
-                                            <img src="https://placehold.co/130x130" alt="sample">
+                                            <img src="https://placehold.co/136x136" alt="sample">
                                         </div>
                                         <div class="info">
                                             <div class="name">Garden Salad</div>
@@ -770,11 +790,11 @@
                     <div class="tab-pane fade" id="soup" role="tabpanel" aria-labelledby="soup-tab" tabindex="0">
                         <div class="row">
                             <div class="col-md-6 col-lg-4" data-aos="fade-up">
-                                <div data-src="https://placehold.co/610x460" data-fancybox="gallery" class="block fancybox">
+                                <div data-src="https://placehold.co/640x427" data-fancybox="gallery" class="block fancybox">
                                     <div class="content">
                                         <div class="filter_item_img">
                                             <i class="icon-zoom-in"></i>
-                                            <img src="https://placehold.co/130x130" alt="sample">
+                                            <img src="https://placehold.co/136x136" alt="sample">
                                         </div>
                                         <div class="info">
                                             <div class="name">Chicken Noodle</div>
@@ -786,11 +806,11 @@
                                 </div>
                             </div>
                             <div class="col-md-6 col-lg-4" data-aos="fade-up">
-                                <div data-src="https://placehold.co/610x460" data-fancybox="gallery" class="block fancybox">
+                                <div data-src="https://placehold.co/960x640" data-fancybox="gallery" class="block fancybox">
                                     <div class="content">
                                         <div class="filter_item_img">
                                             <i class="icon-zoom-in"></i>
-                                            <img src="https://placehold.co/130x130" alt="sample">
+                                            <img src="https://placehold.co/136x136" alt="sample">
                                         </div>
                                         <div class="info">
                                             <div class="name">Puree of Carrot</div>
@@ -803,11 +823,11 @@
                                 </div>
                             </div>
                             <div class="col-md-6 col-lg-4" data-aos="fade-up">
-                                <div data-src="https://placehold.co/610x460" data-fancybox="gallery" class="block fancybox">
+                                <div data-src="https://placehold.co/800x450" data-fancybox="gallery" class="block fancybox">
                                     <div class="content">
                                         <div class="filter_item_img">
                                             <i class="icon-zoom-in"></i>
-                                            <img src="https://placehold.co/130x130" alt="sample">
+                                            <img src="https://placehold.co/136x136" alt="sample">
                                         </div>
                                         <div class="info">
                                             <div class="name">Seafood Bisque</div>
@@ -819,11 +839,11 @@
                                 </div>
                             </div>
                             <div class="col-md-6 col-lg-4" data-aos="fade-up">
-                                <div data-src="https://placehold.co/610x460" data-fancybox="gallery" class="block fancybox">
+                                <div data-src="https://placehold.co/600x500" data-fancybox="gallery" class="block fancybox">
                                     <div class="content">
                                         <div class="filter_item_img">
                                             <i class="icon-zoom-in"></i>
-                                            <img src="https://placehold.co/130x130" alt="sample">
+                                            <img src="https://placehold.co/136x136" alt="sample">
                                         </div>
                                         <div class="info">
                                             <div class="name">Veloute Tomato</div>
@@ -840,11 +860,11 @@
                     <div class="tab-pane fade" id="drinks" role="tabpanel" aria-labelledby="drinks-tab" tabindex="0">
                         <div class="row">
                             <div class="col-md-6 col-lg-4" data-aos="fade-up">
-                                <div data-src="https://placehold.co/610x460" data-fancybox="gallery" class="block fancybox">
+                                <div data-src="https://placehold.co/720x720" data-fancybox="gallery" class="block fancybox">
                                     <div class="content">
                                         <div class="filter_item_img">
                                             <i class="icon-zoom-in"></i>
-                                            <img src="https://placehold.co/130x130" alt="sample">
+                                            <img src="https://placehold.co/136x136" alt="sample">
                                         </div>
                                         <div class="info">
                                             <div class="name">Americano</div>
@@ -855,11 +875,12 @@
                                 </div>
                             </div>
                             <div class="col-md-6 col-lg-4" data-aos="fade-up">
-                                <div data-src="https://placehold.co/610x460" data-fancybox="gallery" class="block fancybox">
+                                <div data-src="https://placehold.co/512x512" data-fancybox="gallery" class="block fancybox">
                                     <div class="content">
                                         <div class="filter_item_img">
                                             <i class="icon-zoom-in"></i>
-                                            <img src="https://placehold.co/130x130" alt="sample">
+                                            <img src="https://placehold.co/136x136"
+                                                alt="sample">
                                         </div>
                                         <div class="info">
                                             <div class="name">Cosmopolitan</div>
@@ -872,11 +893,12 @@
                                 </div>
                             </div>
                             <div class="col-md-6 col-lg-4" data-aos="fade-up">
-                                <div data-src="https://placehold.co/610x460" data-fancybox="gallery" class="block fancybox">
+                                <div data-src="https://placehold.co/720x720" data-fancybox="gallery" class="block fancybox">
                                     <div class="content">
                                         <div class="filter_item_img">
                                             <i class="icon-zoom-in"></i>
-                                            <img src="https://placehold.co/130x130" alt="sample">
+                                            <img src="https://placehold.co/136x136"
+                                                alt="sample">
                                         </div>
                                         <div class="info">
                                             <div class="name">Malibu Sunset</div>
@@ -888,11 +910,12 @@
                                 </div>
                             </div>
                             <div class="col-md-6 col-lg-4" data-aos="fade-up">
-                                <div data-src="https://placehold.co/610x460" data-fancybox="gallery" class="block fancybox">
+                                <div data-src="https://placehold.co/527x680" data-fancybox="gallery" class="block fancybox">
                                     <div class="content">
                                         <div class="filter_item_img">
                                             <i class="icon-zoom-in"></i>
-                                            <img src="https://placehold.co/130x130" alt="sample">
+                                            <img src="https://placehold.co/136x136"
+                                                alt="sample">
                                         </div>
                                         <div class="info">
                                             <div class="name">Sweet Poison</div>
@@ -905,11 +928,12 @@
                                 </div>
                             </div>
                             <div class="col-md-6 col-lg-4" data-aos="fade-up">
-                                <div data-src="https://placehold.co/610x460" data-fancybox="gallery" class="block fancybox">
+                                <div data-src="https://placehold.co/610x430" data-fancybox="gallery" class="block fancybox">
                                     <div class="content">
                                         <div class="filter_item_img">
                                             <i class="icon-zoom-in"></i>
-                                            <img src="https://placehold.co/130x130" alt="sample">
+                                            <img src="https://placehold.co/136x136"
+                                                alt="sample">
                                         </div>
                                         <div class="info">
                                             <div class="name">Tropical Garden</div>
@@ -920,11 +944,11 @@
                                 </div>
                             </div>
                             <div class="col-md-6 col-lg-4" data-aos="fade-up">
-                                <div data-src="https://placehold.co/610x460" data-fancybox="gallery" class="block fancybox">
+                                <div data-src="https://placehold.co/700x350" data-fancybox="gallery" class="block fancybox">
                                     <div class="content">
                                         <div class="filter_item_img">
                                             <i class="icon-zoom-in"></i>
-                                            <img src="https://placehold.co/130x130" alt="sample">
+                                            <img src="https://placehold.co/136x136" alt="sample">
                                         </div>
                                         <div class="info">
                                             <div class="name">Green Tea</div>
@@ -936,11 +960,12 @@
                                 </div>
                             </div>
                             <div class="col-md-6 col-lg-4" data-aos="fade-up">
-                                <div data-src="https://placehold.co/610x460" data-fancybox="gallery" class="block fancybox">
+                                <div data-src="https://placehold.co/800x533" data-fancybox="gallery" class="block fancybox">
                                     <div class="content">
                                         <div class="filter_item_img">
                                             <i class="icon-zoom-in"></i>
-                                            <img src="https://placehold.co/130x130" alt="sample">
+                                            <img src="https://placehold.co/136x136"
+                                                alt="sample">
                                         </div>
                                         <div class="info">
                                             <div class="name">Spicy Ginger Lemon Tea</div>
@@ -966,7 +991,7 @@
                 <div id="chef-slider">
                     <div class="chef-item" data-aos="zoom-in">
                         <div class="chef-image">
-                            <img src="https://placehold.co/250x340" alt="">
+                            <img src="https://placehold.co/354x484" alt="">
                         </div>
                         <div class="chef-info">
                             <h3 class="chef-name">John Doe</h3>
@@ -988,7 +1013,7 @@
                     </div>
                     <div class="chef-item" data-aos="zoom-in">
                         <div class="chef-image">
-                            <img src="https://placehold.co/250x340" alt="">
+                            <img src="https://placehold.co/354x484" alt="">
                         </div>
                         <div class="chef-info">
                             <h3 class="chef-name">John Doe</h3>
@@ -1010,7 +1035,7 @@
                     </div>
                     <div class="chef-item" data-aos="zoom-in">
                         <div class="chef-image">
-                            <img src="https://placehold.co/250x340" alt="">
+                            <img src="https://placehold.co/354x484" alt="">
                         </div>
                         <div class="chef-info">
                             <h3 class="chef-name">John Doe</h3>
@@ -1032,7 +1057,7 @@
                     </div>
                     <div class="chef-item" data-aos="zoom-in">
                         <div class="chef-image">
-                            <img src="https://placehold.co/250x340" alt="">
+                            <img src="https://placehold.co/354x484" alt="">
                         </div>
                         <div class="chef-info">
                             <h3 class="chef-name">John Doe</h3>
@@ -1054,7 +1079,7 @@
                     </div>
                     <div class="chef-item" data-aos="zoom-in">
                         <div class="chef-image">
-                            <img src="https://placehold.co/250x340" alt="">
+                            <img src="https://placehold.co/354x484" alt="">
                         </div>
                         <div class="chef-info">
                             <h3 class="chef-name">John Doe</h3>
@@ -1076,7 +1101,7 @@
                     </div>
                     <div class="chef-item" data-aos="zoom-in">
                         <div class="chef-image">
-                            <img src="https://placehold.co/250x340" alt="">
+                            <img src="https://placehold.co/354x484" alt="">
                         </div>
                         <div class="chef-info">
                             <h3 class="chef-name">John Doe</h3>
@@ -1188,9 +1213,9 @@
                 <div id="photo_gallery" class="list1">
                     <div class="row">
                         <div class="col-sm-6 col-md-4 col-lg-3 item" data-aos="zoom-in">
-                            <div data-src="https://placehold.co/810x540" data-fancybox="gallery" class="block fancybox">
+                            <div data-src="https://placehold.co/1280x853" data-fancybox="gallery" class="block fancybox">
                                 <div class="content">
-                                    <img src="https://placehold.co/264x257" alt="sample">
+                                    <img src="https://placehold.co/285x277" alt="sample">
                                     <div class="igall-details">
                                         <h3 class="igall-ttl">Deep Fried Chicken</h3>
                                         <div class="igall-rate">
@@ -1208,9 +1233,9 @@
                             </div>
                         </div>
                         <div class="col-sm-6 col-md-4 col-lg-3 item" data-aos="zoom-in">
-                            <div data-src="https://placehold.co/810x540" data-fancybox="gallery" class="block fancybox">
+                            <div data-src="https://placehold.co/1280x720" data-fancybox="gallery" class="block fancybox">
                                 <div class="content">
-                                    <img src="https://placehold.co/264x257" alt="sample">
+                                    <img src="https://placehold.co/285x277" alt="sample">
                                     <div class="igall-details">
                                         <h3 class="igall-ttl">BBQ Pork Ribs</h3>
                                         <div class="igall-rate">
@@ -1228,9 +1253,9 @@
                             </div>
                         </div>
                         <div class="col-sm-6 col-md-4 col-lg-3 item" data-aos="zoom-in">
-                            <div data-src="https://placehold.co/810x540" data-fancybox="gallery" class="block fancybox">
+                            <div data-src="https://placehold.co/1280x720" data-fancybox="gallery" class="block fancybox">
                                 <div class="content">
-                                    <img src="https://placehold.co/264x257" alt="sample">
+                                    <img src="https://placehold.co/285x277" alt="sample">
                                     <div class="igall-details">
                                         <h3 class="igall-ttl">Garlic Shirmp Pasta</h3>
                                         <div class="igall-rate">
@@ -1248,9 +1273,9 @@
                             </div>
                         </div>
                         <div class="col-sm-6 col-md-4 col-lg-3 item" data-aos="zoom-in">
-                            <div data-src="https://placehold.co/810x540" data-fancybox="gallery" class="block fancybox">
+                            <div data-src="https://placehold.co/1280x847" data-fancybox="gallery" class="block fancybox">
                                 <div class="content">
-                                    <img src="https://placehold.co/264x257" alt="sample">
+                                    <img src="https://placehold.co/285x277" alt="sample">
                                     <div class="igall-details">
                                         <h3 class="igall-ttl">Grilled Salmon</h3>
                                         <div class="igall-rate">
@@ -1268,9 +1293,9 @@
                             </div>
                         </div>
                         <div class="col-sm-6 col-md-4 col-lg-3 item" data-aos="zoom-in">
-                            <div data-src="https://placehold.co/810x540" data-fancybox="gallery" class="block fancybox">
+                            <div data-src="https://placehold.co/1280x853" data-fancybox="gallery" class="block fancybox">
                                 <div class="content">
-                                    <img src="https://placehold.co/264x257" alt="sample">
+                                    <img src="https://placehold.co/285x277" alt="sample">
                                     <div class="igall-details">
                                         <h3 class="igall-ttl">Spinach Blueberries Salad</h3>
                                         <div class="igall-rate">
@@ -1288,9 +1313,9 @@
                             </div>
                         </div>
                         <div class="col-sm-6 col-md-4 col-lg-3 item" data-aos="zoom-in">
-                            <div data-src="https://placehold.co/810x540" data-fancybox="gallery" class="block fancybox">
+                            <div data-src="https://placehold.co/1280x857" data-fancybox="gallery" class="block fancybox">
                                 <div class="content">
-                                    <img src="https://placehold.co/264x257" alt="sample">
+                                    <img src="https://placehold.co/285x277" alt="sample">
                                     <div class="igall-details">
                                         <h3 class="igall-ttl">Pizza Mushroom</h3>
                                         <div class="igall-rate">
@@ -1308,9 +1333,9 @@
                             </div>
                         </div>
                         <div class="col-sm-6 col-md-4 col-lg-3 item" data-aos="zoom-in">
-                            <div data-src="https://placehold.co/810x540" data-fancybox="gallery" class="block fancybox">
+                            <div data-src="https://placehold.co/1280x853" data-fancybox="gallery" class="block fancybox">
                                 <div class="content">
-                                    <img src="https://placehold.co/264x257" alt="sample">
+                                    <img src="https://placehold.co/285x277" alt="sample">
                                     <div class="igall-details">
                                         <h3 class="igall-ttl">Mangal Rib Eye Steak</h3>
                                         <div class="igall-rate">
@@ -1328,9 +1353,9 @@
                             </div>
                         </div>
                         <div class="col-sm-6 col-md-4 col-lg-3 item" data-aos="zoom-in">
-                            <div data-src="https://placehold.co/810x540" data-fancybox="gallery" class="block fancybox">
+                            <div data-src="https://placehold.co/1280x853" data-fancybox="gallery" class="block fancybox">
                                 <div class="content">
-                                    <img src="https://placehold.co/264x257" alt="sample">
+                                    <img src="https://placehold.co/285x277" alt="sample">
                                     <div class="igall-details">
                                         <h3 class="igall-ttl">Fresh Burger Patties</h3>
                                         <div class="igall-rate">
@@ -1350,9 +1375,9 @@
                     </div>
                     <div class="row" id="loadMore">
                         <div class="col-sm-6 col-md-4 col-lg-3 item" data-aos="zoom-in">
-                            <div data-src="https://placehold.co/810x540" data-fancybox="gallery" class="block fancybox">
+                            <div data-src="https://placehold.co/1280x853" data-fancybox="gallery" class="block fancybox">
                                 <div class="content">
-                                    <img src="https://placehold.co/264x257" alt="sample">
+                                    <img src="https://placehold.co/285x277" alt="sample">
                                     <div class="igall-details">
                                         <h3 class="igall-ttl">Grilled Chicken Caprese</h3>
                                         <div class="igall-rate">
@@ -1370,9 +1395,9 @@
                             </div>
                         </div>
                         <div class="col-sm-6 col-md-4 col-lg-3 item" data-aos="zoom-in">
-                            <div data-src="https://placehold.co/810x540" data-fancybox="gallery" class="block fancybox">
+                            <div data-src="https://placehold.co/1280x851" data-fancybox="gallery" class="block fancybox">
                                 <div class="content">
-                                    <img src="https://placehold.co/264x257" alt="sample">
+                                    <img src="https://placehold.co/285x277" alt="sample">
                                     <div class="igall-details">
                                         <h3 class="igall-ttl">Salmon and Pesto</h3>
                                         <div class="igall-rate">
@@ -1390,9 +1415,9 @@
                             </div>
                         </div>
                         <div class="col-sm-6 col-md-4 col-lg-3 item" data-aos="zoom-in">
-                            <div data-src="https://placehold.co/810x540" data-fancybox="gallery" class="block fancybox">
+                            <div data-src="https://placehold.co/700x700" data-fancybox="gallery" class="block fancybox">
                                 <div class="content">
-                                    <img src="https://placehold.co/264x257" alt="sample">
+                                    <img src="https://placehold.co/700x700" alt="sample">
                                     <div class="igall-details">
                                         <h3 class="igall-ttl">Eggs Benedict Burger</h3>
                                         <div class="igall-rate">
@@ -1410,9 +1435,9 @@
                             </div>
                         </div>
                         <div class="col-sm-6 col-md-4 col-lg-3 item" data-aos="zoom-in">
-                            <div data-src="https://placehold.co/810x540" data-fancybox="gallery" class="block fancybox">
+                            <div data-src="https://placehold.co/1280x767" data-fancybox="gallery" class="block fancybox">
                                 <div class="content">
-                                    <img src="https://placehold.co/264x257" alt="sample">
+                                    <img src="https://placehold.co/285x277" alt="sample">
                                     <div class="igall-details">
                                         <h3 class="igall-ttl">Sweet and Tangy Chicken</h3>
                                         <div class="igall-rate">
@@ -1596,6 +1621,10 @@
 
     <!-- Custom main js -->
     <script src="src/assets/js/main.min.js"></script>
+
+
+    <!-- Dark mode toggle -->
+    <script src="src/assets/js/dark-mode.js"></script>
 
 </body>
 

@@ -37,7 +37,7 @@
               <a href="#introduction" class="introduction">1. Introduction</a>
                 <ul>
                     <li>
-                        <a href="#whats-included" class="whats-included">1.1 What's Included</a>
+                        <a href="#whats-included" class="whats-included">1.1 What&apos;s Included</a>
                     </li>
                 </ul>
             </li>
@@ -67,11 +67,12 @@
                     </li>
                 </ul>
             </li>
-            <li><a href="#testing" class="testing">9. Testing</a></li>
-            <li><a href="#credits" class="credits">10. Sources and Credits</a></li>
-            <li><a href="#support" class="support">11. Support</a></li>
-            <li><a href="#updates" class="updates">12. Regular Updates</a></li>
-            <li><a href="#thanks" class="thanks">13. Thanks 😊</a></li>
+            <li><a href="#dark-mode" class="dark-mode">9. Dark Mode</a></li>
+            <li><a href="#testing" class="testing">10. Testing</a></li>
+            <li><a href="#credits" class="credits">11. Sources and Credits</a></li>
+            <li><a href="#support" class="support">12. Support</a></li>
+            <li><a href="#updates" class="updates">13. Regular Updates</a></li>
+            <li><a href="#thanks" class="thanks">14. Thanks 😊</a></li>
           </ol>
 
         </div>
@@ -87,7 +88,7 @@
 
             <ul class="meta">
               <li><strong>Name:</strong> Butazzo Pizza</li>
-              <li><strong>Version:</strong> 3.8.2</li>
+              <li><strong>Version:</strong> 5.0</li>
               <li>
                 <strong>Author: </strong> 
                 <a 
@@ -141,8 +142,9 @@
 
           <ul class="list-disc">
             <li><strong>documentation:</strong> contains what you are reading now.</li>
-            <li><strong>home-v1, ... , home-v3:</strong> home versions files.</li>
-            <li><strong>src:</strong> contains assets files.</li>
+            <li><strong>home-v1, … , home-v4:</strong> home version files (light-default with dark/light toggle).</li>
+            <li><strong>home-v5:</strong> Dark Fine Dining home version — dark-first, GSAP animations, Lenis smooth scroll.</li>
+            <li><strong>src:</strong> contains shared assets files.</li>
           </ul>
 
           <p class="mt-2"><strong>Key features:</strong></p>
@@ -154,7 +156,7 @@
             </li>
             <li>
               <strong>Easy Customization</strong>
-              <span class="d-block">Customize each slide to meet your unique requirements and preferences.</span>
+              <span class="d-block">Customize each section to meet your unique requirements and preferences.</span>
             </li>
             <li>
               <strong>Beautiful Appearance on Any Device</strong>
@@ -162,11 +164,11 @@
             </li>
             <li>
               <strong>Advanced Animation Effects</strong>
-              <span class="d-block">Eye-catching transitions between slides.</span>
+              <span class="d-block">GSAP ScrollTrigger scroll animations, kinetic typography, and parallax (Home v5). Eye-catching transitions in all versions.</span>
             </li>
             <li>
               <strong>Cross-Browser Compatibility</strong>
-              <span class="d-block">Seamless functionality on multiple browsers.</span>
+              <span class="d-block">Seamless functionality on Chrome, Firefox, Edge, and Safari.</span>
             </li>
             <li>
               <strong>Fast Loading Speed</strong>
@@ -182,6 +184,13 @@
 
           <ul class="list-disc">
             <li>Based on Bootstrap 5.3.3</li>
+            <li>Home v1–v4: Dark Mode / Light Mode toggle with system preference detection</li>
+            <li>Home v5: Dark-first "Dark Fine Dining" design (no toggle — permanent dark theme)</li>
+            <li>Home v5: GSAP 3.x + ScrollTrigger scroll animations and kinetic typography</li>
+            <li>Home v5: Lenis smooth scroll integrated with GSAP ticker</li>
+            <li>Home v5: Horizontal menu scroll section (GSAP pin + scrub)</li>
+            <li>Home v5: Flatpickr date picker styled to dark palette</li>
+            <li>Home v5: Choices.js custom select dropdowns</li>
             <li>W3C HTML valid code</li>
             <li>Better Support (response within 24 hours)</li>
             <li>Free Regular Updates</li>
@@ -199,19 +208,33 @@
 <pre>
   butazzo-pizza/
   ├── documentation/       # This Documentation File
-  ├── home-v2/             # Demo Home v2 Files
-  ├── home-v3/             # Demo Home v3 Files
-  |   src
-  │   ├── index.html       # Demo HTML
-  │   ├── assets/          # CSS, JS, LESS, SCSS, SASS, Images
+  ├── home-v1/             # Home Version 1 Files (Dark Mode toggle)
+  ├── home-v2/             # Home Version 2 Files (Dark Mode toggle)
+  ├── home-v3/             # Home Version 3 Files (Dark Mode toggle)
+  ├── home-v4/             # Home Version 4 Files (Dark Mode toggle)
+  |   ├── index.html       # Demo HTML
+  |   ├── assets/
   │       ├── css/
+  │       │   ├── style.css        # Main stylesheet
+  │       │   ├── dark-mode.css    # Dark mode + theme toggle styles
   │       ├── js/
-  │       ├── less/
-  │       ├── scss/
-  │       ├── sass/
   │       ├── img/
+  ├── home-v5/             # Home Version 5 — Dark Fine Dining (dark-first, GSAP)
+  |   ├── index.html       # Single-page template
+  |   ├── assets/
+  │       ├── css/
+  │       │   ├── style.css        # Main stylesheet (dark theme, CSS custom properties)
+  │       ├── js/
+  │       │   ├── main.js          # GSAP, ScrollTrigger, Lenis, Swiper init
+  │       ├── img/
+  ├── src/
+  │   ├── assets/
+  │       ├── css/
+  │       │   ├── dark-mode.css    # Dark mode styles for Home v1–v3
+  │       ├── js/
+  │           ├── dark-mode.js     # Dark mode toggle for Home v1–v3
   ├── source/              # Source Files (Unminified JS, CSS)
-  └── README.txt           # Basic Info & Licensing
+  └── README.txt           # Basic Info &amp; Licensing
 </pre>
         </section>
 
@@ -342,7 +365,6 @@
   @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
   </code>
 </pre>
-
         </section>
         
         <section id="javascript-structure" class="section">
@@ -379,9 +401,72 @@
 </pre>
         </section>
 
+        <section id="dark-mode" class="section">
+
+          <h1 class="section-title"><span>9.</span> Dark Mode</h1>
+
+          <p>Home v1–v4 (~130 pages) ship with a built-in dark/light theme toggle. Home v5 is dark-first by design — no toggle, the template is always dark.</p>
+
+          <p><strong>Home v1–v4 — How the toggle works:</strong></p>
+          <ul class="list-disc">
+            <li>On first visit the theme is set automatically from the visitor's OS/browser preference (<code>prefers-color-scheme</code>).</li>
+            <li>Clicking the moon/sun button switches themes instantly and saves the choice to <code>localStorage</code>.</li>
+            <li>The active theme is stored under the key <code>butazzo-theme</code> and restored on every subsequent page load.</li>
+          </ul>
+
+          <p class="mt-1"><strong>Two implementations (both work identically):</strong></p>
+          <ul class="list-disc">
+            <li><strong>Home v1, v2, v3</strong> — loads <code>src/assets/css/dark-mode.css</code> and <code>src/assets/js/dark-mode.js</code>. Toggle button is placed inside <code>.top-addr__right.search-block</code>.</li>
+            <li><strong>Home v4</strong> — loads <code>assets/css/dark-mode.css</code> and <code>assets/js/dark-mode.js</code>. Toggle button is injected as a new <code>.extra-nav</code> cell in the header.</li>
+          </ul>
+
+          <p class="mt-1"><strong>Home v5 — Dark Fine Dining (permanent dark):</strong></p>
+          <ul class="list-disc">
+            <li>No toggle button — the template is designed exclusively as a dark-first experience.</li>
+            <li>The entire colour system is defined via CSS custom properties (<code>:root</code> variables) in <code>assets/css/style.css</code>.</li>
+            <li>To adjust colours, edit the five core variables: <code>--gold</code>, <code>--bg</code>, <code>--bg-elev</code>, <code>--text</code>, <code>--border</code>.</li>
+          </ul>
+
+          <p class="mt-1"><strong>Inline script (added to <code>&lt;head&gt;</code> on every page — prevents flash of wrong theme):</strong></p>
+
+<pre>
+  <code>
+  &lt;link rel="stylesheet" href="assets/css/dark-mode.css"&gt;
+  &lt;script&gt;
+    (function(){
+      try {
+        var t = localStorage.getItem('butazzo-theme');
+        if (!t) t = window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light';
+        document.documentElement.setAttribute('data-bs-theme', t);
+      } catch(e) {}
+    })();
+  &lt;/script&gt;
+  </code>
+</pre>
+
+          <p>The toggle button itself (at the bottom of each page's <code>&lt;body&gt;</code>) reads:</p>
+
+<pre>
+  <code>
+  &lt;script&gt;
+  (function(){
+    var btn = document.querySelector('.theme-toggle');
+    if (!btn) return;
+    btn.addEventListener('click', function(){
+      var next = document.documentElement.getAttribute('data-bs-theme') === 'dark' ? 'light' : 'dark';
+      document.documentElement.setAttribute('data-bs-theme', next);
+      try { localStorage.setItem('butazzo-theme', next); } catch(e){}
+    });
+  })();
+  &lt;/script&gt;
+  </code>
+</pre>
+
+        </section>
+
         <section id="testing" class="section">
 
-          <h1 class="section-title"><span>9.</span> Testing</h1>
+          <h1 class="section-title"><span>10.</span> Testing</h1>
 
           <ul class="list-disc">
               <li><strong>Cross-Browser Compatibility:</strong> Tested on IE9, IE10, IE11, Chrome, Firefox, Edge, and Safari.</li>
@@ -392,29 +477,41 @@
 
         <section id="credits" class="section">
 
-          <h1 class="section-title"><span>10.</span> Sources and Credits</h1>
+          <h1 class="section-title"><span>11.</span> Sources and Credits</h1>
 
           <p>The product uses following resources by third parties.</p>
 
-          <span class="d-block"><strong>Plugins</strong></span>
+          <span class="d-block"><strong>Plugins (Home v1–v4)</strong></span>
           <ul class="credits">
             <li>
               <a href="https://getbootstrap.com/docs/5.3/getting-started/introduction/" target="_blank" class="fs-1_4 bold">
                 Bootstrap 5.3.3
               </a>
             </li>
+            <li><a href="https://swiperjs.com/" rel="nofollow">Swiper Slider 4.4.1</a></li>
             <li><a href="https://fancyapps.com/fancybox/" target="_blank">Fancyapps 5.0.36</a></li>
             <li><a href="https://fontawesome.com/download" target="_blank">Font Awesome Free 6.7.2</a></li>
             <li><a href="https://github.com/kenwheeler/slick/tree/master" target="_blank">Slick Slider 1.8.1</a></li>
             <li><a href="https://github.com/michalsnik/aos/tree/v2" target="_blank">AOS 2.3.4</a></li>
           </ul>
 
+          <span class="d-block"><strong>Plugins (Home v5 — additional)</strong></span>
+          <ul class="credits">
+            <li><a href="https://gsap.com/" target="_blank">GSAP 3.x + ScrollTrigger</a></li>
+            <li><a href="https://lenis.darkroom.engineering/" target="_blank">Lenis (smooth scroll)</a></li>
+            <li><a href="https://swiperjs.com/" rel="nofollow">Swiper 11.x</a></li>
+            <li><a href="https://flatpickr.js.org/" target="_blank">Flatpickr (date picker)</a></li>
+            <li><a href="https://joshuajohnson.co.uk/Choices/" target="_blank">Choices.js (custom selects)</a></li>
+          </ul>
+
           <span class="d-block"><strong>Fonts</strong></span>
           <ul class="credits">
-            <li><a href="https://fonts.google.com/specimen/Montserrat" rel="nofollow">Montserrat</a></li>
-            <li><a href="https://fonts.google.com/specimen/Raleway" rel="nofollow">Raleway</a></li>
-            <li><a href="https://fonts.google.com/specimen/Josefin+Sans" rel="nofollow" target="_blank">Josefin Sans</a></li>
-            <li><a href="https://fonts.google.com/specimen/Lato" rel="nofollow" target="_blank">Lato</a></li>            
+            <li><a href="https://fonts.google.com/specimen/Raleway" target="_blank">Raleway (v1–v4)</a></li>
+            <li><a href="https://fonts.google.com/specimen/Montserrat" target="_blank">Montserrat (v1–v4)</a></li>
+            <li><a href="https://fonts.google.com/specimen/Josefin+Sans" rel="nofollow" target="_blank">Josefin Sans (v1–v4)</a></li>
+            <li><a href="https://fonts.google.com/specimen/Lato" rel="nofollow" target="_blank">Lato (v1–v4)</a></li>
+            <li><a href="https://fonts.google.com/specimen/Cormorant+Garamond" target="_blank">Cormorant Garamond (v5 — display)</a></li>
+            <li><a href="https://fonts.google.com/specimen/Jost" target="_blank">Jost (v5 — body)</a></li>
           </ul>
           <span class="d-block"><strong>Images</strong></span>
           <ul>
@@ -427,7 +524,7 @@
 
         <section id="support" class="section">
 
-          <h1 class="section-title"><span>11.</span> Support</h1>
+          <h1 class="section-title"><span>12.</span> Support</h1>
 
           <span>For any questions or issues, please contact our support team:</span>
           <p><strong>Email</strong>: alissioteam@gmail.com</p>
@@ -489,16 +586,34 @@
 
         <section id="updates" class="section">
 
-          <h1 class="section-title"><span>12.</span> Regular Updates</h1>
+          <h1 class="section-title"><span>13.</span> Regular Updates</h1>
 
           <p>We’re always improving our skills and knowledge so we’re making changes regularly. From bug fixes to new
             awesome features, updates generally come at least twice a month.
           <p>
 
 <pre>
+  May 29, 2026: Butazzo Pizza v5.0
+  ---------------------------------------
+  - New: Home version 5 — "Dark Fine Dining" (dark-first, premium restaurant design)
+  - New: GSAP 3.x + ScrollTrigger scroll animations (reveals, parallax, horizontal menu)
+  - New: Lenis smooth scroll integrated with GSAP ticker
+  - New: Kinetic typography hero (word-split animation on page load)
+  - New: Pinned horizontal menu scroll section with progress bar
+  - New: Swiper 11 fade slider for reviews with custom gold pagination
+  - New: Flatpickr date picker styled to dark palette (reservation form)
+  - New: Choices.js custom select dropdowns (reservation form)
+  - New: Animated stats counter on scroll
+  - New: Marquee ticker with infinite CSS loop animation
+  - Added: Dark Mode support with light/dark toggle across all home versions (Home v1–v4, ~130 pages)
+  - Added: System preference detection (auto dark/light on first visit) on all pages
+  - Fixed: Header layout two-row stacking issue on Home v4
+  - Tweak: Updated Documentation
+</pre><br>
+<pre>
   May 07, 2025: Butazzo Pizza v4.0
   ---------------------------------------
-  - New: Home version 4 
+  - New: Home version 4
   - Fixed: Main slider captions mobile view problem
   - Fixed: Home version 1 Menu and Menu Inner page img view problems
   - Tweak: Updated Documentation
@@ -613,12 +728,12 @@
   June 02, 2018: Butazzo Pizza v1.0.0
   -----------------------------------
   - Initial release
-</pre> 
+</pre>
         </section>
 
         <section id="thanks" class="section">
 
-          <h1 class="section-title"><span>13.</span> Thanks</h1>
+          <h1 class="section-title"><span>14.</span> Thanks</h1>
 
           <p>Once again thank you for purchasing one of our Templates. <br>
             If you love our product, please don’t forget rate ⭐️⭐️⭐️⭐️⭐️ stars and give feedback for a better update. Thank you ☺️

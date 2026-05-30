@@ -38,6 +38,19 @@
 <link rel="stylesheet" href="assets/vendor/rangeslider/rangeslider.css">
 <link rel="stylesheet" href="assets/css/style.css">
 
+    <!-- Dark mode -->
+    <link rel="stylesheet" href="assets/css/dark-mode.css">
+    <script>
+      (function(){
+        try {
+          var t = localStorage.getItem('butazzo-theme');
+          if (!t) t = window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light';
+          document.documentElement.setAttribute('data-bs-theme', t);
+        } catch(e) {}
+      })();
+    </script>
+
+
 <!-- Google Fonts -->
 <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600;1,700&family=Lato:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900" rel="stylesheet">
 
@@ -121,6 +134,10 @@
 <script src="assets/js/bp.ajax.js"></script><!-- AJAX -->
 <script src="assets/js/custom.min.js"></script><!-- CUSTOM JS -->
 <script src="assets/vendor/rangeslider/rangeslider.js"></script><!-- CUSTOM JS -->
+
+<!-- Dark mode toggle -->
+<script src="assets/js/dark-mode.js"></script>
+
 </body>
 
 </html>

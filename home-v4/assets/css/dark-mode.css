@@ -1,0 +1,646 @@
+/* ------------------------------------------------
+   Butazzo Pizza (home-v4) — Dark Mode Overrides
+   Activate with <html data-bs-theme="dark">
+   ------------------------------------------------ */
+
+[data-bs-theme="dark"] {
+  /* Light mode → page is cream/light-gray, cards are pure white.
+     Dark mode  → invert the same relationship:
+                  page is the deepest tone, cards are a lighter "tone of black". */
+  --bp-bg:        #0c0e12;
+  --bp-surface:   #1c1f27;
+  --bp-surface-2: #262a34;
+  --bp-border:    #3a4150;
+  --bp-text:      #e8eaee;
+  --bp-text-muted:#a3acba;
+  --bp-heading:   #ffffff;
+
+  /* Override theme tokens used throughout style.css */
+  --title: #ffffff;
+  --bg-light: #1c1f27;
+  --gray: #262a34;
+  --theme-text-color: #e8eaee;
+
+  color-scheme: dark;
+}
+
+/* Base */
+[data-bs-theme="dark"] body,
+[data-bs-theme="dark"] .page-wraper {
+  background-color: var(--bp-bg) !important;
+  color: var(--bp-text);
+}
+
+[data-bs-theme="dark"] h1, [data-bs-theme="dark"] h2,
+[data-bs-theme="dark"] h3, [data-bs-theme="dark"] h4,
+[data-bs-theme="dark"] h5, [data-bs-theme="dark"] h6,
+[data-bs-theme="dark"] .title,
+[data-bs-theme="dark"] .wp-block-heading,
+[data-bs-theme="dark"] .bp-title,
+[data-bs-theme="dark"] .menu-detail .bp-content .title a {
+  color: var(--bp-heading) !important;
+}
+
+[data-bs-theme="dark"] p,
+[data-bs-theme="dark"] td,
+[data-bs-theme="dark"] th,
+[data-bs-theme="dark"] label,
+[data-bs-theme="dark"] li,
+[data-bs-theme="dark"] .menu-detail .bp-content p,
+[data-bs-theme="dark"] .menu-footer span,
+[data-bs-theme="dark"] .bp-content p,
+[data-bs-theme="dark"] .icon-content p {
+  color: var(--bp-text);
+}
+
+/* ---------- HEADER ---------- */
+/* Default site header surface in dark mode */
+[data-bs-theme="dark"] .site-header .main-bar,
+[data-bs-theme="dark"] .is-fixed .main-bar {
+  background-color: var(--bp-bg) !important;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, .35);
+}
+
+/* Transparent header overlays the hero/banner — but only when NOT sticky */
+[data-bs-theme="dark"] .site-header.header-transparent:not(.is-fixed-wrap) .main-bar {
+  background-color: transparent !important;
+  box-shadow: none;
+}
+
+/* Once stickied (.is-fixed lives on .main-bar-wraper), force the dark fill again */
+[data-bs-theme="dark"] .site-header.header-transparent .is-fixed .main-bar,
+[data-bs-theme="dark"] .header-transparent .is-fixed .main-bar {
+  background-color: var(--bp-bg) !important;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, .35);
+}
+
+[data-bs-theme="dark"] .header-nav .nav > li > a { color: var(--bp-text); }
+[data-bs-theme="dark"] .header-nav .nav > li.active > a,
+[data-bs-theme="dark"] .header-nav .nav > li:hover > a {
+  color: var(--secondary);
+}
+
+/* Desktop header-nav: stay transparent, let the parent .main-bar bg show through.
+   Mobile (.mo-left) header-nav becomes a slide-in drawer and needs a surface. */
+[data-bs-theme="dark"] .header-nav {
+  background-color: transparent !important;
+}
+@media (max-width: 991px) {
+  [data-bs-theme="dark"] .header-nav,
+  [data-bs-theme="dark"] .mo-left .header-nav {
+    background-color: var(--bp-surface) !important;
+  }
+}
+
+/* Floating dropdowns / mega menus */
+[data-bs-theme="dark"] .header-nav .nav > li .sub-menu,
+[data-bs-theme="dark"] .header-nav .nav > li .mega-menu {
+  background-color: var(--bp-surface) !important;
+  border-color: var(--bp-border);
+}
+[data-bs-theme="dark"] .header-nav .nav > li .mega-menu li a,
+[data-bs-theme="dark"] .header-nav .nav > li .sub-menu li a {
+  color: var(--bp-text) !important;
+}
+[data-bs-theme="dark"] .header-nav .nav > li .mega-menu li a:hover,
+[data-bs-theme="dark"] .header-nav .nav > li .sub-menu li a:hover {
+  color: var(--secondary) !important;
+}
+/* "Section titles" inside mega menu (Blog Grid / Blog List / etc.) */
+[data-bs-theme="dark"] .header-nav .nav > li .mega-menu > li > a { color: var(--bp-heading) !important; }
+
+/* User / cart icons in .extra-nav */
+[data-bs-theme="dark"] .extra-nav .btn.btn-square,
+[data-bs-theme="dark"] .extra-nav .btn.btn-square i,
+[data-bs-theme="dark"] .extra-nav .extra-cell > ul > li > a,
+[data-bs-theme="dark"] .extra-nav .extra-cell > ul > li > a i {
+  color: var(--bp-text) !important;
+}
+[data-bs-theme="dark"] .extra-nav .btn.btn-square:hover,
+[data-bs-theme="dark"] .extra-nav .btn.btn-square:hover i { color: var(--secondary) !important; }
+
+/* Cart dropdown */
+[data-bs-theme="dark"] .dropdown-menu.cart-list,
+[data-bs-theme="dark"] .cart-list {
+  background-color: var(--bp-surface) !important;
+  border-color: var(--bp-border);
+  color: var(--bp-text);
+}
+[data-bs-theme="dark"] .cart-list li {
+  border-bottom-color: rgba(255, 255, 255, 0.18) !important;
+}
+[data-bs-theme="dark"] .cart-list .media .media-body .bp-title a {
+  color: var(--bp-heading) !important;
+}
+[data-bs-theme="dark"] .cart-list .btn-outline-primary,
+[data-bs-theme="dark"] .cart-list .btn-outline-primary span {
+  color: var(--bp-heading) !important;
+}
+[data-bs-theme="dark"] .cart-list .btn-outline-primary:hover,
+[data-bs-theme="dark"] .cart-list .btn-outline-primary:hover span,
+[data-bs-theme="dark"] .cart-list .btn-outline-primary:focus span,
+[data-bs-theme="dark"] .cart-list .btn-outline-primary:active span {
+  color: #fff !important;
+}
+
+/* Cart item × close button — center the glyph inside the red square */
+.cart-list li .media .media-body .item-close {
+  display: flex !important;
+  align-items: center;
+  justify-content: center;
+  line-height: 1 !important;
+  font-size: 20px !important;
+  padding-bottom: 2px;
+}
+
+/* Hamburger / menu icons */
+[data-bs-theme="dark"] .navbar-toggler span,
+[data-bs-theme="dark"] .header-tb .navicon span,
+[data-bs-theme="dark"] .navicon.style-2 span { background-color: var(--bp-text) !important; }
+[data-bs-theme="dark"] .menu-btn svg path { stroke: var(--bp-text); }
+
+/* Logo: invert if it's a dark logo on white */
+[data-bs-theme="dark"] .logo-header img,
+[data-bs-theme="dark"] .footer-logo img,
+[data-bs-theme="dark"] .logo-contact img,
+[data-bs-theme="dark"] .anim-logo img { filter: brightness(0) invert(1); }
+
+/* ---------- POPULAR FOODS (style-4) ---------- */
+[data-bs-theme="dark"] .bp-img-box.style-4 {
+  background-color: var(--bp-surface) !important;
+}
+[data-bs-theme="dark"] .bp-img-box.style-4 .menu-detail .bp-content p,
+[data-bs-theme="dark"] .bp-img-box.style-4 .menu-footer span {
+  color: var(--bp-text-muted);
+}
+[data-bs-theme="dark"] .bp-img-box.style-4 .menu-detail .bp-content .title a {
+  color: var(--bp-heading) !important;
+}
+
+/* ---------- TOP SELLER GRID (style-3) ---------- */
+[data-bs-theme="dark"] .bp-img-box.style-3 {
+  background-color: var(--bp-surface);
+  box-shadow: 0 15px 55px rgba(0, 0, 0, .35);
+}
+[data-bs-theme="dark"] .bp-img-box.style-3 .bp-content {
+  background: var(--bp-surface) !important;
+}
+[data-bs-theme="dark"] .bp-img-box.style-3 .bp-content p {
+  color: var(--bp-text-muted);
+}
+
+/* Other bp-img-box variants */
+[data-bs-theme="dark"] .bp-img-box.style-1,
+[data-bs-theme="dark"] .bp-img-box.style-2,
+[data-bs-theme="dark"] .bp-img-box.style-5,
+[data-bs-theme="dark"] .bp-img-box.style-7 {
+  background-color: var(--bp-surface) !important;
+  box-shadow: 0 15px 55px rgba(0, 0, 0, .4);
+}
+[data-bs-theme="dark"] .bp-img-box.style-7 .bp-content p { color: var(--bp-text-muted); }
+[data-bs-theme="dark"] .bp-img-box.style-7 .bp-meta ul li.rating {
+  background-color: var(--bp-surface-2) !important;
+  color: var(--bp-text);
+}
+
+/* ---------- QUALITY SERVICES (icon-wrapper1) ---------- */
+[data-bs-theme="dark"] .icon-wrapper1::after {
+  background-color: var(--bp-surface) !important;
+}
+[data-bs-theme="dark"] .icon-wrapper1 {
+  box-shadow: 0 15px 55px rgba(0, 0, 0, .4);
+}
+[data-bs-theme="dark"] .icon-bx-wraper.style-1,
+[data-bs-theme="dark"] .icon-bx-wraper.style-1::after,
+[data-bs-theme="dark"] .icon-bx-wraper.style-2,
+[data-bs-theme="dark"] .icon-bx-wraper.style-3:hover {
+  background-color: var(--bp-surface) !important;
+}
+[data-bs-theme="dark"] .icon-bx-wraper.style-5 .icon-bx .icon-cell,
+[data-bs-theme="dark"] .icon-bx-wraper.style-5 .icon-content {
+  background-color: var(--bp-surface) !important;
+  box-shadow: 0 15px 55px rgba(0, 0, 0, .5);
+}
+[data-bs-theme="dark"] .icon-bx-wraper.style-5 .icon-content .title { color: var(--bp-heading); }
+[data-bs-theme="dark"] .icon-bx-wraper.style-5 .icon-content p { color: var(--bp-text-muted); }
+/* When .active/hover, the original theme animates a red overlay via .effect — leave that intact. */
+[data-bs-theme="dark"] .icon-content p { color: var(--bp-text-muted); }
+
+/* ---------- CARDS / GENERIC SURFACES ----------
+   Goal: every "card-on-page" surface should sit clearly above --bp-bg.
+   Light-mode cards are #fff over light-gray; dark mode must mirror that
+   relationship with --bp-surface over --bp-bg.                       */
+[data-bs-theme="dark"] .bp-card,
+[data-bs-theme="dark"] .bp-card.style-1,
+[data-bs-theme="dark"] .bp-team,
+[data-bs-theme="dark"] .bp-team.style-1,
+[data-bs-theme="dark"] .bp-team.style-1 .bp-content,
+[data-bs-theme="dark"] .bp-shop-card,
+[data-bs-theme="dark"] .bp-shop-card.style-1,
+[data-bs-theme="dark"] .bp-shop-card.style-2,
+[data-bs-theme="dark"] .bp-shop-card.style-1 .bp-content,
+[data-bs-theme="dark"] .bp-shop-card.style-2 .bp-content,
+[data-bs-theme="dark"] .bp-img-box.style-1,
+[data-bs-theme="dark"] .bp-img-box.style-2,
+[data-bs-theme="dark"] .bp-img-box.style-3,
+[data-bs-theme="dark"] .bp-img-box.style-3 .bp-content,
+[data-bs-theme="dark"] .bp-img-box.style-4,
+[data-bs-theme="dark"] .bp-img-box.style-5,
+[data-bs-theme="dark"] .bp-img-box.style-6,
+[data-bs-theme="dark"] .bp-img-box.style-6 .bp-content,
+[data-bs-theme="dark"] .bp-img-box.style-7,
+[data-bs-theme="dark"] .bp-img-box.style-7 .bp-content,
+[data-bs-theme="dark"] .bp-img-box.style-8,
+[data-bs-theme="dark"] .bp-img-box.style-8 .bp-content,
+[data-bs-theme="dark"] .icon-bx-wraper.style-1,
+[data-bs-theme="dark"] .icon-bx-wraper.style-2,
+[data-bs-theme="dark"] .icon-bx-wraper.style-3,
+[data-bs-theme="dark"] .icon-bx-wraper.style-4,
+[data-bs-theme="dark"] .icon-bx-wraper.style-5,
+[data-bs-theme="dark"] .icon-bx-wraper.style-5 .icon-bx .icon-cell,
+[data-bs-theme="dark"] .icon-bx-wraper.style-5 .icon-content,
+[data-bs-theme="dark"] .testimonial-1,
+[data-bs-theme="dark"] .testimonial-2,
+[data-bs-theme="dark"] .testimonial-pic,
+[data-bs-theme="dark"] .testimonial-one-thumb .swiper-slide,
+[data-bs-theme="dark"] .menu-detail,
+[data-bs-theme="dark"] .blog-overlap,
+[data-bs-theme="dark"] .blog-card,
+[data-bs-theme="dark"] .post-card,
+[data-bs-theme="dark"] .service-bx,
+[data-bs-theme="dark"] .client-box,
+[data-bs-theme="dark"] .chef-box,
+[data-bs-theme="dark"] .modal-content,
+[data-bs-theme="dark"] .quick-view-modal .modal-content,
+[data-bs-theme="dark"] .inquiry-modal .modal-content,
+[data-bs-theme="dark"] .inquiry-modal .modal-dialog,
+[data-bs-theme="dark"] .shop-filter,
+[data-bs-theme="dark"] .section-wrapper-8,
+[data-bs-theme="dark"] .pagination .page-item .page-link {
+  background-color: var(--bp-surface) !important;
+  border-color: var(--bp-border);
+  color: var(--bp-text);
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.35);
+}
+
+[data-bs-theme="dark"] .card .card-body,
+[data-bs-theme="dark"] .card-header {
+  background-color: transparent !important;
+  color: var(--bp-text);
+  border-color: var(--bp-border);
+}
+
+/* Menu list items (.bp-shop-card.style-2) — no bg in light mode (transparent on
+   white page). In dark mode they need a visible card surface + rounded frame,
+   even when the HTML adds p-0 shadow-none. */
+[data-bs-theme="dark"] .bp-shop-card.style-2 {
+  border-radius: 8px !important;
+  padding: 15px !important;
+  border: 1px solid var(--bp-border) !important;
+}
+
+/* Decorative warm-glow circle behind menu sections — invisible on dark bg. */
+[data-bs-theme="dark"] .section-wrapper-7::after {
+  background-color: transparent !important;
+}
+
+/* Common utility background classes.
+   `.bg-white` is mostly used on full-page wrappers (.page-content.bg-white),
+   so it must equal --bp-bg — otherwise cards inside (also --bp-surface) blend
+   into the page. `.bg-light` / `.bg-gray` are section accents → keep on surface. */
+[data-bs-theme="dark"] .bg-white {
+  background-color: var(--bp-bg) !important;
+  color: var(--bp-text);
+}
+[data-bs-theme="dark"] .bg-light,
+[data-bs-theme="dark"] .bg-gray {
+  background-color: var(--bp-surface) !important;
+  color: var(--bp-text);
+}
+
+/* Blog post full-page container (.blog-single.bp-card) is white-on-white in
+   light mode — no visual card edge. In dark mode reset it to page bg so the
+   blockquote inside can stand out as a distinct surface card. */
+[data-bs-theme="dark"] .blog-single.bp-card {
+  background-color: var(--bp-bg) !important;
+  box-shadow: none !important;
+}
+
+/* .shop-filter at desktop has no bg in light mode (mobile-only via media query).
+   Keep transparent so widgets render directly on the column/page bg. */
+[data-bs-theme="dark"] .shop-filter {
+  background-color: transparent !important;
+  box-shadow: none !important;
+}
+
+/* .icon-bx-wraper.style-5 main wrapper → transparent.
+   Inner .icon-cell and .icon-content still carry their own surface bg. */
+[data-bs-theme="dark"] .icon-bx-wraper.style-5 {
+  background-color: transparent !important;
+  box-shadow: none !important;
+}
+
+/* .section-wrapper-8 → one step lighter than generic surface to lift it off the page. */
+[data-bs-theme="dark"] .section-wrapper-8 {
+  background-color: var(--bp-surface-2) !important;
+}
+
+/* Product detail info panel — sits on the page bg, no card surface needed */
+[data-bs-theme="dark"] .product-detail .detail-info {
+  background-color: transparent !important;
+  box-shadow: none !important;
+}
+
+/* bp-img-box style-2 uses a slightly deeper surface than default --bp-surface */
+[data-bs-theme="dark"] .bp-img-box.style-2 {
+  background-color: var(--bp-surface-2) !important;
+}
+
+/* Blockquote / pullquote — always render as a surface card so it stands out
+   from whatever bg it sits on (page --bp-bg or section --bp-surface). */
+[data-bs-theme="dark"] blockquote,
+[data-bs-theme="dark"] blockquote.wp-block-quote,
+[data-bs-theme="dark"] blockquote.wp-block-pullquote,
+[data-bs-theme="dark"] blockquote.style-1,
+[data-bs-theme="dark"] blockquote.wp-block-quote.style-1,
+[data-bs-theme="dark"] .bp-post-text blockquote,
+[data-bs-theme="dark"] .quote-text blockquote.wp-block-quote {
+  background-color: var(--bp-surface) !important;
+  color: var(--bp-text) !important;
+  box-shadow: 0 15px 55px rgba(0, 0, 0, .4);
+}
+[data-bs-theme="dark"] blockquote p,
+[data-bs-theme="dark"] blockquote.wp-block-quote p { color: var(--bp-text) !important; }
+[data-bs-theme="dark"] blockquote cite { color: var(--bp-text-muted); }
+[data-bs-theme="dark"] blockquote .quotes,
+[data-bs-theme="dark"] blockquote.wp-block-quote .quotes { color: var(--primary); }
+
+/* Category filter tabs (ALL / COLD DRINK / PIZZA / SALAD / ...) */
+[data-bs-theme="dark"] .site-filters.style-1 ul li a {
+  color: var(--bp-text);
+}
+[data-bs-theme="dark"] .site-filters.style-1 ul li a i { color: var(--bp-text); }
+[data-bs-theme="dark"] .site-filters.style-1 ul li:hover,
+[data-bs-theme="dark"] .site-filters.style-1 ul li.active {
+  background: var(--bp-surface-2);
+}
+[data-bs-theme="dark"] .site-filters.style-1 ul li:hover a,
+[data-bs-theme="dark"] .site-filters.style-1 ul li.active a,
+[data-bs-theme="dark"] .site-filters.style-1 ul li:hover a i,
+[data-bs-theme="dark"] .site-filters.style-1 ul li.active a i { color: var(--primary); }
+
+/* Generic isotope/filter style variants */
+[data-bs-theme="dark"] .site-filters ul li a,
+[data-bs-theme="dark"] .site-filters .btn,
+[data-bs-theme="dark"] .filters li a { color: var(--bp-text); }
+
+/* Sidebar / widget text — NO background override.
+   Widgets are transparent in light mode (no card bg), so dark mode must match:
+   they should sit directly on the page bg. Only text/border color changes. */
+[data-bs-theme="dark"] .widget,
+[data-bs-theme="dark"] .widget_categories,
+[data-bs-theme="dark"] .widget_archive,
+[data-bs-theme="dark"] .widget_recent_entries,
+[data-bs-theme="dark"] .widget_tag_cloud,
+[data-bs-theme="dark"] .sidebar .widget {
+  color: var(--bp-text);
+  border-color: var(--bp-border);
+}
+[data-bs-theme="dark"] .widget a,
+[data-bs-theme="dark"] .widget_categories li a,
+[data-bs-theme="dark"] .widget_archive li a,
+[data-bs-theme="dark"] .widget_recent_entries li a { color: var(--bp-text); }
+[data-bs-theme="dark"] .widget a:hover { color: var(--secondary); }
+
+/* Tag cloud links — light mode: white bg + subtle border.
+   Dark mode: surface-2 chip with visible border. */
+[data-bs-theme="dark"] .widget_tag_cloud .tagcloud a {
+  background-color: var(--bp-surface-2) !important;
+  border-color: var(--bp-border) !important;
+  color: var(--bp-text) !important;
+}
+[data-bs-theme="dark"] .widget_tag_cloud .tagcloud a:hover {
+  background-color: var(--secondary) !important;
+  border-color: var(--secondary) !important;
+  color: #fff !important;
+}
+
+/* Range slider (noUiSlider .style-1) — override hardcoded #fff / #D3D3D3 */
+[data-bs-theme="dark"] .range-slider.style-1 .noUi-target {
+  background: var(--bp-border) !important;
+}
+[data-bs-theme="dark"] .range-slider.style-1 .noUi-horizontal .noUi-handle {
+  background-color: var(--bp-surface-2) !important;
+  border-color: var(--primary) !important;
+}
+/* Lower-range tooltip uses var(--title) which is #fff in dark mode →
+   white text on white bg = invisible. Map to surface-2 instead. */
+[data-bs-theme="dark"] .range-slider.style-1 .noUi-handle.noUi-handle-lower .noUi-tooltip {
+  background: var(--bp-surface-2) !important;
+  color: var(--bp-text) !important;
+}
+[data-bs-theme="dark"] .range-slider.style-1 .noUi-handle.noUi-handle-lower .noUi-tooltip::after {
+  background-color: var(--bp-surface-2) !important;
+}
+
+/* Accordion */
+[data-bs-theme="dark"] .bp-accordion .accordion-item,
+[data-bs-theme="dark"] .bp-accordion .accordion-header,
+[data-bs-theme="dark"] .bp-accordion .accordion-header .accordion-button:not(.collapsed) {
+  background-color: var(--bp-surface) !important;
+  color: var(--bp-text);
+  border-color: var(--bp-border);
+}
+
+/* Forms */
+[data-bs-theme="dark"] .form-control,
+[data-bs-theme="dark"] .form-select,
+[data-bs-theme="dark"] .input-group-text,
+[data-bs-theme="dark"] select {
+  background-color: var(--bp-surface-2) !important;
+  color: var(--bp-text);
+  border-color: var(--bp-border);
+}
+/* input and textarea → transparent bg (they sit on their section bg directly) */
+[data-bs-theme="dark"] input,
+[data-bs-theme="dark"] textarea {
+  background-color: transparent !important;
+  color: var(--bp-text);
+  border-color: var(--bp-border);
+}
+/* Placeholder — override all variants including the .input-line #fff rule from style.css */
+[data-bs-theme="dark"] input::placeholder,
+[data-bs-theme="dark"] textarea::placeholder,
+[data-bs-theme="dark"] .form-control::placeholder,
+[data-bs-theme="dark"] .input-line input::placeholder,
+[data-bs-theme="dark"] .input-line textarea::placeholder,
+[data-bs-theme="dark"] .input-line .form-control::placeholder {
+  color: var(--bp-text-muted) !important;
+}
+
+/* .input-line.input-black is always placed on a dark/black section bg —
+   override the hardcoded #222 text color so it's legible in both modes. */
+.input-line.input-black .form-control,
+.input-line.input-black .wp-block-categories-dropdown select,
+.input-line.input-black .wp-block-archives-dropdown select {
+  color: #fff;
+}
+
+/* Buttons */
+[data-bs-theme="dark"] .btn-white,
+[data-bs-theme="dark"] .btn-light {
+  background-color: var(--bp-surface);
+  color: var(--bp-text);
+  border-color: var(--bp-border);
+}
+/* .btn-gray (#F3F3F3 bg + var(--title) text) → white-on-white in dark mode */
+[data-bs-theme="dark"] .btn-gray {
+  background-color: var(--bp-surface) !important;
+  color: var(--bp-heading) !important;
+  border-color: var(--bp-border) !important;
+}
+[data-bs-theme="dark"] .btn-gray:hover,
+[data-bs-theme="dark"] .btn-gray.btnhover:hover {
+  background-color: var(--primary) !important;
+  color: #fff !important;
+  border-color: var(--primary) !important;
+}
+/* Quantity +/− buttons (product pages) have hardcoded #fff bg */
+[data-bs-theme="dark"] .btn-quantity.style-1 .input-group-btn-vertical .btn,
+[data-bs-theme="dark"] .btn-quantity.style-1 .input-group-btn-vertical .wp-block-button__link {
+  background-color: var(--bp-surface) !important;
+  color: var(--bp-heading) !important;
+}
+
+/* Product detail tabs (.tabs-style-1) — active tab has #EAEAEA bg = light on dark */
+[data-bs-theme="dark"] .tabs-style-1 {
+  border-bottom-color: var(--bp-border);
+}
+[data-bs-theme="dark"] .tabs-style-1 .nav-link {
+  color: var(--bp-text);
+  border-color: transparent;
+}
+[data-bs-theme="dark"] .tabs-style-1 .nav-link.active,
+[data-bs-theme="dark"] .tabs-style-1 .nav-link:hover,
+[data-bs-theme="dark"] .tabs-style-1 .nav-link:focus {
+  background-color: var(--bp-surface) !important;
+  border-color: var(--bp-border) !important;
+  color: var(--bp-heading) !important;
+}
+
+/* Divider line (.bg-gray-dark = #d3d3d3 = light gray strip in dark mode) */
+[data-bs-theme="dark"] .bg-gray-dark {
+  background-color: var(--bp-border) !important;
+}
+/* Divider circle icon — keep page-bg fill so it punches cleanly through the line */
+[data-bs-theme="dark"] .bp-divider i {
+  background-color: var(--bp-bg) !important;
+}
+
+/* Scroll-to-top ring — swap near-invisible black inset shadow for a subtle white one */
+[data-bs-theme="dark"] .scroltop-progress {
+  box-shadow: inset 0 0 0 2px rgba(255, 255, 255, 0.12);
+}
+
+/* Contact sidebar / off-canvas */
+[data-bs-theme="dark"] .contact-sidebar,
+[data-bs-theme="dark"] .contact-box1 { background-color: var(--bp-surface) !important; color: var(--bp-text); }
+
+/* Login / Register offcanvas — keep one continuous bg from top close-bar to form */
+[data-bs-theme="dark"] .offcanvas,
+[data-bs-theme="dark"] .offcanvas .offcanvas-body,
+[data-bs-theme="dark"] .offcanvas-form {
+  background-color: var(--bp-surface) !important;
+  color: var(--bp-text);
+}
+[data-bs-theme="dark"] .offcanvas .btn-close { filter: invert(1) grayscale(1); }
+[data-bs-theme="dark"] .offcanvas-form .login-head .title,
+[data-bs-theme="dark"] .offcanvas-form .login-title span { color: var(--bp-heading); }
+[data-bs-theme="dark"] .offcanvas-form .login-head p { color: var(--bp-text-muted); }
+[data-bs-theme="dark"] .offcanvas-form .form-label { color: var(--bp-heading) !important; }
+[data-bs-theme="dark"] .offcanvas-form .google-btn {
+  color: var(--bp-text) !important;
+  background-color: var(--bp-surface-2) !important;
+  border-color: var(--bp-border) !important;
+}
+[data-bs-theme="dark"] .offcanvas-form .google-btn:hover {
+  background-color: var(--bp-bg) !important;
+  color: var(--bp-heading) !important;
+}
+
+/* Footer */
+[data-bs-theme="dark"] footer,
+[data-bs-theme="dark"] .footer-wrapper,
+[data-bs-theme="dark"] .site-footer,
+[data-bs-theme="dark"] .site-footer.style-2 {
+  background-color: #0a0c10 !important;
+  color: var(--bp-text-muted);
+  border-top: 1px solid var(--bp-border);
+}
+[data-bs-theme="dark"] footer a { color: var(--bp-text); }
+[data-bs-theme="dark"] footer a:hover { color: var(--secondary); }
+
+/* Loading */
+[data-bs-theme="dark"] #loading-area { background: var(--bp-bg) !important; }
+
+/* Tables */
+[data-bs-theme="dark"] .table {
+  --bs-table-bg: transparent;
+  --bs-table-color: var(--bp-text);
+  --bs-table-border-color: var(--bp-border);
+}
+[data-bs-theme="dark"] .table-striped tbody tr:nth-of-type(odd) {
+  background-color: var(--bp-surface-2) !important;
+}
+
+/* Dividers */
+[data-bs-theme="dark"] hr { border-color: var(--bp-border); }
+
+/* Breadcrumb strip (.bp-breadcrumb-bnr) — used on post/layout pages instead of
+   the full banner. Has #f9f9f9 bg in light mode, so give it --bp-surface in dark
+   to create the same subtle contrast over the page bg. */
+[data-bs-theme="dark"] .bp-breadcrumb-bnr {
+  background-color: var(--bp-surface) !important;
+}
+[data-bs-theme="dark"] .bp-breadcrumb-bnr .breadcrumb-item,
+[data-bs-theme="dark"] .bp-breadcrumb-bnr .breadcrumb-item.active {
+  color: var(--bp-text-muted);
+}
+
+/* Breadcrumb — keep transparent */
+[data-bs-theme="dark"] .breadcrumb-row,
+[data-bs-theme="dark"] .breadcrumb-row ul,
+[data-bs-theme="dark"] .breadcrumb {
+  background-color: transparent !important;
+}
+
+/* ---------- THEME TOGGLE BUTTON ---------- */
+/* Lives as the first .extra-cell inside the existing .extra-nav (single float-right block). */
+.extra-nav .extra-cell:has(.theme-toggle) {
+  order: 10;
+  padding-left: 10px;
+}
+.theme-toggle {
+  background: transparent;
+  border: 1.5px solid var(--secondary);
+  color: var(--secondary);
+  width: 40px;
+  height: 40px;
+  padding: 0;
+  border-radius: 50%;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  line-height: 1;
+  transition: color .2s ease, border-color .2s ease, background-color .2s ease, transform .2s ease;
+}
+.theme-toggle:hover { transform: rotate(15deg); background-color: rgba(255, 185, 54, .15); }
+.theme-toggle:focus,
+.theme-toggle:focus-visible,
+.theme-toggle:active { outline: none; box-shadow: none; }
+.theme-toggle svg { width: 18px; height: 18px; display: block; stroke: currentColor; fill: none; stroke-width: 2; stroke-linecap: round; stroke-linejoin: round; }
+.theme-toggle .icon-moon { display: block; }
+.theme-toggle .icon-sun  { display: none; }
+[data-bs-theme="dark"] .theme-toggle .icon-moon { display: none; }
+[data-bs-theme="dark"] .theme-toggle .icon-sun  { display: block; }

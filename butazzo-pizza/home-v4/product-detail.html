@@ -39,6 +39,19 @@
 	<link rel="stylesheet" href="assets/vendor/nouislider/nouislider.min.css">
 	<link rel="stylesheet" href="assets/css/style.css">
 
+    <!-- Dark mode -->
+    <link rel="stylesheet" href="assets/css/dark-mode.css">
+    <script>
+      (function(){
+        try {
+          var t = localStorage.getItem('butazzo-theme');
+          if (!t) t = window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light';
+          document.documentElement.setAttribute('data-bs-theme', t);
+        } catch(e) {}
+      })();
+    </script>
+
+
 	<!-- Google Fonts -->
 	<link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600;1,700&family=Lato:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900" rel="stylesheet">
 	
@@ -73,8 +86,14 @@
 						<span></span>
 					</button>
 					
+					
 					<!-- EXTRA NAV -->
 					<div class="extra-nav">
+						<div class="extra-cell">
+															<button type="button" class="theme-toggle" aria-label="Switch theme">
+									<svg class="icon-moon" viewBox="0 0 24 24" aria-hidden="true"><path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"/></svg><svg class="icon-sun" viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="5"/><path d="M12 1v2M12 21v2M4.22 4.22l1.42 1.42M18.36 18.36l1.42 1.42M1 12h2M21 12h2M4.22 19.78l1.42-1.42M18.36 5.64l1.42-1.42"/></svg>
+								</button>
+						</div>
 						<div class="extra-cell">
 							<ul>
 								<li>
@@ -92,12 +111,12 @@
 											<div class="media"> 
 												<div class="media-left"> 
 													<a href="product-detail.html"> 
-														<img alt="/" class="media-object" src="https://placehold.co/80x80"> 
+														<img alt="/" class="media-object" src="https://placehold.co/200x200"> 
 													</a> 
 												</div> 
 												<div class="media-body"> 
 													<h6 class="bp-title"><a href="product-detail.html" class="media-heading">Double Burger</a></h6>
-													<span class="bp-price">$28.00</span>
+													<span class="bp-price">$16.00</span>
 													<span class="item-close">&times;</span>
 												</div> 
 											</div>
@@ -106,12 +125,12 @@
 											<div class="media"> 
 												<div class="media-left"> 
 													<a href="product-detail.html"> 
-														<img alt="/" class="media-object" src="https://placehold.co/80x80"> 
+														<img alt="/" class="media-object" src="https://placehold.co/200x200"> 
 													</a> 
 												</div> 
 												<div class="media-body"> 
 													<h6 class="bp-title"><a href="product-detail.html" class="media-heading">Cheese Burger</a></h6>
-													<span class="bp-price">$20.00</span>
+													<span class="bp-price">$16.00</span>
 													<span class="item-close">&times;</span>
 												</div> 
 											</div>
@@ -120,19 +139,19 @@
 											<div class="media"> 
 												<div class="media-left"> 
 													<a href="product-detail.html"> 
-														<img alt="/" class="media-object" src="https://placehold.co/80x80"> 
+														<img alt="/" class="media-object" src="https://placehold.co/200x200"> 
 													</a> 
 												</div> 
 												<div class="media-body"> 
 													<h6 class="bp-title"><a href="product-detail.html" class="media-heading">Burger</a></h6>
-													<span class="bp-price">$15.00</span>
+													<span class="bp-price">$16.00</span>
 													<span class="item-close">&times;</span>
 												</div> 
 											</div>
 										</li>
 										<li class="cart-item text-center d-flex justify-content-between">
 											<h6 class="text-primary mb-0">Total:</h6>
-											<h6 class="text-primary mb-0">$63</h6>
+											<h6 class="text-primary mb-0">$48</h6>
 										</li>
 										<li class="text-center d-flex">
 											<a href="shop-cart.html" class="btn btn-primary me-2 w-100 d-block btn-hover-1"><span>View Cart</span></a>
@@ -186,7 +205,7 @@
 											<li><a href="our-menu-2.html">Menu Style Card</a></li>
 										</ul>
 									</li>
-									<li class="header-adv p-0"><img src="https://placehold.co/300x350" alt="/"></li>
+									<li class="header-adv p-0"><img src="https://placehold.co/688x822" alt="/"></li>
 								</ul>
 							</li>
 							<li class="sub-menu-down"><a href="javascript:void(0);">Shop</a>
@@ -388,7 +407,7 @@
 	
 	<div class="page-content bg-white">
 		<!-- Banner  -->
-		<div class="bp-bnr-inr style-1 text-center bg-parallax" style="background-image:url('https://placehold.co/1350x450/333/fff'); background-size:cover; background-position:center center;">
+		<div class="bp-bnr-inr style-1 text-center bg-parallax" style="background-image:url('https://placehold.co/1920x1080'); background-size:cover; background-position:center center;">
 			<div class="container">
 				<div class="bp-bnr-inr-entry">
 					<h1>Product Detail</h1>
@@ -411,7 +430,7 @@
 				<div class="row product-detail">
 					<div class="col-lg-4 col-md-5">
 						<div class="detail-media m-b30">
-							<img src="https://placehold.co/370x538" alt="/">
+							<img src="https://placehold.co/550x800" alt="/">
 						</div>
 					</div>
 					<div class="col-lg-8 col-md-7">
@@ -442,7 +461,7 @@
 							<ul class="add-product">
 								<li><div class="mini-modal">
 										<div class="bp-media">
-											<img src="https://placehold.co/45x45" alt="/">
+											<img src="https://placehold.co/100x100" alt="/">
 										</div>
 										<div class="bp-content">
 											<p class="title">French Frise</p>
@@ -454,7 +473,7 @@
 								</li>
 								<li><div class="mini-modal">
 										<div class="bp-media">
-											<img src="https://placehold.co/45x45" alt="/">
+											<img src="https://placehold.co/100x100" alt="/">
 										</div>
 										<div class="bp-content">
 											<p class="title">Extra Cheese</p>
@@ -466,7 +485,7 @@
 								</li>
 								<li><div class="mini-modal">
 										<div class="bp-media">
-											<img src="https://placehold.co/45x45" alt="/">
+											<img src="https://placehold.co/100x100" alt="/">
 										</div>
 										<div class="bp-content">
 											<p class="title">Coca Cola</p>
@@ -478,7 +497,7 @@
 								</li>
 								<li><div class="mini-modal">
 										<div class="bp-media">
-											<img src="https://placehold.co/45x45" alt="/">
+											<img src="https://placehold.co/100x100" alt="/">
 										</div>
 										<div class="bp-content">
 											<p class="title">Choco Lava</p>
@@ -499,11 +518,11 @@
 									  </li>
 								</ul>
 								<ul class="avatar-list avatar-list-stacked">
-									<li class="avatar"><img src="https://placehold.co/38x38" alt=""></li>
-									<li class="avatar"><img src="https://placehold.co/38x38" alt=""></li>
-									<li class="avatar"><img src="https://placehold.co/38x38" alt=""></li>
-									<li class="avatar"><img src="https://placehold.co/38x38" alt=""></li>
-									<li class="avatar"><img src="https://placehold.co/38x38" alt=""></li>
+									<li class="avatar"><img src="https://placehold.co/350x350" alt=""></li>
+									<li class="avatar"><img src="https://placehold.co/350x350" alt=""></li>
+									<li class="avatar"><img src="https://placehold.co/350x350" alt=""></li>
+									<li class="avatar"><img src="https://placehold.co/350x350" alt=""></li>
+									<li class="avatar"><img src="https://placehold.co/350x350" alt=""></li>
 									<li class="avatar"><span>150+</span></li>
 								</ul>
 							</div>
@@ -588,7 +607,7 @@
 										<li class="comment">
 											<div class="comment-body">
 												<div class="comment-author vcard"> 
-													<img  class="avatar photo" src="https://placehold.co/80x80" alt="/"> 
+													<img  class="avatar photo" src="https://placehold.co/100x100" alt="/"> 
 													<cite class="fn">Monsur Rahman Lito</cite>
 												</div>
 												<div class="star-rating" data-rating="2">
@@ -605,7 +624,7 @@
 										<li class="comment">
 											<div class="comment-body">
 												<div class="comment-author vcard"> 
-													<img  class="avatar photo" src="https://placehold.co/80x80" alt="/"> 
+													<img  class="avatar photo" src="https://placehold.co/100x100" alt="/"> 
 													<cite class="fn">Jake Johnson</cite>
 												</div>
 												<div class="star-rating" data-rating="3">
@@ -621,7 +640,7 @@
 										<li class="comment">
 											<div class="comment-body">
 												<div class="comment-author vcard"> 
-													<img  class="avatar photo" src="https://placehold.co/80x80" alt="/"> 
+													<img  class="avatar photo" src="https://placehold.co/100x100" alt="/"> 
 													<cite class="fn">John Doe</cite> 
 												</div>
 												<div class="star-rating" data-rating="4">
@@ -698,12 +717,12 @@
 							<div class="swiper-slide">
 								<div class="bp-img-box style-2">
 									<div class="bp-media">
-										<img src="https://placehold.co/132x132" alt="/">
+										<img src="https://placehold.co/200x200" alt="/">
 									</div>
 									<div class="bp-content">
 										<h4 class="bp-title"><a href="product-detail.html">Pizza</a></h4>
 										<p>Lorem ipsum dolor sit amet consectetur adipiscing.</p>
-										<h5 class="bp-price text-primary">$55.00</h5>
+										<h5 class="bp-price text-primary">$16.00</h5>
 										<a href="shop-cart.html" class="btn btn-primary btn-hover-2"> Add To Cart</a>
 									</div>
 								</div>
@@ -711,12 +730,12 @@
 							<div class="swiper-slide">
 								<div class="bp-img-box style-2">
 									<div class="bp-media">
-										<img src="https://placehold.co/132x132" alt="/">
+										<img src="https://placehold.co/200x200" alt="/">
 									</div>
 									<div class="bp-content">
 										<h4 class="bp-title"><a href="product-detail.html">Rice</a></h4>
 										<p>Lorem ipsum dolor sit amet consectetur adipiscing.</p>
-										<h5 class="bp-price text-primary">$50.00</h5>
+										<h5 class="bp-price text-primary">$16.00</h5>
 										<a href="shop-cart.html" class="btn btn-primary btn-hover-2"> Add To Cart</a>
 									</div>
 								</div>
@@ -724,12 +743,12 @@
 							<div class="swiper-slide">
 								<div class="bp-img-box style-2">
 									<div class="bp-media">
-										<img src="https://placehold.co/132x132" alt="/">
+										<img src="https://placehold.co/200x200" alt="/">
 									</div>
 									<div class="bp-content">
 										<h4 class="bp-title"><a href="product-detail.html">Green Salad</a></h4>
 										<p>Lorem ipsum dolor sit amet consectetur adipiscing.</p>
-										<h5 class="bp-price text-primary">$45.00</h5>
+										<h5 class="bp-price text-primary">$16.00</h5>
 										<a href="shop-cart.html" class="btn btn-primary btn-hover-2"> Add To Cart</a>
 									</div>
 								</div>
@@ -737,12 +756,12 @@
 							<div class="swiper-slide">
 								<div class="bp-img-box style-2">
 									<div class="bp-media">
-										<img src="https://placehold.co/132x132" alt="/">
+										<img src="https://placehold.co/200x200" alt="/">
 									</div>
 									<div class="bp-content">
 										<h4 class="bp-title"><a href="product-detail.html">Pasta</a></h4>
 										<p>Lorem ipsum dolor sit amet consectetur adipiscing.</p>
-										<h5 class="bp-price text-primary">$35.00</h5>
+										<h5 class="bp-price text-primary">$16.00</h5>
 										<a href="shop-cart.html" class="btn btn-primary btn-hover-2"> Add To Cart</a>
 									</div>
 								</div>
@@ -750,12 +769,12 @@
 							<div class="swiper-slide">
 								<div class="bp-img-box style-2">
 									<div class="bp-media">
-										<img src="https://placehold.co/132x132" alt="/">
+										<img src="https://placehold.co/200x200" alt="/">
 									</div>
 									<div class="bp-content">
 										<h4 class="bp-title"><a href="product-detail.html">Pizza</a></h4>
 										<p>Lorem ipsum dolor sit amet consectetur adipiscing.</p>
-										<h5 class="bp-price text-primary">$55.00</h5>
+										<h5 class="bp-price text-primary">$16.00</h5>
 										<a href="shop-cart.html" class="btn btn-primary btn-hover-2"> Add To Cart</a>
 									</div>
 								</div>
@@ -763,12 +782,12 @@
 							<div class="swiper-slide">
 								<div class="bp-img-box style-2">
 									<div class="bp-media">
-										<img src="https://placehold.co/132x132" alt="/">
+										<img src="https://placehold.co/200x200" alt="/">
 									</div>
 									<div class="bp-content">
 										<h4 class="bp-title"><a href="product-detail.html">Rice</a></h4>
 										<p>Lorem ipsum dolor sit amet consectetur adipiscing.</p>
-										<h5 class="bp-price text-primary">$50.00</h5>
+										<h5 class="bp-price text-primary">$16.00</h5>
 										<a href="shop-cart.html" class="btn btn-primary btn-hover-2"> Add To Cart</a>
 									</div>
 								</div>
@@ -776,12 +795,12 @@
 							<div class="swiper-slide">
 								<div class="bp-img-box style-2">
 									<div class="bp-media">
-										<img src="https://placehold.co/132x132" alt="/">
+										<img src="https://placehold.co/200x200" alt="/">
 									</div>
 									<div class="bp-content">
 										<h4 class="bp-title"><a href="product-detail.html">Green Salad</a></h4>
 										<p>Lorem ipsum dolor sit amet consectetur adipiscing.</p>
-										<h5 class="bp-price text-primary">$45.00</h5>
+										<h5 class="bp-price text-primary">$16.00</h5>
 										<a href="shop-cart.html" class="btn btn-primary btn-hover-2"> Add To Cart</a>
 									</div>
 								</div>
@@ -789,12 +808,12 @@
 							<div class="swiper-slide">
 								<div class="bp-img-box style-2">
 									<div class="bp-media">
-										<img src="https://placehold.co/132x132" alt="/">
+										<img src="https://placehold.co/200x200" alt="/">
 									</div>
 									<div class="bp-content">
 										<h4 class="bp-title"><a href="product-detail.html">Pasta</a></h4>
 										<p>Lorem ipsum dolor sit amet consectetur adipiscing.</p>
-										<h5 class="bp-price text-primary">$35.00</h5>
+										<h5 class="bp-price text-primary">$16.00</h5>
 										<a href="shop-cart.html" class="btn btn-primary btn-hover-2"> Add To Cart</a>
 									</div>
 								</div>
@@ -912,6 +931,10 @@
 <script src="assets/js/custom.min.js"></script><!-- CUSTOM JS -->
 <script src="assets/js/jquery.star-rating-svg.js"></script><!-- Star Rating JS -->
 <script src="assets/vendor/rangeslider/rangeslider.js"></script><!-- CUSTOM JS -->
+
+<!-- Dark mode toggle -->
+<script src="assets/js/dark-mode.js"></script>
+
 </body>
 
 </html>

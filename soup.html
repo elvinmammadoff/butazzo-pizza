@@ -37,6 +37,19 @@
     <!-- Responsive -->
     <link rel="stylesheet" type="text/css" href="src/assets/css/responsive.min.css">
 
+    <!-- Dark mode -->
+    <link rel="stylesheet" type="text/css" href="src/assets/css/dark-mode.css">
+    <script>
+      (function(){
+        try {
+          var t = localStorage.getItem('butazzo-theme');
+          if (!t) t = window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light';
+          document.documentElement.setAttribute('data-bs-theme', t);
+        } catch(e) {}
+      })();
+    </script>
+
+
 		
     <!--[if lt IE 9]>
       <script src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.min.js"></script>
@@ -83,6 +96,10 @@
                                 </div>
                                 <div class="top-addr__right search-block">
                                     <i class="fa-solid fa-magnifying-glass" id="search"></i>
+                                    <button type="button" class="theme-toggle" aria-label="Switch theme">
+                                        <i class="fa-solid fa-moon icon-moon" aria-hidden="true"></i>
+                                        <i class="fa-solid fa-sun icon-sun" aria-hidden="true"></i>
+                                    </button>
                                 </div>
                             </div>
                             <div id="navbar_search">
@@ -1004,6 +1021,10 @@
 
     <!-- Custom main js -->
     <script src="src/assets/js/main.min.js"></script>
+
+
+    <!-- Dark mode toggle -->
+    <script src="src/assets/js/dark-mode.js"></script>
 
 </body>
 

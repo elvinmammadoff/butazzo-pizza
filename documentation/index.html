@@ -67,11 +67,12 @@
                     </li>
                 </ul>
             </li>
-            <li><a href="#testing" class="testing">9. Testing</a></li>
-            <li><a href="#credits" class="credits">10. Sources and Credits</a></li>
-            <li><a href="#support" class="support">11. Support</a></li>
-            <li><a href="#updates" class="updates">12. Regular Updates</a></li>
-            <li><a href="#thanks" class="thanks">13. Thanks 😊</a></li>
+            <li><a href="#dark-mode" class="dark-mode">9. Dark Mode</a></li>
+            <li><a href="#testing" class="testing">10. Testing</a></li>
+            <li><a href="#credits" class="credits">11. Sources and Credits</a></li>
+            <li><a href="#support" class="support">12. Support</a></li>
+            <li><a href="#updates" class="updates">13. Regular Updates</a></li>
+            <li><a href="#thanks" class="thanks">14. Thanks 😊</a></li>
           </ol>
 
         </div>
@@ -87,7 +88,7 @@
 
             <ul class="meta">
               <li><strong>Name:</strong> Butazzo Pizza</li>
-              <li><strong>Version:</strong> 3.8.2</li>
+              <li><strong>Version:</strong> 4.1</li>
               <li>
                 <strong>Author: </strong> 
                 <a 
@@ -141,7 +142,7 @@
 
           <ul class="list-disc">
             <li><strong>documentation:</strong> contains what you are reading now.</li>
-            <li><strong>home-v1, ... , home-v3:</strong> home versions files.</li>
+            <li><strong>home-v1, ... , home-v4:</strong> home version files.</li>
             <li><strong>src:</strong> contains assets files.</li>
           </ul>
 
@@ -182,6 +183,7 @@
 
           <ul class="list-disc">
             <li>Based on Bootstrap 5.3.3</li>
+            <li>Dark Mode / Light Mode toggle with system preference detection</li>
             <li>W3C HTML valid code</li>
             <li>Better Support (response within 24 hours)</li>
             <li>Free Regular Updates</li>
@@ -199,17 +201,23 @@
 <pre>
   butazzo-pizza/
   ├── documentation/       # This Documentation File
-  ├── home-v2/             # Demo Home v2 Files
-  ├── home-v3/             # Demo Home v3 Files
-  |   src
-  │   ├── index.html       # Demo HTML
-  │   ├── assets/          # CSS, JS, LESS, SCSS, SASS, Images
+  ├── home-v1/             # Home Version 1 Files (Dark Mode)
+  ├── home-v2/             # Home Version 2 Files (Dark Mode)
+  ├── home-v3/             # Home Version 3 Files (Dark Mode)
+  ├── home-v4/             # Home Version 4 Files (Dark Mode)
+  |   ├── index.html       # Demo HTML
+  |   ├── assets/
   │       ├── css/
+  │       │   ├── style.css        # Main stylesheet
+  │       │   ├── dark-mode.css    # Dark mode + theme toggle styles
   │       ├── js/
-  │       ├── less/
-  │       ├── scss/
-  │       ├── sass/
   │       ├── img/
+  ├── src/
+  │   ├── assets/
+  │       ├── css/
+  │       │   ├── dark-mode.css    # Dark mode styles for Home v1–v3
+  │       ├── js/
+  │           ├── dark-mode.js     # Dark mode toggle for Home v1–v3
   ├── source/              # Source Files (Unminified JS, CSS)
   └── README.txt           # Basic Info & Licensing
 </pre>
@@ -378,9 +386,65 @@
 </pre>
         </section>
 
+        <section id="dark-mode" class="section">
+
+          <h1 class="section-title"><span>9.</span> Dark Mode</h1>
+
+          <p>All home versions (Home v1–v4, ~130 pages) ship with a built-in dark/light theme toggle. The toggle button sits in the header on every page.</p>
+
+          <p><strong>How it works:</strong></p>
+          <ul class="list-disc">
+            <li>On first visit the theme is set automatically from the visitor's OS/browser preference (<code>prefers-color-scheme</code>).</li>
+            <li>Clicking the moon/sun button switches themes instantly and saves the choice to <code>localStorage</code>.</li>
+            <li>The active theme is stored under the key <code>butazzo-theme</code> and restored on every subsequent page load.</li>
+          </ul>
+
+          <p class="mt-1"><strong>Two implementations (both work identically):</strong></p>
+          <ul class="list-disc">
+            <li><strong>Home v1, v2, v3</strong> — loads <code>src/assets/css/dark-mode.css</code> and <code>src/assets/js/dark-mode.js</code>. Toggle button is placed inside <code>.top-addr__right.search-block</code>.</li>
+            <li><strong>Home v4</strong> — loads <code>assets/css/dark-mode.css</code> and <code>assets/js/dark-mode.js</code>. Toggle button is injected as a new <code>.extra-nav</code> cell in the header.</li>
+          </ul>
+
+          <p class="mt-1"><strong>Inline script (added to <code>&lt;head&gt;</code> on every page — prevents flash of wrong theme):</strong></p>
+
+<pre>
+  <code>
+  &lt;link rel="stylesheet" href="assets/css/dark-mode.css"&gt;
+  &lt;script&gt;
+    (function(){
+      try {
+        var t = localStorage.getItem('butazzo-theme');
+        if (!t) t = window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light';
+        document.documentElement.setAttribute('data-bs-theme', t);
+      } catch(e) {}
+    })();
+  &lt;/script&gt;
+  </code>
+</pre>
+
+          <p>The toggle button itself (at the bottom of each page's <code>&lt;body&gt;</code>) reads:</p>
+
+<pre>
+  <code>
+  &lt;script&gt;
+  (function(){
+    var btn = document.querySelector('.theme-toggle');
+    if (!btn) return;
+    btn.addEventListener('click', function(){
+      var next = document.documentElement.getAttribute('data-bs-theme') === 'dark' ? 'light' : 'dark';
+      document.documentElement.setAttribute('data-bs-theme', next);
+      try { localStorage.setItem('butazzo-theme', next); } catch(e){}
+    });
+  })();
+  &lt;/script&gt;
+  </code>
+</pre>
+
+        </section>
+
         <section id="testing" class="section">
 
-          <h1 class="section-title"><span>9.</span> Testing</h1>
+          <h1 class="section-title"><span>10.</span> Testing</h1>
 
           <ul class="list-disc">
               <li><strong>Cross-Browser Compatibility:</strong> Tested on IE9, IE10, IE11, Chrome, Firefox, Edge, and Safari.</li>
@@ -391,7 +455,7 @@
 
         <section id="credits" class="section">
 
-          <h1 class="section-title"><span>10.</span> Sources and Credits</h1>
+          <h1 class="section-title"><span>11.</span> Sources and Credits</h1>
 
           <p>The product uses following resources by third parties.</p>
 
@@ -427,7 +491,7 @@
 
         <section id="support" class="section">
 
-          <h1 class="section-title"><span>11.</span> Support</h1>
+          <h1 class="section-title"><span>12.</span> Support</h1>
 
           <span>For any questions or issues, please contact our support team:</span>
           <p><strong>Email</strong>: alissioteam@gmail.com</p>
@@ -489,16 +553,24 @@
 
         <section id="updates" class="section">
 
-          <h1 class="section-title"><span>12.</span> Regular Updates</h1>
+          <h1 class="section-title"><span>13.</span> Regular Updates</h1>
 
           <p>We’re always improving our skills and knowledge so we’re making changes regularly. From bug fixes to new
             awesome features, updates generally come at least twice a month.
           <p>
 
 <pre>
+  May 29, 2026: Butazzo Pizza v4.1
+  ---------------------------------------
+  - Added: Dark Mode support with light/dark toggle across all home versions (Home v1–v4, ~130 pages)
+  - Added: System preference detection (auto dark/light on first visit) on all pages
+  - Fixed: Header layout two-row stacking issue on Home v4
+  - Tweak: Updated Documentation
+</pre><br>
+<pre>
   May 07, 2025: Butazzo Pizza v4.0
   ---------------------------------------
-  - New: Home version 4 
+  - New: Home version 4
   - Fixed: Main slider captions mobile view problem
   - Fixed: Home version 1 Menu and Menu Inner page img view problems
   - Tweak: Updated Documentation
@@ -618,7 +690,7 @@
 
         <section id="thanks" class="section">
 
-          <h1 class="section-title"><span>13.</span> Thanks</h1>
+          <h1 class="section-title"><span>14.</span> Thanks</h1>
 
           <p>Once again thank you for purchasing one of our Templates. <br>
             If you love our product, please don’t forget rate ⭐️⭐️⭐️⭐️⭐️ stars and give feedback for a better update. Thank you ☺️
