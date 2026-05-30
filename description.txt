@@ -106,6 +106,7 @@
     <li>Lenis smooth scroll integrated with GSAP ticker (Home v5)</li>
     <li>Kinetic typography hero with word-split animation (Home v5)</li>
     <li>Horizontal menu scroll section with progress bar (Home v5)</li>
+    <li>Supabase live reservation form — real database inserts with RLS protection (Home v5)</li>
     <li>Detailed Documentation</li>
     <li>Latest Bootstrap</li>
     <li>Latest Swiper Slider</li>
@@ -172,6 +173,14 @@
 
 
 <h3 id="item-description__change-log">Change Log</h3>
+<pre>  May 30, 2026: Butazzo Pizza v5.1
+  ---------------------------------------
+  - New: Supabase live reservation form (Home v5) — form submissions now insert directly into a Supabase PostgreSQL database
+  - New: Row Level Security (RLS) policy — public can submit reservations, data stays protected from browser reads/deletes
+  - New: Real-time status messages on the reservation form (pending / success / error states)
+  - New: Menu item detail page (menu-item.html) with Swiper image + thumbnail gallery (Home v5)
+  - Tweak: Updated Documentation
+</pre><br>
 <pre>  May 29, 2026: Butazzo Pizza v5.0
   ---------------------------------------
   - New: Home version 5 — "Dark Fine Dining" (dark-first, premium restaurant design)

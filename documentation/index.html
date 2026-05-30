@@ -65,6 +65,9 @@
                     <li>
                         <a href="#site-title" class="site-title">8.1. Change Site Title</a>
                     </li>
+                    <li>
+                        <a href="#supabase" class="supabase">8.2. Supabase Reservation</a>
+                    </li>
                 </ul>
             </li>
             <li><a href="#dark-mode" class="dark-mode">9. Dark Mode</a></li>
@@ -88,7 +91,7 @@
 
             <ul class="meta">
               <li><strong>Name:</strong> Butazzo Pizza</li>
-              <li><strong>Version:</strong> 4.1</li>
+              <li><strong>Version:</strong> 5.1</li>
               <li>
                 <strong>Author: </strong> 
                 <a 
@@ -386,6 +389,58 @@
 </pre>
         </section>
 
+        <section id="supabase" class="section sub-section">
+
+          <h2 class="section-title"><span>8.2</span> Supabase Reservation Form (Home v5)</h2>
+
+          <p>The reservation form on <code>home-v5/index.html</code> is wired to <a href="https://supabase.com" target="_blank" rel="noopener">Supabase</a> — a hosted PostgreSQL backend. On submit, the form inserts a row directly into the <code>public.reservations</code> table. No server-side code is required.</p>
+
+          <p class="mt-1"><strong>Step 1 — Create the table.</strong> Run this SQL in the Supabase SQL Editor:</p>
+
+<pre>
+  <code>
+  create table public.reservations (
+    id uuid primary key default gen_random_uuid(),
+    full_name text not null,
+    email text not null,
+    date date not null,
+    time text not null,
+    guests text not null,
+    seating text not null,
+    created_at timestamptz not null default now()
+  );
+
+  alter table public.reservations enable row level security;
+
+  create policy "anon can insert reservations"
+    on public.reservations
+    for insert
+    to anon
+    with check (true);
+  </code>
+</pre>
+
+          <p class="mt-1"><strong>Step 2 — Replace the credentials.</strong> In <code>home-v5/index.html</code>, find the inline script at the bottom of <code>&lt;body&gt;</code> and update the two constants to match your own Supabase project:</p>
+
+<pre>
+  <code>
+  var SUPABASE_URL = 'https://your-project-id.supabase.co';
+  var SUPABASE_KEY = 'your-publishable-anon-key';
+  </code>
+</pre>
+
+          <p class="mt-1"><strong>How it works:</strong></p>
+          <ul class="list-disc">
+            <li>The Supabase JS client (<code>@supabase/supabase-js@2</code>) is loaded from the jsDelivr CDN — no npm or build step needed.</li>
+            <li>The publishable (anon) key is safe to expose in HTML. Row Level Security ensures anonymous users can only <code>INSERT</code> — they cannot read, update, or delete any rows.</li>
+            <li>On submit, the button is disabled, a <em>pending</em> message appears, then switches to a gold <em>success</em> message and the form resets, or a red <em>error</em> message if the insert fails.</li>
+            <li>All reservations are visible in your Supabase project under <strong>Table Editor → public.reservations</strong>.</li>
+          </ul>
+
+          <p class="mt-1"><strong>Note:</strong> Never expose the <code>service_role</code> key in HTML — use only the <code>anon</code> / publishable key.</p>
+
+        </section>
+
         <section id="dark-mode" class="section">
 
           <h1 class="section-title"><span>9.</span> Dark Mode</h1>
@@ -471,6 +526,7 @@
             <li><a href="https://fontawesome.com/download" target="_blank">Font Awesome Free 6.7.2</a></li>
             <li><a href="https://github.com/kenwheeler/slick/tree/master" target="_blank">Slick Slider 1.8.1</a></li>
             <li><a href="https://github.com/michalsnik/aos/tree/v2" target="_blank">AOS 2.3.4</a></li>
+            <li><a href="https://supabase.com" target="_blank">Supabase JS 2.x</a></li>
           </ul>
 
           <span class="d-block"><strong>Fonts</strong></span>
@@ -560,8 +616,27 @@
           <p>
 
 <pre>
-  May 29, 2026: Butazzo Pizza v4.1
+  May 30, 2026: Butazzo Pizza v5.1
   ---------------------------------------
+  - New: Supabase live reservation form (Home v5) — inserts directly into PostgreSQL via Supabase JS CDN
+  - New: Row Level Security (RLS) policy — anon role INSERT-only, data protected from browser reads/deletes
+  - New: Pending / success / error status messages on the reservation form
+  - New: Menu item detail page (menu-item.html) with Swiper image + thumbnail gallery (Home v5)
+  - Tweak: Updated Documentation
+</pre><br>
+<pre>
+  May 29, 2026: Butazzo Pizza v5.0
+  ---------------------------------------
+  - New: Home version 5 — "Dark Fine Dining" (dark-first, premium restaurant design)
+  - New: GSAP 3.x + ScrollTrigger scroll animations (reveals, parallax, horizontal menu)
+  - New: Lenis smooth scroll integrated with GSAP ticker
+  - New: Kinetic typography hero (word-split animation on page load)
+  - New: Pinned horizontal menu scroll section with progress bar
+  - New: Swiper 11 fade slider for reviews with custom gold pagination
+  - New: Flatpickr date picker styled to dark palette (reservation form)
+  - New: Choices.js custom select dropdowns (reservation form)
+  - New: Animated stats counter on scroll
+  - New: Marquee ticker with infinite CSS loop animation
   - Added: Dark Mode support with light/dark toggle across all home versions (Home v1–v4, ~130 pages)
   - Added: System preference detection (auto dark/light on first visit) on all pages
   - Fixed: Header layout two-row stacking issue on Home v4
