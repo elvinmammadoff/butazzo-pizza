@@ -354,30 +354,30 @@
     <div class="reserve__media reveal-fade">
       <img src="https://placehold.co/1200x1200/161616/8a847a" alt="Dining room candlelight">
     </div>
-    <form class="reserve__form" autocomplete="off" onsubmit="event.preventDefault(); alert('Reservation request received. We will confirm by email within 2 hours.');">
+    <form class="reserve__form" id="reserve-form" autocomplete="off">
       <span class="eyebrow">Reservations</span>
       <h2 class="split-title">A seat by <em>the fire</em>.</h2>
       <p>Bookings open thirty days in advance. The chef's tasting requires a 24-hour confirmation. Walk-ins welcome at the bar.</p>
 
       <div class="reserve__row">
         <div class="reserve__field">
-          <label>Full Name</label>
-          <input type="text" placeholder="Your name" autocomplete="off" required>
+          <label for="reserve-name">Full Name</label>
+          <input type="text" id="reserve-name" name="full_name" placeholder="Your name" autocomplete="off" required>
         </div>
         <div class="reserve__field">
-          <label>Email</label>
-          <input type="email" placeholder="you@example.com" autocomplete="off" required>
+          <label for="reserve-email">Email</label>
+          <input type="email" id="reserve-email" name="email" placeholder="you@example.com" autocomplete="off" required>
         </div>
       </div>
 
       <div class="reserve__row">
         <div class="reserve__field">
-          <label>Date</label>
-          <input type="text" id="reserve-date" placeholder="Select a date" readonly required>
+          <label for="reserve-date">Date</label>
+          <input type="text" id="reserve-date" name="date" placeholder="Select a date" readonly required>
         </div>
         <div class="reserve__field">
-          <label>Time</label>
-          <select class="choices-select">
+          <label for="reserve-time">Time</label>
+          <select class="choices-select" id="reserve-time" name="time">
             <option>18:00</option>
             <option>18:30</option>
             <option>19:00</option>
@@ -393,8 +393,8 @@
 
       <div class="reserve__row">
         <div class="reserve__field">
-          <label>Guests</label>
-          <select class="choices-select">
+          <label for="reserve-guests">Guests</label>
+          <select class="choices-select" id="reserve-guests" name="guests">
             <option>2 Guests</option>
             <option>3 Guests</option>
             <option>4 Guests</option>
@@ -404,8 +404,8 @@
           </select>
         </div>
         <div class="reserve__field">
-          <label>Seating</label>
-          <select class="choices-select">
+          <label for="reserve-seating">Seating</label>
+          <select class="choices-select" id="reserve-seating" name="seating">
             <option>Dining Room</option>
             <option>Bar (Chef's Tasting)</option>
             <option>Patio (seasonal)</option>
@@ -413,9 +413,11 @@
         </div>
       </div>
 
-      <button type="submit" class="btn-gold reserve__submit">Request Reservation
+      <button type="submit" class="btn-gold reserve__submit" id="reserve-submit">Request Reservation
         <svg class="btn-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M5 12h14M13 6l6 6-6 6"/></svg>
       </button>
+
+      <p class="reserve__status" id="reserve-status" role="status" aria-live="polite"></p>
     </form>
   </div>
 </section>
@@ -527,10 +529,58 @@
 <script src="assets/js/vendors/ScrollTrigger.min.js"></script>
 <script src="assets/js/vendors/lenis.min.js"></script>
 <script src="assets/js/vendors/swiper-bundle.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2"></script>
 <script>
   if (window.gsap && window.ScrollTrigger) gsap.registerPlugin(ScrollTrigger);
 </script>
 <script src="assets/js/main.js"></script>
+<script>
+  (function () {
+    var SUPABASE_URL = 'https://ermejbjvzhmdvnxssqnu.supabase.co';
+    var SUPABASE_KEY = 'sb_publishable_tvn6uoYl6oM8jahhNgGgGw_kQdZXJX3';
+
+    var form = document.getElementById('reserve-form');
+    if (!form || !window.supabase) return;
+
+    var client = window.supabase.createClient(SUPABASE_URL, SUPABASE_KEY);
+    var status = document.getElementById('reserve-status');
+    var submit = document.getElementById('reserve-submit');
+
+    function setStatus(message, state) {
+      if (!status) return;
+      status.textContent = message;
+      status.dataset.state = state || '';
+    }
+
+    form.addEventListener('submit', async function (event) {
+      event.preventDefault();
+      setStatus('Sending your request…', 'pending');
+      if (submit) submit.disabled = true;
+
+      var payload = {
+        full_name: document.getElementById('reserve-name').value.trim(),
+        email: document.getElementById('reserve-email').value.trim(),
+        date: document.getElementById('reserve-date').value,
+        time: document.getElementById('reserve-time').value,
+        guests: document.getElementById('reserve-guests').value,
+        seating: document.getElementById('reserve-seating').value,
+      };
+
+      var result = await client.from('reservations').insert(payload);
+
+      if (submit) submit.disabled = false;
+
+      if (result.error) {
+        setStatus('Something went wrong. Please try again or call us directly.', 'error');
+        console.error('Reservation insert failed:', result.error);
+        return;
+      }
+
+      setStatus('Reservation received. We will confirm by email within 2 hours.', 'success');
+      form.reset();
+    });
+  })();
+</script>
 
 
 </body>

@@ -571,6 +571,10 @@ html.lenis { height: auto; }
 .reserve__field input:focus, .reserve__field select:focus { border-bottom-color: var(--gold); }
 .reserve__field select option { background: var(--bg); color: var(--text); }
 .reserve__submit { margin-top: 16px; align-self: flex-start; }
+.reserve__status { font-size: 13px; letter-spacing: 0.04em; margin: 0; min-height: 1.2em; color: var(--text-dim); }
+.reserve__status[data-state="success"] { color: var(--gold); }
+.reserve__status[data-state="error"] { color: #e07a6a; }
+.reserve__status[data-state="pending"] { color: var(--text-dim); opacity: 0.85; }
 
 /* ----- Flatpickr (date picker) overrides ----- */
 .flatpickr-calendar {
