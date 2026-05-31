@@ -578,6 +578,7 @@
 
       setStatus('Reservation received. We will confirm by email within 2 hours.', 'success');
       form.reset();
+      setTimeout(function() { setStatus('', ''); }, 4500);
     });
   })();
 </script>
