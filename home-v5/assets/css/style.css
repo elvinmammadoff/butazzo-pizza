@@ -192,6 +192,7 @@ html.lenis { height: auto; }
 .nav__cta { display: flex; align-items: center; gap: 24px; }
 .nav__phone { font-family: var(--font-mono); font-size: 12px; color: var(--text); letter-spacing: 0.1em; }
 .nav__toggle { display: none; }
+.nav__menu-cta { display: none; }
 
 /* ----- Hero ----- */
 .hero {
@@ -878,6 +879,12 @@ span.flatpickr-weekday {
 .split-char { display: inline-block; transform: translateY(110%); }
 
 /* ----- Responsive ----- */
+
+/* Hide phone number on medium screens where it crowds the nav (1025px–1280px) */
+@media (max-width: 1280px) {
+  .nav__phone { display: none; }
+}
+
 @media (max-width: 1024px) {
   .container-x, .container-narrow { padding: 0 28px; }
   .section { padding: 100px 0; }
@@ -926,6 +933,26 @@ span.flatpickr-weekday {
   .nav__toggle.is-active span:nth-child(1) { transform: translateY(7px) rotate(45deg); }
   .nav__toggle.is-active span:nth-child(2) { opacity: 0; transform: scaleX(0); }
   .nav__toggle.is-active span:nth-child(3) { transform: translateY(-7px) rotate(-45deg); }
+
+  /* Move "Book a Table" from header into mobile menu */
+  .nav__cta .btn-ghost { display: none; }
+  .nav__menu .nav__menu-cta {
+    display: flex;
+    justify-content: center;
+    border-top: none;
+    border-bottom: none;
+    padding: 40px 0 8px;
+    width: 100%; max-width: 480px;
+  }
+  .nav__menu .nav__menu-cta a {
+    display: inline-block;
+    border: 1px solid var(--border-soft);
+    padding: 14px 40px;
+    width: auto;
+    text-align: center;
+  }
+  .nav__menu .nav__menu-cta a:hover { border-color: var(--gold); color: var(--gold); }
+
   .hero { padding: 0 28px 130px; }
   .hero__corner { font-size: 9px; }
   .hero__corner--left { left: 28px; }
