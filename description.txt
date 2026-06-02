@@ -1,5 +1,5 @@
 <div class="user-html user-html__with-lazy-load"><h3 id="item-description__butazzo-pizza-fast-food-and-restaurant-template">Butazzo Pizza – Fast Food and Restaurant Template</h3>
-<p>Welcome to <strong>Butazzo Pizza</strong>, a modern and stylish HTML template comes with <strong>40+</strong> valid inner pages and <strong>05+</strong> home page variations designed specifically for fast food restaurants and eateries. <strong>Butazzo</strong> is the perfect solution for creating a professional and attractive online presence for your food business. Whether you own a fast food joint, a burger restaurant, a pizzeria, or a cafe, <strong>Butazzo</strong> has got you covered.</p><p><strong>Butazzo Pizza</strong> offers numerous awesome features like , <strong>restaurant, pizzeria, Bakery, Cafe, Bar, Catering, Food delivery service, bistro, dinner, reservation system, Table Booking &amp; OpenTable </strong> or your just a <strong>Blog</strong>. Well commented code, well-documented file structure and 24/7 professional and ultra-fast Support.</p>
+<p>Welcome to <strong>Butazzo Pizza</strong>, a modern and stylish HTML template comes with <strong>60+</strong> valid inner pages and <strong>05+</strong> home page variations designed specifically for fast food restaurants and eateries. <strong>Butazzo</strong> is the perfect solution for creating a professional and attractive online presence for your food business. Whether you own a fast food joint, a burger restaurant, a pizzeria, or a cafe, <strong>Butazzo</strong> has got you covered.</p><p><strong>Butazzo Pizza</strong> offers numerous awesome features like , <strong>restaurant, pizzeria, Bakery, Cafe, Bar, Catering, Food delivery service, bistro, dinner, reservation system, Table Booking &amp; OpenTable </strong> or your just a <strong>Blog</strong>. Well commented code, well-documented file structure and 24/7 professional and ultra-fast Support.</p>
 
 <p><a href="https://butazzopizza.netlify.app/documentation/" rel="nofollow" target="_blank"><img alt="Butazzo Pizza - Documentation HTML Template" src="https://butazzopizza.netlify.app/documentation.png"></a><a href="https://themeforest.net/user/alissio/follow"><img src="https://butazzopizza.netlify.app/follow-us.png" alt="Butazzo Pizza - Follow Us"></a></p>
 
@@ -95,7 +95,7 @@
 <h3 id="item-description__butazzo-pizza-core-features"><strong>Butazzo Pizza Core Features</strong></h3>
 <ul>
     <li>05+ Home Page</li>
-    <li>40+ Inner Pages</li>
+    <li>60+ Inner Pages</li>
     <li>10+ Post Layout Pages</li>
     <li>10+ Blogs Pages</li>
     <li>02+ Special Menu Pages</li>
@@ -173,6 +173,12 @@
 
 
 <h3 id="item-description__change-log">Change Log</h3>
+<pre>  June 02, 2026: Butazzo Pizza v5.2
+  ---------------------------------------
+  - Fixed: Phone number overlapping nav menu on tablet/laptop screens (1040px–1280px) — hidden below 1280px
+  - Fixed: "Book a Table" button mispositioned next to logo on mobile — moved inside hamburger menu overlay
+  - Tweak: Updated Documentation
+</pre><br>
 <pre>  May 30, 2026: Butazzo Pizza v5.1
   ---------------------------------------
   - New: Supabase live reservation form (Home v5) — form submissions now insert directly into a Supabase PostgreSQL database
