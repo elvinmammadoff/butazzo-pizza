@@ -99,6 +99,8 @@ $(document).ready(function() {
     $(window).on('load', function () {
         $('.loading-overlay').fadeOut(100);
     });
+    // Safety fallback: hide overlay after 5s if load event is delayed
+    setTimeout(function() { $('.loading-overlay').fadeOut(100); }, 5000);
     //======= END Loading overlay ========
 
 
@@ -227,39 +229,6 @@ $(document).ready(function() {
 
 
 
-    //======= START Init Yandex Map ========
-    ymaps.ready(init);
-    var myMap, 
-        myPlacemark;
-
-    var iconBase = 'src/assets/img/map-marker.png';
-    
-    function init(){ 
-        myMap = new ymaps.Map("map", {
-            center: [42.684692, -73.798954], 
-            zoom: 12,
-        });
-    
-        myPlacemark = new ymaps.Placemark([42.684692, -73.798954], { 
-            // hintContent: 'Moscow!', 
-            // balloonContent: 'Capital of Russia'
-        },{
-            iconLayout: 'default#image',
-            iconImageHref: 'src/assets/img/map-marker.png',
-            iconImageSize: [26, 40],
-        });
-        
-        myMap.geoObjects.add(myPlacemark);
-        // myMap.controls.remove('zoomControl');
-        myMap.controls.remove('rulerControl');
-        myMap.controls.remove('geolocationControl');
-        myMap.controls.remove('searchControl');
-        myMap.controls.remove('trafficControl');
-        myMap.controls.remove('typeSelector');
-        myMap.controls.remove('fullscreenControl');
-        myMap.behaviors.disable('scrollZoom');
-    }
-    //======= END Init Yandex Map ========
 
 
 });
