@@ -173,6 +173,13 @@
 
 
 <h3 id="item-description__change-log">Change Log</h3>
+<pre>  June 04, 2026: Butazzo Pizza v5.2.1
+  ---------------------------------------
+  - Fixed: Replaced Yandex Maps with OpenStreetMap embed — Yandex API was geo-blocked in many countries, causing loading overlay to never dismiss
+  - Fixed: Added 5-second fallback timeout to loading overlay across all versions
+  - Fixed: Demo links in landing page now use local relative paths for reliable Envato preview
+  - Tweak: Updated Documentation
+</pre><br>
 <pre>  June 02, 2026: Butazzo Pizza v5.2
   ---------------------------------------
   - Fixed: Phone number overlapping nav menu on tablet/laptop screens (1040px–1280px) — hidden below 1280px
