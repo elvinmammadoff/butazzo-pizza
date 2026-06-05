@@ -173,6 +173,17 @@
 
 
 <h3 id="item-description__change-log">Change Log</h3>
+<pre>  June 06, 2026: Butazzo Pizza v5.2.2
+  ---------------------------------------
+  - Fixed: All W3C HTML validation errors across every home version and the documentation page
+  - Fixed: Carousel prev/next controls — invalid &lt;div&gt; child of &lt;button&gt; replaced with proper button markup (Home v1, v2)
+  - Fixed: Menu filter tabs — invalid type="button" on &lt;a&gt; changed to &lt;button&gt; elements (Home v1, v2)
+  - Fixed: Heading hierarchy skips on every home version (no more h1 → h4/h5/h6 jumps)
+  - Fixed: Empty video source on Home v5 hero — now falls back to the poster image
+  - Fixed: Documentation code samples now properly HTML-escaped; X-UA-Compatible meta corrected
+  - Updated: jQuery in documentation upgraded 1.11.2 → 3.7.1 (latest, bundled locally — no CDN)
+  - Tweak: Updated Documentation
+</pre><br>
 <pre>  June 04, 2026: Butazzo Pizza v5.2.1
   ---------------------------------------
   - Fixed: Replaced Yandex Maps with OpenStreetMap embed — Yandex API was geo-blocked in many countries, causing loading overlay to never dismiss
