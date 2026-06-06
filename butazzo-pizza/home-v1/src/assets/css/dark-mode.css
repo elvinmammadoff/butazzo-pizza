@@ -213,3 +213,23 @@
 .theme-toggle .icon-sun  { display: none; }
 [data-bs-theme="dark"] .theme-toggle .icon-moon { display: none; }
 [data-bs-theme="dark"] .theme-toggle .icon-sun  { display: inline; }
+
+/* ── Mobile: theme-toggle injected into navbar-header ── */
+@media (max-width: 767px) {
+    .theme-toggle.d-inline-flex {
+        width: 36px;
+        height: 36px;
+        margin-right: 8px;
+        vertical-align: middle;
+        border-radius: 50%;
+        border: 1.5px solid currentColor;
+        cursor: pointer;
+        color: #555;
+        background: transparent;
+        flex-shrink: 0;
+    }
+    .theme-toggle.d-inline-flex i {
+        font-size: 14px;
+        line-height: 1;
+    }
+}

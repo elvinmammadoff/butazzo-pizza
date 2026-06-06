@@ -644,3 +644,16 @@
 .theme-toggle .icon-sun  { display: none; }
 [data-bs-theme="dark"] .theme-toggle .icon-moon { display: none; }
 [data-bs-theme="dark"] .theme-toggle .icon-sun  { display: block; }
+
+/* ── Mobile: ensure theme-toggle is visible and accessible ── */
+@media (max-width: 991px) {
+    .site-header .extra-nav {
+        padding-left: 8px;
+    }
+    .extra-nav .extra-cell:has(.theme-toggle) {
+        order: 0;
+    }
+    .extra-nav .extra-cell:has(.menu-btn) {
+        order: 1;
+    }
+}
