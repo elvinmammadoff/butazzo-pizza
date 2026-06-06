@@ -392,3 +392,15 @@
         gap: 8px;
     }
 }
+
+/* Hero carousel price badge — force dark text on yellow pill */
+[data-bs-theme="dark"] .item_badge {
+    color: #111 !important;
+}
+[data-bs-theme="dark"] .badge_btext,
+[data-bs-theme="dark"] .badge_stext {
+    color: #111 !important;
+}
+[data-bs-theme="dark"] .item_badge sup {
+    color: #111 !important;
+}
