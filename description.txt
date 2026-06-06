@@ -179,6 +179,12 @@
 
 
 <h3 id="item-description__change-log">Change Log</h3>
+<pre>  June 06, 2026: Butazzo Pizza v5.2.3
+  ---------------------------------------
+  - Fixed: W3C heading hierarchy errors on home-v4 inner pages (our-menu-3/4, post-cateloge, post-tutorial, shop pages, blog pages) and home-v5 inner pages (about, contact, gallery, menu, menu-item)
+  - Fixed: Invalid thumbsSlider attribute on home-v5/menu-item — changed to data-thumbs-slider
+  - Tweak: Updated Documentation
+</pre><br>
 <pre>  June 06, 2026: Butazzo Pizza v5.2.2
   ---------------------------------------
   - Fixed: All W3C HTML validation errors across every home version and the documentation page
