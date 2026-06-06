@@ -217,19 +217,27 @@
 /* ── Mobile: theme-toggle injected into navbar-header ── */
 @media (max-width: 767px) {
     .theme-toggle.d-inline-flex {
-        width: 36px;
-        height: 36px;
-        margin-right: 8px;
-        vertical-align: middle;
+        width: 38px;
+        height: 38px;
         border-radius: 50%;
-        border: 1.5px solid currentColor;
+        border: 1.5px solid rgba(255, 255, 255, 0.7);
         cursor: pointer;
-        color: #555;
+        color: #fff;
         background: transparent;
         flex-shrink: 0;
+        display: inline-flex !important;
+        align-items: center;
+        justify-content: center;
+        transition: background 0.2s ease, border-color 0.2s ease;
     }
-    .theme-toggle.d-inline-flex i {
-        font-size: 14px;
-        line-height: 1;
+    .theme-toggle.d-inline-flex:hover {
+        background: rgba(255, 255, 255, 0.15);
+        border-color: #fff;
+    }
+    .theme-toggle.d-inline-flex i,
+    .theme-toggle.d-inline-flex svg {
+        font-size: 15px;
+        width: 15px;
+        height: 15px;
     }
 }

@@ -16,14 +16,21 @@
 
   // Initial theme is set inline in <head> to avoid FOUC; this just wires the toggle.
   document.addEventListener('DOMContentLoaded', function () {
-    var btn = document.querySelector('.theme-toggle');
-    if (!btn) return;
-    btn.addEventListener('click', function () {
+    var btns = document.querySelectorAll('.theme-toggle');
+    if (!btns.length) return;
+
+    function handleToggle() {
       var current = document.documentElement.getAttribute('data-bs-theme') || 'light';
       var next = current === 'dark' ? 'light' : 'dark';
       applyTheme(next);
       setStored(next);
-      btn.setAttribute('aria-label', next === 'dark' ? 'Switch to light mode' : 'Switch to dark mode');
+      btns.forEach(function (b) {
+        b.setAttribute('aria-label', next === 'dark' ? 'Switch to light mode' : 'Switch to dark mode');
+      });
+    }
+
+    btns.forEach(function (btn) {
+      btn.addEventListener('click', handleToggle);
     });
   });
 })();
