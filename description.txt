@@ -133,17 +133,23 @@
 <h3 id="item-description__you-will-get"><strong>You will get</strong></h3>
 <ul>
 <li>HTML Files</li>
-<li>Supporting CSS, SCSS, JSX, JS Files</li>
+<li>Supporting CSS, SCSS, JS Files</li>
 <li>Premium Image Included in package</li>
 <li>Documentation in HTML</li>
 </ul>
 <h3 id="item-description__credits-and-sources"><strong>Credits and Sources</strong></h3>
 <ul>
-    <li><a href="https://getbootstrap.com/docs/5.3/getting-started/introduction/" rel="nofollow">Bootstrap 5.3</a></li><li><a href="https://swiperjs.com/" rel="nofollow">Swiper Slider 4.4.1</a></li>
-    
+    <li><a href="https://getbootstrap.com/docs/5.3/getting-started/introduction/" rel="nofollow">Bootstrap 5.3</a></li>
+    <li><a href="https://jquery.com/" rel="nofollow">jQuery 3.7.1</a></li>
+    <li><a href="https://swiperjs.com/" rel="nofollow">Swiper Slider</a></li>
     <li><a href="http://fancybox.net" rel="nofollow">Fancyapps 5.0.36</a></li>
     <li><a href="https://kenwheeler.github.io/slick/" rel="nofollow">Slick Slider 1.8.1</a></li>
     <li><a href="https://github.com/michalsnik/aos/tree/v2" rel="nofollow">AOS 2.3.4</a></li>
+    <li><a href="https://gsap.com/" rel="nofollow">GSAP 3 + ScrollTrigger</a></li>
+    <li><a href="https://lenis.darkroom.engineering/" rel="nofollow">Lenis Smooth Scroll</a></li>
+    <li><a href="https://flatpickr.js.org/" rel="nofollow">Flatpickr</a></li>
+    <li><a href="https://choices-js.github.io/Choices/" rel="nofollow">Choices.js</a></li>
+    <li><a href="https://fontawesome.com/" rel="nofollow">Font Awesome 6</a></li>
   </ul>
 <h3 id="item-description__fonts-used"><strong>Fonts used</strong></h3>
 <ul>
@@ -163,11 +169,11 @@
 <ul>
 <li>All images &amp; videos are used for preview demo purposes, But premium images are <strong>INCLUDED</strong> in the purchase package.</li>
 <li>Envato item scope <a href="https://themeforest.net/page/item_support_policy?_ga=2.233764957.275401607.1701770067-503905489.1698934107" target="_blank">support policy</a>.</li>
-<li>Included a documentation file for full instruction. You can see on this page <a href="https://shakill.netlify.app/documentation/index.html#credits" rel="nofollow" target="_blank">link</a><p></p></li>
+<li>Included a documentation file for full instruction. You can see on this page <a href="https://butazzopizza.netlify.app/documentation/" rel="nofollow" target="_blank">link</a><p></p></li>
 </ul>
 <h3 id="item-description__please-contact-at-validtheme-gmail-com-to-get-the-images-used-in-the-demo"><strong>Please contact at <a href="mailto:alissioteam@gmail.com">alissioteam@gmail.com</a> to get the all images used in the demo.</strong></h3>
 
-<h3 id="item-description__documentation"><strong>Documentation</strong></h3><a href="https://shakill.netlify.app/documentation/" rel="nofollow" target="_blank">Check the docs here</a><h3 id="item-description__thank-you"><strong>Thank You</strong></h3><p>Thank you so much for using this template. Your comments and ratings would be much appreciated.</p><p>If you purchase this template, you will get support. We will update this template time by time and we want to hear your wishes for the future updates or for complete new templates.
+<h3 id="item-description__documentation"><strong>Documentation</strong></h3><a href="https://butazzopizza.netlify.app/documentation/" rel="nofollow" target="_blank">Check the docs here</a><h3 id="item-description__thank-you"><strong>Thank You</strong></h3><p>Thank you so much for using this template. Your comments and ratings would be much appreciated.</p><p>If you purchase this template, you will get support. We will update this template time by time and we want to hear your wishes for the future updates or for complete new templates.
 </p>
 
 
