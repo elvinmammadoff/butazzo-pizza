@@ -250,3 +250,145 @@
         margin-top: 0;
     }
 }
+
+/* ============================================================
+   HOME-V3 — TARGETED DARK MODE FIXES
+   ============================================================ */
+
+/* 1. Popular Speciality slider — card background + price color */
+[data-bs-theme="dark"] .menu-slider-item {
+    background-color: var(--bp-surface);
+    border-color: var(--bp-border);
+}
+[data-bs-theme="dark"] .menu-slider-item-price {
+    color: #f22e3e !important;
+}
+[data-bs-theme="dark"] .menu-slider-item-title,
+[data-bs-theme="dark"] .menu-slider-item-subtitle {
+    color: var(--bp-text);
+}
+
+/* 2. Our Menus — active tab: preserve red icon + yellow text, no bg */
+[data-bs-theme="dark"] .menu_filter .item a {
+    background: transparent !important;
+}
+[data-bs-theme="dark"] .menu_filter .item a.active {
+    background: transparent !important;
+}
+[data-bs-theme="dark"] .menu_filter .item a.active i {
+    color: #f22e3e !important;
+}
+[data-bs-theme="dark"] .menu_filter .item a.active span {
+    color: #ffd630 !important;
+}
+[data-bs-theme="dark"] .menu_filter .item a span {
+    color: var(--bp-text-muted);
+}
+
+/* 3. Our Menus — item card dark bg + fix white gradient fade */
+[data-bs-theme="dark"] #menu_items .block {
+    background-color: var(--bp-surface);
+    border-color: var(--bp-border);
+}
+[data-bs-theme="dark"] #menu_items .info .short:after {
+    background: linear-gradient(180deg, rgba(26,29,36,0) 0%, #1a1d24 100%);
+}
+[data-bs-theme="dark"] #menu_items .info .name {
+    color: var(--bp-heading);
+}
+[data-bs-theme="dark"] #menu_items .filter_item_price {
+    color: #f22e3e !important;
+}
+
+/* 4. Side (burger) menu — nav links + contact icons readable */
+[data-bs-theme="dark"] .rmenu_list li a {
+    color: var(--bp-text) !important;
+}
+[data-bs-theme="dark"] .rmenu_list li a:hover {
+    background-color: var(--bp-brand);
+    color: #111 !important;
+}
+[data-bs-theme="dark"] .right_menu_addr span,
+[data-bs-theme="dark"] .right_menu_addr i {
+    color: var(--bp-text) !important;
+}
+[data-bs-theme="dark"] #cd-nav .right_menu_search .form-control {
+    background-color: var(--bp-surface-2);
+    color: var(--bp-text);
+    border-color: var(--bp-border);
+}
+
+/* 5. Footer — dark background behind footer-details */
+[data-bs-theme="dark"] .footer-details {
+    background-color: #111318 !important;
+    border-color: var(--bp-border) !important;
+}
+[data-bs-theme="dark"] .footer-ttl {
+    color: var(--bp-heading);
+}
+[data-bs-theme="dark"] .footer-nav a,
+[data-bs-theme="dark"] .footer-info {
+    color: var(--bp-text-muted);
+}
+[data-bs-theme="dark"] .footer-contact_item span,
+[data-bs-theme="dark"] .footer-contact_item i {
+    color: var(--bp-text-muted);
+}
+
+/* 6. Coupon buttons (More Gallery / Sign Up / Book Now) —
+   yellow bg kept; force dark text so it reads against yellow */
+[data-bs-theme="dark"] .coupon-btn {
+    color: #111 !important;
+}
+[data-bs-theme="dark"] .coupon-btn span,
+[data-bs-theme="dark"] .coupon-btn i {
+    color: #111 !important;
+}
+
+/* 7. Chef section — dark info panel + readable name */
+[data-bs-theme="dark"] .chef-info {
+    background-color: var(--bp-surface-2);
+}
+[data-bs-theme="dark"] .chef-name {
+    color: var(--bp-heading) !important;
+}
+[data-bs-theme="dark"] .chef-social-item {
+    color: var(--bp-text-muted);
+}
+
+/* 8. Copyright bar — dark bg + readable text */
+[data-bs-theme="dark"] .copyr {
+    background-color: #080a0d;
+    color: var(--bp-text-muted);
+}
+[data-bs-theme="dark"] .copyr-txt,
+[data-bs-theme="dark"] .copyr-txt p {
+    color: var(--bp-text-muted) !important;
+}
+[data-bs-theme="dark"] .copyr-link a {
+    color: var(--bp-text-muted);
+}
+[data-bs-theme="dark"] .copyr-link a:hover {
+    color: var(--bp-brand);
+}
+[data-bs-theme="dark"] .copyr-link li:before {
+    background: var(--bp-border);
+}
+
+/* 9. Mobile: copyright links stacking fix (prevent upside-down order) */
+@media (max-width: 767px) {
+    .copyr-link {
+        justify-content: center;
+        flex-wrap: wrap;
+        gap: 8px;
+    }
+    .copyr-link li {
+        padding-right: 20px;
+    }
+    .copyr > .container > .row {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        gap: 8px;
+    }
+}
