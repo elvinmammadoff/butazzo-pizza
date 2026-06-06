@@ -241,3 +241,12 @@
         height: 15px;
     }
 }
+
+/* ── v2/v3 fix: cd-nav-trigger is position:absolute in these versions;
+   override to static inside the flex wrapper so it sits next to the toggle ── */
+@media (max-width: 767px) {
+    .d-flex.d-md-none .cd-nav-trigger {
+        position: static;
+        margin-top: 0;
+    }
+}
