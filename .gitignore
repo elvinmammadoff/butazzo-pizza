@@ -1,0 +1,19 @@
+# macOS
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+
+# Local development
+.agents/
+.claude/
+skills-lock.json
+
+# Backups
+*-backup.txt
+*.bak
+
+# Node modules (if applicable)
+node_modules/
+package-lock.json
