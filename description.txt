@@ -1,9 +1,17 @@
 <div class="user-html user-html__with-lazy-load"><h3 id="item-description__butazzo-pizza-fast-food-and-restaurant-template">Butazzo Pizza – Fast Food and Restaurant Template</h3>
-<p>Welcome to <strong>Butazzo Pizza</strong>, a modern and stylish HTML template comes with <strong>60+</strong> valid inner pages and <strong>05+</strong> home page variations designed specifically for fast food restaurants and eateries. <strong>Butazzo</strong> is the perfect solution for creating a professional and attractive online presence for your food business. Whether you own a fast food joint, a burger restaurant, a pizzeria, or a cafe, <strong>Butazzo</strong> has got you covered.</p><p><strong>Butazzo Pizza</strong> offers numerous awesome features like , <strong>restaurant, pizzeria, Bakery, Cafe, Bar, Catering, Food delivery service, bistro, dinner, reservation system, Table Booking &amp; OpenTable </strong> or your just a <strong>Blog</strong>. Well commented code, well-documented file structure and 24/7 professional and ultra-fast Support.</p>
+<p>Welcome to <strong>Butazzo Pizza</strong>, a premium HTML restaurant template featuring a stunning <strong>Dark Fine Dining design</strong> (Home v5) powered by <strong>GSAP animations</strong> and <strong>smooth scroll</strong>. Includes <strong>5 complete home page designs</strong>, <strong>60+ inner pages</strong>, and a <strong>live reservation system</strong> backed by Supabase. Whether you're building a pizzeria, burger joint, café, fine dining establishment, bakery, or any food business—Butazzo delivers professional, production-ready code with modern web technologies.</p>
+<p class="mt-2"><strong>Key features:</strong></p>
+<ul>
+<li>Pizza, Burger & Fast Food Restaurant — 5 Home Demos & 60+ Pages</li>
+<li>GSAP Animations, Smooth Scroll & Dark Mode & Live Reservation System</li>
+<li>Bootstrap 5, W3C Validated & SCSS & Fully Responsive</li>
+</ul>
+
+<p><strong>Why Butazzo stands out:</strong> Dark Fine Dining design with kinetic hero animations, GSAP scroll effects, Lenis smooth scroll, live database forms with RLS security, dark mode toggle, and meticulously crafted responsive layouts. Well-commented code, comprehensive documentation, and 24/7 professional support included.</p>
 
 <p><a href="https://butazzopizza.netlify.app/documentation/" rel="nofollow" target="_blank"><img alt="Butazzo Pizza - Documentation HTML Template" src="https://butazzopizza.netlify.app/documentation.png"></a><a href="https://themeforest.net/user/alissio/follow"><img src="https://butazzopizza.netlify.app/follow-us.png" alt="Butazzo Pizza - Follow Us"></a></p>
 
-<p><img src="https://butazzopizza.netlify.app/showcase.gif" alt="Butazzo Pizza - Showcase"><a href="https://shakill.netlify.app/splash/#pages" rel="nofollow" target="_blank"><img src="https://butazzopizza.netlify.app/demos.png" alt="Butazzo Pizza - Demos"></a><img src="https://butazzopizza.netlify.app/mobile-first.png" alt="Butazzo Pizza - Mobile First"><img src="https://butazzopizza.netlify.app/core-features.png" alt="Butazzo Pizza - Core Features"><img src="https://butazzopizza.netlify.app/sass.png" alt="Butazzo Pizza - SASS"><img src="https://butazzopizza.netlify.app/rate-us.png" alt="Butazzo Pizza - Rate Us"></p>
+<p><a href="https://shakill.netlify.app/splash/#pages" rel="nofollow" target="_blank"><img src="https://butazzopizza.netlify.app/demos.png" alt="Butazzo Pizza - Demos"></a><img src="https://butazzopizza.netlify.app/mobile-first.png" alt="Butazzo Pizza - Mobile First"><img src="https://butazzopizza.netlify.app/core-features.png" alt="Butazzo Pizza - Core Features"><img src="https://butazzopizza.netlify.app/sass.png" alt="Butazzo Pizza - SASS"><img src="https://butazzopizza.netlify.app/rate-us.png" alt="Butazzo Pizza - Rate Us"></p>
 
 
 
@@ -14,14 +22,35 @@
 
 
 
+<h3 id="item-description__whats-new-in-home-v5"><strong>What’s New in Home v5 — Dark Fine Dining</strong></h3>
+<p>Home v5 represents a complete design upgrade with premium animations and live functionality:</p>
+<ul>
+    <li><strong>Dark-first design</strong> with sophisticated atmosphere (fine dining aesthetic)</li>
+    <li><strong>Kinetic typography hero</strong> with word-split animations on page load</li>
+    <li><strong>GSAP-powered scroll animations:</strong> reveals, parallax, animated counters, smooth section transitions</li>
+    <li><strong>Lenis smooth scroll</strong> for refined, GPU-accelerated scrolling experience</li>
+    <li><strong>Pinned horizontal menu section</strong> that scrolls with animated progress tracking</li>
+    <li><strong>Swiper fade gallery</strong> for reviews with custom gold pagination</li>
+    <li><strong>Live reservation form</strong> wired to Supabase backend (real PostgreSQL database)</li>
+    <li><strong>Real-time form status messages:</strong> pending, success, and error states</li>
+    <li><strong>Flatpickr date picker</strong> + <strong>Choices.js select dropdowns</strong> (styled to dark palette)</li>
+    <li><strong>Menu item detail page</strong> with Swiper image gallery + thumbnails</li>
+    <li><strong>Complete inner pages:</strong> Menu, About, Contact, Gallery, and more</li>
+</ul>
+
 <h3 id="item-description__why-choose-butazzo-pizza"><strong>Why choose Butazzo Pizza?</strong></h3><p>Let’s explore the exciting features and content that Butazzo Pizza offers:</p>
 <ul>
     <li>
-        <strong>Home Page</strong>
+        <strong>Premium Home Designs — 5 Complete Variations</strong>
         <ul>
-            <li>The home page greets visitors with a stunning full-width banner showcasing mouthwatering food images, enticing them to explore further.</li>
-            <li>An elegant and intuitive navigation menu allows easy access to different sections of the website.</li>
-            <li>A featured section highlights the best-selling dishes or daily specials, grabbing the attention of potential customers.</li>
+            <li><strong>Home v5 "Dark Fine Dining"</strong> — Premium dark design with GSAP animations, smooth scroll, kinetic hero, and live reservation system</li>
+            <li><strong>Home v1 (Classic Red)</strong> — Traditional pizza restaurant aesthetic with bold colors</li>
+            <li><strong>Home v2 (Healthy Green)</strong> — Health-focused food business design</li>
+            <li><strong>Home v3 (Dark Burger)</strong> — Modern dark design for burger/fast food</li>
+            <li><strong>Home v4 (Clean Modern)</strong> — Contemporary light design with minimalist layout</li>
+            <li>Each home page greets visitors with stunning full-width banners showcasing mouthwatering food imagery</li>
+            <li>Elegant, intuitive navigation menus allow easy access to all sections</li>
+            <li>Featured sections highlight best-selling dishes, daily specials, and promotional offers</li>
         </ul>
     </li>
     <li>
@@ -93,42 +122,71 @@
     </li>
 </ul>
 <h3 id="item-description__butazzo-pizza-core-features"><strong>Butazzo Pizza Core Features</strong></h3>
+
+<p><strong>Premium Animation & Interactivity (Home v5)</strong></p>
 <ul>
-    <li>05+ Home Page</li>
+    <li>GSAP 3.x + ScrollTrigger — scroll-driven animations, reveals, parallax effects</li>
+    <li>Lenis smooth scroll integrated with GSAP ticker for fluid scrolling</li>
+    <li>Kinetic typography hero with word-split animation on page load</li>
+    <li>Horizontal menu scroll section with animated progress bar</li>
+    <li>Animated stats counter on scroll</li>
+    <li>Swiper 11 fade slider with custom gold pagination (reviews/gallery)</li>
+    <li>Section reveals with staggered animations</li>
+</ul>
+
+<p><strong>Live Backend & Forms</strong></p>
+<ul>
+    <li>Live reservation system (Supabase backend) — real PostgreSQL database inserts with RLS protection</li>
+    <li>Real-time form status messages (pending / success / error states)</li>
+    <li>Flatpickr date picker (styled to dark palette)</li>
+    <li>Choices.js custom select dropdowns (accessible, styled)</li>
+    <li>Live contact form (Home v5 + other versions)</li>
+    <li>Menu item detail page with Swiper image gallery + thumbnails (Home v5)</li>
+</ul>
+
+<p><strong>Design & Theme Variations</strong></p>
+<ul>
+    <li>05+ Complete Home Page designs (Classic, Healthy, Dark, Modern, Fine Dining)</li>
+    <li>Dark Fine Dining — permanent dark-first design (Home v5)</li>
+    <li>Dark Mode / Light Mode Toggle with system preference detection (Home v1–v4)</li>
+    <li>Multiple color options across all versions</li>
+    <li>Box and Frame Layout options</li>
+    <li>Fully responsive, mobile-first design</li>
+</ul>
+
+<p><strong>Content & Pages</strong></p>
+<ul>
     <li>60+ Inner Pages</li>
     <li>10+ Post Layout Pages</li>
-    <li>10+ Blogs Pages</li>
+    <li>10+ Blog Pages</li>
     <li>02+ Special Menu Pages</li>
-    <li>Multiple Color Options</li>
-    <li>Dark Mode / Light Mode Toggle (Home v1–v4)</li>
-    <li>Dark Fine Dining — permanent dark-first design (Home v5)</li>
-    <li>GSAP 3.x + ScrollTrigger scroll animations (Home v5)</li>
-    <li>Lenis smooth scroll integrated with GSAP ticker (Home v5)</li>
-    <li>Kinetic typography hero with word-split animation (Home v5)</li>
-    <li>Horizontal menu scroll section with progress bar (Home v5)</li>
-    <li>Supabase live reservation form — real database inserts with RLS protection (Home v5)</li>
-    <li>Detailed Documentation</li>
-    <li>Latest Bootstrap</li>
-    <li>Latest Swiper Slider</li>
-    <li>Latest jQuery</li>
-    <li>SCSS Compatible</li>
+    <li>Shop Pages (WooCommerce-ready layout)</li>
+    <li>Complete inner pages: Menu, About, Gallery, Contact, Services, Testimonials, and more</li>
+</ul>
+
+<p><strong>Technical Stack</strong></p>
+<ul>
+    <li>Bootstrap 5.3 (latest) — Home v1–v4</li>
+    <li>Latest Swiper Slider (v11)</li>
+    <li>Latest jQuery (3.7.1)</li>
+    <li>SCSS + CSS Compatible</li>
     <li>Google Fonts</li>
-    <li>Mobile Sidemenu</li>
-    <li>Contact Form</li>
-    <li>Effective Home Pages</li>
-    <li>Box and Frame Layout</li>
-    <li>Fully Responsive</li>
-    <li>Flaticon</li>
-    <li>Font Awesome Icons</li>
+    <li>Font Awesome Icons (6+)</li>
+    <li>Flaticon included</li>
+    <li>W3C Validated Code</li>
+    <li>SCSS source files included</li>
+    <li>Clean, well-commented code</li>
+</ul>
+
+<p><strong>User Experience & Support</strong></p>
+<ul>
+    <li>Mobile Sidemenu with hamburger navigation</li>
     <li>Sticky Header</li>
-    <li>Modern Design</li>
-    <li>Clean Code &amp; Design</li>
     <li>Video Modal</li>
+    <li>Detailed Documentation (HTML format)</li>
+    <li>Easy to customize — well-documented file structure</li>
     <li>FREE Lifetime Updates</li>
-    <li>Easy to customize</li>
-    <li>W3C Validate Code</li>
-    <li>Typography</li>
-    <li>24/7 Great Support !!</li>
+    <li>24/7 Professional Support</li>
 </ul>
 <h3 id="item-description__you-will-get"><strong>You will get</strong></h3>
 <ul>
