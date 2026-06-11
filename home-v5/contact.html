@@ -117,7 +117,7 @@
   </div>
 
   <!-- Contact form -->
-  <form class="contact-form reveal-up" autocomplete="off" onsubmit="event.preventDefault(); alert('Message received. We\'ll respond within 24 hours.');">
+  <form class="contact-form reveal-up" autocomplete="off">
     <h3>Send a <em>message</em>.</h3>
     <p style="color: var(--text-dim); font-size: 15px; margin: 0 0 8px;">For enquiries about private events, press, or anything else — write to us directly.</p>
 
@@ -237,10 +237,64 @@
 <script src="assets/js/vendors/ScrollTrigger.min.js"></script>
 <script src="assets/js/vendors/lenis.min.js"></script>
 <script src="assets/js/vendors/swiper-bundle.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2"></script>
 <script>
   if (window.gsap && window.ScrollTrigger) gsap.registerPlugin(ScrollTrigger);
 </script>
 <script src="assets/js/main.js"></script>
+<script>
+  (function () {
+    var SUPABASE_URL = 'https://ermejbjvzhmdvnxssqnu.supabase.co';
+    var SUPABASE_KEY = 'sb_publishable_tvn6uoYl6oM8jahhNgGgGw_kQdZXJX3';
+
+    var form = document.querySelector('.contact-form');
+    if (!form || !window.supabase) return;
+
+    var client = window.supabase.createClient(SUPABASE_URL, SUPABASE_KEY);
+    var status = null;
+    var submit = form.querySelector('button[type="submit"]');
+
+    function setStatus(message, state) {
+      if (!status) {
+        status = document.createElement('p');
+        status.className = 'contact-form__status';
+        status.style.marginTop = '16px';
+        submit.parentNode.insertBefore(status, submit.nextSibling);
+      }
+      status.textContent = message;
+      status.dataset.state = state || '';
+    }
+
+    form.addEventListener('submit', async function (event) {
+      event.preventDefault();
+      setStatus('Sending your message…', 'pending');
+      if (submit) submit.disabled = true;
+
+      var inputs = form.querySelectorAll('input, textarea');
+      var payload = {
+        first_name: inputs[0].value.trim(),
+        last_name: inputs[1].value.trim(),
+        email: inputs[2].value.trim(),
+        phone: inputs[3].value.trim(),
+        message: inputs[5].value.trim(),
+      };
+
+      var result = await client.from('contact_messages').insert(payload);
+
+      if (submit) submit.disabled = false;
+
+      if (result.error) {
+        setStatus('Something went wrong. Please try again or call us directly.', 'error');
+        console.error('Contact insert failed:', result.error);
+        return;
+      }
+
+      setStatus('Message received. We will respond within 24 hours.', 'success');
+      form.reset();
+      setTimeout(function() { setStatus('', ''); }, 4500);
+    });
+  })();
+</script>
 
 </body>
 </html>
